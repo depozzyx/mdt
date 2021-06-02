@@ -1,0 +1,258 @@
+footer{
+  height: 450px;
+  color: #fff;
+  background: #1C1C1C;
+  margin: -450px auto 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  .container{
+    height: 100%;
+  }
+}
+
+.content{
+  padding-bottom: 450px;
+}
+
+.footer__left{
+  width: 238px;
+  min-width: 238px;
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.09);
+  padding-top: 66px;
+  margin-right: 95px;
+  .logo__box{
+    margin-right: 0;
+    margin-bottom: 54px;
+  }
+}
+
+.footer__nav{
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li{
+      display: block;
+      font-size: 15px;
+      line-height: 22px;
+      color: #FFFFFF;
+      &:not(:last-child){
+        margin-bottom: 17px;
+      }
+      a{
+        color: #fff !important;
+        position: relative;
+        &:hover{
+          &:after{
+            width: 100%;
+          }
+        }
+        &:after{
+          content: '';
+          top: 100%;
+          margin-top: 3px;
+          height: 1px;
+          background: #fff;
+          width: 0;
+          left: 0;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+.footer__main{
+  position: relative;
+  padding-right: 106px;
+  padding-top: 63px;
+  height: 100%;
+  width: 100%;
+}
+
+.footer__col-label{
+  margin-bottom: 11px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.footer__col-content{
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footer__col{
+  margin-bottom: 42px;
+  .actions__wrap{
+    margin-top: 10px;
+  }
+}
+
+footer{
+  .link__custom-small{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+    &:after {
+      background: rgba(255, 255, 255, 0.4);
+    }
+    &:hover{
+      color: #fff;
+      &:after{
+        background: #fff;
+      }
+    }
+  }
+}
+
+.footer__col-1{
+  -ms-flex: 0 0 36%;
+  flex: 0 0 36%;
+  max-width: 36%;
+}
+
+.footer__col-2{
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.footer__col-3{
+  -ms-flex: 0 0 34%;
+  flex: 0 0 34%;
+  max-width: 34%;
+}
+
+.footer__col-content{
+  p{
+    margin: 0 0 10px 0;
+  }
+  & > *:last-child{
+    margin-bottom: 0 !important;
+  }
+  a{
+    color: rgba(255, 255, 255, 0.4);
+    &:hover{
+      color: #fff !important;
+    }
+  }
+}
+
+footer{
+  .promo__social{
+    ul{
+      li{
+        a{
+          opacity: 0.4;
+          &:hover{
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn__border{
+  border: 1px solid #3A3A3A;
+  height: 62px;
+  text-transform: uppercase;
+  padding: 0 54px;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  color: #fff !important;
+  &:hover{
+    background: #3A3A3A;
+  }
+}
+
+.footer__bottom{
+  width: 100%;
+  position: absolute;
+  padding-right: 106px;
+  bottom: 27px;
+  left: 0;
+  .footer__col{
+    margin-bottom: 0 !important;
+  }
+}
+
+.rights{
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.made{
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.4);
+  a{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.4);
+    &:hover{
+      color: #fff !important;
+    }
+  }
+}
+
+.scroll__up-wrap{
+  position: absolute;
+  right: 0;
+  top: 66px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+  a{
+    color: rgba(255, 255, 255, 0.4);
+    &:hover{
+      color: #fff !important;
+      .scroll__up-circle{
+        &:before{
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}
+
+.scroll__up-circle{
+  border: 1px solid #3A3A3A;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #3A3A3A;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+  }
+  svg{
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 12px;
+    height: 7px;
+  }
+}

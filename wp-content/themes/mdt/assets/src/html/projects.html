@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/favicon.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../img/favicon-32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="../img/apple-touch-icon.png" sizes="152x152">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <title>Main</title>
+</head>
+<body class="not-front">
+
+    <div id="wrapper" class="wrapper wow fadeIn" data-wow-delay="0.1s">
+        <div class="header wow fadeInDownDes" data-wow-delay="0.1s">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="logo__box d-flex">
+                    <a href="#" class="logo">
+                        <svg viewBox="0 0 93 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10.1191V32.9258C2.78081 32.9258 5.6348 32.9258 8.41562 32.9258V19.4325V18.5525L0 10.1191Z" fill="#D63434"/>
+                            <path d="M30.8101 10.1191V32.9258C28.0293 32.9258 25.1753 32.9258 22.3945 32.9258V19.4325V18.5525L30.8101 10.1191Z" fill="#D63434"/>
+                            <path d="M27.8081 0L15.4408 14.5933L3.14671 0H0V10.1933L15.4408 26.2533L30.8817 10.1933V0H27.8081Z" fill="#B52525"/>
+                            <path d="M46.1031 8.94667L37.6875 0V33L46.1031 24.3467V8.94667Z" fill="#D63434"/>
+                            <path d="M50.0548 0H37.6875L46.1031 8.94667H50.0548C60.2999 8.94667 60.2999 24.2733 50.0548 24.2733H46.1031L37.6875 33H50.0548C71.0572 32.9267 71.0572 0.0733333 50.0548 0Z" fill="#B52525"/>
+                            <path d="M76.0352 32.9995C78.7428 32.9995 81.7431 32.9995 84.4508 32.9995V9.01953L76.0352 17.4529V32.9995Z" fill="#D63434"/>
+                            <path d="M68.3477 0C68.3477 2.42 68.3477 6.52667 68.3477 9.02H76.0315V17.4533L84.4471 9.02H92.2041C92.2041 6.52667 92.2041 2.49333 92.2041 0H68.3477Z" fill="#B52525"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="main__nav">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>Каталог товаров</span>
+                                <i class="icon__arrow">
+                                    <svg viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.05666 0.236328L4 3.29298L0.943344 0.236328L0 1.17964L4 5.17964L8 1.17964L7.05666 0.236328Z" fill="white"/>
+                                    </svg>
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">О нас</a>
+                        </li>
+                        <li>
+                            <a href="#">Проекты</a>
+                        </li>
+                        <li>
+                            <a href="#">Эксплуатация и укладка</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lang__list">
+                    <ul>
+                        <li class="active">
+                            <a href="#">Ru</a>
+                        </li>
+                        <li>
+                            <a href="#">Ua</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section sc__inside">
+                <div class="container">
+                    <div class="row row__custom">
+                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 col__custom">
+                            <div class="sc__header">
+                                <div class="sc__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
+                                    Реализованные проекты
+                                </div>
+                            </div>
+                            <div class="filter__list wow fadeInUpDes" data-wow-delay="0.3s">
+                                <ul>
+                                    <li class="active">
+                                        <a href="#">Все</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Офисы</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Квартиры</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Спортзалы</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Магазины</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Рестораны</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мед. учереждения</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 col__custom">
+                            <div class="projects__list col__list">
+                                <div class="row row__custom align-items-center">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.1s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    Сервис объявлений OLX
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.2s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    Корпорация “Биосфера”
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.3s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    DTEK Academy,<br>
+                                                    UNIT.City
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.4s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    Офис Bacardi-Martini Ukraine
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.5s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    Клиника “Anacosma”
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.6s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    Сервис объявлений OLX
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.1s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    Корпорация “Биосфера”
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.2s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    DTEK Academy,<br>
+                                                    UNIT.City
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.3s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    Клиника “Anacosma”
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.4s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    Сервис объявлений OLX
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.5s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    Корпорация “Биосфера”
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="0.6s">
+                                        <a href="#" class="card__bl-1">
+                                            <div class="img__wrap">
+                                                <div class="img__bl">
+                                                    <img src="/img/c-1.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="card__header d-flex align-items-center">
+                                                <div class="card__title">
+                                                    DTEK Academy,<br>
+                                                    UNIT.City
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pager__wrap d-flex justify-content-center wow fadeInUpDes" data-wow-delay="0.2s">
+                                <a href="#" class="link__custom link__custom-dark">
+                                    Показать еще
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section sc__seo sc__gray">
+                <div class="container">
+                    <div class="sc__header">
+                        <div class="sc__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
+                            SEO заглавие
+                        </div>
+                    </div>
+                    <div class="sc__descr wow fadeInUpDes" data-wow-delay="0.2s">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container d-flex align-items-start">
+            <div class="footer__left wow fadeInUpDes" data-wow-offset="0" data-wow-delay="0.1s">
+                <div class="logo__box d-flex">
+                    <a href="#" class="logo">
+                        <svg viewBox="0 0 93 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10.1191V32.9258C2.78081 32.9258 5.6348 32.9258 8.41562 32.9258V19.4325V18.5525L0 10.1191Z" fill="#D63434"/>
+                            <path d="M30.8101 10.1191V32.9258C28.0293 32.9258 25.1753 32.9258 22.3945 32.9258V19.4325V18.5525L30.8101 10.1191Z" fill="#D63434"/>
+                            <path d="M27.8081 0L15.4408 14.5933L3.14671 0H0V10.1933L15.4408 26.2533L30.8817 10.1933V0H27.8081Z" fill="#B52525"/>
+                            <path d="M46.107 8.94667L37.6914 0V33L46.107 24.3467V8.94667Z" fill="#D63434"/>
+                            <path d="M50.0587 0H37.6914L46.107 8.94667H50.0587C60.3038 8.94667 60.3038 24.2733 50.0587 24.2733H46.107L37.6914 33H50.0587C71.0612 32.9267 71.0612 0.0733333 50.0587 0Z" fill="#B52525"/>
+                            <path d="M76.0352 32.9995C78.7428 32.9995 81.7431 32.9995 84.4508 32.9995V9.01953L76.0352 17.4529V32.9995Z" fill="#D63434"/>
+                            <path d="M68.3467 0C68.3467 2.42 68.3467 6.52667 68.3467 9.02H76.0305V17.4533L84.4461 9.02H92.2031C92.2031 6.52667 92.2031 2.49333 92.2031 0H68.3467Z" fill="#B52525"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer__nav">
+                    <ul>
+                        <li>
+                            <a href="#">Отзывы</a>
+                        </li>
+                        <li>
+                            <a href="#">Сотрудничество</a>
+                        </li>
+                        <li>
+                            <a href="#">Оптовым покупателям</a>
+                        </li>
+                        <li>
+                            <a href="#">Эксплуатация</a>
+                        </li>
+                        <li>
+                            <a href="#">Укладка</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__main d-flex flex-wrap align-items-start wow fadeInUpDes" data-wow-offset="0" data-wow-delay="0.2s">
+                <div class="footer__col footer__col-1">
+                    <div class="footer__col-label">
+                        Адрес
+                    </div>
+                    <div class="footer__col-content">
+                        Украина, Киев, ул. Демеевская<br>
+                        13,секция 6, офис 6,7
+                    </div>
+                    <div class="actions__wrap d-flex">
+                        <a href="#" target="_blank" class="link__custom link__custom-small">
+                            Открыть на карте
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__col footer__col-2">
+                    <div class="footer__col-label">
+                        Телефоны
+                    </div>
+                    <div class="footer__col-content">
+                        <p>
+                            <a href="tel:+380503963848">+38(050) 396 38 48</a>
+                        </p>
+                        <p>
+                            <a href="tel:+380443883700">+38(044) 388 37 00</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__col footer__col-3">
+                    <div class="footer__col-label">
+                        Напишите нам
+                    </div>
+                    <div class="footer__col-content">
+                        <a href="mailto:info@mdtgroup.com.ua">info@mdtgroup.com.ua</a>
+                    </div>
+                </div>
+                <div class="footer__col footer__col-1">
+                    <div class="footer__col-label">
+                        Время работы
+                    </div>
+                    <div class="footer__col-content">
+                        ПН-ВС с 9:00 - 21:00
+                    </div>
+                </div>
+                <div class="footer__col footer__col-2">
+                    <div class="footer__col-label">
+                        Соц. сети
+                    </div>
+                    <div class="promo__social">
+                        <ul>
+                            <li>
+                                <a href="#">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__col footer__col-3 d-flex">
+                    <a href="#" class="btn__border d-flex align-items-center justify-content-center">
+                        Связаться с нами
+                    </a>
+                </div>
+
+                <div class="scroll__up-wrap">
+                    <a href="#wrapper" class="scroll">
+                        <div class="scroll__up-circle d-flex align-items-center justify-content-center">
+                            <svg viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.2971 7.00024L5.5 2.79734L9.7029 7.00024L11 5.70319L5.5 0.20319L-1.13392e-07 5.70319L1.2971 7.00024Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <span>Вверх</span>
+                    </a>
+                </div>
+                <div class="footer__bottom d-flex align-items-start">
+                    <div class="footer__col footer__col-1">
+                        <div class="rights">
+                            © 2020 MDT
+                        </div>
+                    </div>
+                    <div class="footer__col footer__col-2">
+                        <div class="footer__col-content">
+                            <a href="#">Terms of use</a>
+                        </div>
+                    </div>
+                    <div class="footer__col footer__col-3">
+                        <div class="made">
+                            Developed by <a target="_blank" href="#">RIBS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

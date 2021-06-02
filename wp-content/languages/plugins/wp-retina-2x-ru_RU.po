@@ -1,0 +1,60 @@
+# Translation of Plugins - Perfect Images + Retina - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Perfect Images + Retina - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-16 14:54:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Perfect Images + Retina - Stable (latest release)\n"
+
+#: common/admin.php:129 common/admin.php:130
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: classes/core.php:645
+msgid "PRO VERSION ONLY"
+msgstr "Только в PRO версии"
+
+#. Author of the plugin
+msgid "Jordy Meow"
+msgstr "Jordy Meow"
+
+#: classes/rest.php:319
+msgid "You do not have permission to upload files."
+msgstr "У вас нет прав на загрузку файлов."
+
+#: classes/core.php:730
+msgid "This size is ignored by your retina settings."
+msgstr "Этот размер проигнорирован вашими ретина настройками."
+
+#: classes/core.php:725
+msgid "The standard image normally created by WordPress is missing."
+msgstr "Стандартное изображение, которое обычно создаётся с помощью WordPress, отсутствует."
+
+#: classes/core.php:720
+msgid "The retina image can be created. Please use the 'GENERATE' button."
+msgstr "Может быть сгенерировано ретина изображение. Пожалуйста, нажмите кнопку 'СГЕНЕРИРОВАТЬ'."
+
+#: classes/core.php:710
+msgid "The Full-Size image is too small (<b>%dx%d</b>) and this size cannot be generated.<br />Please upload an image of at least <b>%dx%d</b>."
+msgstr "Полноразмерное изображение слишком маленькое (<b>%dx%d</b>) и этот размер не может быть сгенерирован.<br />Пожалуйста, загрузите изображение не менее <b>%dx%d</b>."
+
+#: classes/core.php:706
+msgid "The retina version of the Full-Size image is missing.<br />Full Size Retina has been checked in the Settings and this image is therefore required.<br />Please drag & drop an image of at least <b>%dx%d</b> in the <b>Full-Size Retina Upload</b> column."
+msgstr "Ретина версия полноразмерного изображения отсутствует.<br />В настройках был отмечен Полный размер Ретина, поэтому теперь требуется такое изображение.<br />Пожалуйста, методом простого перетаскивания перетащите изображение по меньшей мере <b>%dx%d</b> в колонку <b>Полный-размер Ретина Загрузить</b>."
+
+#: classes/core.php:688
+msgid "The image size '%s' could not be found. You probably changed your image sizes but this specific image was not re-build. This is not related to the retina plugin. You should probably use a plugin to re-generate the missing metadata and images."
+msgstr "Размер изображения '%s' не найден. Возможно, вы изменили размеры изображения, но именно это изображение не было перестроено. Это не связано с ретина плагином. Вы можете попробовать использовать плагин, чтобы регенерировать потерянные метаданные и изображения."
+
+#: classes/core.php:684
+msgid "The metadata is broken! This is not related to the retina plugin. You should probably use a plugin to re-generate the missing metadata and images."
+msgstr "Метаданные повреждены! Это не связано с ретина плагином. Вы можете попробовать использовать плагин, чтобы регенерировать потерянные метаданные и изображения."
+
+#: classes/core.php:574
+msgid "N/A"
+msgstr "Н/Д"

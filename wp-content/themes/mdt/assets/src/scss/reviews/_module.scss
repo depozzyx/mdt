@@ -1,0 +1,138 @@
+.sc__inside-top{
+  .content__box{
+    margin-left: -10px;
+  }
+}
+
+.sc__reviews{
+  .sc__header{
+    margin-bottom: 74px;
+  }
+  .sc__title{
+    margin-bottom: 0;
+  }
+  .content__box{
+    max-width: 990px;
+  }
+}
+
+.reviews__item-logo{
+  margin-top: 6px;
+  height: 194px;
+  width: 274px;
+  min-width: 274px;
+  margin-right: 114px;
+  background: #F8F8F8;
+}
+
+.reviews__item-content{
+  width: 100%;
+  position: relative;
+}
+
+.reviews__item-text{
+  margin-bottom: 45px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: rgba(52, 52, 52, 0.88);
+}
+
+.rev__decor{
+  width: 16px;
+  height: 13px;
+  position: absolute;
+  right: 100%;
+  margin-right: 32px;
+  top: 7px;
+  svg{
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.rev__sep{
+  width: 45px;
+  height: 1px;
+  background: $main;
+  margin-bottom: 31px;
+}
+
+.reviews__item-name{
+  margin-bottom: 8px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: rgba(52, 52, 52, 0.88);
+}
+
+.reviews__item-company{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.reviews__item{
+  position: relative;
+  padding-bottom: 65px;
+  &:not(:last-child){
+    margin-bottom: 60px;
+  }
+
+  &:after{
+    content: '';
+    width: 100%;
+    bottom: 0;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    background: #E1E1E1;
+  }
+}
+
+.sc__inside{
+  position: relative;
+  .breadcrumbs{
+    position: absolute;
+    left: 50px;
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li{
+        display: block;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+        a{
+          color: #343434;
+          position: relative;
+          &:after{
+            content: '';
+            top: 100%;
+            margin-top: 3px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            position: absolute;
+            background: $main;
+          }
+          &:hover{
+            &:after{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.sc__reviews{
+  .breadcrumbs{
+    top: 130px;
+  }
+}

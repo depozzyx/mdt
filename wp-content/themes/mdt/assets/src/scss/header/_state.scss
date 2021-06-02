@@ -1,0 +1,41 @@
+.not-front{
+  .main__nav{
+    ul{
+      li{
+        a{
+          color: #343434 !important;
+          &:after{
+            background: #343434;
+          }
+        }
+      }
+    }
+  }
+
+  .icon__arrow{
+    path{
+      fill: #343434;
+    }
+  }
+
+  .lang__list{
+    ul{
+      li{
+        &.active{
+          a{
+            color: #343434;
+          }
+        }
+        a{
+          color: rgba(52, 52, 52, 0.7);
+          &:after{
+            background: #343434;
+          }
+          &:hover{
+            color: #343434;
+          }
+        }
+      }
+    }
+  }
+}

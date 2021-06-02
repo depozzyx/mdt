@@ -1,0 +1,16 @@
+.not-front{
+  .content{
+    .section{
+      &:first-child{
+        .container{
+          padding-top: 150px;
+        }
+        &.sc__inside-top{
+          .container{
+            padding-top: 122px;
+          }
+        }
+      }
+    }
+  }
+}

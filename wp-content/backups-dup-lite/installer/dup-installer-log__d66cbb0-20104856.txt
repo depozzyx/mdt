@@ -1,0 +1,681 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:45:52
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.1.26                                |7.3.17-1+0~20200419.57+debian8~1.gbp0fda17
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-05-20 10:48:56
+WP VERSION__________: 5.5.5
+DUP VERSION_________: 1.4.0
+DB__________________: 5.6.39
+DB TABLES___________: 46
+DB ROWS_____________: 130,605
+DB FILE SIZE________: 46.93MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.17-1+0~20200419.57+debian8~1.gbp0fda17 | SAPI: apache2handler
+PHP MEMORY__________: 160M | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/var/www/mdtgroup/mdtgroup.com.ua"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://mdtgroup.com.ua/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/mdtgroup/mdtgroup.com.ua/20210520_mdt_[HASH]_20210520104856_archive.zip"
+SIZE________________: 58.7MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/mdtgroup/mdtgroup.com.ua/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on directory '/var/www/mdtgroup/mdtgroup.com.ua/.tmb' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/mdtgroup/mdtgroup.com.ua/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/mdtgroup/mdtgroup.com.ua/.tmb/l1_d3AtY29udGVudC9nYWxsZXJ5L3JhenJhYm90a2EtcG9kLWtseXVjaC1kZC5wbmc1574409352.png' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/mdtgroup/mdtgroup.com.ua/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/mdtgroup/mdtgroup.com.ua/installer.php' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/mdtgroup/mdtgroup.com.ua/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/mdtgroup/mdtgroup.com.ua/20210520_mdt_[HASH]_20210520104856_archive.zip' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/mdtgroup/mdtgroup.com.ua/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on directory '/var/www/mdtgroup/mdtgroup.com.ua/mdtgroup.com.ua' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/mdtgroup/mdtgroup.com.ua/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on directory '/var/www/mdtgroup/mdtgroup.com.ua/.quarantine' failed
+
+STEP-1 COMPLETE @ 11:46:01 - RUNTIME: 9.3167 sec.
+[PHP ERR][ISSUE] MSG:Unknown: Use of mbstring.internal_encoding is deprecated [CODE:8192|FILE:Unknown|LINE:0]
+[PHP ERR][ISSUE] MSG:Unknown: Use of mbstring.internal_encoding is deprecated [CODE:8192|FILE:Unknown|LINE:0]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:46:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.48 -- Build Server: 5.6.39
+FILE SIZE:	dup-database__[HASH].sql (45.88MB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/mdtgroup/mdtgroup.com.ua/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	447
+
+wp_actionscheduler_actions: (0)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (1)
+wp_actionscheduler_logs: (0)
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_icl_content_status: (0)
+wp_icl_core_status: (0)
+wp_icl_flags: (65)
+wp_icl_languages: (65)
+wp_icl_languages_translations: (4225)
+wp_icl_locale_map: (2)
+wp_icl_message_status: (0)
+wp_icl_mo_files_domains: (82)
+wp_icl_node: (0)
+wp_icl_reminders: (0)
+wp_icl_string_batches: (0)
+wp_icl_string_packages: (0)
+wp_icl_string_pages: (0)
+wp_icl_string_positions: (78)
+wp_icl_string_status: (0)
+wp_icl_string_translations: (44)
+wp_icl_string_urls: (0)
+wp_icl_strings: (352)
+wp_icl_translate: (12903)
+wp_icl_translate_job: (537)
+wp_icl_translation_batches: (33)
+wp_icl_translation_downloads: (0)
+wp_icl_translation_status: (5196)
+wp_icl_translations: (10710)
+wp_links: (0)
+wp_options: (324)
+wp_postmeta: (99061)
+wp_posts: (11164)
+wp_rank_math_404_logs: (0)
+wp_rank_math_internal_links: (0)
+wp_rank_math_internal_meta: (1131)
+wp_rank_math_redirections: (0)
+wp_rank_math_redirections_cache: (0)
+wp_term_relationships: (1094)
+wp_term_taxonomy: (26)
+wp_termmeta: (32)
+wp_terms: (26)
+wp_usermeta: (89)
+wp_users: (1)
+Removed '46' cache/transient rows
+
+INSERT DATA RUNTIME: 8.0066 sec.
+STEP-2 COMPLETE @ 11:46:24 - RUNTIME: 8.0220 sec.
+[PHP ERR][ISSUE] MSG:Unknown: Use of mbstring.internal_encoding is deprecated [CODE:8192|FILE:Unknown|LINE:0]
+[PHP ERR][ISSUE] MSG:Unknown: Use of mbstring.internal_encoding is deprecated [CODE:8192|FILE:Unknown|LINE:0]
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:46:29
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "MDT"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/i/ikrav4ic/wordpress_18/public_html"
+path_new______________: "/var/www/mdtgroup/mdtgroup.com.ua"
+siteurl_______________: "https://mdtgroup.com.ua"
+url_old_______________: "http://mdt.ikrav4ic.tmweb.ru"
+url_new_______________: "https://mdtgroup.com.ua"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_content_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_core_status"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_flags"____________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_languages"________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_languages_translations"___________________[ROWS:  4225][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_locale_map"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_message_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_mo_files_domains"_________________________[ROWS:    82][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_node"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_reminders"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_batches"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_pages"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_positions"_________________________[ROWS:    78][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_string_status"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_translations"______________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_string_urls"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_strings"__________________________________[ROWS:   352][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_translate"________________________________[ROWS: 12903][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_translate_job"____________________________[ROWS:   537][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_translation_batches"______________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_translation_downloads"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_translation_status"_______________________[ROWS:  5196][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_icl_translations"_____________________________[ROWS: 10710][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   324][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 99061][PG:  29][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS: 11164][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_rank_math_404_logs"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_internal_links"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_internal_meta"______________________[ROWS:  1131][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_rank_math_redirections"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections_cache"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:  1094][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    89][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/i/ikrav4ic/wordpress_18/public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  2:"\/home\/i\/ikrav4ic\/wordpress_18\/public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  3:"%2Fhome%2Fi%2Fikrav4ic%2Fwordpress_18%2Fpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  4:"\home\i\ikrav4ic\wordpress_18\public_html" =======> "/var/www/mdtgroup/mdtgroup.com.ua"
+	SEARCH  5:"\\home\\i\\ikrav4ic\\wordpress_18\\public_html" ==> "\/var\/www\/mdtgroup\/mdtgroup.com.ua"
+	SEARCH  6:"%5Chome%5Ci%5Cikrav4ic%5Cwordpress_18%5Cpublic_html" => "%2Fvar%2Fwww%2Fmdtgroup%2Fmdtgroup.com.ua"
+	SEARCH  7:"//mdt.ikrav4ic.tmweb.ru" =========================> "//mdtgroup.com.ua"
+	SEARCH  8:"\/\/mdt.ikrav4ic.tmweb.ru" =======================> "\/\/mdtgroup.com.ua"
+	SEARCH  9:"%2F%2Fmdt.ikrav4ic.tmweb.ru" =====================> "%2F%2Fmdtgroup.com.ua"
+	SEARCH 10:"http://mdtgroup.com.ua" ==========================> "https://mdtgroup.com.ua"
+	SEARCH 11:"http:\/\/mdtgroup.com.ua" ========================> "https:\/\/mdtgroup.com.ua"
+	SEARCH 12:"http%3A%2F%2Fmdtgroup.com.ua" ====================> "https%3A%2F%2Fmdtgroup.com.ua"
+--------------------------------------
+SCANNED:	Tables:46 	|	 Rows:147241 	|	 Cells:983266 
+UPDATED:	Tables:4 	|	 Rows:11711 	|	 Cells:11714 
+ERRORS:		0 
+RUNTIME:	6.311700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:46:35 - RUNTIME: 6.3365 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
+[PHP ERR][ISSUE] MSG:Unknown: Use of mbstring.internal_encoding is deprecated [CODE:8192|FILE:Unknown|LINE:0]

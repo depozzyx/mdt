@@ -1,0 +1,144 @@
+// Theme settings
+
+$main: #343434;
+
+$font: 'Gill Sans', sans-serif;
+body{
+  font-family: $font;
+  color: $main;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  color: transparent !important;
+}
+
+[placeholder]:focus:-moz-placeholder {
+  color: transparent !important;
+}
+
+[placeholder]:focus::-moz-placeholder {
+  color: transparent !important;
+}
+
+[placeholder]:focus:-ms-input-placeholder {
+  color: transparent !important;
+}
+
+.container{
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-width: 320px;
+  max-width: 1280px;
+}
+
+.wrapper{
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+
+body.menu-mode{
+  overflow: hidden;
+}
+
+.wrapper{
+  min-height: 100vh;
+}
+
+.anim-title, .alm-load-more-btn > div > div{
+  span{
+    display: block;
+  }
+  will-change: transform;
+}
+
+.seo__item{
+  & > *{
+    font: inherit !important;
+    margin: 0 !important;
+  }
+}
+
+a, input, button, textarea{
+  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  -moz-transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  -ms-transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  -o-transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.bar, .toggle__item-header:after, .toggle__arrow,
+.toggle__arrow path, .toggle__arrow svg, .toggle__arrow:before, .status__bar, .redirect__decor:before,
+.img__bl, .arrow__right, .card__descr, .card__header, .redirect__decor, .redirect__info,
+.partners__item-bl:before, .partners__item-bl:after, .nav__slide:before, .nav__slide path,
+.nav__slide svg, .nav__slide, .news__item-title span, .footer__nav a:after, .link__custom:after, .btn__border,
+.main__nav a:after, .link__custom:after, .scroll__up-circle:before, .promo__nav-next, .promo__nav-prev,
+.icon__detail, .arrow__toggle:before, .arrow__toggle rect, .arrow__toggle path, .filter__list a:after,
+.breadcrumbs a:after, .share__links path, .share__toggle-title, .share__toggle, .share__links,
+.info__item-img img, .inside__nav-box a:after, .btn__icon-circle:before, .tabs__list a:after, .video__play:before,
+.video__play path, .video__pl, .social a:before, .social path{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.phone__box, .phone__soc-links, .dots{
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 1200px){
+  .hidden-lg-up{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .hidden-lg-down{
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 660px){
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 576px){
+  .hidden-sm-up{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .container {
+    padding-right: 26px;
+    padding-left: 26px;
+  }
+
+  .hidden-sm-down{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 374px){
+  .container {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+}
