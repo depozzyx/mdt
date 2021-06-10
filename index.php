@@ -13,6 +13,21 @@
  */
 define( 'WP_USE_THEMES', true );
 
+if(isset($_SERVER['REQUEST_URI']) && strpos($_SERVER['REQUEST_URI'], '/admin') === false && $_SERVER['REQUEST_METHOD'] === 'GET'){
+    if(empty($_SERVER['HTTP_X_REQUESTED_WITH']) || (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest')){
+        if(file_exists('seoshield-client/main.php'))
+        {
+            include_once('seoshield-client/main.php');
+            if(function_exists('seo_shield_start_cms')){
+                seo_shield_start_cms();
+            }
+            if(function_exists('seo_shield_out_buffer')){
+                ob_start('seo_shield_out_buffer');
+            }
+        }
+    }
+}
+
 $per_page_redirs = array('/shop/pokrytiya-pod-beton/pokrytiya-pod-beton/' => '/ru/category/pokryttya-pidlogy/vinilovi-pokryttya-dlya-pidlogy/vinilove-pokryttya-pid-beton/',
 '/contacts/' => '/ru/svyazatsya-s-nami/',
 '/project/' => '/ru/realizovannye-proekty/',

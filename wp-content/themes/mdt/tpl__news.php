@@ -7,7 +7,9 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="sc__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
+                        <h1>
                         <?php the_title(); ?>
+                    </h1>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUpDes" data-wow-delay="0.3s">

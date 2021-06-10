@@ -20,7 +20,9 @@
                         <div class="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12">
                             <div class="promo__content">
                                 <div class="promo__item-title wow fadeInUpDes" data-wow-delay="0.1s">
+                                  <h1 class="promo__item-title">
                                   <?php the_field('promo__title'); ?>
+                                </h1>
                                 </div>
                                 <div class="actions__wrap d-flex wow fadeInUpDes" data-wow-delay="0.2s">
                                     <a href="#order-modal"

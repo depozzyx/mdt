@@ -302,6 +302,7 @@
               <div class="post__box section sc__gray">
                   <div class="container">
                       <div class="sc__header">
+                        <!--isset_listing_page-->
                           <div class="sc__title wow fadeInUpDes" data-wow-delay="0.1s">
                             <?php if(get_sub_field('bl__item-cl-title')): ?>
                               <?php the_sub_field('bl__item-cl-title'); ?>
@@ -314,6 +315,7 @@
                           <div class="row row__custom align-items-center">
                             <?php $col_list = get_sub_field('bl__item-cl-list'); ?>
                             <?php $j = 1; foreach ($col_list as $col_item): ?>
+                            <!--product_in_listingEX-->
                                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 col__custom col__item fadeInUpDes <?php if($j > 8) echo 'animated hidden '; else echo 'wow'; ?>" data-wow-delay="<?php echo 0.1 * $j; ?>s">
                                     <a href="<?php the_permalink($col_item); ?>" class="card__bl-3">
                                         <div class="img__wrap">
@@ -645,7 +647,9 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUpDes" data-wow-delay="0.1s">
                         <div class="sc__title seo__item">
+                          <h1>
                             <?php the_title(); ?>
+                          </h1>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUpDes" data-wow-delay="0.3s">
@@ -656,6 +660,7 @@
                 </div>
             </div>
             <div class="floor__list col__list">
+              <!--isset_listing_page-->
                 <div class="row row__custom">
                   <?php $k = 1; foreach( (array) $cat_chs as $ch ) : ?>
                       <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * $k; ?>s">
