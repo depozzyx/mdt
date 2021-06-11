@@ -18,6 +18,7 @@
                 <div class="row row__custom justify-content-end">
                     <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 col__custom">
                         <div class="content__box">
+                          <!--single_news-->
                             <div class="post__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
                                 <h1>
                                   <?php the_title(); ?>
