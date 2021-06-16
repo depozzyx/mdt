@@ -1,0 +1,41 @@
+User-agent: *
+
+Disallow: /wp-admin/
+
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /*utm_
+
+Disallow: /*gclid=
+
+User-agent: Googlebot
+
+Disallow: /wp-admin/
+
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /*utm_
+
+Disallow: /*gclid=
+
+User-agent: Yandex
+
+Disallow: /wp-admin/
+
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /*utm_
+
+Disallow: /*gclid=
+
+Disallow: /*wp-content/uploads*
+
+User-agent: YandexImages
+
+Allow: /wp-content/uploads
+
+
+
+Host: https://mdtgroup.com.ua
+
+Sitemap: https://mdtgroup.com.ua/sitemap.xml
