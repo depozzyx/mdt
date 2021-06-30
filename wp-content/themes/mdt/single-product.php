@@ -40,7 +40,44 @@
                         <ul>
                             <li>
                                 <a href="<?php echo get_permalink(lang_page_original_id(9)) ?>"><?php echo get_the_title(lang_page_original_id(9)) ?></a>  /
+                                <!--dg_crumb_url:<?php echo get_permalink(lang_page_original_id(9)) ?>;;dg_crumb_name:<?php echo get_the_title(lang_page_original_id(9)) ?>-->
                             </li>
+
+                          <?  //dg_crumbs_start//
+                              $parents = array_reverse(get_post_ancestors(get_field('p__cat')));
+                              $id = icl_object_id(get_the_id(), 'page', true, 'uk');
+                              $linkedCategory = $wpdb->get_results("SELECT * FROM $wpdb->postmeta WHERE meta_key = 'bl__list_3_bl__item-cl-list' AND  meta_value LIKE '%".$id."%' LIMIT 1", ARRAY_A);
+                              $parents = [];
+                              if (isset($linkedCategory[0])){
+                                $linkedCategoryId = $linkedCategory[0]['post_id'];
+                                $parents[] = get_post($linkedCategoryId);
+                                $iters = 0;
+                                while (true){
+                                  $parentId = wp_get_post_parent_id(get_post($linkedCategoryId));
+                                  $linkedCategoryId = $parentId;
+                                  $iters += 1;
+                                  if ($iters >= 10 || $parentId == 0 || $parentId == $id){
+                                    break;
+                                  }
+                                  if (strpos($_SERVER['REQUEST_URI'], '/ru/') !== false){
+                                    $parentId = icl_object_id($parentId, 'page', true, 'ru');
+                                  } else {
+                                    $parentId = icl_object_id($parentId, 'page', true, 'uk');
+                                  }
+                                  $parents[] = get_post($parentId);
+                                }
+                              }
+                              $parents = array_reverse($parents);
+                              //dg_crumbs_start//
+                            ?>
+
+                            <?php /*$parents = array_reverse(get_post_ancestors(get_field('p__cat')));*/ ?>
+                              <?php foreach ($parents as $parent): ?>
+                                  <li>
+                                      <a href="<?php echo get_permalink($parent); ?>"><?php echo get_the_title($parent); ?></a>  /
+                                      <!--dg_crumb_url:<?php echo get_permalink($parent); ?>;;dg_crumb_name:<?php echo get_the_title($parent); ?>-->
+                                  </li>
+                              <?php endforeach; ?>
                             <li>
                                 <?php _e('Колекція', 'mdt'); ?> <?php the_title(); ?>
                             </li>
@@ -96,63 +133,81 @@
                 <div class="coll__media-box wow fadeInUpDes" data-count="<?php echo count($img_m); ?>" data-wow-delay="0.1s">
                     <div class="coll__media-box-list">
                         <?php if($img_m[0]): ?>
-                            <div class="coll__media-img" style="background-image: url(<?php echo esc_url($img_m[0]['sizes']['pr-prev']); ?>)">
+                            <div class="coll__media-img">
+                              <img class="new_dg_img" src="<?php echo esc_url($img_m[0]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 1" title="<?php the_title(); ?> - Фото 1">
+                              <!--dg_img_in_sitemap:<?php echo esc_url($img_m[0]['sizes']['pr-prev']); ?>-->
                                 <div class="coll__media-info d-flex align-items-center justify-content-center">
                                   <?php echo $img_m[0]['title']; ?>
                                 </div>
                             </div>
                         <?php endif; ?>
                       <?php if($img_m[1]): ?>
-                          <div class="coll__media-img" style="background-image: url(<?php echo esc_url($img_m[1]['sizes']['pr-prev']); ?>)">
+                          <div class="coll__media-img">
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[1]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 2" title="<?php the_title(); ?> - Фото 2">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[1]['sizes']['pr-prev']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[1]['title']; ?>
                               </div>
                           </div>
                       <?php endif; ?>
                       <?php if($img_m[2]): ?>
-                          <div class="coll__media-img" style="background-image: url(<?php echo esc_url($img_m[2]['sizes']['pr-prev']); ?>)">
+                          <div class="coll__media-img">
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[2]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 3" title="<?php the_title(); ?> - Фото 3">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[2]['sizes']['pr-prev']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[2]['title']; ?>
                               </div>
                           </div>
                       <?php endif; ?>
                       <?php if($img_m[3]): ?>
-                          <div class="coll__media-img" style="background-image: url(<?php echo esc_url($img_m[3]['sizes']['pr-prev']); ?>)">
+                          <div class="coll__media-img">
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[3]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 4" title="<?php the_title(); ?> - Фото 4">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[3]['sizes']['pr-prev']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[3]['title']; ?>
                               </div>
                           </div>
                       <?php endif; ?>
                       <?php if($img_m[4]): ?>
-                          <div class="coll__media-img" style="background-image: url(<?php echo esc_url($img_m[4]['sizes']['pr-prev']); ?>)">
+                          <div class="coll__media-img">
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[4]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 5" title="<?php the_title(); ?> - Фото 5">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[4]['sizes']['pr-prev']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[4]['title']; ?>
                               </div>
                           </div>
                       <?php endif; ?>
                       <?php if($img_m[5]): ?>
-                          <div class="coll__media-img" style="background-image: url(<?php echo esc_url($img_m[5]['sizes']['pr-prev']); ?>)">
+                          <div class="coll__media-img">
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[5]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 6" title="<?php the_title(); ?> - Фото 6">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[5]['sizes']['pr-prev']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[5]['title']; ?>
                               </div>
                           </div>
                       <?php endif; ?>
                       <?php if($img_m[6]): ?>
-                          <div class="coll__media-img" style="background-image: url(<?php echo esc_url($img_m[6]['sizes']['pr-prev']); ?>)">
+                          <div class="coll__media-img">
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[6]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 7" title="<?php the_title(); ?> - Фото 7">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[6]['sizes']['pr-prev']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[6]['title']; ?>
                               </div>
                           </div>
                       <?php endif; ?>
                       <?php if($img_m[7]): ?>
-                          <div class="coll__media-img" style="background-image: url(<?php echo esc_url($img_m[7]['sizes']['pr-prev']); ?>)">
+                          <div class="coll__media-img">
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[7]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 8" title="<?php the_title(); ?> - Фото 8">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[7]['sizes']['pr-prev']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[7]['title']; ?>
                               </div>
                           </div>
                       <?php endif; ?>
                       <?php if($img_m[8]): ?>
-                          <div class="coll__media-img" style="background-image: url(<?php echo esc_url($img_m[8]['sizes']['pr-prev']); ?>)">
+                          <div class="coll__media-img">
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[8]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 9" title="<?php the_title(); ?> - Фото 9">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[8]['sizes']['pr-prev']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[8]['title']; ?>
                               </div>

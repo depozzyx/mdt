@@ -12,6 +12,10 @@
     <div class="section sc__inside sc__inside-top sc__post-header">
         <div class="breadcrumbs wow fadeInUpDes hidden-lg-down" data-wow-delay="0.1s">
             <ul>
+                  <li>
+                      <a href="<?php echo get_permalink(lang_page_original_id(9)) ?>"><?php echo get_the_title(lang_page_original_id(9)) ?></a>  /
+                      <!--dg_crumb_url:<?php echo get_permalink(lang_page_original_id(9)) ?>;;dg_crumb_name:<?php echo get_the_title(lang_page_original_id(9)) ?>-->
+                  </li>
               <?php if(count($p_cats) === 0): ?>
                   <li>
                       <a href="<?php echo get_permalink(lang_page_original_id(9)) ?>"><?php echo get_the_title(lang_page_original_id(9)) ?></a>  /
@@ -21,11 +25,13 @@
               <?php foreach ($parents as $parent): ?>
                   <li>
                       <a href="<?php echo get_permalink($parent) ?>"><?php echo get_the_title($parent) ?></a>  /
+                      <!--dg_crumb_url:<?php echo get_permalink($parent) ?>;;dg_crumb_name:<?php echo get_the_title($parent) ?>-->
                   </li>
               <?php endforeach; ?>
               <?php ?>
                 <li>
                   <?php the_title(); ?>
+                  <!--dg_crumb_url:<?php echo 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']?>;;dg_crumb_name:<?php the_title(); ?>-->
                 </li>
             </ul>
         </div>
@@ -51,6 +57,7 @@
             </div>
             <div class="post__header">
                 <div class="content__wrap">
+                  <!--isset_listing_page-->
                     <div class="row row__custom justify-content-end">
                         <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12 col__custom">
                             <div class="content__box">
@@ -302,7 +309,6 @@
               <div class="post__box section sc__gray">
                   <div class="container">
                       <div class="sc__header">
-                        <!--isset_listing_page-->
                           <div class="sc__title wow fadeInUpDes" data-wow-delay="0.1s">
                             <?php if(get_sub_field('bl__item-cl-title')): ?>
                               <?php the_sub_field('bl__item-cl-title'); ?>
@@ -320,7 +326,8 @@
                                     <a href="<?php the_permalink($col_item); ?>" class="card__bl-3">
                                         <div class="img__wrap">
                                             <div class="img__bl">
-                                                <img src="<?php echo get_the_post_thumbnail_url( $col_item, 'pr-prev'); ?>">
+                                                <img src="<?php echo get_the_post_thumbnail_url( $col_item, 'pr-prev'); ?>" alt="<?php echo get_the_title($col_item); ?>" title="<?php echo get_the_title($col_item); ?>">
+                                                <!--dg_img_in_sitemap:<?php echo get_the_post_thumbnail_url( $col_item, 'pr-prev'); ?>-->
                                             </div>
                                         </div>
                                         <div class="card__header">
@@ -668,7 +675,8 @@
                               <div class="img__wrap">
                                   <div class="img__bl">
                                       <?php $att_id = get_post_thumbnail_id( $ch); ?>
-                                      <img src="<?php echo wp_get_attachment_image_url( $att_id, 'pr-prev'); ?>">
+                                      <img src="<?php echo wp_get_attachment_image_url( $att_id, 'pr-prev'); ?>" alt="<?php echo get_the_title($ch); ?>" title="<?php echo get_the_title($ch); ?>">
+                                      <!--dg_img_in_sitemap:<?php echo wp_get_attachment_image_url( $att_id, 'pr-prev'); ?>-->
                                   </div>
                               </div>
                               <div class="card__header d-flex align-items-center">

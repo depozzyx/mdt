@@ -63,12 +63,12 @@
                 <ul>
                     <?php if(get_field('ct__facebook', 79)): ?>
                         <li>
-                            <a href="<?php the_field('ct__facebook', 79); ?>" target="_blank">Facebook</a>
+                            <a href="<?php the_field('ct__facebook', 79); ?>" target="_blank" rel="nofollow">Facebook</a>
                         </li>
                     <?php endif; ?>
                     <?php if(get_field('ct__instagram', 79)): ?>
                         <li>
-                          <a href="<?php the_field('ct__instagram', 79); ?>" target="_blank">Instagram</a>
+                          <a href="<?php the_field('ct__instagram', 79); ?>" target="_blank" rel="nofollow">Instagram</a>
                         </li>
                     <?php endif; ?>
                 </ul>

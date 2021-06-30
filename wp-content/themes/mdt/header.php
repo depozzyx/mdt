@@ -73,7 +73,7 @@
                     <div class="add__nav-box hidden-md-up">
                         <ul>
                           <?php foreach ($nav as $nav_item): ?>
-                            <?php if($nav_item->object === 'category' && $nav_item->post_name === 'katalog-tovariv'): ?>
+                            <?php if($nav_item->object === 'category' && $nav_item->post_name === 'katalog-tovariv' || $nav_item->post_name === 'katalog-tovarov-2'): ?>
                                   <li class="has-submenu <?php if(is_page($nav_item->object_id)) echo 'active'; ?>">
                                       <a href="#" class="toggle__cat-js">
                                           <span><?php echo $nav_item->title; ?></span>
@@ -246,5 +246,13 @@
                 </ul>
             </div>
         </div>
+        <?php 
+      if (function_exists("http_response_code")){
+        $status = http_response_code();
+        if(isset($status) && $status == '404'){
+          echo '<div  style="text-align:center;"><h1>К сожалению, страница не найдена</h1><br><a href="'.get_permalink(lang_page_original_id(9)).'">На главную</a></div>';
+        }
+      }
+      ?>
     </div>
     <div class="content">

@@ -34,7 +34,7 @@
                   <?php the_field('ct__address', lang_page_original_id(79)) ?>
                 </div>
                 <div class="actions__wrap d-flex">
-                    <a href="<?php the_field('ct__gmaps', lang_page_original_id(79)) ?>" target="_blank" class="link__custom link__custom-small">
+                    <a href="<?php the_field('ct__gmaps', lang_page_original_id(79)) ?>" target="_blank" class="link__custom link__custom-small" rel="nofollow">
                       <?php _e('Відкрити на карті', 'mdt'); ?>
                     </a>
                 </div>
@@ -76,12 +76,12 @@
                     <ul>
                       <?php if(get_field('ct__facebook', 79)): ?>
                           <li>
-                              <a href="<?php the_field('ct__facebook', 79); ?>" target="_blank">Facebook</a>
+                              <a href="<?php the_field('ct__facebook', 79); ?>" target="_blank" rel="nofollow">Facebook</a>
                           </li>
                       <?php endif; ?>
                       <?php if(get_field('ct__instagram', 79)): ?>
                           <li>
-                              <a href="<?php the_field('ct__instagram', 79); ?>" target="_blank">Instagram</a>
+                              <a href="<?php the_field('ct__instagram', 79); ?>" target="_blank" rel="nofollow">Instagram</a>
                           </li>
                       <?php endif; ?>
                     </ul>
@@ -92,7 +92,7 @@
                     <?php echo get_the_title(lang_page_original_id(79)); ?>
                 </a>
             </div>
-
+            
             <div class="scroll__up-wrap hidden-md-down">
                 <a href="#wrapper" class="scroll">
                     <div class="scroll__up-circle d-flex align-items-center justify-content-center">
@@ -125,6 +125,8 @@
             © <?php echo date('Y') ?> MDT
         </div>
     </div>
+    <div class="container"><!--footers_block--></div>
+
 </footer>
 <div class="hidden">
     <div id="thanks-modal" class="modal__custom modal__custom-thanks">

@@ -46,3 +46,8 @@
     font-style: italic;
 }
 
+.new_dg_img {
+    object-fit: none;
+    height:100%;
+}
+
