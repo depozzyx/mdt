@@ -13,7 +13,7 @@
  */
 define( 'WP_USE_THEMES', true );
 
-if(isset($_SERVER['REQUEST_URI']) && strpos($_SERVER['REQUEST_URI'], '/admin') === false && $_SERVER['REQUEST_METHOD'] === 'GET'){
+if(isset($_SERVER['REQUEST_URI']) && strpos($_SERVER['REQUEST_URI'], '/admin') === false && $_SERVER['REQUEST_METHOD'] === 'GET' && strpos($_SERVER['REQUEST_URI'], '.xsl') === false){
     if(empty($_SERVER['HTTP_X_REQUESTED_WITH']) || (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest')){
         if(file_exists('seoshield-client/main.php'))
         {
@@ -226,6 +226,16 @@ if (isset($per_page_redirs[$_SERVER['REQUEST_URI']])){
 	header('Location: //' . $_SERVER['HTTP_HOST'] . $per_page_redirs[$_SERVER['REQUEST_URI']], true, 301);
 	die();
 }
+
+$cities_arr = array('kiev', 'kharkov', 'odessa', 'dnepr', 'mariupol', 'zaporozhe', 'lvov', 'krivoj-rog', 'nikolaev', 'vinnitsa', 'herson', 'poltava', 'chernigov', 'cherkassy', 'zhitomir', 'sumy', 'hmelnitskij', 'rovno', 'kropivnitskij', 'chernovtsy', 'kremenchug', 'ternopol', 'ivano-frankovsk', 'belaya-tserkov', 'lutsk', 'melitopol', 'nikopol', 'berdyansk', 'uzhgorod', 'kamenets-podolskij', 'pavlograd', 'severodonetsk', 'kamenskoe', 'kramatorsk', 'slavyansk', 'brovary', 'lisichansk', 'aleksandriya', 'konstantinovka');
+
+foreach ($cities_arr as $city) {
+    if ($_SERVER['REQUEST_URI'] == '/ru/dostavka-i-oplata/'.$city.'/'){
+        $_SERVER['REQUEST_URI'] = '/ru/dostavka-i-oplata/';
+        $_SERVER['curr_city'] = $city;
+    }
+}
+
 
 /** Loads the WordPress Environment and Template */
 require __DIR__ . '/wp-blog-header.php';

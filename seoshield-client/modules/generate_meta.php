@@ -17,6 +17,7 @@ class SeoShieldModule_generate_meta_config extends seoShieldModule_generate_meta
         $out_html = $this->bigrammaRus($out_html);
         $out_html = $this->ldJsonMarkup($out_html);
         $out_html = $this->imagesSitemap($out_html);
+        $out_html = $this->citiesPages($out_html);
 
         if ((strpos($out_html, '<!--seoshield_formulas--sluzhebnye-->') !== false 
         || strpos($out_html, '<!--seoshield_formulas--novosti-->') !== false)
@@ -43,7 +44,81 @@ class SeoShieldModule_generate_meta_config extends seoShieldModule_generate_meta
         return $out_html;
     }
 
+    private function citiesPages($out_html){
+        $curr_uri = $_SERVER['REQUEST_URI'];
+        $cities_arr = array('kiev' => ['nomin' => 'Киев', 'dative' => 'Киев'],
+            'mariupol' => ['nomin' => 'Мариуполь', 'dative' => 'Мариуполь'],
+            'nikolaev' => ['nomin' => 'Николаев', 'dative' => 'Николаев'],
+            'herson' => ['nomin' => 'Херсон', 'dative' => 'Херсон'],
+            'poltava' => ['nomin' => 'Полтава', 'dative' => 'Полтаву'],
+            'chernigov' => ['nomin' => 'Чернигов', 'dative' => 'Чернигов'],
+            'zhitomir' => ['nomin' => 'Житомир', 'dative' => 'Житомир'],
+            'rovno' => ['nomin' => 'Ровно', 'dative' => 'Ровно'],
+            'chernovtsy' => ['nomin' => 'Черновцы', 'dative' => 'Черновцы'],
+            'ternopol' => ['nomin' => 'Тернополь', 'dative' => 'Тернополь'],
+            'belaya-tserkov' => ['nomin' => 'Белая Церковь', 'dative' => 'Белую Церковь'],
+            'lutsk' => ['nomin' => 'Луцк', 'dative' => 'Луцк'],
+            'berdyansk' => ['nomin' => 'Бердянск', 'dative' => 'Бердянск'],
+            'kharkov' => ['nomin' => 'Харьков', 'dative' => 'Харьков'],
+            'odessa' => ['nomin' => 'Одесса', 'dative' => 'Одессу'],
+            'zaporozhe' => ['nomin' => 'Запорожье', 'dative' => 'Запорожье'],
+            'lvov' => ['nomin' => 'Львов', 'dative' => 'Львов'],
+            'krivoj-rog' => ['nomin' => 'Кривой Рог', 'dative' => 'Кривой Рог'],
+            'vinnitsa' => ['nomin' => 'Винница', 'dative' => 'Винницу'],
+            'cherkassy' => ['nomin' => 'Черкассы', 'dative' => 'Черкассы'],
+            'sumy' => ['nomin' => 'Сумы', 'dative' => 'Сумы'],
+            'hmelnitskij' => ['nomin' => 'Хмельницкий', 'dative' => 'Хмельницкий'],
+            'kropivnitskij' => ['nomin' => 'Кропивницкий', 'dative' => 'Кропивницкий'],
+            'kremenchug' => ['nomin' => 'Кременчуг', 'dative' => 'Кременчуг'],
+            'ivano-frankovsk' => ['nomin' => 'Ивано-Франковск', 'dative' => 'Ивано-Франковск'],
+            'melitopol' => ['nomin' => 'Мелитополь', 'dative' => 'Мелитополь'],
+            'nikopol' => ['nomin' => 'Никополь', 'dative' => 'Никополь'],
+            'uzhgorod' => ['nomin' => 'Ужгород', 'dative' => 'Ужгород'],
+            'kamenets-podolskij' => ['nomin' => 'Каменец-Подольский', 'dative' => 'Каменец-Подольский'],
+            'severodonetsk' => ['nomin' => 'Северодонецк', 'dative' => 'Северодонецк'],
+            'pavlograd' => ['nomin' => 'Павлоград', 'dative' => 'Павлоград'],
+            'lisichansk' => ['nomin' => 'Лисичанск', 'dative' => 'Лисичанск'],
+            'kramatorsk' => ['nomin' => 'Краматорск', 'dative' => 'Краматорск'],
+            'konstantinovka' => ['nomin' => 'Константиновка', 'dative' => 'Константиновку'],
+            'kamenskoe' => ['nomin' => 'Каменское', 'dative' => 'Каменское'],
+            'brovary' => ['nomin' => 'Бровары', 'dative' => 'Бровары'],
+            'aleksandriya' => ['nomin' => 'Александрия', 'dative' => 'Александрию'],
+            'dnepr' => ['nomin' => 'Днепр', 'dative' => 'Днепр']);
 
+        $curr_city = '';
+        if (isset($_SERVER['curr_city'])){
+            $curr_city = $_SERVER['curr_city'];
+        }
+
+        if ($curr_city !== '' && array_key_exists($curr_city, $cities_arr)){
+            $cities_content_str = '<p><a href="/ru/">Эксперты в напольном покрытии MDTgroup</a> » осуществляют доставку по всем городам Украины:</p>';
+            $cities_ul = '<p><ul class="cities_list">';
+            foreach ($cities_arr as $cities_slug => $cities_rus) {
+                  if ($curr_city == $cities_slug){
+                    $out_html = preg_replace('#(<h1[^>]*?>).*?(<\/h1>)#s', '${1}Доставка в '.$cities_rus['dative'].'${2}', $out_html);
+                    $out_html = preg_replace('#(<li[^>]*?>\s*?)Доставка и оплата(\s*?<\/li>)#s', '${1}<a href="https://mdtgroup.com.ua/ru/dostavka-i-oplata/">Доставка и оплата</a> / ${2}<li>Доставка в '.$cities_rus['dative'].'</li>', $out_html);
+                  } else {
+                    $cities_ul .= '<li><a href="/ru/dostavka-i-oplata/'.$cities_slug.'/">'.$cities_rus['nomin'].'</a></li>';
+                  }
+            }
+            $cities_ul .= '</ul></p><p><!--seo_text_start--><!--seo_text_end--></p>';
+
+            $cities_content_str .= $cities_ul;
+            
+          $out_html = preg_replace('#(<div[^>]*?post__text[^>]*?>)#s', '${1}'.$cities_content_str, $out_html);
+        }
+
+        if ($curr_uri == '/page-sitemap.xml'){
+            $urlset = '';
+            foreach ($cities_arr as $city => $v) {
+                $urlset .= '<url><loc>http'.(isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] ? 's' : '').'://'.$_SERVER["HTTP_HOST"].'/ru/dostavka-i-oplata/'.$city.'/</loc></url>'."\n";
+            }
+            $out_html = str_replace('</urlset>', $urlset.'</urlset>', $out_html);
+        }
+
+
+        return $out_html;
+    }
 
     function make_filters_visible_for_robots($out_html){
 		if (preg_match('#<link[^>]*?rel=[\'\"]?canonical[\'\"\s]?[^>]*?>#s', $out_html)){
