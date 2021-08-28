@@ -404,7 +404,7 @@ class SeoShieldModule_footers_block extends seoShieldModule
     private function render_template($blocks_types, $blocks_info)
     {
         $selected_type = 'top-categories';
-        $html = '<div class="container shield__footers_module_block__wrapper"><div class="shield__footers_module_block__wrapper__card shield__footers_module_block__wrapper__shadow shield__footers_module_block__wrapper__mb-3"><div class="shield__footers_module_block__wrapper__card-body"><div class="shield__footers_module_block__wrapper__top shield__footers_module_block__wrapper__mb-3">';
+        $html = '<div class=" shield__footers_module_block__wrapper"><div class="shield__footers_module_block__wrapper__card shield__footers_module_block__wrapper__shadow shield__footers_module_block__wrapper__mb-3"><div class="shield__footers_module_block__wrapper__card-body"><div class="shield__footers_module_block__wrapper__top shield__footers_module_block__wrapper__mb-3">';
         $i = 0;
         foreach (['top-categories' => 'ТОП Категории', 'cities' => 'Города', 'top-pages' => 'ТОП Страницы', 'top-tags' => 'ТОП Теги', 'top-products' => 'ТОП Товары', 'faq' => 'ЧаВо', 'description' => 'Описание', 'sentences' => 'Предложения'] as $id => $title) {
             if (!isset($blocks_info[$id]) || empty($blocks_info[$id])) {
@@ -554,6 +554,16 @@ class SeoShieldModule_footers_block extends seoShieldModule
         if (preg_match('#<meta[^>]*?name=[\'\"]?robots[\'\"]?[^>]*?content=[\'\"]?noindex,\s*?nofollow[\'\"]?[^>]*?>#s', $out_html)){
             return false;
         }
+        
+        preg_match_all('#<meta[^>]+name=[\'\"]?robots[\'\"]?[^>]*?>#', $out_html, $metaRobots);
+        if (isset($metaRobots[0]) && !empty($metaRobots[0]) && is_array($metaRobots[0])){
+            foreach ($metaRobots[0] as $metTag) {
+                if (strpos($metTag, 'noindex') !== false){
+                    return false;
+                }
+            }
+        }
+
         if (isset($GLOBALS['SEOSHIELD_CONFIG']['footers_block']['404_comment']) && !empty($GLOBALS['SEOSHIELD_CONFIG']['footers_block']['404_comment']) && strpos($out_html, $GLOBALS['SEOSHIELD_CONFIG']['footers_block']['404_comment']) !== false){
             return false;
         }

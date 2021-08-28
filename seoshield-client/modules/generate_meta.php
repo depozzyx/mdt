@@ -19,6 +19,10 @@ class SeoShieldModule_generate_meta_config extends seoShieldModule_generate_meta
         $out_html = $this->imagesSitemap($out_html);
         $out_html = $this->citiesPages($out_html);
 
+        if (strpos($_SERVER['REQUEST_URI'], '/ru/') === false){
+            $out_html = str_replace('<footer>', '<footer style="height: 450px">', $out_html);
+        }
+
         if ((strpos($out_html, '<!--seoshield_formulas--sluzhebnye-->') !== false 
         || strpos($out_html, '<!--seoshield_formulas--novosti-->') !== false)
         && preg_match('#<meta[^>]*?name=[\'\"]?description[^>]*?>#s', $out_html)){

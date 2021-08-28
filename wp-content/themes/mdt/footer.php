@@ -125,8 +125,9 @@
             © <?php echo date('Y') ?> MDT
         </div>
     </div>
+    <?php if (strpos($_SERVER['REQUEST_URI'], '/ru/') !== false) { ?>
     <div class="container"><!--footers_block--></div>
-
+<?php } ?>
 </footer>
 <div class="hidden">
     <div id="thanks-modal" class="modal__custom modal__custom-thanks">
