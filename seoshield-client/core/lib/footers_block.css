@@ -1,7 +1,7 @@
 .shield__footers_module_block__wrapper{padding-top: 40px; padding-bottom: 0px; background: transparent;border:none!important;}
 .shield__footers_module_block__wrapper__card{background-color:transparent!important;color:#fff;border:none!important;}
 .shield__footers_module_block__wrapper *{box-sizing: border-box;}
-.shield__footers_module_block__wrapper a{color: #4e73df; text-decoration: none; background-color: transparent;}
+.shield__footers_module_block__wrapper a{color: rgba(255,255,255,0.4); text-decoration: none; background-color: transparent;}
 .shield__footers_module_block__wrapper p {margin-top: 0;margin-bottom: 1rem;}
 .shield__footers_module_block__wrapper ul{margin-top: 0;margin-bottom: 1rem;}
 .shield__footers_module_block__wrapper button{outline: none;}
