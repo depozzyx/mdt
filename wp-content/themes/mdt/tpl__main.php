@@ -527,7 +527,7 @@
     </div>
 </div>
 <?php if(get_field('seo__title') && get_field('seo__text')): ?>
-    <div class="section sc__gray sc__seo">
+  <!--   <div class="section sc__gray sc__seo">
         <div class="container">
             <div class="sc__header">
                 <div class="sc__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
@@ -538,7 +538,7 @@
               <?php the_field('seo__text') ?>
             </div>
         </div>
-    </div>
+    </div> -->
 <?php endif; ?>
 
 <?php get_footer(); ?>
