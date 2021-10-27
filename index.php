@@ -29,7 +29,6 @@ if(isset($_SERVER['REQUEST_URI']) && strpos($_SERVER['REQUEST_URI'], '/admin') =
 }
 
 $per_page_redirs = array('/shop/pokrytiya-pod-beton/pokrytiya-pod-beton/' => '/ru/category/pokryttya-pidlogy/vinilovi-pokryttya-dlya-pidlogy/vinilove-pokryttya-pid-beton/',
-'/contacts/' => '/ru/svyazatsya-s-nami/',
 '/project/' => '/ru/realizovannye-proekty/',
 '/shop/?swoof=1&product_cat=kovrovaya-plitka' => '/ru/category/pokryttya-pidlogy/kylymova-plytka/',
 '/shop/proektnyj_vinil/' => '/ru/category/pokryttya-pidlogy/vinilovi-pokryttya-dlya-pidlogy/',
