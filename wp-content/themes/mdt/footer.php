@@ -169,6 +169,12 @@
     </div>
 </div>
 <script src="<?php echo get_template_directory_uri();?>/assets/dist/main.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/assets/dist/jquery.maskedinput.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery(".wpcf7-tel").mask("+380 (99) 999-99-99");
+    });
+</script>
 <?php wp_footer(); ?>
 </body>
 </html>

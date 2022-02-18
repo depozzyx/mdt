@@ -1,3 +1,10 @@
+.content {
+    padding-bottom: 0px!important; 
+}
+footer{
+    margin: 0px auto 0!important;
+}
+
 .stagh2 {
     display: block;
     font-size: 1.5em;
@@ -84,3 +91,76 @@
     padding-left: 13px;
 }
     }
+
+    #wpcf7-f6510-o1 .wpcf7-form-control-wrap.y-name:before {
+        content: '*';
+        color: red;
+    }
+
+    #wpcf7-f6510-o1 .wpcf7-form-control-wrap.y-name input.wpcf7-validates-as-required {
+        width: calc(100% - 19px);
+        display: inline-block;
+    }
+
+    #wpcf7-f6510-o1 .wpcf7-form-control-wrap.y-email:before {
+        content: '*';
+        color: red;
+    }
+
+    #wpcf7-f6510-o1 .wpcf7-form-control-wrap.y-email input.wpcf7-validates-as-required {
+        width: calc(100% - 19px);
+        display: inline-block;
+    }
+
+    #wpcf7-f133-o1 .wpcf7-form-control-wrap.y-name:before {
+        content: '*';
+        color: red;
+    }
+
+    #wpcf7-f133-o1 .wpcf7-form-control-wrap.y-name input.wpcf7-validates-as-required {
+        width: calc(100% - 19px);
+        display: inline-block;
+    }
+
+    #wpcf7-f133-o1 .wpcf7-form-control-wrap.y-email:before {
+        content: '*';
+        color: red;
+    }
+
+    #wpcf7-f133-o1 .wpcf7-form-control-wrap.y-email input.wpcf7-validates-as-required {
+        width: calc(100% - 19px);
+        display: inline-block;
+    }
+
+    @media screen and (max-width: 767px) {
+    .form__field input, .form__field textarea {
+        padding-left: 10px;
+    }
+}
+
+.sc__promo .promo__social a, .sc__promo .promo__phone, .sc__promo .promo__phone a, .sc__promo .actions__wrap, .sc__promo .actions__wrap .link__custom, .sc__promo-inside .actions__wrap .link__custom {
+    font-size: 24px;
+    font-weight: 1000;
+    color: #b8161e;
+}
+
+.sc__promo .promo__social ul li a:after, .sc__promo .actions__wrap .link__custom:after, .sc__promo-inside .actions__wrap .link__custom:after {
+    background-color: #b8161e;
+}
+
+@media screen and (max-width: 1023px) {
+.scroll__up-wrap {
+    display: block !important;
+    bottom: 20px;
+    top: unset;
+}
+}
+
+@media screen and (max-width: 767px) {
+.scroll__up-wrap {
+    display: block !important;
+    top: -200px!important;
+    top: unset;
+    visibility: visible;
+}
+}

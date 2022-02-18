@@ -84,7 +84,7 @@
             </div>
             <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12 col__custom">
                 <div class="projects__list col__list">
-                    <?php echo do_shortcode('[cpt_ajax_load_more button_text="Показати ще" post_type="projects" init_load="6" template="projects-loop" posts_per_page="6"]'); ?>
+                    <?php echo do_shortcode('[cpt_ajax_load_more button_text="Показати ще" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]'); ?>
                 </div>
             </div>
         </div>
