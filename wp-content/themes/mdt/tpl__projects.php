@@ -84,7 +84,16 @@
             </div>
             <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12 col__custom">
                 <div class="projects__list col__list">
-                    <?php echo do_shortcode('[cpt_ajax_load_more button_text="Показати ще" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]'); ?>
+                    <?php 
+                        
+                        if(isset($_GET['u']) && intval($_GET['u'])) {
+                            // echo do_shortcode('[cpt_ajax_load_more button_text="Показати ще" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]');
+                            echo do_shortcode('[cpt_ajax_load_more button_text="Показати ще" tag="'.$_GET['u'].'" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]');
+                        } else {
+                            echo do_shortcode('[cpt_ajax_load_more button_text="Показати ще" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]');
+                        }
+                        
+                    ?>
                 </div>
             </div>
         </div>

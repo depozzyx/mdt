@@ -235,6 +235,24 @@ function cpt_alm_custom_meta_query($args, $id){
       )
     );
   }
+	
+	if ( isset( $args['tag'] ) ) {
+		$u = $args['tag'];
+		$args['tag'] = '';
+		$args['meta_query'] = array(
+		  array (
+			'key' => 'proj__us-gr',
+			'value' => $u
+		  )
+		);
+	}
+	
+// 	$args['meta_query'] = array(
+//       array (
+//         'key' => 'proj__us-gr',
+//         'value' => 311
+//       )
+//     );
 
   return $args;
 

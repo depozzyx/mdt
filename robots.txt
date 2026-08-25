@@ -39,3 +39,4 @@ Allow: /wp-content/uploads
 Host: https://mdtgroup.com.ua
 
 Sitemap: https://mdtgroup.com.ua/sitemap.xml
+Sitemap: https://mdtgroup.com.ua/sitemap_images.php

@@ -1,0 +1,88 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 03.12.2021 11:35
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.0
+WORDPRESS:	5.5.5
+PHP INFO:	7.3.28-1 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: [600] not allowed 
+PHP MAX MEMORY: 4294967296 (160M default) 
+MEMORY STACK: 12MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20210520_mdt_d19cad5c4672d1174270_20211203113540_database.sql
+SQL FILE SIZE: 64.21MB (67331604)
+SQL FILE TIME: 2021-12-03 11:36:00
+SQL RUNTIME: 2.15 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /var/www/mdtgroup/mdtgroup.com.ua
+ARCHIVE FILE: 20210520_mdt_d19cad5c4672d1174270_20211203113540_archive.zip
+FILTERS: *ON*
+DIRS:
+	/var/www/mdtgroup/mdtgroup.com.ua/wp-content/uploads
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	208.37MB
+STATS:	Dirs 2,140 | Files 20,506
+SQL ADDED: 20210520_mdt_d19cad5c4672d1174270_20211203113540_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 22646
+    [filename] => /var/www/mdtgroup/mdtgroup.com.ua/wp-content/backups-dup-lite/tmp/20210520_mdt_d19cad5c4672d1174270_20211203113540_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 22645
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:/var/www/mdtgroup/mdtgroup.com.ua/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:171]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 115.49MB
+ARCHIVE RUNTIME: 52.85 sec.
+MEMORY STACK: 18.8MB
+building installer
+[PHP ERR][WARN] MSG:is_readable(): open_basedir restriction in effect. File(/dev/urandom) is not within the allowed path(s): (/var/www/mdtgroup:/usr/lib/php5:/usr/lib/php:/usr/bin/php) [CODE:2|FILE:/var/www/mdtgroup/mdtgroup.com.ua/wp-content/plugins/duplicator/classes/class.password.php|LINE:63]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_PasswordHash->HashPassword, DUP_PasswordHash->get_random_bytes, is_readable, DUP_Handler::error, DUP_Handler::getMessage
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /var/www/mdtgroup/mdtgroup.com.ua/wp-content/backups-dup-lite/tmp/20210520_mdt_d19cad5c4672d1174270_20211203113540_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 64.21MB
+INSTALLER FILE: 63.95KB
+ARCHIVE FILE: 117.31MB 
+EXPECTED FILE/DIRECTORY COUNT: 22,646
+ACTUAL FILE/DIRECTORY COUNT: 22,645
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 56.70 sec.
+PEAK PHP MEMORY USED: 22.8MB
+DONE PROCESSING => 20210520_mdt 03.12.2021 11:36
+
