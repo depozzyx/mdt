@@ -1,4 +1,8 @@
 import WOW from 'wow.js/dist/wow.min.js';
+import 'jquery.scrollbar';
+import 'jquery-match-height';
+import 'slick-carousel';
+import '@fancyapps/fancybox';
 
 let keys = {37: 1, 38: 1, 39: 1, 40: 1};
 
