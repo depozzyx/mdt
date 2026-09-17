@@ -1,0 +1,32 @@
+services:
+  db:
+    image: mariadb:10.6
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: mtgroup_new
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: wordpress
+      MARIADB_ROOT_PASSWORD: root
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./mtgroup_new.sql:/docker-entrypoint-initdb.d/mtgroup_new.sql:ro
+    ports:
+      - "3307:3306"
+
+  wordpress:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+      - ./docker/wp-config-local.php:/var/www/html/wp-config.php:ro
+      - wp_cache:/var/www/html/wp-content/cache
+
+volumes:
+  db_data:
+  wp_cache:
