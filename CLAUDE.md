@@ -55,8 +55,13 @@ and can't regenerate from source (see `docker/vendor/`):
   found and committed, local dev uses production's real compiled CSS
   (`docker/vendor/style.css.prod-fallback`) instead of the from-source build.
 
-`wp-content/uploads` is gitignored and not synced locally, so images/media will 404 in local dev
-unless you separately copy them from the server.
+`wp-content/uploads` is gitignored and not synced locally. Rather than copying the folder, every
+request under `/wp-content/uploads/` is 302-redirected straight to `mdtgroup.com.ua`'s real files
+(`docker/000-default.conf`, which replaces the base image's default vhost — the rule lives directly
+in the `<VirtualHost>` block, not a separate conf-available include, because a global rewrite rule
+loaded that way was silently not applying to the vhost actually serving requests). This means local
+pages render production's real images without syncing anything, but also that local dev always shows
+whatever is currently live on production, not a point-in-time snapshot.
 
 ### Adding CSS without touching the SCSS build
 

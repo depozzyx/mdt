@@ -8,3 +8,6 @@ RUN docker-php-ext-install mysqli pdo pdo_mysql \
 
 COPY docker/no-cache.conf /etc/apache2/conf-available/no-cache.conf
 RUN a2enconf no-cache
+
+# Replaces the base image's default vhost to add the uploads proxy-redirect below.
+COPY docker/000-default.conf /etc/apache2/sites-available/000-default.conf

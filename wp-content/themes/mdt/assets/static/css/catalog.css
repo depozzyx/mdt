@@ -118,3 +118,19 @@
         width: 100%;
     }
 }
+
+/*
+ * Pre-existing bug (not introduced by the catalogue restructure): .nav__cat-scroll only has
+ * `max-height: 410px` in the built CSS, with no `overflow`. Clipping the accordion's expanded
+ * subcategory list to that height relies entirely on the jquery.scrollbar plugin (main.js) adding
+ * `overflow: hidden`/`scroll` at runtime. If that init doesn't happen - a JS error earlier in the
+ * shared $(document).ready chain, a timing race, anything - content past 410px isn't clipped at
+ * all and bleeds visibly onto the page below the mega-menu. Belt-and-braces CSS fallback so the
+ * list is always contained even when the plugin fails: `auto` (not `hidden`) so a native scrollbar
+ * appears when a category's subcategory list is taller than 410px, keeping every item reachable.
+ * The scrollbar plugin still layers its own scroll-content wrapper on top of this when it does
+ * run, unaffected.
+ */
+.nav__cat-scroll {
+    overflow: auto;
+}
