@@ -1,0 +1,37 @@
+/*
+ * Catalogue overrides.
+ *
+ * Deliberately NOT part of the SCSS build: the committed SCSS source is incomplete (it compiles
+ * ~40% less CSS than production and contains none of the mega-menu rules), so running a build
+ * would destroy the live styles. This file is loaded by its own <link> in header.php and is safe
+ * from `npm run build`, which only cleans assets/dist/.
+ *
+ * Keep it minimal. If a third rule becomes necessary, re-check the markup first.
+ */
+
+/* The mega-menu's second column ("Інші товари") is gone — the category list now spans the panel. */
+.menu-nav__box .nav__box-col-1 {
+    width: 100%;
+    min-width: 100%;
+}
+
+.menu-nav__box .nav__box-col-1:after {
+    display: none; /* vertical divider that used to separate col-1 from col-2 */
+}
+
+/*
+ * Both category grids size themselves from the featured image (.collection__list .card__bl-3
+ * is height:auto, and .card__bl-2 has no height of its own), so a category without an image
+ * collapses to a line of alt text. The newly added branches have no images until the content
+ * team uploads them. Once one is set the wrapper grows past this floor and nothing changes.
+ */
+#rep-box-children .card__bl-3 .img__wrap,
+.sc__assortment .card__bl-2 .img__wrap {
+    min-height: 244px;
+    background: #e6e6e6;
+}
+
+/* The footer category list follows the existing menu widget in the same column — separate them. */
+.footer__left .footer__col-label {
+    margin-top: 32px;
+}

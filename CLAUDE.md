@@ -58,6 +58,37 @@ and can't regenerate from source (see `docker/vendor/`):
 `wp-content/uploads` is gitignored and not synced locally, so images/media will 404 in local dev
 unless you separately copy them from the server.
 
+### Adding CSS without touching the SCSS build
+
+Because a from-source build would destroy the live styles (see above), new rules go in
+`wp-content/themes/mdt/assets/static/css/catalog.css`, which is tracked in git and loaded by its
+own `<link>` in `header.php` right after `dist/style.css`. This is safe from `npm run build` —
+`CleanWebpackPlugin` only cleans `dist/`. Keep that file small; it is a workaround, not a home for
+new styling. The long-term fix is still to recover the missing SCSS partials.
+
+## Catalogue migration tool
+
+`wp-content/themes/mdt/tools/catalog-migration.php` builds the six-branch category tree
+(renames, reparents, new categories with their WPML twins, `menu_order`, `cat__subtitle`, ACF
+location-rule patches, WPML string translations). It is a **local dev tool and is never run on
+production** — the finished local database is exported and imported over the production one.
+
+```bash
+docker compose exec wordpress php wp-content/themes/mdt/tools/catalog-migration.php            # dry run
+docker compose exec wordpress php wp-content/themes/mdt/tools/catalog-migration.php --apply
+```
+
+It is idempotent: a second run reports zero actions. That matters because the intended cutover is
+to pull a **fresh** production dump, import it locally, re-run the script against it, verify, and
+ship that — rather than shipping a stale snapshot and losing everything published since.
+
+Before exporting for production, purge local artefacts that would otherwise travel with the DB:
+`wp_options.wpml_language_switcher_template_objects` (autoloaded, holds `/var/www/html` paths and a
+localhost URL), all `_transient_%` / `_site_transient_%` rows, and the Rank Math sitemap cache.
+`siteurl`/`home` are safe — the Docker override uses `WP_HOME`/`WP_SITEURL` constants and never
+writes to the DB. Note also that SeoShield keeps live production data in its own `ss_*` tables
+(`ss_images_for_sitemap`, `ss_bigram_*`), which a wholesale replace would overwrite.
+
 ## Theme asset build (webpack)
 
 Source lives in `wp-content/themes/mdt/assets/` (package name `coppertin`); build output goes to
@@ -97,9 +128,27 @@ There is no test suite, linter, or CI config in this repo (no `composer.json`, `
   etc. — see the `single-*.php` templates in `wp-content/themes/mdt/`) are registered through the
   **Custom Post Type UI** plugin and stored as options in the database, not in git. Likewise the
   header nav in `header.php` doesn't use `wp_nav_menu()` — it fetches a hardcoded menu ID
-  (`wp_get_nav_menu_items(32, ...)`) and hardcoded page/category IDs (`$ct_id = 522` /
-  `11745`), so menu structure changes only take effect by editing that specific DB record via
-  wp-admin, not by editing theme code.
+  (`wp_get_nav_menu_items(32, ...)`), so menu structure changes only take effect by editing that
+  specific DB record via wp-admin, not by editing theme code.
+- **The catalogue is a `category` CPT tree, walked by `post_parent`** — never by taxonomy terms.
+  There are six top-level branches (Підлога, Меблі, Акустичні рішення, Стеля, Скляні перегородки,
+  Гнучкий камінь). Always go through the helpers in `functions.php` rather than calling
+  `get_children()` directly:
+  - `mdt_top_level_categories()` / `mdt_category_children($id)` — published children in
+    `menu_order`, minus hidden ones. They pass `ignore_custom_sort` because the **post-types-order**
+    plugin filters `posts_orderby` globally, and an explicit `orderby` because bare `get_children()`
+    silently sorts by date.
+  - `mdt_hidden_category_ids()` — categories that still resolve by URL but are kept out of every
+    listing (currently just `13209` "Матеріали для підлоги"). Add exclusions here, never inline.
+  - `mdt_catalog_root_id()` — replaces the `$ct_id = 522 / 11745` literals that used to be copied
+    across four templates.
+  - **WPML gotcha:** pass the *post type* name to `icl_object_id($id, 'category')`. The older
+    `lang_category_original_id()` passes `'post_category'` and is a silent no-op — don't copy it.
+    The list helpers need no translation at all: WPML scopes the query by language on its own.
+- **Theme strings are translated through WPML String Translation, not .mo files.** There is no
+  `languages/` dir and `load_theme_textdomain()` is never called, so any new `_e(..., 'mdt')`
+  string renders untranslated on `/ru/` until it is registered. `tools/catalog-migration.php`
+  seeds them (context `mdt`, name `md5($string)`).
 - **ACF Pro + ACF Multilingual (acfml)** drive most custom field data on posts/pages.
 - **Multilingual via WPML** (`sitepress-multilingual-cms` + `wpml-*` plugins): content exists in
   multiple languages (see the `ua`/`ru` switcher in the header); translations are DB-driven.
@@ -108,6 +157,10 @@ There is no test suite, linter, or CI config in this repo (no `composer.json`, `
   changes; when debugging asset issues, check whether `wp-content/cache/` is serving an outdated
   bundle before assuming the theme source itself is wrong). Rank Math handles SEO; EWWW Image
   Optimizer + WP Retina 2x handle image compression/retina variants.
+- **Line endings are mixed across the theme.** `single-category.php`, `tpl__main.php` and
+  `footer.php` are CRLF; `header.php`, `functions.php` and root `index.php` are LF. Scripted edits
+  that rewrite a whole file will silently normalise them and turn a ten-line change into a
+  full-file diff — preserve the file's existing endings when editing programmatically.
 - **`.gitignore` excludes common binary extensions globally** (`*.png`, `*.gif`, `*.ico`, etc.),
   not just `wp-content/uploads`. This also strips images that ship as part of WordPress core
   itself (e.g. `wp-includes/images/`), since git doesn't track directories that end up empty —

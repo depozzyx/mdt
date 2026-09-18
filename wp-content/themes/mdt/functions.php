@@ -44,6 +44,10 @@ add_filter('admin_footer_text', 'true_change_admin_footer');
 
 // Image Thumbnails
 add_theme_support( 'post-thumbnails' );
+// Hands <title> to Rank Math. Without this its rewrite is inert (rewrite_title is off), so the
+// configured title template and every per-post rank_math_title were being silently discarded.
+// Paired with the removal of the hardcoded <title> in header.php - do not add one back.
+add_theme_support( 'title-tag' );
 	add_theme_support( 'html5', array(
 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
 	) );
@@ -208,6 +212,83 @@ function get__lang__cat(){
       break;
   }
   return $lang__path;
+}
+
+/**
+ * Catalogue tree helpers.
+ *
+ * "Categories" on this site are a hierarchical CPT named `category` (registered through CPT UI),
+ * not a taxonomy, so the tree is walked by post_parent. These helpers centralise that access:
+ * the catalogue root id and the hidden-category list each live in exactly one place.
+ *
+ * WPML: pass the POST TYPE name ('category') to icl_object_id(), not 'post_category'.
+ * lang_category_original_id() above passes 'post_category' and is a silent no-op — don't copy it.
+ */
+
+if ( ! function_exists( 'mdt_catalog_root_id' ) ) {
+  function mdt_catalog_root_id() {
+    return icl( 522, 'category' );
+  }
+}
+
+/**
+ * Categories that still resolve by URL but are kept out of every listing
+ * (nav, homepage grid, footer, child grids).
+ */
+if ( ! function_exists( 'mdt_hidden_category_ids' ) ) {
+  function mdt_hidden_category_ids() {
+    $hidden = array();
+    foreach ( array( 13209 ) as $id ) {
+      $translated = icl( $id, 'category' );
+      if ( $translated ) {
+        $hidden[] = (int) $translated;
+      }
+    }
+    return $hidden;
+  }
+}
+
+/**
+ * Published children of $parent, in menu_order, minus the hidden ones.
+ * WPML scopes the query to the current language on its own, so no id translation happens here.
+ *
+ * @return WP_Post[]
+ */
+if ( ! function_exists( 'mdt_category_branch' ) ) {
+  function mdt_category_branch( $parent ) {
+    $posts = get_posts( array(
+      'post_type'          => 'category',
+      'post_parent'        => (int) $parent,
+      'post_status'        => 'publish',
+      'posts_per_page'     => -1,
+      'orderby'            => array( 'menu_order' => 'ASC', 'ID' => 'ASC' ),
+      'suppress_filters'   => false,
+      'ignore_custom_sort' => true, // post-types-order filters posts_orderby globally
+    ) );
+
+    $hidden = mdt_hidden_category_ids();
+    if ( ! $hidden ) {
+      return $posts;
+    }
+
+    return array_values( array_filter( $posts, function ( $post ) use ( $hidden ) {
+      return ! in_array( (int) $post->ID, $hidden, true );
+    } ) );
+  }
+}
+
+/** @return WP_Post[] The six top-level catalogue branches. */
+if ( ! function_exists( 'mdt_top_level_categories' ) ) {
+  function mdt_top_level_categories() {
+    return mdt_category_branch( 0 );
+  }
+}
+
+/** @return WP_Post[] */
+if ( ! function_exists( 'mdt_category_children' ) ) {
+  function mdt_category_children( $id ) {
+    return mdt_category_branch( $id );
+  }
 }
 
 function admin_style() {

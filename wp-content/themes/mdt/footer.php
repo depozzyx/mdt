@@ -24,6 +24,16 @@
             <div class="footer__nav">
                 <?php echo do_shortcode('[do_widget id=nav_menu-2]'); ?>
             </div>
+            <div class="footer__col-label"><?php _e('Категорії', 'mdt'); ?></div>
+            <div class="footer__nav footer__nav-cats">
+                <ul>
+                  <?php foreach (mdt_top_level_categories() as $cat): ?>
+                      <li>
+                          <a href="<?php the_permalink($cat); ?>"><?php echo get_the_title($cat); ?></a>
+                      </li>
+                  <?php endforeach; ?>
+                </ul>
+            </div>
         </div>
         <div class="footer__main d-flex flex-wrap align-items-start wow fadeInUpDes" data-wow-offset="0" data-wow-delay="0.2s">
             <div class="footer__col footer__col-1">

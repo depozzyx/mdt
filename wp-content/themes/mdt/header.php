@@ -11,7 +11,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/dist/style.css">
-    <title><?php echo get_the_title() . ' - ' . get_bloginfo('name'); ?></title>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/static/css/catalog.css">
     <?php wp_head(); ?>
     <!-- Google Tag Manager -->
     <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -131,11 +131,6 @@
 <!-- End Google Tag Manager (noscript) -->
 
 
-<?php $ct_id = 522;
-if (ICL_LANGUAGE_CODE === 'ru') {
-    $ct_id = 11745;
-} ?>
-
 <div id="wrapper" class="wrapper wow fadeIn" data-wow-delay="0.1s" style="visibility: hidden">
     <div class="header wow fadeInDownDes" data-wow-delay="0.1s">
         <div class="container d-flex align-items-center justify-content-between">
@@ -187,9 +182,9 @@ if (ICL_LANGUAGE_CODE === 'ru') {
                     <div class="add__nav-box hidden-md-up">
                         <ul>
                             <?php foreach ($nav as $nav_item): ?>
-                                <?php if ($nav_item->object === 'category' && $nav_item->post_name === 'katalog-tovariv' || $nav_item->post_name === 'katalog-tovarov-2'): ?>
+                                <?php if ($nav_item->object === 'category' && ($nav_item->post_name === 'katalog-tovariv' || $nav_item->post_name === 'katalog-tovarov-2')): ?>
                                     <li class="has-submenu <?php if (is_page($nav_item->object_id)) echo 'active'; ?>">
-                                        <a href="#" class="toggle__cat-js">
+                                        <a href="<?php echo get_permalink(mdt_catalog_root_id()); ?>">
                                             <span><?php echo $nav_item->title; ?></span>
                                             <i class="icon__arrow">
                                                 <svg viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -226,24 +221,16 @@ if (ICL_LANGUAGE_CODE === 'ru') {
                                             <div class="nav__box-left d-flex">
                                                 <div class="nav__box-col nav__box-col-1">
                                                     <div class="nav__box-title">
-                                                        <a href="<?php the_permalink($ct_id) ?>">
-                                                            <?php echo get_the_title($ct_id) ?>
-                                                        </a>
+                                                        <?php _e('КАТЕГОРІЇ', 'mdt'); ?>
                                                     </div>
                                                     <div class="nav__cat-box">
-                                                        <?php
-                                                        $cat_id = $ct_id;
-                                                        $cat_chs = get_children(array('post_type' => 'category', 'orderby' => 'menu_order', 'order' => 'ASC', 'post_parent' => $cat_id));
-                                                        foreach ((array)$cat_chs as $ch) {
-                                                            $cat_pr_arr[] = $ch->ID;
-                                                        }
-                                                        ?>
+                                                        <?php $cat_chs = mdt_top_level_categories(); ?>
                                                         <div class="nav__cat-scroll scrollbar-dynamic">
                                                             <div class="nav__cat-list">
                                                                 <?php $k = 1;
                                                                 foreach ((array)$cat_chs as $ch) : ?>
                                                                     <div class="nav__cat-item">
-                                                                        <?php $sub__cats = get_children(array('post_type' => 'category', 'post_parent' => $ch->ID)); ?>
+                                                                        <?php $sub__cats = mdt_category_children($ch->ID); ?>
                                                                         <?php if (count($sub__cats) > 0): ?>
                                                                             <div class="nav__cat-item-header">
                                                                                 <a href="#">
@@ -285,30 +272,6 @@ if (ICL_LANGUAGE_CODE === 'ru') {
                                                                     </div>
                                                                     <?php $k++; endforeach; ?>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="nav__box-col nav__box-col-2">
-                                                    <div class="nav__box-col-content">
-                                                        <div class="nav__list-others">
-                                                            <?php
-                                                            $oth_id_args = [
-                                                                'post_parent' => 0,
-                                                                'post_type' => 'category',
-                                                                'posts_per_page' => -1,
-                                                                'fields' => 'ids',
-                                                                'post__not_in' => array($ct_id)
-                                                            ];
-                                                            $oth_ids = get_posts($oth_id_args);
-                                                            ?>
-                                                            <?php $j = 1;
-                                                            foreach ((array)$oth_ids as $oth) : ?>
-                                                                <div class="nav__box-title">
-                                                                    <a href="<?php the_permalink($oth) ?>">
-                                                                        <?php echo get_the_title($oth); ?>
-                                                                    </a>
-                                                                </div>
-                                                                <?php $j++; endforeach; ?>
                                                         </div>
                                                     </div>
                                                 </div>

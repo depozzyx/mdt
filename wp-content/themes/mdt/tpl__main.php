@@ -1,6 +1,5 @@
 <?php /*Template Name: Home page*/ ?>
 <?php get_header(); ?>
-<?php $ct_id = 522; if(ICL_LANGUAGE_CODE === 'ru'){$ct_id = 11745;} ?>
 <div class="section sc__promo">
     <div class="promo__slider-box">
         <div class="promo__slider">
@@ -266,20 +265,14 @@
         </div>
     </div>
 </div>
-<div class="section sc__floor sc__common sc__gray">
+<div class="section sc__assortment sc__floor sc__common sc__gray">
     <div class="container">
         <div class="sc__header">
             <div class="sc__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
-              <?php echo get_the_title($ct_id) ?>
+              <?php _e('Асортимент', 'mdt'); ?>
             </div>
         </div>
-        <?php
-            $cat_id = $ct_id;
-            $cat_chs = get_children( array( 'post_type'=>'category', 'post_parent'=>$cat_id ) );
-            foreach( (array) $cat_chs as $ch ){
-              $cat_pr_arr[] = $ch->ID;
-            }
-        ?>
+        <?php $cat_chs = mdt_top_level_categories(); ?>
         <div class="floor__list col__list">
             <div class="row row__custom">
               <?php $k = 1; foreach( (array) $cat_chs as $ch ) : ?>
@@ -316,76 +309,11 @@
                 <?php $k ++; endforeach; ?>
             </div>
         </div>
-        <?php if(count($cat_chs) > 8): ?>
-        <div class="pager__wrap d-flex justify-content-center wow fadeInUpDes hidden-sm-down" data-wow-delay="0.2s">
-            <a href="<?php echo get_permalink($ct_id) ?>" class="link__custom link__custom-dark">
-              <?php _e('Більше', 'mdt'); ?>
-            </a>
-        </div>
-        <?php endif; ?>
-        <div class="pager__wrap d-flex justify-content-center wow fadeInUpDes hidden-sm-up" data-wow-delay="0.2s">
-            <a href="<?php echo get_permalink($ct_id) ?>" class="link__custom link__custom-dark">
-              <?php _e('Більше', 'mdt'); ?>
-            </a>
-        </div>
 
     </div>
 </div>
-<?php
-    $oth_id_args = [
-      'post_parent'    => 0,
-      'post_type'      => 'category',
-      'posts_per_page' => -1,
-      'fields'         => 'ids',
-      'post__not_in' => array($ct_id)
-    ];
-    $oth_ids = get_posts( $oth_id_args );
-?>
 <div class="section sc__others sc__common">
     <div class="container">
-        <div class="sc__box">
-            <div class="other__list col__list">
-                <div class="row row__custom align-items-center">
-                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 col__custom col__item">
-                        <div class="sc__header">
-                            <div class="sc__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
-                              <?php the_field('oth__title'); ?>
-                            </div>
-                            <div class="sc__descr wow fadeInUpDes" data-wow-delay="0.2s">
-                              <?php the_field('oth__descr'); ?>
-                            </div>
-                        </div>
-                    </div>
-                    <?php $j = 1; $size = 'post-main'; foreach( (array) $oth_ids as $oth ) : ?>
-                      <div class="<?php if($j === 1) echo 'col-xl-8 col-lg-8'; else echo 'col-xl-4 col-lg-4'; ?> col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * $j + 0.2 ?>s">
-                          <a href="<?php the_permalink($oth) ?>" class="card__bl-3">
-                              <div class="img__wrap">
-                                  <div class="img__bl">
-                                      <img src="<?php echo get_the_post_thumbnail_url( $oth, $size); ?>">
-                                  </div>
-                              </div>
-                              <div class="card__header d-flex align-items-center">
-                                  <div class="card__title">
-                                      <?php echo get_the_title($oth); ?>
-                                  </div>
-                              </div>
-                              <div class="redirect__decor d-flex align-items-center justify-content-center">
-                                  <svg viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <rect x="6.28906" width="11" height="1.5" transform="rotate(90 6.28906 0)" fill="#404040"/>
-                                      <rect x="11.0391" y="6.25" width="11" height="1.5" transform="rotate(-180 11.0391 6.25)" fill="#404040"/>
-                                  </svg>
-                                  <div class="arrow__right">
-                                      <svg viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                          <path d="M0.101562 2.19566L4.30446 6.39856L0.101562 10.6015L1.39862 11.8986L6.89862 6.39856L1.39862 0.89856L0.101562 2.19566Z" fill="white"/>
-                                      </svg>
-                                  </div>
-                              </div>
-                          </a>
-                      </div>
-                    <?php $j++; $size = 'g-v'; endforeach; ?>
-                </div>
-            </div>
-        </div>
         <div class="sc__box sc__box-partners">
             <div class="sc__header d-flex align-items-center justify-content-between">
                 <div class="sc__title wow fadeInUpDes" data-wow-delay="0.1s">

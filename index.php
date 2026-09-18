@@ -38,7 +38,7 @@ $per_page_redirs = array('/shop/pokrytiya-pod-beton/pokrytiya-pod-beton/' => '/r
 '/shop/rulonnyj-kovrolin/' => '/ru/category/pokryttya-pidlogy/kovrolin/rulonnyj-kovrolin/',
 '/shop/igloprobivnoj-kovrolin/' => '/ru/category/pokryttya-pidlogy/kovrolin/golkoprobyvnyj-kovrolin/',
 '/shop/pletyonoe-pvh-pokrytie-dickson/' => '/ru/category/pokryttya-pidlogy/pvh-plytka/pletena-pvh-plytka-dickson/',
-'/shop/falshpoly/' => '/ru/category/falshpidloga/',
+'/shop/falshpoly/' => '/ru/category/pokryttya-pidlogy/falshpidloga/',
 '/shop/kovrovaya-plitka/forbo-ru/' => '/ru/category/pokryttya-pidlogy/kylymova-plytka/kylymova-plytka-forbo/',
 '/shop/kovrovaya-plitka/pvh/' => '/ru/category/pokryttya-pidlogy/kylymova-plytka/kylymova-plytka-pvh/',
 '/shop/kovrovaya-plitka/incati/' => '/ru/category/pokryttya-pidlogy/kylymova-plytka/kylymova-plytka-incati/',
@@ -219,10 +219,24 @@ $per_page_redirs = array('/shop/pokrytiya-pod-beton/pokrytiya-pod-beton/' => '/r
 '/product/pvh-strike/' => '/ru/product/pvh-plate-en-van-heusde-bv-strike/',
 '/product/pvh-viva/' => '/ru/product/pvh-plate-en-van-heusde-bv-viva/',
 '/product/podvesnye-potolki-armstrong/' => '/ru/product/armstrong-metal/',
-'/shop/vhodnye-sistemy-gryazezashhity/' => '/ru/category/pokryttya-pidlogy/brudozahysni-kylymy/');
+'/shop/vhodnye-sistemy-gryazezashhity/' => '/ru/category/pokryttya-pidlogy/brudozahysni-kylymy/',
 
-if (isset($per_page_redirs[$_SERVER['REQUEST_URI']])){
-	header('Location: //' . $_SERVER['HTTP_HOST'] . $per_page_redirs[$_SERVER['REQUEST_URI']], true, 301);
+// Catalogue restructure: these two categories moved under Підлога and changed URL.
+'/category/falshpidloga/' => '/category/pokryttya-pidlogy/falshpidloga/',
+'/category/falshpidloga' => '/category/pokryttya-pidlogy/falshpidloga/',
+'/ru/category/falshpidloga/' => '/ru/category/pokryttya-pidlogy/falshpidloga/',
+'/ru/category/falshpidloga' => '/ru/category/pokryttya-pidlogy/falshpidloga/',
+'/category/materialy-dlya-pidlogy/' => '/category/pokryttya-pidlogy/materialy-dlya-pidlogy/',
+'/category/materialy-dlya-pidlogy' => '/category/pokryttya-pidlogy/materialy-dlya-pidlogy/');
+
+$__redir_uri  = $_SERVER['REQUEST_URI'];
+$__redir_path = strtok($__redir_uri, '?');
+$__redir_to   = isset($per_page_redirs[$__redir_uri])
+	? $per_page_redirs[$__redir_uri]
+	: (isset($per_page_redirs[$__redir_path]) ? $per_page_redirs[$__redir_path] : null);
+
+if ($__redir_to !== null){
+	header('Location: //' . $_SERVER['HTTP_HOST'] . $__redir_to, true, 301);
 	die();
 }
 

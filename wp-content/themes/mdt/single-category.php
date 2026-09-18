@@ -1,14 +1,7 @@
 <?php /*Template Name: Single category template*/ ?>
 <?php get_header(); $page_id = get_the_ID(); $p_cats = get_post_ancestors($page_id);?>
 
-<?php if($page_id !== 522 && $page_id !== 11745): ?>
-    <?php
-        $cat_id = $page_id; $cat_pr_arr = array($cat_id);
-        $cat_chs = get_children( array( 'post_type'=>'category', 'post_parent'=>$cat_id ) );
-        foreach( (array) $cat_chs as $ch ){
-            $cat_pr_arr[] = $ch->ID;
-        }
-    ?>
+<?php $cat_chs = mdt_category_children($page_id); ?>
     <div class="section sc__inside sc__inside-top sc__post-header">
         <div class="breadcrumbs wow fadeInUpDes hidden-lg-down" data-wow-delay="0.1s">
             <ul>
@@ -16,11 +9,6 @@
                       <a href="<?php echo get_permalink(lang_page_original_id(9)) ?>"><?php echo get_the_title(lang_page_original_id(9)) ?></a>  /
                       <!--dg_crumb_url:<?php echo get_permalink(lang_page_original_id(9)) ?>;;dg_crumb_name:<?php echo get_the_title(lang_page_original_id(9)) ?>-->
                   </li>
-              <?php if(count($p_cats) === 0): ?>
-                  <li>
-                      <a href="<?php echo get_permalink(lang_page_original_id(9)) ?>"><?php echo get_the_title(lang_page_original_id(9)) ?></a>  /
-                  </li>
-              <?php endif; ?>
               <?php $parents = array_reverse(get_post_ancestors(get_field('p__cat'))); ?>
               <?php foreach ($parents as $parent): ?>
                   <li>
@@ -38,11 +26,6 @@
         <div class="container">
             <div class="breadcrumbs wow fadeInUpDes hidden-lg-up" data-wow-delay="0.1s">
                 <ul>
-                  <?php if(count($p_cats) === 0): ?>
-                      <li>
-                          <a href="<?php echo get_permalink(lang_page_original_id(9)) ?>"><?php echo get_the_title(lang_page_original_id(9)) ?></a>  /
-                      </li>
-                  <?php endif; ?>
                   <?php $parents = array_reverse(get_post_ancestors(get_field('p__cat'))); ?>
                   <?php foreach ($parents as $parent): ?>
                       <li>
@@ -66,6 +49,11 @@
                                       <?php the_title(); ?>
                                     </h1>
                                 </div>
+                                <?php if(get_field('cat__subtitle')): ?>
+                                    <div class="sc__descr wow fadeInUpDes" data-wow-delay="0.2s">
+                                      <?php the_field('cat__subtitle'); ?>
+                                    </div>
+                                <?php endif; ?>
                                 <div class="share__box d-flex align-items-center wow fadeInUpDes hidden-lg-up" data-wow-delay="0.1s">
                                     <div class="share__toggle d-flex align-items-center justify-content-center">
                                         <svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -499,6 +487,57 @@
         <?php $i++; endwhile; ?>
     </div>
 
+    <?php if ( ! empty( $cat_chs ) ): ?>
+        <div class="post__box section sc__gray">
+            <div class="container">
+                <div class="sc__header">
+                    <div class="sc__title wow fadeInUpDes" data-wow-delay="0.1s">
+                      <?php _e('Колекції', 'mdt'); ?>
+                    </div>
+                </div>
+                <div id="rep-box-children" class="collection__list col__list">
+                    <div class="row row__custom align-items-center">
+                      <?php $c = 1; foreach ($cat_chs as $child): ?>
+                          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 col__custom col__item fadeInUpDes <?php if($c > 8) echo 'animated hidden '; else echo 'wow'; ?>" data-wow-delay="<?php echo 0.1 * $c; ?>s">
+                              <a href="<?php the_permalink($child); ?>" class="card__bl-3">
+                                  <div class="img__wrap">
+                                      <div class="img__bl">
+                                          <img src="<?php echo get_the_post_thumbnail_url( $child, 'pr-prev'); ?>" alt="<?php echo get_the_title($child); ?>" title="<?php echo get_the_title($child); ?>">
+                                          <!--dg_img_in_sitemap:<?php echo get_the_post_thumbnail_url( $child, 'pr-prev'); ?>-->
+                                      </div>
+                                  </div>
+                                  <div class="card__header">
+                                      <div class="card__title">
+                                        <?php echo get_the_title($child); ?>
+                                      </div>
+                                  </div>
+                                  <div class="redirect__decor d-flex align-items-center justify-content-center">
+                                      <svg viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <rect x="6.28906" width="11" height="1.5" transform="rotate(90 6.28906 0)" fill="#404040"/>
+                                          <rect x="11.0391" y="6.25" width="11" height="1.5" transform="rotate(-180 11.0391 6.25)" fill="#404040"/>
+                                      </svg>
+                                      <div class="arrow__right">
+                                          <svg viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M0.101562 2.19566L4.30446 6.39856L0.101562 10.6015L1.39862 11.8986L6.89862 6.39856L1.39862 0.89856L0.101562 2.19566Z" fill="white"/>
+                                          </svg>
+                                      </div>
+                                  </div>
+                              </a>
+                          </div>
+                        <?php $c++; endforeach; ?>
+                    </div>
+                </div>
+              <?php if(count($cat_chs) > 8): ?>
+                  <div class="pager__wrap d-flex justify-content-center wow fadeInUpDes" data-wow-delay="0.2s">
+                      <a data-load="rep-box-children" href="#" class="link__custom link__custom-dark load-items-js">
+                        <?php _e('Показати ще', 'mdt'); ?>
+                      </a>
+                  </div>
+              <?php endif; ?>
+            </div>
+        </div>
+    <?php endif; ?>
+
     <div class="section sc__action sc__common sc__gray">
         <div class="container">
             <div class="row align-items-center">
@@ -638,87 +677,5 @@
             </div>
       <?php endif; ?>
 
-<?php else: ?>
-
-    <?php
-        $cat_id = $page_id;
-        $cat_chs = get_children( array( 'post_type'=>'category', 'post_parent'=>$cat_id ) );
-        foreach( (array) $cat_chs as $ch ){
-        $cat_pr_arr[] = $ch->ID;
-        }
-    ?>
-
-    <div class="section sc__inside sc__gray">
-        <div class="container">
-            <div class="sc__header">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUpDes" data-wow-delay="0.1s">
-                        <div class="sc__title seo__item">
-                          <h1>
-                            <?php the_title(); ?>
-                          </h1>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUpDes" data-wow-delay="0.3s">
-                        <div class="sc__descr">
-                            <?php the_field('cat__subtitle'); ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="floor__list col__list">
-              <!--isset_listing_page-->
-                <div class="row row__custom">
-                  <?php $k = 1; foreach( (array) $cat_chs as $ch ) : ?>
-                      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 col__custom col__item wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * $k; ?>s">
-                          <a href="<?php the_permalink($ch); ?>" class="card__bl-2">
-                              <div class="img__wrap">
-                                  <div class="img__bl">
-                                      <?php $att_id = get_post_thumbnail_id( $ch); ?>
-                                      <img src="<?php echo wp_get_attachment_image_url( $att_id, 'pr-prev'); ?>" alt="<?php echo get_the_title($ch); ?>" title="<?php echo get_the_title($ch); ?>">
-                                      <!--dg_img_in_sitemap:<?php echo wp_get_attachment_image_url( $att_id, 'pr-prev'); ?>-->
-                                  </div>
-                              </div>
-                              <div class="card__header d-flex align-items-center">
-                                  <div class="card__title">
-                                    <?php echo get_the_title($ch); ?>
-                                  </div>
-                              </div>
-                              <div class="card__descr">
-                                <?php echo get_field('cat__subtitle', $ch); ?>
-                              </div>
-                              <div class="redirect__decor d-flex align-items-center justify-content-center">
-                                  <svg viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <rect x="6.28906" width="11" height="1.5" transform="rotate(90 6.28906 0)" fill="#404040"/>
-                                      <rect x="11.0391" y="6.25" width="11" height="1.5" transform="rotate(-180 11.0391 6.25)" fill="#404040"/>
-                                  </svg>
-                                  <div class="arrow__right">
-                                      <svg viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                          <path d="M0.101562 2.19566L4.30446 6.39856L0.101562 10.6015L1.39862 11.8986L6.89862 6.39856L1.39862 0.89856L0.101562 2.19566Z" fill="white"/>
-                                      </svg>
-                                  </div>
-                              </div>
-                          </a>
-                      </div>
-                    <?php $k ++; endforeach; ?>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="section sc__seo">
-        <div class="container">
-            <div class="sc__header">
-                <div class="sc__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
-                  <h2>
-                    <?php the_field('seo__title') ?>
-                  </h2>
-                </div>
-            </div>
-            <div class="sc__descr wow fadeInUpDes" data-wow-delay="0.2s">
-              <?php the_field('seo__text') ?>
-            </div>
-        </div>
-    </div> -->
-<?php endif; ?>
 
 <?php get_footer(); ?>
