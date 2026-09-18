@@ -24,16 +24,6 @@
             <div class="footer__nav">
                 <?php echo do_shortcode('[do_widget id=nav_menu-2]'); ?>
             </div>
-            <div class="footer__col-label"><?php _e('Категорії', 'mdt'); ?></div>
-            <div class="footer__nav footer__nav-cats">
-                <ul>
-                  <?php foreach (mdt_top_level_categories() as $cat): ?>
-                      <li>
-                          <a href="<?php the_permalink($cat); ?>"><?php echo get_the_title($cat); ?></a>
-                      </li>
-                  <?php endforeach; ?>
-                </ul>
-            </div>
         </div>
         <div class="footer__main d-flex flex-wrap align-items-start wow fadeInUpDes" data-wow-offset="0" data-wow-delay="0.2s">
             <div class="footer__col footer__col-1">
@@ -126,7 +116,7 @@
                 </div>
                 <div class="footer__col footer__col-3">
                     <div class="made">
-                        Developed by <a target="_blank" href="https://ribs.one/">RIBS</a>
+                        Developed by <a target="_blank" href="https://lvl1dev.com/">LVL1DEV</a>
                     </div>
                 </div>
             </div>
@@ -139,6 +129,41 @@
     <div class="container"><!--footers_block--></div>
 <?php } ?>
 </footer>
+<div class="footer__extra">
+    <div class="container d-flex flex-wrap">
+        <div class="footer__extra-col">
+            <div class="footer__extra-title"><?php _e('Категорії', 'mdt'); ?></div>
+            <ul>
+                <?php foreach (mdt_top_level_categories() as $mdt_all_cat): ?>
+                    <li><a href="<?php the_permalink($mdt_all_cat); ?>"><?php echo get_the_title($mdt_all_cat); ?></a></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+        <?php $mdt_extra_misc = array(); ?>
+        <?php foreach (mdt_top_level_categories() as $mdt_top_cat): ?>
+            <?php $mdt_top_children = mdt_category_children($mdt_top_cat->ID); ?>
+            <?php if (empty($mdt_top_children)): $mdt_extra_misc[] = $mdt_top_cat; continue; endif; ?>
+            <div class="footer__extra-col">
+                <div class="footer__extra-title"><?php echo get_the_title($mdt_top_cat); ?></div>
+                <ul>
+                    <?php foreach ($mdt_top_children as $mdt_top_child): ?>
+                        <li><a href="<?php the_permalink($mdt_top_child); ?>"><?php echo get_the_title($mdt_top_child); ?></a></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endforeach; ?>
+        <?php if (!empty($mdt_extra_misc)): ?>
+            <div class="footer__extra-col">
+                <div class="footer__extra-title"><?php _e('Інші товари', 'mdt'); ?></div>
+                <ul>
+                    <?php foreach ($mdt_extra_misc as $mdt_misc_cat): ?>
+                        <li><a href="<?php the_permalink($mdt_misc_cat); ?>"><?php echo get_the_title($mdt_misc_cat); ?></a></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endif; ?>
+    </div>
+</div>
 <div class="hidden">
     <div id="thanks-modal" class="modal__custom modal__custom-thanks">
         <a href="#" class="modal__close">
