@@ -1,0 +1,895 @@
+{
+    "_readme": [
+        "Page «Акустичні кабінки» (/category/akustychni-rishennya/akustychni-kabiny/), its products and the Framery and Silen supplier pages. uk written from manufacturer data; ru and en are translations.",
+        "Products and photos: framery.com (product pages, Company page), silen.com (product pages, Our story) and bejot.eu (source per image under \"media\"). Page photo: silen.com.",
+        "Client requests (12.11.2026): «кабіни» → «кабінки» everywhere (uk and ru), Silen added (Chatbox Single, Space Gen 2 Space Meet), brand order Framery → Silen → Bejot, intro sentence and slogan «Тиша, яка змінює продуктивність» as given by the client."
+    ],
+    "media": {
+        "logo-silen": {
+            "file": "logo-silen.svg",
+            "title": "Silen",
+            "source": "https://silen.com/en"
+        },
+        "logo-silen-dark": {
+            "file": "logo-silen-dark.svg",
+            "title": "Silen",
+            "source": "https://silen.com/en (recoloured #343434)"
+        },
+        "silen-office-lounge": {
+            "file": "silen-office-lounge.jpg",
+            "title": "Silen",
+            "source": "https://d2hedgmyj4o0vl.cloudfront.net/assets/64c2c32a671ea63f/67bed7f581680087.jpeg (silen.com, Chatbox gallery)"
+        },
+        "p-silen-chatbox-single-3": {
+            "file": "p-silen-chatbox-single-3.jpg",
+            "title": "Silen Chatbox Single",
+            "source": "Supplied by the client (18.11.2026), replaces p-silen-chatbox-single-1"
+        },
+        "p-silen-chatbox-single-2": {
+            "file": "p-silen-chatbox-single-2.jpg",
+            "title": "Silen Chatbox Single",
+            "source": "https://silen.com/en/products/chatbox/single"
+        },
+        "p-silen-space-meet-1": {
+            "file": "p-silen-space-meet-1.jpg",
+            "title": "Silen Space Meet",
+            "source": "https://silen.com/en/products/space-gen-2/space-meet"
+        },
+        "p-silen-space-meet-2": {
+            "file": "p-silen-space-meet-2.jpg",
+            "title": "Silen Space Meet",
+            "source": "https://silen.com/en/products/space-gen-2/space-meet"
+        },
+        "logo-framery": {
+            "file": "logo-framery.svg",
+            "title": "Framery",
+            "source": "https://www.framery.com/"
+        },
+        "framery-four-office": {
+            "file": "framery-four-office.jpg",
+            "title": "Framery Four",
+            "source": "https://framery.com/wp-content/uploads/2024/12/framery_four-people_office_07_hires-1.jpg"
+        },
+        "p-framery-one-compact-1": {
+            "file": "p-framery-one-compact-1.jpg",
+            "title": "Framery One Compact",
+            "source": "https://www.framery.com/en/products/framery-one-compact"
+        },
+        "p-framery-one-compact-2": {
+            "file": "p-framery-one-compact-2.jpg",
+            "title": "Framery One Compact",
+            "source": "https://www.framery.com/en/products/framery-one-compact"
+        },
+        "p-framery-four-1": {
+            "file": "p-framery-four-1.jpg",
+            "title": "Framery Four",
+            "source": "https://www.framery.com/en/products/framery-four"
+        },
+        "p-framery-four-2": {
+            "file": "p-framery-four-2.jpg",
+            "title": "Framery Four",
+            "source": "https://www.framery.com/en/products/framery-four"
+        },
+        "p-bejot-flathouse-1": {
+            "file": "p-bejot-flathouse-1.jpg",
+            "title": "Bejot Flathouse FH 1T G2",
+            "source": "https://www.bejot.eu/en/product/flathouse-acoustic-booths-for-1-person/model/fh-1t-g2"
+        },
+        "p-bejot-flathouse-2": {
+            "file": "p-bejot-flathouse-2.jpg",
+            "title": "Bejot Flathouse FH 1T G2",
+            "source": "https://www.bejot.eu/en/product/flathouse-acoustic-booths-for-1-person/model/fh-1t-g2"
+        },
+        "p-bejot-treehouse-1": {
+            "file": "p-bejot-treehouse-1.jpg",
+            "title": "Bejot Treehouse TH 4 G2",
+            "source": "https://www.bejot.eu/en/product/treehouse-4-person-acoustic-booths/model/th-4-g2"
+        },
+        "p-bejot-treehouse-2": {
+            "file": "p-bejot-treehouse-2.jpg",
+            "title": "Bejot Treehouse TH 4 G2",
+            "source": "https://www.bejot.eu/en/product/treehouse-4-person-acoustic-booths/model/th-4-g2"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "framery-one-compact",
+                "title": "Framery One Compact"
+            },
+            "thumbnail": "@media:p-framery-one-compact-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Framery One Compact — розумна звукоізольована кабінка на одну людину для телефонних і відеодзвінків. Запатентована акустична конструкція, налаштована на частоти людського мовлення, забезпечує зниження рівня мовлення на 30 дБ — найвищий клас A за ISO 23351-1 для офісних кабінок. Освітлення й вентиляція вмикаються автоматично завдяки радарним датчикам присутності, а сенсорний екран дозволяє бронювати кабінку через корпоративний календар.",
+                    "ru": "Framery One Compact — умная звукоизолированная кабинка на одного человека для телефонных и видеозвонков. Запатентованная акустическая конструкция, настроенная на частоты человеческой речи, обеспечивает снижение уровня речи на 30 дБ — высший класс A по ISO 23351-1 для офисных кабинок. Освещение и вентиляция включаются автоматически благодаря радарным датчикам присутствия, а сенсорный экран позволяет бронировать кабинку через корпоративный календарь.",
+                    "en": "Framery One Compact is a smart, soundproof one-person booth for phone and video calls. A patent-pending acoustic structure tuned to human speech delivers a 30 dB speech level reduction — the top class A rating under ISO 23351-1 for office phone booths. Lighting and ventilation switch on automatically via radar presence sensors, and a touchscreen lets you book the booth through the company calendar."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Клас A за ISO 23351-1</strong> — зниження рівня мовлення на 30 дБ.</li>\n<li><strong>Адаптивна вентиляція</strong> до 36 л/с з датчиками температури й вологості.</li>\n<li><strong>Два LED-джерела 4000K</strong> — режими для відео й роботи.</li>\n<li><strong>8-дюймовий сенсорний екран</strong>, бронювання через календар, індикатори зайнятості.</li>\n<li><strong>Маскування звуку</strong> назовні — розмови в офісі стають менш розбірливими.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Класс A по ISO 23351-1</strong> — снижение уровня речи на 30 дБ.</li>\n<li><strong>Адаптивная вентиляция</strong> до 36 л/с с датчиками температуры и влажности.</li>\n<li><strong>Два LED-источника 4000K</strong> — режимы для видео и работы.</li>\n<li><strong>8-дюймовый сенсорный экран</strong>, бронирование через календарь, индикаторы занятости.</li>\n<li><strong>Маскировка звука</strong> снаружи — разговоры в офисе становятся менее разборчивыми.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Class A under ISO 23351-1</strong> — 30 dB speech level reduction.</li>\n<li><strong>Adaptive ventilation</strong> up to 36 l/s with temperature and humidity sensors.</li>\n<li><strong>Dual 4000K LED lights</strong> with video and work modes.</li>\n<li><strong>8-inch touchscreen</strong>, calendar booking, occupancy lights.</li>\n<li><strong>Sound masking</strong> outside makes office conversations less intelligible.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Framery (Фінляндія)",
+                            "ru": "Framery (Финляндия)",
+                            "en": "Framery (Finland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Місткість",
+                            "ru": "Вместимость",
+                            "en": "Capacity"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "1 людина",
+                            "ru": "1 человек",
+                            "en": "1 person"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Звукоізоляція",
+                            "ru": "Звукоизоляция",
+                            "en": "Sound insulation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "30 дБ, клас A (ISO 23351-1)",
+                            "ru": "30 дБ, класс A (ISO 23351-1)",
+                            "en": "30 dB, class A (ISO 23351-1)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Габарити (В × Ш × Г)",
+                            "ru": "Габариты (В × Ш × Г)",
+                            "en": "Dimensions (H × W × D)"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "225 × 103 × 100 см",
+                            "ru": "225 × 103 × 100 см",
+                            "en": "225 × 103 × 100 cm"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Вентиляція",
+                            "ru": "Вентиляция",
+                            "en": "Ventilation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "до 36 л/с (129,6 м³/год)",
+                            "ru": "до 36 л/с (129,6 м³/ч)",
+                            "en": "up to 36 l/s (129.6 m³/h)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Енергоспоживання",
+                            "ru": "Энергопотребление",
+                            "en": "Power"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "27 Вт",
+                            "ru": "27 Вт",
+                            "en": "27 W"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-framery-one-compact-1",
+                    "@media:p-framery-one-compact-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "framery-four",
+                "title": "Framery Four"
+            },
+            "thumbnail": "@media:p-framery-four-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Framery Four — розумна звукоізольована переговорна кабінка на 1–4 людини для командних зустрічей і гібридної роботи. Як і всі кабінки Framery, вона забезпечує зниження рівня мовлення на 30 дБ (клас A за ISO 23351-1), а вентиляція автоматично підлаштовується під кількість людей, температуру й вологість. Кабінку можна підключити до корпоративного календаря, а в лінійці є версія з підвищеною доступністю.",
+                    "ru": "Framery Four — умная звукоизолированная переговорная кабинка на 1–4 человека для командных встреч и гибридной работы. Как и все кабинки Framery, она обеспечивает снижение уровня речи на 30 дБ (класс A по ISO 23351-1), а вентиляция автоматически подстраивается под количество людей, температуру и влажность. Кабинку можно подключить к корпоративному календарю, а в линейке есть версия с повышенной доступностью.",
+                    "en": "Framery Four is a smart, soundproof meeting pod for 1–4 people, built for team meetings and hybrid work. Like every Framery pod, it delivers a 30 dB speech level reduction (class A under ISO 23351-1), and the ventilation adapts automatically to the number of people, temperature and humidity. It connects to the company calendar, and an accessible version is available."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>1–4 учасники</strong> — заміна невеликої переговорної.</li>\n<li><strong>30 дБ, клас A</strong> за ISO 23351-1.</li>\n<li><strong>Вентиляція до 100 л/с</strong>, що реагує на кількість людей.</li>\n<li><strong>Сенсорний екран і календар</strong> — бронювання та продовження зустрічей.</li>\n<li><strong>Опції</strong>: кронштейн для монітора, зовнішня дошка, версія з доступністю.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>1–4 участника</strong> — замена небольшой переговорной.</li>\n<li><strong>30 дБ, класс A</strong> по ISO 23351-1.</li>\n<li><strong>Вентиляция до 100 л/с</strong>, реагирующая на количество людей.</li>\n<li><strong>Сенсорный экран и календарь</strong> — бронирование и продление встреч.</li>\n<li><strong>Опции</strong>: кронштейн для монитора, внешняя доска, версия с доступностью.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>1–4 people</strong> — replaces a small meeting room.</li>\n<li><strong>30 dB, class A</strong> under ISO 23351-1.</li>\n<li><strong>Ventilation up to 100 l/s</strong> that responds to occupancy.</li>\n<li><strong>Touchscreen and calendar</strong> for booking and extending meetings.</li>\n<li><strong>Options</strong>: monitor arm, external whiteboard, accessible version.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Framery (Фінляндія)",
+                            "ru": "Framery (Финляндия)",
+                            "en": "Framery (Finland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Місткість",
+                            "ru": "Вместимость",
+                            "en": "Capacity"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "1–4 людини",
+                            "ru": "1–4 человека",
+                            "en": "1–4 people"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Звукоізоляція",
+                            "ru": "Звукоизоляция",
+                            "en": "Sound insulation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "30 дБ, клас A (ISO 23351-1)",
+                            "ru": "30 дБ, класс A (ISO 23351-1)",
+                            "en": "30 dB, class A (ISO 23351-1)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Габарити (В × Ш × Г)",
+                            "ru": "Габариты (В × Ш × Г)",
+                            "en": "Dimensions (H × W × D)"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "232,9 × 235,2 × 129,2 см",
+                            "ru": "232,9 × 235,2 × 129,2 см",
+                            "en": "232.9 × 235.2 × 129.2 cm"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Вентиляція",
+                            "ru": "Вентиляция",
+                            "en": "Ventilation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "до 100 л/с (360,2 м³/год)",
+                            "ru": "до 100 л/с (360,2 м³/ч)",
+                            "en": "up to 100 l/s (360.2 m³/h)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Енергоспоживання",
+                            "ru": "Энергопотребление",
+                            "en": "Power"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "52 Вт",
+                            "ru": "52 Вт",
+                            "en": "52 W"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-framery-four-1",
+                    "@media:p-framery-four-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "silen-chatbox-single",
+                "title": "Silen Chatbox Single"
+            },
+            "thumbnail": "@media:p-silen-chatbox-single-3",
+            "acf": {
+                "p__descr": {
+                    "uk": "Silen Chatbox Single — класична офісна телефонна кабінка на одну людину для дзвінків і онлайн-зустрічей. Лінійка Chatbox зберігає ключові переваги кабінок Silen — тишу, комфорт і якість, але розрахована на скромніший бюджет. Кабінку швидко збирають і легко переносять на нове місце, а оздоблення можна підібрати під інтер’єр.",
+                    "ru": "Silen Chatbox Single — классическая офисная телефонная кабинка на одного человека для звонков и онлайн-встреч. Линейка Chatbox сохраняет ключевые преимущества кабинок Silen — тишину, комфорт и качество, но рассчитана на более скромный бюджет. Кабинку быстро собирают и легко переносят на новое место, а отделку можно подобрать под интерьер.",
+                    "en": "Silen Chatbox Single is a classic one-person office phone booth for calls and online meetings. The Chatbox range keeps Silen’s essential strengths — quiet, comfort and quality — at a more modest budget. It assembles quickly, moves easily and can be finished to suit the interior."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Клас B за ISO 23351-1</strong> — зниження рівня мовлення на 27,3 дБ.</li>\n<li><strong>Доступна ціна</strong> без компромісів у якості.</li>\n<li><strong>Швидкий монтаж</strong> і легке перенесення.</li>\n<li><strong>Сертифікати</strong>: якість повітря (низькі викиди VOC), маркування CE, TÜV Nord, UL 962.</li>\n<li><strong>Сталий дизайн</strong> — розрахована на 20+ років служби.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Класс B по ISO 23351-1</strong> — снижение уровня речи на 27,3 дБ.</li>\n<li><strong>Доступная цена</strong> без компромиссов в качестве.</li>\n<li><strong>Быстрый монтаж</strong> и легкий перенос.</li>\n<li><strong>Сертификаты</strong>: качество воздуха (низкие выбросы VOC), маркировка CE, TÜV Nord, UL 962.</li>\n<li><strong>Устойчивый дизайн</strong> — рассчитана на 20+ лет службы.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Class B under ISO 23351-1</strong> — 27.3 dB speech level reduction.</li>\n<li><strong>An accessible price</strong> without compromising on quality.</li>\n<li><strong>Quick assembly</strong> and easy relocation.</li>\n<li><strong>Certified</strong>: indoor air quality (low VOC), CE marking, TÜV Nord, UL 962.</li>\n<li><strong>Sustainable design</strong> — built to last 20+ years.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Silen (Естонія)",
+                            "ru": "Silen (Эстония)",
+                            "en": "Silen (Estonia)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Місткість",
+                            "ru": "Вместимость",
+                            "en": "Capacity"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "1 людина",
+                            "ru": "1 человек",
+                            "en": "1 person"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Звукоізоляція",
+                            "ru": "Звукоизоляция",
+                            "en": "Sound insulation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "27,3 дБ, клас B (ISO 23351-1)",
+                            "ru": "27,3 дБ, класс B (ISO 23351-1)",
+                            "en": "27.3 dB, class B (ISO 23351-1)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Зовнішні розміри (Ш × Г × В)",
+                            "ru": "Внешние размеры (Ш × Г × В)",
+                            "en": "Exterior (W × D × H)"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "100 × 100 × 222 см",
+                            "ru": "100 × 100 × 222 см",
+                            "en": "100 × 100 × 222 cm"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Внутрішні розміри (Ш × Г × В)",
+                            "ru": "Внутренние размеры (Ш × Г × В)",
+                            "en": "Interior (W × D × H)"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "87 × 98 × 204 см",
+                            "ru": "87 × 98 × 204 см",
+                            "en": "87 × 98 × 204 cm"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Вага",
+                            "ru": "Вес",
+                            "en": "Weight"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "330 кг",
+                            "ru": "330 кг",
+                            "en": "330 kg"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-silen-chatbox-single-3",
+                    "@media:p-silen-chatbox-single-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "silen-space-meet",
+                "title": "Silen Space Meet"
+            },
+            "thumbnail": "@media:p-silen-space-meet-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Silen Space Meet — переговорна кабінка нового покоління Space Gen 2 для зустрічей віч-на-віч, співбесід і розмов, яким потрібні зачинені двері. Розрахована на 1–4 людини, найкомфортніше — на двох. Колекцію Space Gen 2 розробили інженери разом із дизайнерами, відзначеними Red Dot; вона отримала German Design Award 2027 і Best of NeoCon 2026. У незалежних тестах за ISO 23351-1 моделі Space Gen 2 показали клас A зниження рівня мовлення.",
+                    "ru": "Silen Space Meet — переговорная кабинка нового поколения Space Gen 2 для встреч один на один, собеседований и разговоров, которым нужна закрытая дверь. Рассчитана на 1–4 человека, комфортнее всего — на двоих. Коллекцию Space Gen 2 разработали инженеры вместе с дизайнерами, отмеченными Red Dot; она получила German Design Award 2027 и Best of NeoCon 2026. В независимых тестах по ISO 23351-1 модели Space Gen 2 показали класс A снижения уровня речи.",
+                    "en": "Silen Space Meet is a next-generation Space Gen 2 meeting booth for one-to-one meetings, interviews and conversations that need a closed door. It seats 1–4 people and is most comfortable for two. Space Gen 2 was developed by engineers with Red Dot-recognised designers and won the German Design Award 2027 and Best of NeoCon 2026. In independent ISO 23351-1 tests, Space Gen 2 models achieved class A speech level reduction."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Клас A за ISO 23351-1</strong> — звукоізоляція закладена в саму конструкцію.</li>\n<li><strong>Більший повітрообмін</strong> і сценарії освітлення з м’яким фоновим світлом.</li>\n<li><strong>Модульна система</strong>: легко перенести, змонтувати повторно й модернізувати.</li>\n<li><strong>Змінні оболонки Silen Dynamics</strong>: порошкове фарбування в 11 кольорах, шпон дуба або оббивка.</li>\n<li><strong>Сталий дизайн</strong>: ключові компоненти замінюються окремо, матеріали придатні до переробки.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Класс A по ISO 23351-1</strong> — звукоизоляция заложена в саму конструкцию.</li>\n<li><strong>Больший воздухообмен</strong> и сценарии освещения с мягкой фоновой подсветкой.</li>\n<li><strong>Модульная система</strong>: легко перенести, смонтировать повторно и модернизировать.</li>\n<li><strong>Сменные оболочки Silen Dynamics</strong>: порошковая покраска в 11 цветах, шпон дуба или обивка.</li>\n<li><strong>Устойчивый дизайн</strong>: ключевые компоненты заменяются отдельно, материалы пригодны к переработке.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Class A under ISO 23351-1</strong> — acoustics built into the structure.</li>\n<li><strong>Higher airflow</strong> and lighting scenes with soft ambient light.</li>\n<li><strong>Modular system</strong>: easy to relocate, reinstall and upgrade.</li>\n<li><strong>Swappable Silen Dynamics skins</strong>: powder coat in 11 colours, oak veneer or upholstery.</li>\n<li><strong>Sustainable design</strong>: key components replaced individually, recyclable materials.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Silen (Естонія)",
+                            "ru": "Silen (Эстония)",
+                            "en": "Silen (Estonia)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Місткість",
+                            "ru": "Вместимость",
+                            "en": "Capacity"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "1–4 людини, оптимально — 2",
+                            "ru": "1–4 человека, оптимально — 2",
+                            "en": "1–4 people, ideally 2"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Звукоізоляція",
+                            "ru": "Звукоизоляция",
+                            "en": "Sound insulation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "клас A (ISO 23351-1, тести моделей Space Gen 2)",
+                            "ru": "класс A (ISO 23351-1, тесты моделей Space Gen 2)",
+                            "en": "class A (ISO 23351-1, Space Gen 2 tests)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Зовнішні розміри (Ш × Г × В)",
+                            "ru": "Внешние размеры (Ш × Г × В)",
+                            "en": "Exterior (W × D × H)"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "238 × 111 × 231 см",
+                            "ru": "238 × 111 × 231 см",
+                            "en": "238 × 111 × 231 cm"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Внутрішні розміри (Ш × Г × В)",
+                            "ru": "Внутренние размеры (Ш × Г × В)",
+                            "en": "Interior (W × D × H)"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "223 × 104,5 × 208 см",
+                            "ru": "223 × 104,5 × 208 см",
+                            "en": "223 × 104.5 × 208 cm"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Вага",
+                            "ru": "Вес",
+                            "en": "Weight"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "556 кг",
+                            "ru": "556 кг",
+                            "en": "556 kg"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-silen-space-meet-1",
+                    "@media:p-silen-space-meet-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-flathouse-fh-1t-g2",
+                "title": "Bejot Flathouse FH 1T G2"
+            },
+            "thumbnail": "@media:p-bejot-flathouse-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Flathouse — акустичні кабінки Bejot з мінімалістичною компактною формою та пласким дахом, які легко вписуються і в open space, і в тихі зони. Кабінка FH 1 на одну людину знижує рівень мовлення на 31 дБ (клас A). Зовнішні панелі заповнені акустичним волокном, тож кабінка ще й поглинає шум у самому офісі. Вентиляція з датчиком руху працює ще три хвилини після виходу користувача.",
+                    "ru": "Flathouse — акустические кабинки Bejot с минималистичной компактной формой и плоской крышей, которые легко вписываются и в open space, и в тихие зоны. Кабинка FH 1 на одного человека снижает уровень речи на 31 дБ (класс A). Внешние панели заполнены акустическим волокном, поэтому кабинка еще и поглощает шум в самом офисе. Вентиляция с датчиком движения работает еще три минуты после выхода пользователя.",
+                    "en": "Flathouse acoustic booths by Bejot have a minimalist, compact form with a flat roof that fits easily into open-plan spaces and quiet zones alike. The one-person FH 1 reduces speech levels by 31 dB (class A). Its exterior panels are filled with acoustic fibre, so the booth also absorbs noise in the office around it. Motion-sensor ventilation keeps running for three minutes after the user leaves."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>31 дБ, клас A</strong> — зниження рівня мовлення.</li>\n<li><strong>Сенсорна панель</strong> для керування світлом і вентиляцією.</li>\n<li><strong>Медіапорт і індукційна зарядка</strong> — опції, розміщені під рукою.</li>\n<li><strong>Транспортні колеса</strong> — кабінку легко переставити.</li>\n<li><strong>17 тканин у 600+ кольорах</strong>; дубові зовнішні панелі — опція.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>31 дБ, класс A</strong> — снижение уровня речи.</li>\n<li><strong>Сенсорная панель</strong> для управления светом и вентиляцией.</li>\n<li><strong>Медиапорт и индукционная зарядка</strong> — опции, размещенные под рукой.</li>\n<li><strong>Транспортные колеса</strong> — кабинку легко переставить.</li>\n<li><strong>17 тканей в 600+ цветах</strong>; дубовые внешние панели — опция.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>31 dB, class A</strong> speech level reduction.</li>\n<li><strong>Touch panel</strong> for lighting and ventilation.</li>\n<li><strong>Media port and wireless charger</strong> options placed within reach.</li>\n<li><strong>Built-in transport wheels</strong> for easy repositioning.</li>\n<li><strong>17 fabrics in 600+ colours</strong>; oak exterior panels optional.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Місткість",
+                            "ru": "Вместимость",
+                            "en": "Capacity"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "1 людина (у колекції — кабінки на 2, 4 і 6 осіб)",
+                            "ru": "1 человек (в коллекции — кабинки на 2, 4 и 6 человек)",
+                            "en": "1 person (2-, 4- and 6-person booths in the collection)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Звукоізоляція",
+                            "ru": "Звукоизоляция",
+                            "en": "Sound insulation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "31 дБ, клас A",
+                            "ru": "31 дБ, класс A",
+                            "en": "31 dB, class A"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "метал, чорне порошкове фарбування; скло з акустичною плівкою",
+                            "ru": "металл, черная порошковая покраска; стекло с акустической пленкой",
+                            "en": "black powder-coated metal; glass with acoustic film"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Вентиляція",
+                            "ru": "Вентиляция",
+                            "en": "Ventilation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "з датчиком руху, LED-освітлення з регулюванням яскравості",
+                            "ru": "с датчиком движения, LED-освещение с регулировкой яркости",
+                            "en": "motion-sensor controlled; dimmable LED lighting"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-flathouse-1",
+                    "@media:p-bejot-flathouse-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-treehouse-th-4-g2",
+                "title": "Bejot Treehouse TH 4 G2"
+            },
+            "thumbnail": "@media:p-bejot-treehouse-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Treehouse — акустичні кабінки Bejot, що формою нагадують будиночок на дереві: затишні й безпечні, але дуже функціональні. Чотиримісна TH 4 створює закритий звукоізольований простір для зустрічей у галасливому офісі чи громадському просторі та може замінити переговорну. Звукоізоляція розрахована так, щоб глушити відволікаючий шум, але не сигнали безпеки, як-от пожежну тривогу.",
+                    "ru": "Treehouse — акустические кабинки Bejot, которые формой напоминают домик на дереве: уютные и безопасные, но очень функциональные. Четырехместная TH 4 создает закрытое звукоизолированное пространство для встреч в шумном офисе или общественном пространстве и может заменить переговорную. Звукоизоляция рассчитана так, чтобы глушить отвлекающий шум, но не сигналы безопасности, например пожарную тревогу.",
+                    "en": "Treehouse acoustic booths by Bejot are shaped like a treehouse: cosy and safe, yet highly functional. The four-person TH 4 creates an enclosed, soundproofed space for meetings in a noisy office or public area and can replace a meeting room. The insulation is designed to block distracting noise without muffling safety signals such as a fire alarm."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>4 місця</strong> — стіл або диван усередині.</li>\n<li><strong>Медіапорт 230 В, USB і HDMI</strong>; можливе кріплення телевізора.</li>\n<li><strong>Тиха вентиляція</strong> з сенсорною панеллю й датчиком руху.</li>\n<li><strong>Зовнішні панелі</strong>: оббиті (додатково поглинають шум) або дерев’яні.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>4 места</strong> — стол или диван внутри.</li>\n<li><strong>Медиапорт 230 В, USB и HDMI</strong>; возможно крепление телевизора.</li>\n<li><strong>Тихая вентиляция</strong> с сенсорной панелью и датчиком движения.</li>\n<li><strong>Внешние панели</strong>: обитые (дополнительно поглощают шум) или деревянные.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>4 seats</strong> — table or sofa inside.</li>\n<li><strong>Media port with 230 V, USB and HDMI</strong>; TV mounting possible.</li>\n<li><strong>Quiet ventilation</strong> with touch panel and motion sensor.</li>\n<li><strong>Exterior panels</strong>: upholstered (extra sound absorption) or wooden.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Місткість",
+                            "ru": "Вместимость",
+                            "en": "Capacity"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "4 людини (у колекції — кабінки на 1, 2 і 6 осіб)",
+                            "ru": "4 человека (в коллекции — кабинки на 1, 2 и 6 человек)",
+                            "en": "4 people (1-, 2- and 6-person booths in the collection)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "метал, чорний або білий; скло з акустичною плівкою",
+                            "ru": "металл, черный или белый; стекло с акустической пленкой",
+                            "en": "black or white metal; glass with acoustic film"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Медіа",
+                            "ru": "Медиа",
+                            "en": "Media"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "230 В, USB, HDMI; панель для ТВ",
+                            "ru": "230 В, USB, HDMI; панель для ТВ",
+                            "en": "230 V, USB, HDMI; TV panel"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Опції",
+                            "ru": "Опции",
+                            "en": "Options"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "замок, стіл або диван, ліве відкривання дверей",
+                            "ru": "замок, стол или диван, левое открывание двери",
+                            "en": "lock, table or sofa, left-hand door"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-treehouse-1",
+                    "@media:p-bejot-treehouse-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "framery",
+                "title": "Framery"
+            },
+            "thumbnail": "@media:framery-four-office",
+            "acf": {
+                "sp__logo": "@media:logo-framery",
+                "sp__logo-dark": "@media:logo-framery",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p>Framery — фінська компанія, піонер і світовий лідер у розробці та виробництві звукоізольованих кабінок (подів) для офісів. Компанію засновано у 2010 році в Тампере, де й сьогодні розташовані штаб-квартира та виробництво.</p>\n<ul>\n<li><strong>Понад 110 000 кабінок</strong> поставлено клієнтам у 104 країнах.</li>\n<li><strong>Близько 70% компаній зі списку Forbes Top 100</strong> користуються кабінками Framery.</li>\n<li><strong>Розумні кабінки</strong>: клас A за ISO 23351-1, датчики присутності, адаптивна вентиляція, бронювання через календар і платформа Framery Connect для аналітики завантаженості.</li>\n<li><strong>Сталий розвиток</strong>: золота медаль EcoVadis (2024), екологічні декларації продукції (EPD).</li>\n<li><strong>Нагороди</strong>: Red Dot, Best of NeoCon, GOOD DESIGN та інші.</li>\n</ul>",
+                            "ru": "<p>Framery — финская компания, пионер и мировой лидер в разработке и производстве звукоизолированных кабинок (подов) для офисов. Компания основана в 2010 году в Тампере, где и сегодня находятся штаб-квартира и производство.</p>\n<ul>\n<li><strong>Более 110 000 кабинок</strong> поставлено клиентам в 104 странах.</li>\n<li><strong>Около 70% компаний из списка Forbes Top 100</strong> пользуются кабинками Framery.</li>\n<li><strong>Умные кабинки</strong>: класс A по ISO 23351-1, датчики присутствия, адаптивная вентиляция, бронирование через календарь и платформа Framery Connect для аналитики загруженности.</li>\n<li><strong>Устойчивое развитие</strong>: золотая медаль EcoVadis (2024), экологические декларации продукции (EPD).</li>\n<li><strong>Награды</strong>: Red Dot, Best of NeoCon, GOOD DESIGN и другие.</li>\n</ul>",
+                            "en": "<p>Framery is a Finnish company and the pioneer and global leader in engineering and manufacturing soundproof office pods. It was founded in 2010 in Tampere, where its headquarters and production remain today.</p>\n<ul>\n<li><strong>More than 110,000 pods</strong> delivered to customers in 104 countries.</li>\n<li><strong>Around 70% of Forbes Top 100 companies</strong> use Framery pods.</li>\n<li><strong>Smart pods</strong>: class A under ISO 23351-1, presence sensors, adaptive ventilation, calendar booking and the Framery Connect platform for occupancy insights.</li>\n<li><strong>Sustainability</strong>: EcoVadis Gold Medal (2024) and Environmental Product Declarations (EPD).</li>\n<li><strong>Awards</strong>: Red Dot, Best of NeoCon, GOOD DESIGN and more.</li>\n</ul>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:framery-one-compact",
+                            "@product:framery-four"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "silen",
+                "title": "Silen"
+            },
+            "thumbnail": "@media:silen-office-lounge",
+            "acf": {
+                "sp__logo": "@media:logo-silen",
+                "sp__logo-dark": "@media:logo-silen-dark",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p>Silen — естонський виробник акустичних кабінок для офісів. Компанія виділилася у 2018 році з виробника перегородок Wallenium і спирається на понад 20 років досвіду в акустиці. Silen створює не просто кабінки, а простори для зосередження: з хорошою якістю повітря, акустикою, ергономікою та безпечними матеріалами.</p>\n<ul>\n<li><strong>Присутність майже в 60 країнах</strong> на шести континентах, понад 300 дилерів.</li>\n<li><strong>Кабінкам Silen довіряють компанії зі списку Fortune 500</strong>; найбільше разове замовлення — понад 1 300 кабінок.</li>\n<li><strong>Три лінійки</strong>: флагманська Space Gen 2, преміальна Space Classic і доступна Chatbox — від телефонних кабінок до переговорних на 8 осіб.</li>\n<li><strong>Модульність</strong>: змінні оболонки, оздоблення й меблі, приховані колеса, повторний монтаж.</li>\n<li><strong>Нагороди</strong>: дві поспіль Innovation Awards на NeoCon, Archiproducts Design Award, German Design Award 2027.</li>\n</ul>",
+                            "ru": "<p>Silen — эстонский производитель акустических кабинок для офисов. Компания выделилась в 2018 году из производителя перегородок Wallenium и опирается на более чем 20 лет опыта в акустике. Silen создает не просто кабинки, а пространства для сосредоточения: с хорошим качеством воздуха, акустикой, эргономикой и безопасными материалами.</p>\n<ul>\n<li><strong>Присутствие почти в 60 странах</strong> на шести континентах, более 300 дилеров.</li>\n<li><strong>Кабинкам Silen доверяют компании из списка Fortune 500</strong>; самый крупный разовый заказ — более 1 300 кабинок.</li>\n<li><strong>Три линейки</strong>: флагманская Space Gen 2, премиальная Space Classic и доступная Chatbox — от телефонных кабинок до переговорных на 8 человек.</li>\n<li><strong>Модульность</strong>: сменные оболочки, отделка и мебель, скрытые колеса, повторный монтаж.</li>\n<li><strong>Награды</strong>: две подряд Innovation Awards на NeoCon, Archiproducts Design Award, German Design Award 2027.</li>\n</ul>",
+                            "en": "<p>Silen is an Estonian maker of acoustic office booths. Spun off from partition-wall maker Wallenium in 2018, it draws on more than 20 years of acoustic expertise. Silen designs spaces to focus rather than just pods, with attention to air quality, acoustics, ergonomics and safe materials.</p>\n<ul>\n<li><strong>Present in nearly 60 countries</strong> on six continents, with 300+ dealers.</li>\n<li><strong>Trusted by Fortune 500 companies</strong>; the largest single order exceeded 1,300 units.</li>\n<li><strong>Three ranges</strong>: flagship Space Gen 2, premium Space Classic and the accessible Chatbox — from phone booths to meeting pods for 8.</li>\n<li><strong>Modular</strong>: swappable skins, finishes and furniture, hidden wheels, repeat installation.</li>\n<li><strong>Awards</strong>: two consecutive NeoCon Innovation Awards, Archiproducts Design Award, German Design Award 2027.</li>\n</ul>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:silen-chatbox-single",
+                            "@product:silen-space-meet"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "target": "category:akustychni-rishennya/akustychni-kabiny",
+            "thumbnail": "@media:silen-office-lounge",
+            "thumbnail_alt": {
+                "uk": "Переговорна акустична кабінка Silen в офісі",
+                "ru": "Переговорная акустическая кабинка Silen в офисе",
+                "en": "Silen meeting booth in an office"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Акустичні кабінки для офісу — Framery, Silen, Bejot | MDT",
+                    "ru": "Акустические кабинки для офиса — Framery, Silen, Bejot | MDT",
+                    "en": "Office acoustic booths and meeting pods — Framery, Silen, Bejot | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Звукоізольовані кабінки для дзвінків, відеозустрічей і зосередженої роботи на 1–6 осіб: Framery, Silen, Bejot Flathouse і Treehouse. Клас A за ISO 23351-1. Підбір і монтаж — MDT.",
+                    "ru": "Звукоизолированные кабинки для звонков, видеовстреч и сосредоточенной работы на 1–6 человек: Framery, Silen, Bejot Flathouse и Treehouse. Класс A по ISO 23351-1. Подбор и монтаж — MDT.",
+                    "en": "Soundproof booths for calls, video meetings and focused work for 1–6 people: Framery, Silen, Bejot Flathouse and Treehouse. Class A under ISO 23351-1. Selection and installation by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Акустичні кабінки для офісу",
+                    "ru": "Акустические кабинки для офиса",
+                    "en": "Acoustic booths for the office"
+                },
+                "lp__intro": {
+                    "uk": "<p class=\"lp__slogan\">Тиша, яка змінює продуктивність.</p>\n\nВ open space дзвінки й відеозустрічі заважають колегам, а переговорних завжди бракує. <strong>Акустичні кабінки</strong> вирішують обидві проблеми: це <strong>звукоізольовані простори на 1–6 осіб</strong> з вентиляцією, світлом і живленням, які встановлюються за кілька годин без будівельних робіт і переїжджають разом з офісом.\n\nМДТ пропонує <strong>акустичні кабінки Framery, Silen та Bejot</strong>: від приватних телефонних кабінок до комфортних переговорних просторів для команд.",
+                    "ru": "<p class=\"lp__slogan\">Тишина, которая меняет продуктивность.</p>\n\nВ open space звонки и видеовстречи мешают коллегам, а переговорных всегда не хватает. <strong>Акустические кабинки</strong> решают обе проблемы: это <strong>звукоизолированные пространства на 1–6 человек</strong> с вентиляцией, светом и питанием, которые устанавливаются за несколько часов без строительных работ и переезжают вместе с офисом.\n\nМДТ предлагает <strong>акустические кабинки Framery, Silen и Bejot</strong>: от приватных телефонных кабинок до комфортных переговорных пространств для команд.",
+                    "en": "<p class=\"lp__slogan\">Silence that transforms productivity.</p>\n\nIn an open-plan office, calls and video meetings disturb colleagues, and there are never enough meeting rooms. <strong>Acoustic booths</strong> solve both: they are <strong>soundproof spaces for 1–6 people</strong> with ventilation, lighting and power that install in a few hours with no construction work and move with the office.\n\nMDT offers <strong>Framery, Silen and Bejot acoustic booths</strong>: from private phone booths to comfortable meeting spaces for teams."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі кабінок",
+                    "ru": "Модели кабинок",
+                    "en": "Booth models"
+                },
+                "lp__products": [
+                    "@product:framery-one-compact",
+                    "@product:framery-four",
+                    "@product:silen-chatbox-single",
+                    "@product:silen-space-meet",
+                    "@product:bejot-flathouse-fh-1t-g2",
+                    "@product:bejot-treehouse-th-4-g2"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@suppliers:framery",
+                    "@suppliers:silen",
+                    "@suppliers:bejot"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:ofis-mizhnarodnoyi-mediakompaniyi",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Кабінка Framery",
+                            "ru": "Кабинка Framery",
+                            "en": "Framery booth"
+                        },
+                        "lp__proj-area": {
+                            "uk": "920 м²",
+                            "ru": "920 м²",
+                            "en": "920 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати акустичну кабінку</h2>\n<p>Кабінку обирають за сценарієм використання: короткі дзвінки, відеозустрічі, зосереджена робота чи командні наради. Від цього залежать розмір, оснащення й кількість кабінок.</p>\n<h3>Розмір: на скільки людей</h3>\n<ul>\n<li><strong>1 людина</strong> — телефонні та відеодзвінки, зосереджена робота (Framery One Compact, Silen Chatbox Single, Bejot Flathouse FH 1).</li>\n<li><strong>2–4 людини</strong> — короткі зустрічі, співбесіди, мозкові штурми (Framery Four, Silen Space Meet, Bejot Treehouse TH 4).</li>\n<li><strong>До 6 людей</strong> — заміна невеликої переговорної.</li>\n</ul>\n<h3>Звукоізоляція: клас A за ISO 23351-1</h3>\n<p>Стандарт ISO 23351-1 визначає, наскільки кабінка знижує рівень мовлення. Клас A — найвищий: кабінки Framery знижують рівень мовлення на 30 дБ, моделі Silen Space Gen 2 мають клас A, Bejot Flathouse FH 1 — 31 дБ. Для дзвінків у менш шумних зонах достатньо й класу B, як у доступнішої Silen Chatbox Single (27,3 дБ). Порівнюйте кабінки саме за цим показником, а не лише за товщиною стін.</p>\n<h3>Вентиляція, світло й живлення</h3>\n<p>Зручною кабінка буде лише з достатньою вентиляцією, рівним світлом для відеодзвінків і розетками під рукою. Сучасні моделі вмикають вентиляцію та світло автоматично за датчиком присутності й провітрюють кабінку після виходу користувача.</p>\n<h3>Скільки кабінок потрібно</h3>\n<p>Орієнтовно — одна кабінка на одну людину на кожні 10–15 співробітників в open space; для команд, які багато працюють у відеозустрічах, — більше. Ставте кабінки ближче до робочих місць, але не впритул до проходів.</p>\n<h3>Кабінки та акустика офісу</h3>\n<p>Кабінки ізолюють розмови всередині, але не знижують загальний шум у приміщенні. Для комфортного open space поєднуйте їх зі стіновими та стельовими акустичними панелями й килимовим покриттям — MDT підбере рішення комплексно.</p>",
+                            "ru": "<h2>Как выбрать акустическую кабинку</h2>\n<p>Кабинку выбирают по сценарию использования: короткие звонки, видеовстречи, сосредоточенная работа или командные совещания. От этого зависят размер, оснащение и количество кабинок.</p>\n<h3>Размер: на сколько человек</h3>\n<ul>\n<li><strong>1 человек</strong> — телефонные и видеозвонки, сосредоточенная работа (Framery One Compact, Silen Chatbox Single, Bejot Flathouse FH 1).</li>\n<li><strong>2–4 человека</strong> — короткие встречи, собеседования, мозговые штурмы (Framery Four, Silen Space Meet, Bejot Treehouse TH 4).</li>\n<li><strong>До 6 человек</strong> — замена небольшой переговорной.</li>\n</ul>\n<h3>Звукоизоляция: класс A по ISO 23351-1</h3>\n<p>Стандарт ISO 23351-1 определяет, насколько кабинка снижает уровень речи. Класс A — высший: кабинки Framery снижают уровень речи на 30 дБ, модели Silen Space Gen 2 имеют класс A, Bejot Flathouse FH 1 — 31 дБ. Для звонков в менее шумных зонах достаточно и класса B, как у более доступной Silen Chatbox Single (27,3 дБ). Сравнивайте кабинки именно по этому показателю, а не только по толщине стен.</p>\n<h3>Вентиляция, свет и питание</h3>\n<p>Удобной кабинка будет только с достаточной вентиляцией, ровным светом для видеозвонков и розетками под рукой. Современные модели включают вентиляцию и свет автоматически по датчику присутствия и проветривают кабинку после выхода пользователя.</p>\n<h3>Сколько кабинок нужно</h3>\n<p>Ориентировочно — одна кабинка на одного человека на каждые 10–15 сотрудников в open space; для команд, которые много работают в видеовстречах, — больше. Ставьте кабинки ближе к рабочим местам, но не вплотную к проходам.</p>\n<h3>Кабинки и акустика офиса</h3>\n<p>Кабинки изолируют разговоры внутри, но не снижают общий шум в помещении. Для комфортного open space сочетайте их со стеновыми и потолочными акустическими панелями и ковровым покрытием — MDT подберет решения комплексно.</p>",
+                            "en": "<h2>How to choose an acoustic booth</h2>\n<p>Choose a booth by how it will be used: quick calls, video meetings, focused work or team meetings. That determines size, equipment and how many booths you need.</p>\n<h3>Size: how many people</h3>\n<ul>\n<li><strong>1 person</strong> — phone and video calls, focused work (Framery One Compact, Silen Chatbox Single, Bejot Flathouse FH 1).</li>\n<li><strong>2–4 people</strong> — short meetings, interviews, brainstorms (Framery Four, Silen Space Meet, Bejot Treehouse TH 4).</li>\n<li><strong>Up to 6 people</strong> — a replacement for a small meeting room.</li>\n</ul>\n<h3>Sound insulation: class A under ISO 23351-1</h3>\n<p>ISO 23351-1 measures how much a booth reduces speech levels. Class A is the highest: Framery pods reduce speech levels by 30 dB, Silen Space Gen 2 models are class A and the Bejot Flathouse FH 1 reaches 31 dB. For calls in quieter zones, class B is enough — as in the more affordable Silen Chatbox Single (27.3 dB). Compare booths on this figure, not just wall thickness.</p>\n<h3>Ventilation, light and power</h3>\n<p>A booth is only comfortable with enough ventilation, even light for video calls and sockets within reach. Modern models switch ventilation and lighting on automatically with a presence sensor and air the booth out after the user leaves.</p>\n<h3>How many booths you need</h3>\n<p>As a rough guide, one single-person booth for every 10–15 people in an open-plan office — more for teams that spend a lot of time in video meetings. Place booths close to workstations but not right against walkways.</p>\n<h3>Booths and office acoustics</h3>\n<p>Booths keep conversations inside but do not lower overall noise in the room. For a comfortable open space, combine them with wall and ceiling acoustic panels and carpet — MDT selects these together.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи потрібен дозвіл або будівельні роботи для встановлення кабінки?",
+                            "ru": "Нужно ли разрешение или строительные работы для установки кабинки?",
+                            "en": "Does installing a booth require permits or construction work?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Ні. Акустична кабінка — це меблі: її збирають на місці за кілька годин без будівельних робіт, а для живлення достатньо звичайної розетки. Кабінку можна переставити або перевезти в новий офіс.",
+                            "ru": "Нет. Акустическая кабинка — это мебель: ее собирают на месте за несколько часов без строительных работ, а для питания достаточно обычной розетки. Кабинку можно переставить или перевезти в новый офис.",
+                            "en": "No. An acoustic booth is furniture: it is assembled on site in a few hours with no construction work, and a standard socket is enough for power. It can be moved or taken to a new office."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Наскільки добре кабінка ізолює звук?",
+                            "ru": "Насколько хорошо кабинка изолирует звук?",
+                            "en": "How well does a booth block sound?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Звукоізоляцію кабінок вимірюють за стандартом ISO 23351-1. Кабінки класу A, як Framery One Compact і Framery Four (30 дБ), Silen Space Meet чи Bejot Flathouse FH 1 (31 дБ), знижують рівень мовлення настільки, що розмову всередині зовні майже не чути.",
+                            "ru": "Звукоизоляцию кабинок измеряют по стандарту ISO 23351-1. Кабинки класса A, как Framery One Compact и Framery Four (30 дБ), Silen Space Meet или Bejot Flathouse FH 1 (31 дБ), снижают уровень речи настолько, что разговор внутри снаружи почти не слышен.",
+                            "en": "Booth sound insulation is measured under ISO 23351-1. Class A booths such as Framery One Compact and Framery Four (30 dB), Silen Space Meet or Bejot Flathouse FH 1 (31 dB) reduce speech levels so much that a conversation inside is barely audible outside."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи не буде в кабінці душно?",
+                            "ru": "Не будет ли в кабинке душно?",
+                            "en": "Won’t it get stuffy inside?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Ні. Кабінки мають вбудовану вентиляцію, що вмикається автоматично, коли людина заходить. У Framery повітрообмін додатково підлаштовується під температуру, вологість і кількість людей, а Bejot Flathouse провітрює кабінку ще три хвилини після виходу користувача.",
+                            "ru": "Нет. Кабинки имеют встроенную вентиляцию, которая включается автоматически, когда человек заходит. У Framery воздухообмен дополнительно подстраивается под температуру, влажность и количество людей, а Bejot Flathouse проветривает кабинку еще три минуты после выхода пользователя.",
+                            "en": "No. Booths have built-in ventilation that starts automatically when someone enters. Framery pods also adjust airflow to temperature, humidity and occupancy, and Bejot Flathouse keeps ventilating for three minutes after the user leaves."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Скільки кабінок потрібно для офісу?",
+                            "ru": "Сколько кабинок нужно для офиса?",
+                            "en": "How many booths does an office need?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Орієнтовно одна кабінка на одну людину на 10–15 співробітників в open space. Точну кількість і поєднання кабінок на 1 і 4 особи ми порадимо після аналізу планування та формату роботи вашої команди.",
+                            "ru": "Ориентировочно одна кабинка на одного человека на 10–15 сотрудников в open space. Точное количество и сочетание кабинок на 1 и 4 человека мы посоветуем после анализа планировки и формата работы вашей команды.",
+                            "en": "As a rough guide, one single-person booth per 10–15 people in an open-plan office. We’ll recommend the exact number and mix of 1- and 4-person booths after reviewing your layout and how your team works."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Підберемо кабінки для вашого офісу",
+                    "ru": "Подберем кабинки для вашего офиса",
+                    "en": "Let’s find the right booths for your office"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план офісу й кількість співробітників — порадимо модель, кількість і розташування кабінок.",
+                    "ru": "Пришлите план офиса и количество сотрудников — посоветуем модель, количество и расположение кабинок.",
+                    "en": "Send us your floor plan and headcount and we’ll recommend models, quantities and placement."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

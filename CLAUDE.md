@@ -56,7 +56,8 @@ and can't regenerate from source (see `docker/vendor/`):
   (`docker/vendor/style.css.prod-fallback`) instead of the from-source build.
 
 `wp-content/uploads` is gitignored and not synced locally. Rather than copying the folder, every
-request under `/wp-content/uploads/` is 302-redirected straight to `mdtgroup.com.ua`'s real files
+request under `/wp-content/uploads/` for a file that doesn't exist on local disk (images added by
+`content-pages.php` do) is 302-redirected straight to `mdtgroup.com.ua`'s real files
 (`docker/000-default.conf`, which replaces the base image's default vhost — the rule lives directly
 in the `<VirtualHost>` block, not a separate conf-available include, because a global rewrite rule
 loaded that way was silently not applying to the vhost actually serving requests). This means local
@@ -89,10 +90,85 @@ ship that — rather than shipping a stale snapshot and losing everything publis
 
 Before exporting for production, purge local artefacts that would otherwise travel with the DB:
 `wp_options.wpml_language_switcher_template_objects` (autoloaded, holds `/var/www/html` paths and a
-localhost URL), all `_transient_%` / `_site_transient_%` rows, and the Rank Math sitemap cache.
+localhost URL), `wp_options.otgs-installer-log` (also holds localhost URLs), all `_transient_%` /
+`_site_transient_%` rows, and the Rank Math sitemap cache. Then confirm nothing else leaked:
+`SELECT COUNT(*) FROM wp_posts WHERE post_content LIKE '%localhost:8080%'` must be 0.
 `siteurl`/`home` are safe — the Docker override uses `WP_HOME`/`WP_SITEURL` constants and never
 writes to the DB. Note also that SeoShield keeps live production data in its own `ss_*` tables
 (`ss_images_for_sitemap`, `ss_bigram_*`), which a wholesale replace would overwrite.
+
+## English (EN) language tools
+
+English is the third WPML language (`/en/`), built locally and shipped in the same DB export as the
+catalogue change. Two more local-only CLI tools, same `--apply` / dry-run convention, both
+idempotent:
+
+- `tools/en-setup.php` — activates `en`, then the site chrome: WPML theme strings, the ACF options
+  page (`options_en_*`), EN nav menus, EN Contact Form 7 translations and Rank Math's title/description
+  templates. It also repairs those templates' source language: they were Russian text stored as the
+  Ukrainian original, so it writes Ukrainian into the option and keeps the Russian as a `ru` translation
+  (`seo_source` in `chrome.json`). English text for all of it is in `tools/i18n-en/chrome.json`, keyed by the Ukrainian
+  source text.
+- `tools/en-translate.php` — creates the EN twin of every published uk post (8 content types, via
+  `$sitepress->make_duplicate()`, categories parent-first), their EN attachment twins, then writes
+  English text and slugs. Text comes from `tools/i18n-en/dict/NNN.json`: `{md5(uk source): {uk, en}}`,
+  keyed by source string rather than post id so it survives a fresh production dump. Slug overrides go
+  in `tools/i18n-en/slugs.json` (empty value → `sanitize_title(<English title>)`). `--stats` shows
+  untranslated strings; `--export` adds new uk strings to the bundles without touching filled ones.
+
+Cutover order after `catalog-migration.php --apply`: `en-setup --apply` → `en-translate --apply`
+→ `en-translate --apply` → `en-setup --apply` (menu items need the EN pages to exist), repeating until
+both report 0 actions, then `content-pages.php --apply` (below). Its `meta-mismatch` notes compare
+against the ru twin and are informational.
+
+## Page content tool
+
+`tools/content-pages.php` writes the content team's page specs into the uk, ru **and** en version of
+each post, from `tools/content/*.json` (one file per spec, e.g. `steli.json` for «Стелі»). Targets
+are addressed by slug path (`category:steli/kasetna-stelya`), values are either shared or
+`{"uk", "ru", "en"}`, and `"@<id>"` / `"@<type>:<path>"` are post references stored as uk ids. It also
+registers a WPML translation mode for every key it writes (text → translate, ids → copy) so a uk save
+in wp-admin can't copy text over the other languages. Same dry-run / `--apply` convention, idempotent,
+local only; runs last at cutover because it needs the EN posts. The file's header documents the
+format.
+
+Beyond filling fields, a spec can also:
+
+- **Add images** — a `"media"` map of `key → {file, title, alt, source}`; files live in
+  `tools/content/media/` (tracked in git, exempted from the global `*.jpg/*.png` ignore) and are copied
+  into `wp-content/uploads/mdt-content/` with uk/ru/en attachment twins. Reference them as
+  `"@media:<key>"` (also valid as `"thumbnail"`). **Copy `wp-content/uploads/mdt-content/` to
+  production at cutover** — uploads aren't synced, and the local 302-to-production rule only covers
+  files that don't exist on disk (`RewriteCond … !-f` in `docker/000-default.conf`). Theme crop sizes
+  need GD, which is why `docker/Dockerfile` installs it.
+- **Create posts** — a `"create"` block (`type`, `slug`, `title`, optional `parent`) makes the uk post
+  and its trid-linked ru/en twins, or, if the target already exists, keeps titles/slugs in sync (pass
+  `slug` as `{uk, ru, en}` to pin existing URLs). New products, suppliers (Bejot, LD Seating, Inclass,
+  Framery, Silen, and the 34 factories from the client's «Фабрики MDT» table in `brands-a…d.json`) and
+  Omni Space / Zest projects are created this way; `"defaults"` holds per-type ACF values
+  (product payment/delivery blocks).
+- **Hidden content** — content the client asked to take off the site (Götessons, and four brands'
+  acoustic booths) was cut from the specs into `tools/content/hidden/`, which the tool doesn't read;
+  its `README.md` says what's there and how to restore it. The tool never unpublishes, so cutting a
+  post from a spec also means drafting it locally.
+- When a repeater (`bl__list`, `lp__tiles`, …) changes, its old row meta is deleted before writing,
+  otherwise a row that changes layout keeps stale sub-fields and the tool never converges.
+
+The JSON files are the source of truth (each `_readme` lists where its text and images came from).
+English labels that also exist in `tools/i18n-en/dict/` must use the dictionary wording, or
+`en-translate.php` and `content-pages.php` will keep overwriting each other.
+
+Section landing blocks (H1 override, intro, product cards (`lp__products`), subsection tiles, usage
+table, brands, projects, a per-category call to action) are an ACF field group registered **in code**
+(`mdt_landing_field_group()` in `functions.php`, so it ships with the theme) and rendered by
+`parts/category-landing.php` / `parts/category-cta.php`. Each block renders only when filled, so
+other categories are unaffected. Filled tiles replace the automatic «Колекції» children list, and a
+filled `lp__cta-title` moves the call to action below the FAQ.
+
+Gotchas the tools already handle, in case you write similar code: `update_post_meta()` /
+`add_post_meta()` unslash their input (always pass `wp_slash($value)`); WPML Media rewrites `<img>`
+URLs in saved content to the local `WP_HOME`, so post text is written with `$wpdb->update`; and never
+use `make_duplicate()` on attachments (it fans out junk copies with an empty `_wp_attached_file`).
 
 ## Theme asset build (webpack)
 
@@ -152,11 +228,16 @@ There is no test suite, linter, or CI config in this repo (no `composer.json`, `
     The list helpers need no translation at all: WPML scopes the query by language on its own.
 - **Theme strings are translated through WPML String Translation, not .mo files.** There is no
   `languages/` dir and `load_theme_textdomain()` is never called, so any new `_e(..., 'mdt')`
-  string renders untranslated on `/ru/` until it is registered. `tools/catalog-migration.php`
-  seeds them (context `mdt`, name `md5($string)`).
-- **ACF Pro + ACF Multilingual (acfml)** drive most custom field data on posts/pages.
-- **Multilingual via WPML** (`sitepress-multilingual-cms` + `wpml-*` plugins): content exists in
-  multiple languages (see the `ua`/`ru` switcher in the header); translations are DB-driven.
+  string renders untranslated on `/ru/` and `/en/` until it is registered. `tools/catalog-migration.php`
+  and `tools/en-setup.php` seed them (context `mdt`, name `md5($string)`, source language `uk`).
+- **ACF Pro + ACF Multilingual (acfml)** drive most custom field data on posts/pages. Relationship
+  and post-object fields store **Ukrainian** post ids in every language, and ACFML does not convert
+  them; `mdt_translate_related_posts()` in `functions.php` does, on `acf/format_value`. Links looked
+  right without it only because WPML filters permalinks.
+- **Multilingual via WPML** (`sitepress-multilingual-cms` + `wpml-*` plugins): `uk` (default, no
+  prefix), `ru` (`/ru/`) and `en` (`/en/`); translations are DB-driven. Never hardcode a post id in a
+  template — wrap it in `lang_page_original_id()` (pages) or `icl_object_id($id, '<post type>', true)`,
+  otherwise `/ru/` and `/en/` render the Ukrainian post.
 - **Caching/optimization plugins**: WP Fastest Cache + Autoptimize combine/minify/cache CSS and
   JS in `wp-content/cache/` (which **is** git-tracked — a stale copy there can mask real asset
   changes; when debugging asset issues, check whether `wp-content/cache/` is serving an outdated

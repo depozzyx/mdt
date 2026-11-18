@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
 <head>
     <meta name="facebook-domain-verification" content="xeklui2jnzq6dzarc9pk9s5jdzi6a8"/>
     <meta charset="UTF-8">
@@ -182,7 +182,7 @@
                     <div class="add__nav-box hidden-md-up">
                         <ul>
                             <?php foreach ($nav as $nav_item): ?>
-                                <?php if ($nav_item->object === 'category' && ($nav_item->post_name === 'katalog-tovariv' || $nav_item->post_name === 'katalog-tovarov-2')): ?>
+                                <?php if ($nav_item->object === 'category' && (int) $nav_item->object_id === (int) mdt_catalog_root_id()): ?>
                                     <li class="has-submenu <?php if (is_page($nav_item->object_id)) echo 'active'; ?>">
                                         <a href="<?php echo get_permalink(mdt_catalog_root_id()); ?>">
                                             <span><?php echo $nav_item->title; ?></span>
@@ -205,7 +205,7 @@
 
                     <ul>
                         <?php foreach ($nav as $nav_item): ?>
-                            <?php if ($nav_item->object === 'category' && ($nav_item->post_name === 'katalog-tovariv' || $nav_item->post_name === 'katalog-tovarov-2')): ?>
+                            <?php if ($nav_item->object === 'category' && (int) $nav_item->object_id === (int) mdt_catalog_root_id()): ?>
                                 <li class="has-submenu <?php if (is_page($nav_item->object_id)) echo 'active'; ?>">
                                     <a href="#">
                                         <span><?php echo $nav_item->title; ?></span>
@@ -344,7 +344,7 @@
         if (function_exists("http_response_code")) {
             $status = http_response_code();
             if (isset($status) && $status == '404') {
-                echo '<div  style="text-align:center;"><h1>К сожалению, страница не найдена</h1><br><a href="' . get_permalink(lang_page_original_id(9)) . '">На главную</a></div>';
+                echo '<div  style="text-align:center;"><h1>' . __('К сожалению, страница не найдена', 'mdt') . '</h1><br><a href="' . get_permalink(lang_page_original_id(9)) . '">' . __('На главную', 'mdt') . '</a></div>';
             }
         }
         ?>

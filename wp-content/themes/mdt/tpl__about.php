@@ -298,13 +298,13 @@
                     $posts->the_post();
                     $id=$posts->ID;
                     setup_postdata($post); ?>
-                      <div class="partners__item col__custom wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * $i; ?>s">
+                      <div class="partners__item col__custom wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * (($i - 1) % 4 + 1); ?>s">
                           <a href="<?php the_permalink(); ?>" class="partners__item-bl d-flex align-items-center justify-content-center">
                               <div class="partners__item-img">
                                   <img src="<?php the_field('sp__logo-dark') ?>" width="100">
                               </div>
                               <div class="redirect__info d-flex align-items-center justify-content-center">
-                                  Подробнее
+                                  <?php _e('Подробнее', 'mdt'); ?>
                               </div>
                           </a>
                       </div>

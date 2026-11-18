@@ -1,0 +1,320 @@
+{
+    "_readme": [
+        "Section «Стелі» (/category/steli/), from the content spec «ТЗ на наполнение страниц сайта MDT Group», section 1.",
+        "uk is the spec text verbatim; ru and en are translations. Applied by tools/content-pages.php.",
+        "Spec block -> field: 1 H1 lp__h1 · 2 intro lp__intro · 3 tiles lp__tiles · 4 usage lp__use* · 5 brands lp__brands* · 6 projects lp__proj* · 7 expert text bl__list (text) · 8 FAQ faq__list · 9 CTA lp__cta-* · 10 SEO rank_math_* and the main photo's alt.",
+        "Block 3 photos are MDT's own media (the spec's reference images came from third-party sites). Block 5: only brands with a supplier page and ceiling products; OFFECCT and Kinoboard from the spec's draft list have neither. Block 6: the only two projects on the site that show a ceiling system.",
+        "The subcategory pages (Касетна стеля, Акустичні острови, Акустичні бафли) are filled by steli-pidkategoriyi.json."
+    ],
+    "posts": [
+        {
+            "target": "category:steli",
+            "thumbnail": 10941,
+            "thumbnail_alt": {
+                "uk": "Стельові системи в комерційному інтер’єрі — касетна стеля, акустичні острови та бафли",
+                "ru": "Потолочные системы в коммерческом интерьере — кассетный потолок, акустические острова и бафлы",
+                "en": "Ceiling systems in a commercial interior: cassette ceiling, acoustic islands and baffles"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Стельові системи для комерційних приміщень | MDT",
+                    "ru": "Потолочные системы для коммерческих помещений | MDT",
+                    "en": "Ceiling systems for commercial spaces | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Стельові системи для офісів, готелів і громадських просторів: касетні стелі, акустичні острови та бафли. Підбір рішень для проєктів від MDT.",
+                    "ru": "Потолочные системы для офисов, отелей и общественных пространств: кассетные потолки, акустические острова и бафлы. Подбор решений для проектов от MDT.",
+                    "en": "Ceiling systems for offices, hotels and public spaces: cassette ceilings, acoustic islands and baffles. Solutions selected for your project by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Стельові системи для комерційних приміщень",
+                    "ru": "Потолочные системы для коммерческих помещений",
+                    "en": "Ceiling systems for commercial spaces"
+                },
+                "lp__intro": {
+                    "uk": "<strong>Стельова система</strong> — це не лише завершення інтер’єру, а й інструмент організації простору, інтеграції інженерних комунікацій та покращення акустичного комфорту. MDT пропонує стельові рішення для <strong>офісів, готелів, ресторанів, торговельних і громадських приміщень</strong>. У каталозі представлені <strong>касетні стелі, акустичні острови та бафли</strong>. Допомагаємо підібрати систему відповідно до завдань проєкту, вимог до дизайну, акустики та експлуатації.",
+                    "ru": "<strong>Потолочная система</strong> — это не только завершение интерьера, но и инструмент организации пространства, интеграции инженерных коммуникаций и улучшения акустического комфорта. MDT предлагает потолочные решения для <strong>офисов, отелей, ресторанов, торговых и общественных помещений</strong>. В каталоге представлены <strong>кассетные потолки, акустические острова и бафлы</strong>. Помогаем подобрать систему в соответствии с задачами проекта, требованиями к дизайну, акустике и эксплуатации.",
+                    "en": "<strong>A ceiling system</strong> is more than the finishing touch to an interior: it is a way to organise space, integrate building services and improve acoustic comfort. MDT supplies ceiling solutions for <strong>offices, hotels, restaurants, retail and public spaces</strong>. Our catalogue covers <strong>cassette ceilings, acoustic islands and baffles</strong>. We help you choose a system that fits the project brief and its design, acoustic and maintenance requirements."
+                },
+                "lp__tiles": [
+                    {
+                        "lp__tile-cat": "@category:steli/kasetna-stelya",
+                        "lp__tile-text": {
+                            "uk": "Модульна підвісна система з окремих касет. Допомагає створити впорядковану геометрію стелі та забезпечити доступ до простору над нею для обслуговування інженерних комунікацій.",
+                            "ru": "Модульная подвесная система из отдельных кассет. Помогает создать упорядоченную геометрию потолка и обеспечить доступ к пространству над ним для обслуживания инженерных коммуникаций.",
+                            "en": "A modular suspended system made of individual cassettes. It gives the ceiling an orderly grid and keeps the void above accessible for servicing building services."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: модульність системи",
+                            "ru": "Ключевая характеристика: модульность системы",
+                            "en": "Key feature: a modular system"
+                        }
+                    },
+                    {
+                        "lp__tile-cat": "@category:steli/akustychni-ostrovy",
+                        "lp__tile-text": {
+                            "uk": "Окремі підвісні панелі, розташовані на стелі локальними групами. Допомагають зменшити відбиття звуку та зробити акустичне середовище комфортнішим без суцільного закриття стелі.",
+                            "ru": "Отдельные подвесные панели, расположенные на потолке локальными группами. Помогают уменьшить отражение звука и сделать акустическую среду комфортнее без сплошного закрытия потолка.",
+                            "en": "Individual suspended panels arranged in local groups across the ceiling. They reduce sound reflections and make the acoustic environment more comfortable without closing off the whole ceiling."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: локальне акустичне поглинання",
+                            "ru": "Ключевая характеристика: локальное акустическое поглощение",
+                            "en": "Key feature: local sound absorption"
+                        }
+                    },
+                    {
+                        "lp__tile-cat": "@category:steli/akustychni-bafly",
+                        "lp__tile-text": {
+                            "uk": "Підвісні акустичні елементи, розташовані вертикально. Підходять для просторів, де важливо працювати з акустикою та водночас зберегти візуальну відкритість стелі.",
+                            "ru": "Подвесные акустические элементы, расположенные вертикально. Подходят для пространств, где важно работать с акустикой и одновременно сохранить визуальную открытость потолка.",
+                            "en": "Suspended acoustic elements hung vertically. They suit spaces where the acoustics need work but the ceiling should stay visually open."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: вертикальне розміщення елементів",
+                            "ru": "Ключевая характеристика: вертикальное размещение элементов",
+                            "en": "Key feature: vertically hung elements"
+                        }
+                    }
+                ],
+                "lp__use-title": {
+                    "uk": "Застосування за типами приміщень",
+                    "ru": "Применение по типам помещений",
+                    "en": "Applications by type of space"
+                },
+                "lp__use-col1": {
+                    "uk": "Тип приміщення",
+                    "ru": "Тип помещения",
+                    "en": "Type of space"
+                },
+                "lp__use-col2": {
+                    "uk": "Рекомендовані рішення",
+                    "ru": "Рекомендуемые решения",
+                    "en": "Recommended solutions"
+                },
+                "lp__use": [
+                    {
+                        "lp__use-room": {
+                            "uk": "Офіси та open space",
+                            "ru": "Офисы и open space",
+                            "en": "Offices and open-plan spaces"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Касетні стелі, акустичні острови, бафли",
+                            "ru": "Кассетные потолки, акустические острова, бафлы",
+                            "en": "Cassette ceilings, acoustic islands, baffles"
+                        }
+                    },
+                    {
+                        "lp__use-room": {
+                            "uk": "Переговорні кімнати",
+                            "ru": "Переговорные комнаты",
+                            "en": "Meeting rooms"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Акустичні острови та бафли",
+                            "ru": "Акустические острова и бафлы",
+                            "en": "Acoustic islands and baffles"
+                        }
+                    },
+                    {
+                        "lp__use-room": {
+                            "uk": "Готелі та ресторани",
+                            "ru": "Отели и рестораны",
+                            "en": "Hotels and restaurants"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Касетні стелі, острови, бафли — залежно від концепції інтер’єру",
+                            "ru": "Кассетные потолки, острова, бафлы — в зависимости от концепции интерьера",
+                            "en": "Cassette ceilings, islands or baffles, depending on the interior concept"
+                        }
+                    },
+                    {
+                        "lp__use-room": {
+                            "uk": "Торговельні приміщення та шоуруми",
+                            "ru": "Торговые помещения и шоурумы",
+                            "en": "Retail spaces and showrooms"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Касетні стелі, острови та бафли",
+                            "ru": "Кассетные потолки, острова и бафлы",
+                            "en": "Cassette ceilings, islands and baffles"
+                        }
+                    },
+                    {
+                        "lp__use-room": {
+                            "uk": "Освітні й громадські простори",
+                            "ru": "Образовательные и общественные пространства",
+                            "en": "Education and public spaces"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Акустичні острови, бафли, касетні стелі",
+                            "ru": "Акустические острова, бафлы, кассетные потолки",
+                            "en": "Acoustic islands, baffles, cassette ceilings"
+                        }
+                    }
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди та виробники",
+                    "ru": "Бренды и производители",
+                    "en": "Brands and manufacturers"
+                },
+                "lp__brands": [
+                    "@146",
+                    "@2825",
+                    "@2843",
+                    "@2851"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@12115",
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Акустичні бафли",
+                            "ru": "Акустические бафлы",
+                            "en": "Acoustic baffles"
+                        },
+                        "lp__proj-area": {
+                            "uk": "400 м²",
+                            "ru": "400 м²",
+                            "en": "400 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@13466",
+                        "lp__proj-city": {
+                            "uk": "Львів",
+                            "ru": "Львов",
+                            "en": "Lviv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Арт-центр",
+                            "ru": "Арт-центр",
+                            "en": "Art centre"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Heradesign Superfine, 25 і 35 мм",
+                            "ru": "Heradesign Superfine, 25 и 35 мм",
+                            "en": "Heradesign Superfine, 25 and 35 mm"
+                        },
+                        "lp__proj-area": {
+                            "uk": "632 м²",
+                            "ru": "632 м²",
+                            "en": "632 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати стельову систему для комерційного приміщення</h2>\n<p>Вибір стелі впливає на зовнішній вигляд інтер’єру, акустичний комфорт і зручність обслуговування інженерних систем. Для офісів, готелів, ресторанів та інших громадських просторів важливо враховувати не лише дизайн, а й функціональні вимоги до приміщення.</p>\n<h3>Касетна стеля: модульність і доступ до комунікацій</h3>\n<p>Касетна стеля складається з окремих модулів, які встановлюються в підвісну конструкцію. Таке рішення дає змогу створити рівномірну поверхню з чіткою геометрією та передбачити доступ до простору над стелею.</p>\n<p>Під час вибору варто врахувати матеріал і розмір касет, тип підвісної конструкції, сумісність із освітленням та інженерними системами, а також вимоги до акустики. Конкретні властивості залежать від обраної системи.</p>\n<h3>Акустичні острови: комфорт без суцільної стелі</h3>\n<p>Акустичні острови — це окремі панелі, які підвішують до перекриття. Вони дають змогу впливати на акустичні характеристики приміщення, зберігаючи відкриті ділянки стелі та можливість виразного дизайнерського оформлення.</p>\n<p>Такі рішення можуть бути доречними в офісах, переговорних кімнатах, ресторанах та інших просторах, де виникають відбиття звуку й надмірний шум. Ефективність залежить від характеристик панелей, їхньої кількості, розташування та параметрів самого приміщення.</p>\n<h3>Бафли: вертикальні елементи для акустики та дизайну</h3>\n<p>Бафли — це підвісні елементи, які зазвичай встановлюють вертикально, окремо або в лінійних групах. Вони дають змогу формувати ритм стелі, зонувати простір візуально та працювати з акустикою без створення суцільної поверхні.</p>\n<p>Під час проєктування важливо визначити оптимальне розташування елементів, відстань між ними, висоту підвісу та сумісність із системами освітлення й вентиляції. Для правильного вибору необхідно спиратися на технічні дані конкретного виробу.</p>\n<h3>Що врахувати перед вибором</h3>\n<p>Передбачте п’ять основних критеріїв:</p>\n<ol>\n<li><strong>Призначення приміщення.</strong> Для офісу, ресторану та торговельного простору можуть бути потрібні різні рішення.</li>\n<li><strong>Акустичні вимоги.</strong> Визначте, чи потрібно зменшити реверберацію та покращити розбірливість мовлення.</li>\n<li><strong>Архітектурна концепція.</strong> Врахуйте геометрію стелі, висоту приміщення та бажаний візуальний ефект.</li>\n<li><strong>Інженерні комунікації.</strong> Перевірте сумісність системи з освітленням, вентиляцією, спринклерами та іншими елементами.</li>\n<li><strong>Монтаж та обслуговування.</strong> Заздалегідь оцініть спосіб кріплення, доступ до комунікацій і вимоги виробника до монтажу.</li>\n</ol>\n<p>MDT допомагає підібрати стельову систему відповідно до завдань проєкту, доступних колекцій і технічних вимог виробника.</p>",
+                            "ru": "<h2>Как выбрать потолочную систему для коммерческого помещения</h2>\n<p>Выбор потолка влияет на внешний вид интерьера, акустический комфорт и удобство обслуживания инженерных систем. Для офисов, отелей, ресторанов и других общественных пространств важно учитывать не только дизайн, но и функциональные требования к помещению.</p>\n<h3>Кассетный потолок: модульность и доступ к коммуникациям</h3>\n<p>Кассетный потолок состоит из отдельных модулей, которые устанавливаются в подвесную конструкцию. Такое решение позволяет создать ровную поверхность с четкой геометрией и предусмотреть доступ к пространству над потолком.</p>\n<p>При выборе стоит учесть материал и размер кассет, тип подвесной конструкции, совместимость с освещением и инженерными системами, а также требования к акустике. Конкретные свойства зависят от выбранной системы.</p>\n<h3>Акустические острова: комфорт без сплошного потолка</h3>\n<p>Акустические острова — это отдельные панели, которые подвешивают к перекрытию. Они позволяют влиять на акустические характеристики помещения, сохраняя открытые участки потолка и возможность выразительного дизайнерского оформления.</p>\n<p>Такие решения могут быть уместны в офисах, переговорных комнатах, ресторанах и других пространствах, где возникают отражения звука и чрезмерный шум. Эффективность зависит от характеристик панелей, их количества, расположения и параметров самого помещения.</p>\n<h3>Бафлы: вертикальные элементы для акустики и дизайна</h3>\n<p>Бафлы — это подвесные элементы, которые обычно устанавливают вертикально, по отдельности или линейными группами. Они позволяют задавать ритм потолка, визуально зонировать пространство и работать с акустикой без создания сплошной поверхности.</p>\n<p>При проектировании важно определить оптимальное расположение элементов, расстояние между ними, высоту подвеса и совместимость с системами освещения и вентиляции. Для правильного выбора необходимо опираться на технические данные конкретного изделия.</p>\n<h3>Что учесть перед выбором</h3>\n<p>Предусмотрите пять основных критериев:</p>\n<ol>\n<li><strong>Назначение помещения.</strong> Для офиса, ресторана и торгового пространства могут понадобиться разные решения.</li>\n<li><strong>Акустические требования.</strong> Определите, нужно ли уменьшить реверберацию и улучшить разборчивость речи.</li>\n<li><strong>Архитектурная концепция.</strong> Учтите геометрию потолка, высоту помещения и желаемый визуальный эффект.</li>\n<li><strong>Инженерные коммуникации.</strong> Проверьте совместимость системы с освещением, вентиляцией, спринклерами и другими элементами.</li>\n<li><strong>Монтаж и обслуживание.</strong> Заранее оцените способ крепления, доступ к коммуникациям и требования производителя к монтажу.</li>\n</ol>\n<p>MDT помогает подобрать потолочную систему в соответствии с задачами проекта, доступными коллекциями и техническими требованиями производителя.</p>",
+                            "en": "<h2>How to choose a ceiling system for a commercial space</h2>\n<p>The ceiling you choose affects how the interior looks, how comfortable it sounds and how easy the building services are to maintain. For offices, hotels, restaurants and other public spaces, the functional requirements of the room matter as much as the design.</p>\n<h3>Cassette ceilings: modular, with access to services</h3>\n<p>A cassette ceiling is made up of individual modules fitted into a suspended grid. It gives an even surface with a clean geometry and keeps the void above the ceiling accessible.</p>\n<p>When choosing one, consider the material and size of the cassettes, the type of suspension grid, compatibility with lighting and building services, and the acoustic requirements. The exact properties depend on the system you choose.</p>\n<h3>Acoustic islands: comfort without a continuous ceiling</h3>\n<p>Acoustic islands are individual panels suspended from the soffit. They improve the acoustics of a room while leaving areas of the ceiling open and allowing an expressive design.</p>\n<p>They can work well in offices, meeting rooms, restaurants and other spaces with sound reflections and excessive noise. How well they perform depends on the panels themselves, how many there are, where they hang and the room itself.</p>\n<h3>Baffles: vertical elements for acoustics and design</h3>\n<p>Baffles are suspended elements, usually hung vertically, either individually or in linear runs. They set a rhythm across the ceiling, zone the space visually and treat the acoustics without forming a continuous surface.</p>\n<p>At the design stage, work out the best layout, the spacing between elements, the suspension height and compatibility with lighting and ventilation. The right choice should be based on the technical data of the specific product.</p>\n<h3>What to consider before you choose</h3>\n<p>Plan around five main criteria:</p>\n<ol>\n<li><strong>What the space is for.</strong> An office, a restaurant and a retail space may each need a different solution.</li>\n<li><strong>Acoustic requirements.</strong> Decide whether you need to reduce reverberation and improve speech intelligibility.</li>\n<li><strong>Architectural concept.</strong> Take into account the ceiling geometry, the room height and the visual effect you want.</li>\n<li><strong>Building services.</strong> Check that the system works with lighting, ventilation, sprinklers and other elements.</li>\n<li><strong>Installation and maintenance.</strong> Assess the fixing method, access to services and the manufacturer’s installation requirements in advance.</li>\n</ol>\n<p>MDT helps you choose a ceiling system to suit the project brief, the collections available and the manufacturer’s technical requirements.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Чим відрізняються касетна стеля, акустичні острови та бафли?",
+                            "ru": "Чем отличаются кассетный потолок, акустические острова и бафлы?",
+                            "en": "What is the difference between a cassette ceiling, acoustic islands and baffles?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Касетна стеля формує модульну поверхню з окремих касет. Острови — це окремі горизонтальні панелі, підвішені до перекриття. Бафли зазвичай розміщують вертикально. Вибір залежить від архітектури приміщення, акустичних вимог і бажаного вигляду стелі.",
+                            "ru": "Кассетный потолок образует модульную поверхность из отдельных кассет. Острова — это отдельные горизонтальные панели, подвешенные к перекрытию. Бафлы обычно размещают вертикально. Выбор зависит от архитектуры помещения, акустических требований и желаемого вида потолка.",
+                            "en": "A cassette ceiling forms a modular surface of individual cassettes. Islands are individual horizontal panels suspended from the soffit. Baffles are usually hung vertically. The choice depends on the architecture of the room, the acoustic requirements and the look you want for the ceiling."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Яке рішення краще підходить для офісу?",
+                            "ru": "Какое решение лучше подходит для офиса?",
+                            "en": "Which solution works best for an office?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Це залежить від планування, висоти приміщення, кількості людей та акустичних вимог. Касетна система може бути доречною для організованої модульної стелі, а острови й бафли — для локальної роботи з акустикою та збереження відкритого перекриття. Для вибору варто оцінити проєкт у цілому.",
+                            "ru": "Это зависит от планировки, высоты помещения, количества людей и акустических требований. Кассетная система может быть уместна для упорядоченного модульного потолка, а острова и бафлы — для локальной работы с акустикой и сохранения открытого перекрытия. Для выбора стоит оценить проект в целом.",
+                            "en": "It depends on the layout, the ceiling height, how many people use the space and the acoustic requirements. A cassette system suits an orderly modular ceiling, while islands and baffles treat the acoustics locally and leave the soffit exposed. It is worth assessing the project as a whole before choosing."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи допомагають острови та бафли зменшити шум?",
+                            "ru": "Помогают ли острова и бафлы уменьшить шум?",
+                            "en": "Do islands and baffles help reduce noise?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Вони можуть поглинати частину звукової енергії та зменшувати реверберацію. Результат залежить від акустичних характеристик конкретних виробів, площі й розташування елементів, висоти підвісу та властивостей приміщення. Для обґрунтованого вибору потрібно перевіряти дані виробника.",
+                            "ru": "Они могут поглощать часть звуковой энергии и уменьшать реверберацию. Результат зависит от акустических характеристик конкретных изделий, площади и расположения элементов, высоты подвеса и свойств помещения. Для обоснованного выбора нужно проверять данные производителя.",
+                            "en": "They can absorb part of the sound energy and reduce reverberation. The result depends on the acoustic properties of the specific products, the area and layout of the elements, the suspension height and the room itself. An informed choice needs the manufacturer’s data."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна поєднувати різні типи стель в одному приміщенні?",
+                            "ru": "Можно ли сочетать разные типы потолков в одном помещении?",
+                            "en": "Can different types of ceiling be combined in one space?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так, якщо це дозволяють технічні характеристики систем і проєктні умови. Наприклад, різні рішення можуть використовуватися для функціонального зонування простору або поєднання відкритої стелі з окремими акустичними елементами. Сумісність кріплень та інженерних систем потрібно перевіряти на етапі проєктування.",
+                            "ru": "Да, если это позволяют технические характеристики систем и проектные условия. Например, разные решения могут использоваться для функционального зонирования пространства или сочетания открытого потолка с отдельными акустическими элементами. Совместимость креплений и инженерных систем нужно проверять на этапе проектирования.",
+                            "en": "Yes, as long as the systems’ technical specifications and the project conditions allow it. Different solutions can be used to zone a space by function, for example, or to combine an exposed ceiling with individual acoustic elements. Compatibility of fixings and building services should be checked at the design stage."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Від чого залежить вартість стельової системи?",
+                            "ru": "От чего зависит стоимость потолочной системы?",
+                            "en": "What does the cost of a ceiling system depend on?"
+                        },
+                        "faq__item-a": {
+                            "uk": "На вартість впливають виробник і колекція, матеріал, розміри та кількість елементів, тип кріплення, складність монтажу й особливості об’єкта. Для коректного розрахунку потрібні площа, креслення або вихідні дані проєкту та вимоги до системи.",
+                            "ru": "На стоимость влияют производитель и коллекция, материал, размеры и количество элементов, тип крепления, сложность монтажа и особенности объекта. Для корректного расчета нужны площадь, чертежи или исходные данные проекта и требования к системе.",
+                            "en": "The cost depends on the manufacturer and collection, the material, the size and number of elements, the fixing type, how complex the installation is and the specifics of the site. For an accurate quote we need the area, drawings or project data, and the system requirements."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи допомагає MDT з підбором стельової системи?",
+                            "ru": "Помогает ли MDT с подбором потолочной системы?",
+                            "en": "Can MDT help choose a ceiling system?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. MDT допомагає підібрати рішення з асортименту представлених фабричних брендів з урахуванням призначення приміщення, дизайн-концепції та технічних вимог проєкту. Щоб оцінити відповідні варіанти, надішліть креслення або короткий опис об’єкта.",
+                            "ru": "Да. MDT помогает подобрать решение из ассортимента представленных фабричных брендов с учетом назначения помещения, дизайн-концепции и технических требований проекта. Чтобы оценить подходящие варианты, пришлите чертежи или краткое описание объекта.",
+                            "en": "Yes. MDT helps you choose a solution from the range of manufacturers we represent, based on what the space is for, the design concept and the project’s technical requirements. To assess suitable options, send us drawings or a short description of the site."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Потрібна стельова система для вашого проєкту?",
+                    "ru": "Нужна потолочная система для вашего проекта?",
+                    "en": "Need a ceiling system for your project?"
+                },
+                "lp__cta-text": {
+                    "uk": "Допоможемо підібрати касетну стелю, акустичні острови або бафли з урахуванням вимог приміщення та асортименту виробників.",
+                    "ru": "Поможем подобрать кассетный потолок, акустические острова или бафлы с учетом требований помещения и ассортимента производителей.",
+                    "en": "We’ll help you choose a cassette ceiling, acoustic islands or baffles to suit the space and the manufacturers’ ranges."
+                },
+                "lp__cta-btn": {
+                    "uk": "Обговорити проєкт",
+                    "ru": "Обсудить проект",
+                    "en": "Discuss your project"
+                }
+            }
+        }
+    ]
+}

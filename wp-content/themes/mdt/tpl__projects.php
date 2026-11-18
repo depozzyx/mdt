@@ -44,7 +44,7 @@
                 </div>
                 <div class="filter__select hidden-sm-up">
                     <div class="filter__select-input d-flex align-items-center justify-content-between">
-                        <span><?php if(!isset($_GET['u'])) echo 'Усі'; else echo $active_span; ?></span>
+                        <span><?php if(!isset($_GET['u'])) echo __('Усі', 'mdt'); else echo $active_span; ?></span>
                         <i class="icon__select">
                             <svg viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 5.14258L-3.71752e-07 0.890227L0.984506 -0.000279203L4.5 3.32175L8.01549 -0.000279817L9 0.890226L4.5 5.14258Z" fill="#343434"/>
@@ -88,9 +88,9 @@
                         
                         if(isset($_GET['u']) && intval($_GET['u'])) {
                             // echo do_shortcode('[cpt_ajax_load_more button_text="Показати ще" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]');
-                            echo do_shortcode('[cpt_ajax_load_more button_text="Показати ще" tag="'.$_GET['u'].'" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]');
+                            echo do_shortcode('[cpt_ajax_load_more button_text="' . __('Показати ще', 'mdt') . '" tag="'.$_GET['u'].'" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]');
                         } else {
-                            echo do_shortcode('[cpt_ajax_load_more button_text="Показати ще" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]');
+                            echo do_shortcode('[cpt_ajax_load_more button_text="' . __('Показати ще', 'mdt') . '" post_type="projects" init_load="9" template="projects-loop" posts_per_page="9"]');
                         }
                         
                     ?>

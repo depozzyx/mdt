@@ -134,3 +134,180 @@
 .nav__cat-scroll {
     overflow: auto;
 }
+
+/*
+ * Three languages instead of two. The desktop switcher is a flex item in an already tight header
+ * row, so it shrank to ~94px and wrapped "En" onto a second line. The `> ul` child selector hits
+ * only the real switcher: the hardcoded phone block beside it reuses .lang__list but nests its
+ * list inside a <span>. Tighter gaps plus nowrap fit all three on one line without touching the
+ * flex row itself.
+ */
+.lang__list > ul {
+    white-space: nowrap;
+}
+
+.lang__list > ul > li {
+    margin-right: 14px;
+}
+
+.lang__list > ul > li:last-child {
+    margin-right: 0;
+}
+
+/*
+ * Section landing blocks (parts/category-landing.php, e.g. /category/steli/). Section headings are
+ * real <h2>s for SEO but must look like the theme's div.sc__title.
+ */
+h2.sc__title {
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.lp__tiles .col__item,
+.lp__proj .col__item {
+    margin-bottom: 40px;
+}
+
+.lp__tiles .img__bl img,
+.lp__proj .img__bl img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.lp__tile-text {
+    margin-top: 22px;
+    color: rgba(52, 52, 52, 0.88);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.lp__tile-key {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(52, 52, 52, 0.55);
+}
+
+.lp__proj .card__bl-2 + .lp__tile-key {
+    margin-top: 22px;
+}
+
+.lp__proj .lp__tile-key + .lp__tile-key {
+    margin-top: 6px;
+}
+
+.lp__proj-text {
+    max-width: 720px;
+    margin-bottom: 40px;
+}
+
+.lp__table-wrap {
+    overflow-x: auto;
+}
+
+.lp__table {
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    color: #343434;
+}
+
+.lp__table th {
+    padding: 0 24px 16px 0;
+    border-bottom: 1px solid rgba(52, 52, 52, 0.2);
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(52, 52, 52, 0.55);
+}
+
+.lp__table td {
+    padding: 18px 24px 18px 0;
+    border-bottom: 1px solid rgba(52, 52, 52, 0.1);
+    vertical-align: top;
+}
+
+.lp__table td:first-child {
+    width: 40%;
+    font-weight: 400;
+}
+
+.lp__brands-list {
+    margin: 0 -10px;
+}
+
+.lp__brands-item {
+    width: 25%;
+    padding: 0 10px 20px;
+}
+
+.lp__cta-text {
+    max-width: 520px;
+    margin: -20px 0 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .lp__brands-item {
+        width: 50%;
+    }
+
+    .lp__table {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .lp__table td:first-child {
+        width: 45%;
+    }
+}
+
+/*
+ * A category's own call to action follows the FAQ directly, and both sections are the same grey,
+ * so they ran together. Full-width rule: the action section's container is offset on wide
+ * screens, so a container-inset line looked like it started mid-page.
+ */
+.sc__faq + .sc__action {
+    border-top: 1px solid #e1e1e1;
+}
+
+/*
+ * Product gallery: the theme sizes each .coll__media-img cell absolutely (by data-count) but only
+ * gives the image width:100%, so photos either overflow their cell (when the lazy-loader writes
+ * width/height attributes) or get stretched to it. Show the whole image instead (contain), on white so
+ * product shots shot on white blend into the cell — long items like tables would lose their ends to a
+ * crop. single-product.php serves the uncropped `1536x1536` size for the same reason (pr-prev is a hard
+ * 610×508 crop; this install never generated `large`, which would fall back to the full original).
+ */
+.coll__media-img {
+    overflow: hidden;
+    background: #fff;
+}
+
+.coll__media-img img {
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Optional slogan line at the top of a landing intro (<p class="lp__slogan"> in lp__intro). */
+.lp__intro .lp__slogan {
+    font-size: 24px;
+    line-height: 1.35;
+    color: #343434;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .lp__intro .lp__slogan {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,1316 @@
+{
+    "_readme": "Factories from the client table «Фабрики MDT (Region: Ukraine)», part A (Polish, Spanish and Finnish makers). Texts written from each maker's own site (see each media \"source\"); logos recoloured #343434.",
+    "media": {
+        "b-mdd-cover": {
+            "file": "b-mdd-cover.jpg",
+            "title": "MDD",
+            "source": "https://configurator.mdd.pl/storage/uploads/525309/dsc08597-hdr-editx_mdd_showroom_textorial_park_d__5.jpg"
+        },
+        "logo-mdd": {
+            "file": "logo-mdd.png",
+            "title": "MDD",
+            "source": "https://mdd.eu/en/ (recoloured #343434)"
+        },
+        "p-mdd-ogi-drive-1": {
+            "file": "p-mdd-ogi-drive-1.jpg",
+            "title": "MDD Ogi Drive",
+            "source": "https://mdd.eu/en/desks/new-generation-ogi-drive-electric-height-adjustment/"
+        },
+        "p-mdd-ogi-drive-2": {
+            "file": "p-mdd-ogi-drive-2.jpg",
+            "title": "MDD Ogi Drive",
+            "source": "https://mdd.eu/en/desks/new-generation-ogi-drive-electric-height-adjustment/"
+        },
+        "p-mdd-apex-1": {
+            "file": "p-mdd-apex-1.jpg",
+            "title": "MDD Apex",
+            "source": "https://mdd.eu/en/seating/apex/"
+        },
+        "p-mdd-apex-2": {
+            "file": "p-mdd-apex-2.jpg",
+            "title": "MDD Apex",
+            "source": "https://mdd.eu/en/seating/apex/"
+        },
+        "p-mdd-grand-grace-1": {
+            "file": "p-mdd-grand-grace-1.jpg",
+            "title": "MDD Grand Grace",
+            "source": "https://mdd.eu/en/seating/grace-2-armchair-wooden-base/"
+        },
+        "p-mdd-grand-grace-2": {
+            "file": "p-mdd-grand-grace-2.jpg",
+            "title": "MDD Grand Grace",
+            "source": "https://mdd.eu/en/seating/grace-2-armchair-wooden-base/"
+        },
+        "p-mdd-viga-1": {
+            "file": "p-mdd-viga-1.jpg",
+            "title": "MDD Viga",
+            "source": "https://mdd.eu/en/desks/viga-executive-desk-with-pedestal/"
+        },
+        "p-mdd-viga-2": {
+            "file": "p-mdd-viga-2.jpg",
+            "title": "MDD Viga",
+            "source": "https://mdd.eu/en/desks/viga-executive-desk-with-pedestal/"
+        },
+        "p-mdd-flaner-1": {
+            "file": "p-mdd-flaner-1.jpg",
+            "title": "MDD Flaner",
+            "source": "https://mdd.eu/en/outdoor/flaner-armchair/"
+        },
+        "p-mdd-flaner-2": {
+            "file": "p-mdd-flaner-2.jpg",
+            "title": "MDD Flaner",
+            "source": "https://mdd.eu/en/outdoor/flaner-armchair/"
+        },
+        "b-profim-cover": {
+            "file": "b-profim-cover.jpg",
+            "title": "Profim",
+            "source": "https://api.profim.pl/media/cache/resolve/general_tablet_inset/uploads/images/products/accis_pro/collecion/accis-kolekcja-1400x433.jpg"
+        },
+        "logo-profim": {
+            "file": "logo-profim.png",
+            "title": "Profim",
+            "source": "https://www.profim.eu/ (recoloured #343434)"
+        },
+        "p-profim-accispro-1": {
+            "file": "p-profim-accispro-1.jpg",
+            "title": "Profim AccisPro",
+            "source": "https://www.profim.eu/products/accispro-150sfl-employee-chairs-chairs"
+        },
+        "p-profim-violle-1": {
+            "file": "p-profim-violle-1.jpg",
+            "title": "Profim Violle",
+            "source": "https://www.profim.eu/products/violle-151sfl-unique-elegant-office-chair"
+        },
+        "p-profim-revo-t180-1": {
+            "file": "p-profim-revo-t180-1.jpg",
+            "title": "Profim Revo T180",
+            "source": "https://www.profim.eu/products/revo-t180-tables-design-famous-pearson-lloyd"
+        },
+        "p-profim-chic-lounge-1": {
+            "file": "p-profim-chic-lounge-1.jpg",
+            "title": "Profim Chic Lounge",
+            "source": "https://www.profim.eu/products/chic-lounge-a20v3-soft-seating"
+        },
+        "b-noti-cover": {
+            "file": "b-noti-cover.jpg",
+            "title": "Noti",
+            "source": "https://www.noti.pl/en/images/43f7f629-de6c-45fd-8210-ad8a75593aad/topo-g5.jpg"
+        },
+        "logo-noti": {
+            "file": "logo-noti.png",
+            "title": "Noti",
+            "source": "https://www.noti.pl/en (recoloured #343434)"
+        },
+        "p-noti-topo-1": {
+            "file": "p-noti-topo-1.jpg",
+            "title": "Noti Topo",
+            "source": "https://www.noti.pl/en/furniture/collections/topo"
+        },
+        "p-noti-topo-2": {
+            "file": "p-noti-topo-2.jpg",
+            "title": "Noti Topo",
+            "source": "https://www.noti.pl/en/furniture/collections/topo"
+        },
+        "p-noti-serif-1": {
+            "file": "p-noti-serif-1.jpg",
+            "title": "Noti Serif",
+            "source": "https://www.noti.pl/en/furniture/collections/serif"
+        },
+        "p-noti-serif-2": {
+            "file": "p-noti-serif-2.jpg",
+            "title": "Noti Serif",
+            "source": "https://www.noti.pl/en/furniture/collections/serif"
+        },
+        "p-noti-meno-1": {
+            "file": "p-noti-meno-1.jpg",
+            "title": "Noti Meno",
+            "source": "https://www.noti.pl/en/furniture/collections/meno"
+        },
+        "p-noti-meno-2": {
+            "file": "p-noti-meno-2.jpg",
+            "title": "Noti Meno",
+            "source": "https://www.noti.pl/en/furniture/collections/meno"
+        },
+        "b-vondom-cover": {
+            "file": "b-vondom-cover.jpg",
+            "title": "Vondom",
+            "source": "https://cdn.vondom.com/wp-content/uploads/2023/04/Vondom-Milos-outdoor-furniture-Jean-Marie-Massaud_0004_MILOS_ModularsSet_Compo01.jpg"
+        },
+        "logo-vondom": {
+            "file": "logo-vondom.png",
+            "title": "Vondom",
+            "source": "https://www.vondom.com/ (recoloured #343434)"
+        },
+        "p-vondom-africa-1": {
+            "file": "p-vondom-africa-1.jpg",
+            "title": "Vondom Africa",
+            "source": "https://www.vondom.com/collections/africa/"
+        },
+        "p-vondom-africa-2": {
+            "file": "p-vondom-africa-2.jpg",
+            "title": "Vondom Africa",
+            "source": "https://www.vondom.com/collections/africa/"
+        },
+        "p-vondom-milos-1": {
+            "file": "p-vondom-milos-1.jpg",
+            "title": "Vondom Milos",
+            "source": "https://www.vondom.com/collections/milos/"
+        },
+        "p-vondom-milos-2": {
+            "file": "p-vondom-milos-2.jpg",
+            "title": "Vondom Milos",
+            "source": "https://www.vondom.com/collections/milos/"
+        },
+        "b-isku-cover": {
+            "file": "b-isku-cover.jpg",
+            "title": "ISKU",
+            "source": "https://isku.com/wp-content/uploads/2023/10/JPGKeskisuuri_Isku_Center_191016_01-2.jpg"
+        },
+        "logo-isku": {
+            "file": "logo-isku.png",
+            "title": "ISKU",
+            "source": "https://isku.com/en/isku/ (recoloured #343434)"
+        },
+        "p-isku-myflow-office-table-1": {
+            "file": "p-isku-myflow-office-table-1.jpg",
+            "title": "ISKU MyFlow Office Table",
+            "source": "https://isku.com/en/product/myflow-office-tableheight-adjustable-table/"
+        },
+        "p-isku-myflow-office-table-2": {
+            "file": "p-isku-myflow-office-table-2.jpg",
+            "title": "ISKU MyFlow Office Table",
+            "source": "https://isku.com/en/product/myflow-office-tableheight-adjustable-table/"
+        },
+        "p-isku-myflow-chair-1": {
+            "file": "p-isku-myflow-chair-1.jpg",
+            "title": "ISKU MyFlow Chair",
+            "source": "https://isku.com/en/product/myflow-chairuniversal-chair-with-cross-base-and-castors/"
+        },
+        "p-isku-myflow-chair-2": {
+            "file": "p-isku-myflow-chair-2.jpg",
+            "title": "ISKU MyFlow Chair",
+            "source": "https://isku.com/en/product/myflow-chairuniversal-chair-with-cross-base-and-castors/"
+        },
+        "p-isku-big-hug-1": {
+            "file": "p-isku-big-hug-1.jpg",
+            "title": "ISKU Big Hug",
+            "source": "https://isku.com/en/product/big-hugeasy-chair/"
+        },
+        "p-isku-big-hug-2": {
+            "file": "p-isku-big-hug-2.jpg",
+            "title": "ISKU Big Hug",
+            "source": "https://isku.com/en/product/big-hugeasy-chair/"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "mdd-ogi-drive",
+                "title": "MDD Ogi Drive"
+            },
+            "thumbnail": "@media:p-mdd-ogi-drive-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Ogi Drive нового покоління — флагманський ергономічний стіл MDD з електричним регулюванням висоти. Дає змогу змінювати положення протягом дня й працювати сидячи або стоячи. Доступний у різних розмірах стільниці, кольорах каркаса та оздобленнях, а також у версіях для бенч-станцій.",
+                    "ru": "Ogi Drive нового поколения — флагманский эргономичный стол MDD с электрической регулировкой высоты. Позволяет менять положение в течение дня и работать сидя или стоя. Доступен в разных размерах столешницы, цветах каркаса и отделках, а также в версиях для бенч-станций.",
+                    "en": "The new-generation Ogi Drive is MDD’s flagship ergonomic desk with electric height adjustment, letting users switch between sitting and standing through the day. It comes in a range of top sizes, frame colours and finishes, including bench versions."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "MDD (Польща)",
+                            "ru": "MDD (Польша)",
+                            "en": "MDD (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл з електричним регулюванням висоти",
+                            "ru": "Стол с электрической регулировкой высоты",
+                            "en": "Electric height-adjustable desk"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-mdd-ogi-drive-1",
+                    "@media:p-mdd-ogi-drive-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "mdd-apex",
+                "title": "MDD Apex"
+            },
+            "thumbnail": "@media:p-mdd-apex-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Apex — ергономічне робоче крісло з механізмом, що автоматично підлаштовує опір спинки під вагу користувача, і регульованими підлокітниками. Практичне крісло для щоденної роботи в офісі й удома, яке легко поєднати з робочими місцями MDD.",
+                    "ru": "Apex — эргономичное рабочее кресло с механизмом, который автоматически подстраивает сопротивление спинки под вес пользователя, и регулируемыми подлокотниками. Практичное кресло для ежедневной работы в офисе и дома, которое легко сочетать с рабочими местами MDD.",
+                    "en": "Apex is an ergonomic task chair with a self-weighing mechanism that adjusts backrest tension to the user, plus adjustable armrests. A practical everyday chair for the office or home that pairs easily with MDD workstations."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "MDD (Польща)",
+                            "ru": "MDD (Польша)",
+                            "en": "MDD (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Робоче крісло",
+                            "ru": "Рабочее кресло",
+                            "en": "Task chair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-mdd-apex-1",
+                    "@media:p-mdd-apex-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "mdd-grand-grace",
+                "title": "MDD Grand Grace"
+            },
+            "thumbnail": "@media:p-mdd-grand-grace-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Grand Grace — ширша й глибша версія крісла Grace з товщим шаром піни для справжнього відпочинку. Дерев’яна основа робить його доречним у лаунж-зонах, бібліотеках, лобі й зонах очікування.",
+                    "ru": "Grand Grace — более широкая и глубокая версия кресла Grace с более толстым слоем пены для настоящего отдыха. Деревянное основание делает его уместным в лаунж-зонах, библиотеках, лобби и зонах ожидания.",
+                    "en": "Grand Grace is a wider, deeper version of the Grace armchair with extra foam for proper relaxation. Its wooden base suits lounge areas, libraries, lobbies and waiting areas."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "MDD (Польща)",
+                            "ru": "MDD (Польша)",
+                            "en": "MDD (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло",
+                            "ru": "Лаунж-кресло",
+                            "en": "Lounge armchair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-mdd-grand-grace-1",
+                    "@media:p-mdd-grand-grace-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "mdd-viga",
+                "title": "MDD Viga"
+            },
+            "thumbnail": "@media:p-mdd-viga-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Viga — стіл керівника з тумбою від Yonoh Studio, що поєднує стриманий стиль і функціональність. Колекція доповнюється шафою керівника, тож кабінет можна облаштувати в єдиному дизайні.",
+                    "ru": "Viga — стол руководителя с тумбой от Yonoh Studio, сочетающий сдержанный стиль и функциональность. Коллекция дополняется шкафом руководителя, поэтому кабинет можно обставить в едином дизайне.",
+                    "en": "Viga is an executive desk with pedestal designed by Yonoh Studio, combining understated style with function. A matching executive cabinet lets you furnish the whole office in one design."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "MDD (Польща)",
+                            "ru": "MDD (Польша)",
+                            "en": "MDD (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл керівника",
+                            "ru": "Стол руководителя",
+                            "en": "Executive desk"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Yonoh Studio",
+                            "ru": "Yonoh Studio",
+                            "en": "Yonoh Studio"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-mdd-viga-1",
+                    "@media:p-mdd-viga-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "mdd-flaner",
+                "title": "MDD Flaner"
+            },
+            "thumbnail": "@media:p-mdd-flaner-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Flaner — вуличне лаунж-крісло з однойменної колекції: та сама форма, що й у стільців Flaner, але ширша, нижча й зручніша для відпочинку. Підходить для терас, кафе й зовнішніх зон офісів.",
+                    "ru": "Flaner — уличное лаунж-кресло из одноименной коллекции: та же форма, что и у стульев Flaner, но шире, ниже и удобнее для отдыха. Подходит для террас, кафе и внешних зон офисов.",
+                    "en": "Flaner is an outdoor lounge armchair from the collection of the same name: the Flaner chair’s form made wider, lower and more comfortable for relaxing. Suited to terraces, cafés and outdoor office areas."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "MDD (Польща)",
+                            "ru": "MDD (Польша)",
+                            "en": "MDD (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Вуличне крісло",
+                            "ru": "Уличное кресло",
+                            "en": "Outdoor armchair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-mdd-flaner-1",
+                    "@media:p-mdd-flaner-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "mdd",
+                "title": "MDD"
+            },
+            "thumbnail": "@media:b-mdd-cover",
+            "acf": {
+                "sp__logo": "@media:logo-mdd",
+                "sp__logo-dark": "@media:logo-mdd",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>MDD</strong> (.mdd) — польський виробник офісних і контрактних меблів, сімейна компанія, яка веде проєкт від дизайну до встановлення. Асортимент охоплює робочі місця, крісла, меблі для кабінетів керівників, системи зберігання, акустику та вуличні меблі для офісів, готелів і ресторанів.</p>\n<ul>\n<li>Понад <strong>1,5 млн м²</strong> офісних просторів, які щороку облаштовують меблями MDD.</li>\n<li>Власне виробництво площею <strong>понад 92 800 м²</strong> з автоматизованим розкроєм тканин.</li>\n<li>Власний відділ розробки тестує й удосконалює рішення разом із користувачами; онлайн-конфігуратор для кожної моделі.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, <a href=\"/category/akustychni-rishennya/stinovi-paneli/\">акустичні панелі та екрани</a>, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>.</p>\n<p><strong>Країна:</strong> Польща. <strong>Офіційний сайт:</strong> <a href=\"https://mdd.eu/en/\" target=\"_blank\" rel=\"noopener nofollow\">mdd.eu/en</a></p>",
+                            "ru": "<p><strong>MDD</strong> (.mdd) — польский производитель офисной и контрактной мебели, семейная компания, которая ведет проект от дизайна до установки. Ассортимент охватывает рабочие места, кресла, мебель для кабинетов руководителей, системы хранения, акустику и уличную мебель для офисов, отелей и ресторанов.</p>\n<ul>\n<li>Более <strong>1,5 млн м²</strong> офисных пространств, которые ежегодно обставляют мебелью MDD.</li>\n<li>Собственное производство площадью <strong>более 92 800 м²</strong> с автоматизированным раскроем тканей.</li>\n<li>Собственный отдел разработки тестирует и совершенствует решения вместе с пользователями; онлайн-конфигуратор для каждой модели.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, <a href=\"/ru/category/akustychni-rishennya/stinovi-paneli/\">акустические панели и экраны</a>, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>.</p>\n<p><strong>Страна:</strong> Польша. <strong>Официальный сайт:</strong> <a href=\"https://mdd.eu/en/\" target=\"_blank\" rel=\"noopener nofollow\">mdd.eu/en</a></p>",
+                            "en": "<p><strong>MDD</strong> (.mdd) is a Polish family-owned maker of office and contract furniture that takes a project from design to installation. The range covers workstations, seating, executive furniture, storage, acoustics and outdoor furniture for offices, hotels and restaurants.</p>\n<ul>\n<li>Over <strong>1.5 million m²</strong> of office space furnished with MDD every year.</li>\n<li>Own factory of <strong>more than 92,800 m²</strong> with automated fabric cutting.</li>\n<li>An in-house development team tests and refines products with users; every model has an online configurator.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, <a href=\"/en/category/acoustic-solutions/wall-panels/\">acoustic panels and screens</a>, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>.</p>\n<p><strong>Country:</strong> Poland. <strong>Official website:</strong> <a href=\"https://mdd.eu/en/\" target=\"_blank\" rel=\"noopener nofollow\">mdd.eu/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:mdd-ogi-drive",
+                            "@product:mdd-apex",
+                            "@product:mdd-grand-grace",
+                            "@product:mdd-viga",
+                            "@product:mdd-flaner"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "profim-accispro",
+                "title": "Profim AccisPro"
+            },
+            "thumbnail": "@media:p-profim-accispro-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "AccisPro — робоче крісло, спроєктоване ITO Design за принципами активного сидіння: сидіння й спинка підлаштовуються під рухи користувача й підтримують спину не лише у спокої, а й тоді, коли ви тягнетеся до чогось або змінюєте позу. Легка сучасна форма пасує до відкритих офісів.",
+                    "ru": "AccisPro — рабочее кресло, спроектированное ITO Design по принципам активного сидения: сиденье и спинка подстраиваются под движения пользователя и поддерживают спину не только в покое, но и когда вы тянетесь к чему-то или меняете позу. Легкая современная форма подходит для открытых офисов.",
+                    "en": "AccisPro is a task chair designed by ITO Design around active seating: seat and backrest follow the user’s movements, supporting the spine not only at rest but also when reaching or shifting posture. Its light, modern form suits open-plan offices."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Profim (Польща)",
+                            "ru": "Profim (Польша)",
+                            "en": "Profim (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Робоче крісло",
+                            "ru": "Рабочее кресло",
+                            "en": "Task chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Christopher Schmidt — ITO Design",
+                            "ru": "Christopher Schmidt — ITO Design",
+                            "en": "Christopher Schmidt — ITO Design"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-profim-accispro-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "profim-violle",
+                "title": "Profim Violle"
+            },
+            "thumbnail": "@media:p-profim-violle-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Violle — колекція представницьких офісних крісел від ITO Design. Вишуканий профіль алюмінієвої рами спинки разом із підлокітниками утворює виразну геометричну форму. Це знакова модель Profim, яка залежно від конфігурації пасує і до кабінету керівника, і до стильного робочого місця.",
+                    "ru": "Violle — коллекция представительских офисных кресел от ITO Design. Изысканный профиль алюминиевой рамы спинки вместе с подлокотниками образует выразительную геометрическую форму. Это знаковая модель Profim, которая в зависимости от конфигурации подходит и для кабинета руководителя, и для стильного рабочего места.",
+                    "en": "Violle is a collection of high-end office chairs by ITO Design. The refined aluminium backrest frame and armrests form a distinctive geometry. An iconic Profim model that, depending on configuration, suits executive offices and stylish workstations alike."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Profim (Польща)",
+                            "ru": "Profim (Польша)",
+                            "en": "Profim (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло керівника",
+                            "ru": "Кресло руководителя",
+                            "en": "Executive chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Markus Berenwinkel, Christopher Schmidt — ITO Design",
+                            "ru": "Markus Berenwinkel, Christopher Schmidt — ITO Design",
+                            "en": "Markus Berenwinkel, Christopher Schmidt — ITO Design"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-profim-violle-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "profim-revo-t180",
+                "title": "Profim Revo T180"
+            },
+            "thumbnail": "@media:p-profim-revo-t180-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Revo — колекція столів лондонської студії Pearson Lloyd: конференц-столи, журнальні та невеликі приставні столики різних розмірів. Revo T180 — переговорний стіл, який легко поєднується з кріслами й м’якими меблями Profim.",
+                    "ru": "Revo — коллекция столов лондонской студии Pearson Lloyd: конференц-столы, журнальные и небольшие приставные столики разных размеров. Revo T180 — переговорный стол, который легко сочетается с креслами и мягкой мебелью Profim.",
+                    "en": "Revo is a table collection by London studio Pearson Lloyd: conference tables, coffee tables and small side tables in various sizes. Revo T180 is a meeting table that pairs easily with Profim chairs and soft seating."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Profim (Польща)",
+                            "ru": "Profim (Польша)",
+                            "en": "Profim (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Конференц-стіл",
+                            "ru": "Конференц-стол",
+                            "en": "Conference table"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Pearson Lloyd",
+                            "ru": "Pearson Lloyd",
+                            "en": "Pearson Lloyd"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-profim-revo-t180-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "profim-chic-lounge",
+                "title": "Profim Chic Lounge"
+            },
+            "thumbnail": "@media:p-profim-chic-lounge-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Chic Lounge — елегантне крісло Christophe Pillet зі стрункими лініями, що підкреслює представницький характер простору. Доречне в лобі готелів, лаунж-зонах, офісних зонах зустрічей і бутиках.",
+                    "ru": "Chic Lounge — элегантное кресло Christophe Pillet со стройными линиями, которое подчеркивает представительский характер пространства. Уместно в лобби отелей, лаунж-зонах, офисных зонах встреч и бутиках.",
+                    "en": "Chic Lounge is an elegant, slender armchair by Christophe Pillet that underlines the representative character of a space. At home in hotel lobbies, lounge areas, office meeting points and boutiques."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Profim (Польща)",
+                            "ru": "Profim (Польша)",
+                            "en": "Profim (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло",
+                            "ru": "Лаунж-кресло",
+                            "en": "Lounge armchair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Christophe Pillet",
+                            "ru": "Christophe Pillet",
+                            "en": "Christophe Pillet"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-profim-chic-lounge-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "profim",
+                "title": "Profim"
+            },
+            "thumbnail": "@media:b-profim-cover",
+            "acf": {
+                "sp__logo": "@media:logo-profim",
+                "sp__logo-dark": "@media:logo-profim",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Profim</strong> — польський виробник офісних і контрактних крісел, м’яких меблів і столів. Меблі виготовляють у місті Турек у центральній Польщі, а колекції створюють разом із міжнародними дизайнерськими студіями — ITO Design, Pearson Lloyd, Christophe Pillet та іншими.</p>\n<ul>\n<li>Робочі крісла з функцією <strong>активного сидіння</strong> — спинка й сидіння рухаються разом із тілом.</li>\n<li>Для частини продуктів є екологічні декларації <strong>EPD</strong> з перевіреними даними про вплив на довкілля.</li>\n<li>Повний асортимент для офісу: робочі й конференц-крісла, лаунж-меблі, столи, барні стільці.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників.</p>\n<p><strong>Країна:</strong> Польща. <strong>Офіційний сайт:</strong> <a href=\"https://www.profim.eu/\" target=\"_blank\" rel=\"noopener nofollow\">www.profim.eu</a></p>",
+                            "ru": "<p><strong>Profim</strong> — польский производитель офисных и контрактных кресел, мягкой мебели и столов. Мебель изготавливают в городе Турек в центральной Польше, а коллекции создают вместе с международными дизайн-студиями — ITO Design, Pearson Lloyd, Christophe Pillet и другими.</p>\n<ul>\n<li>Рабочие кресла с функцией <strong>активного сидения</strong> — спинка и сиденье двигаются вместе с телом.</li>\n<li>Для части продуктов есть экологические декларации <strong>EPD</strong> с проверенными данными о влиянии на окружающую среду.</li>\n<li>Полный ассортимент для офиса: рабочие и конференц-кресла, лаунж-мебель, столы, барные стулья.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей.</p>\n<p><strong>Страна:</strong> Польша. <strong>Официальный сайт:</strong> <a href=\"https://www.profim.eu/\" target=\"_blank\" rel=\"noopener nofollow\">www.profim.eu</a></p>",
+                            "en": "<p><strong>Profim</strong> is a Polish maker of office and contract seating, soft seating and tables. Its furniture is made in Turek, central Poland, and its collections are created with international studios such as ITO Design, Pearson Lloyd and Christophe Pillet.</p>\n<ul>\n<li>Task chairs with <strong>active seating</strong>: seat and backrest follow the body’s movements.</li>\n<li>Many products carry a verified <strong>EPD</strong> (Environmental Product Declaration).</li>\n<li>A complete office range: task and conference chairs, lounge furniture, tables and bar stools.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture.</p>\n<p><strong>Country:</strong> Poland. <strong>Official website:</strong> <a href=\"https://www.profim.eu/\" target=\"_blank\" rel=\"noopener nofollow\">www.profim.eu</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:profim-accispro",
+                            "@product:profim-violle",
+                            "@product:profim-revo-t180",
+                            "@product:profim-chic-lounge"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "noti-topo",
+                "title": "Noti Topo"
+            },
+            "thumbnail": "@media:p-noti-topo-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Topo — модульна система диванів від Studio Segers, натхненна горизонталями топографічних карт. Різна висота сидінь, спинок і підлокітників створює виразну багатошарову форму. Модулі працюють як окремі «острівці», які вільно комбінуються; їх доповнюють приставні столики, медіапорти та кашпо.",
+                    "ru": "Topo — модульная система диванов от Studio Segers, вдохновленная горизонталями топографических карт. Разная высота сидений, спинок и подлокотников создает выразительную многослойную форму. Модули работают как отдельные «островки», которые свободно комбинируются; их дополняют приставные столики, медиапорты и кашпо.",
+                    "en": "Topo is a modular sofa system by Studio Segers inspired by the contour lines of topographic maps. Varying seat, back and armrest heights create a layered form. Modules work as independent islands that combine freely, with side tables, media ports and planters as add-ons."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Noti (Польща)",
+                            "ru": "Noti (Польша)",
+                            "en": "Noti (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Модульний диван",
+                            "ru": "Модульный диван",
+                            "en": "Modular sofa"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Studio Segers",
+                            "ru": "Studio Segers",
+                            "en": "Studio Segers"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-noti-topo-1",
+                    "@media:p-noti-topo-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "noti-serif",
+                "title": "Noti Serif"
+            },
+            "thumbnail": "@media:p-noti-serif-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Serif — колекція невеликих столів Пйотра Кухцінського, що невимушено переосмислює канони класичної архітектури: основа, ніжки й стільниця відсилають до фундаменту, колон і даху. Контури столів, особливо високих, нагадують літери із засічками.",
+                    "ru": "Serif — коллекция небольших столов Петра Кухчинского, которая непринужденно переосмысливает каноны классической архитектуры: основание, ножки и столешница отсылают к фундаменту, колоннам и крыше. Контуры столов, особенно высоких, напоминают буквы с засечками.",
+                    "en": "Serif is a collection of small tables by Piotr Kuchciński, a casual take on the canons of classical architecture: base, legs and top echo foundation, columns and roof. The contours, especially of the taller tables, recall letters with serifs."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Noti (Польща)",
+                            "ru": "Noti (Польша)",
+                            "en": "Noti (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Столи",
+                            "ru": "Столы",
+                            "en": "Tables"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Piotr Kuchciński",
+                            "ru": "Piotr Kuchciński",
+                            "en": "Piotr Kuchciński"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-noti-serif-1",
+                    "@media:p-noti-serif-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "noti-meno",
+                "title": "Noti Meno"
+            },
+            "thumbnail": "@media:p-noti-meno-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Meno — акустичні й декоративні стінові панелі від Майї Ґаншинєць. Панелі різної глибини мають форму півкіл, квадратів і прямокутників. Вони не лише поглинають звук, а й розсіюють його завдяки різній глибині та кутам, тож помітно зменшують шум і реверберацію.",
+                    "ru": "Meno — акустические и декоративные стеновые панели от Майи Ганшинец. Панели разной глубины имеют форму полукругов, квадратов и прямоугольников. Они не только поглощают звук, но и рассеивают его благодаря разной глубине и углам, поэтому заметно снижают шум и реверберацию.",
+                    "en": "Meno is a range of acoustic and decorative wall panels by Maja Ganszyniec. Panels of different depths come as semicircles, squares and rectangles. Beyond absorbing sound, their varying depths and angles scatter it, noticeably reducing noise and reverberation."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Noti (Польща)",
+                            "ru": "Noti (Польша)",
+                            "en": "Noti (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Акустичні стінові панелі",
+                            "ru": "Акустические стеновые панели",
+                            "en": "Acoustic wall panels"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Maja Ganszyniec",
+                            "ru": "Maja Ganszyniec",
+                            "en": "Maja Ganszyniec"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-noti-meno-1",
+                    "@media:p-noti-meno-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "noti",
+                "title": "Noti"
+            },
+            "thumbnail": "@media:b-noti-cover",
+            "acf": {
+                "sp__logo": "@media:logo-noti",
+                "sp__logo-dark": "@media:logo-noti",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Noti</strong> — польський бренд дизайнерських меблів із сімейною історією, який понад 20 років сповідує принцип «спершу дизайн». Noti виробляє дивани, крісла, пуфи, стільці, столи й акустичні панелі для офісів, громадських просторів і житла, а кожну колекцію створює разом з відомими дизайнерами.</p>\n<ul>\n<li>Ставка на <strong>модульні та системні рішення</strong>, широкий вибір тканин і розмірів.</li>\n<li>Ручна робота й ретельно відібрані матеріали.</li>\n<li>Колекції регулярно стають номінантами й переможцями дизайнерських конкурсів у Польщі та за кордоном.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, <a href=\"/category/akustychni-rishennya/stinovi-paneli/\">акустичні панелі та екрани</a>.</p>\n<p><strong>Країна:</strong> Польща. <strong>Офіційний сайт:</strong> <a href=\"https://www.noti.pl/en\" target=\"_blank\" rel=\"noopener nofollow\">www.noti.pl/en</a></p>",
+                            "ru": "<p><strong>Noti</strong> — польский бренд дизайнерской мебели с семейной историей, который более 20 лет следует принципу «сначала дизайн». Noti производит диваны, кресла, пуфы, стулья, столы и акустические панели для офисов, общественных пространств и жилья, а каждую коллекцию создает вместе с известными дизайнерами.</p>\n<ul>\n<li>Ставка на <strong>модульные и системные решения</strong>, широкий выбор тканей и размеров.</li>\n<li>Ручная работа и тщательно отобранные материалы.</li>\n<li>Коллекции регулярно становятся номинантами и победителями дизайнерских конкурсов в Польше и за рубежом.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, <a href=\"/ru/category/akustychni-rishennya/stinovi-paneli/\">акустические панели и экраны</a>.</p>\n<p><strong>Страна:</strong> Польша. <strong>Официальный сайт:</strong> <a href=\"https://www.noti.pl/en\" target=\"_blank\" rel=\"noopener nofollow\">www.noti.pl/en</a></p>",
+                            "en": "<p><strong>Noti</strong> is a Polish design-furniture brand with family roots that has followed a “design first” principle for over 20 years. It makes sofas, armchairs, poufs, chairs, tables and acoustic panels for offices, public spaces and homes, with every collection created alongside renowned designers.</p>\n<ul>\n<li>A focus on <strong>modular and system designs</strong> with a wide choice of fabrics and sizes.</li>\n<li>Hand craftsmanship and carefully selected materials.</li>\n<li>Collections regularly win or are shortlisted at design competitions in Poland and abroad.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, <a href=\"/en/category/acoustic-solutions/wall-panels/\">acoustic panels and screens</a>.</p>\n<p><strong>Country:</strong> Poland. <strong>Official website:</strong> <a href=\"https://www.noti.pl/en\" target=\"_blank\" rel=\"noopener nofollow\">www.noti.pl/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:noti-topo",
+                            "@product:noti-serif",
+                            "@product:noti-meno"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "vondom-africa",
+                "title": "Vondom Africa"
+            },
+            "thumbnail": "@media:p-vondom-africa-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Africa — колекція Eugeni Quitllet, який каже про неї: «Найоригінальніше — бути простим». Після успіху крісла Africa колекція розрослася до табурета, шезлонга й лаунж-крісла. Чисті елегантні лінії повторюють природний вигин тіла й поєднують комфорт із позачасовим стилем.",
+                    "ru": "Africa — коллекция Eugeni Quitllet, который говорит о ней: «Самое оригинальное — быть простым». После успеха кресла Africa коллекция выросла до табурета, шезлонга и лаунж-кресла. Чистые элегантные линии повторяют естественный изгиб тела и сочетают комфорт с вневременным стилем.",
+                    "en": "Africa is a collection by Eugeni Quitllet, who says “the most original thing is to be simple”. After the success of the Africa chair it grew to include a stool, a lounger and a lounge chair. Clean, elegant lines follow the body’s natural curve, pairing comfort with timeless style."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Vondom (Іспанія)",
+                            "ru": "Vondom (Испания)",
+                            "en": "Vondom (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло для вулиці та інтер’єру",
+                            "ru": "Лаунж-кресло для улицы и интерьера",
+                            "en": "Indoor/outdoor lounge chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Eugeni Quitllet",
+                            "ru": "Eugeni Quitllet",
+                            "en": "Eugeni Quitllet"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-vondom-africa-1",
+                    "@media:p-vondom-africa-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "vondom-milos",
+                "title": "Vondom Milos"
+            },
+            "thumbnail": "@media:p-vondom-milos-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Milos — вулична колекція Jean-Marie Massaud, натхненна валенсійським узбережжям і скелями, обточеними вітром і морем. Модульні дивани й крісла поєднують поліуретан і дерево, а низькі столики та кашпо виконані з легкого бетону з ручною обробкою. Модулі комбінуються вільно, як життя на рифі.",
+                    "ru": "Milos — уличная коллекция Jean-Marie Massaud, вдохновленная валенсийским побережьем и скалами, обточенными ветром и морем. Модульные диваны и кресла сочетают полиуретан и дерево, а низкие столики и кашпо выполнены из легкого бетона с ручной обработкой. Модули комбинируются свободно, как жизнь на рифе.",
+                    "en": "Milos is an outdoor collection by Jean-Marie Massaud inspired by the Valencian coast and its wind- and sea-worn rocks. Modular sofas and armchairs combine polyurethane and wood, while low tables and planters are hand-finished lightweight concrete. Modules combine freely, like life on a reef."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Vondom (Іспанія)",
+                            "ru": "Vondom (Испания)",
+                            "en": "Vondom (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Модульні вуличні меблі",
+                            "ru": "Модульная уличная мебель",
+                            "en": "Modular outdoor furniture"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Jean-Marie Massaud",
+                            "ru": "Jean-Marie Massaud",
+                            "en": "Jean-Marie Massaud"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-vondom-milos-1",
+                    "@media:p-vondom-milos-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "vondom",
+                "title": "Vondom"
+            },
+            "thumbnail": "@media:b-vondom-cover",
+            "acf": {
+                "sp__logo": "@media:logo-vondom",
+                "sp__logo-dark": "@media:logo-vondom",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Vondom</strong> — іспанський виробник дизайнерських вуличних меблів, світильників і кашпо для терас, готелів, ресторанів і приватних садів. Бренд співпрацює з відомими дизайнерами — Eugeni Quitllet, Jean-Marie Massaud, Ramón Esteve, Karim Rashid — і відомий сміливими скульптурними формами.</p>\n<ul>\n<li>Меблі, світильники й кашпо в одному стилі — для цілісних вуличних просторів.</li>\n<li>Колекції відзначені Good Design (Africa) і Red Dot (Milos).</li>\n<li>Проєкти для готелів, ресторанів, курортів, офісів і житла по всьому світу.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>.</p>\n<p><strong>Країна:</strong> Іспанія. <strong>Офіційний сайт:</strong> <a href=\"https://www.vondom.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.vondom.com</a></p>",
+                            "ru": "<p><strong>Vondom</strong> — испанский производитель дизайнерской уличной мебели, светильников и кашпо для террас, отелей, ресторанов и частных садов. Бренд сотрудничает с известными дизайнерами — Eugeni Quitllet, Jean-Marie Massaud, Ramón Esteve, Karim Rashid — и известен смелыми скульптурными формами.</p>\n<ul>\n<li>Мебель, светильники и кашпо в одном стиле — для целостных уличных пространств.</li>\n<li>Коллекции отмечены Good Design (Africa) и Red Dot (Milos).</li>\n<li>Проекты для отелей, ресторанов, курортов, офисов и жилья по всему миру.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>.</p>\n<p><strong>Страна:</strong> Испания. <strong>Официальный сайт:</strong> <a href=\"https://www.vondom.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.vondom.com</a></p>",
+                            "en": "<p><strong>Vondom</strong> is a Spanish maker of designer outdoor furniture, lighting and planters for terraces, hotels, restaurants and private gardens. Known for bold sculptural forms, it works with designers such as Eugeni Quitllet, Jean-Marie Massaud, Ramón Esteve and Karim Rashid.</p>\n<ul>\n<li>Furniture, lighting and planters in one style for coherent outdoor spaces.</li>\n<li>Collections recognised with Good Design (Africa) and Red Dot (Milos) awards.</li>\n<li>Projects for hotels, restaurants, resorts, offices and homes worldwide.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>.</p>\n<p><strong>Country:</strong> Spain. <strong>Official website:</strong> <a href=\"https://www.vondom.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.vondom.com</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:vondom-africa",
+                            "@product:vondom-milos"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "isku-myflow-office-table",
+                "title": "ISKU MyFlow Office Table"
+            },
+            "thumbnail": "@media:p-isku-myflow-office-table-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "MyFlow Office Table — якісний стіл з електричним регулюванням висоти та заокругленими краями. У стільницю інтегровано непомітне живлення з USB-C для заряджання пристроїв. Разом з екраном MyFlow Table Screen, MyFlow Box і MyFlow Storage утворює елегантне й функціональне робоче місце. Кошик для кабелів і пульт керування входять у комплект; доступна антимікробна версія.",
+                    "ru": "MyFlow Office Table — качественный стол с электрической регулировкой высоты и скругленными краями. В столешницу интегрировано незаметное питание с USB-C для зарядки устройств. Вместе с экраном MyFlow Table Screen, MyFlow Box и MyFlow Storage образует элегантное и функциональное рабочее место. Корзина для кабелей и пульт управления входят в комплект; доступна антимикробная версия.",
+                    "en": "MyFlow Office Table is a high-quality electric height-adjustable desk with rounded edges and a discreet built-in USB-C power supply. With the MyFlow Table Screen, Box and Storage it forms an elegant, functional workstation. Cable basket and control panel included; antimicrobial version available."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "ISKU (Фінляндія)",
+                            "ru": "ISKU (Финляндия)",
+                            "en": "ISKU (Finland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл з електричним регулюванням висоти",
+                            "ru": "Стол с электрической регулировкой высоты",
+                            "en": "Electric height-adjustable desk"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Vertti Kivi",
+                            "ru": "Vertti Kivi",
+                            "en": "Vertti Kivi"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Розміри",
+                            "ru": "Размеры",
+                            "en": "Dimensions"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "ширина 1200–2000 мм, глибина 700/800 мм, висота 630–1280 мм",
+                            "ru": "ширина 1200–2000 мм, глубина 700/800 мм, высота 630–1280 мм",
+                            "en": "width 1200–2000 mm, depth 700/800 mm, height 630–1280 mm"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-isku-myflow-office-table-1",
+                    "@media:p-isku-myflow-office-table-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "isku-myflow-chair",
+                "title": "ISKU MyFlow Chair"
+            },
+            "thumbnail": "@media:p-isku-myflow-chair-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "MyFlow Chair — універсальне крісло на хрестовині з колесами, у дизайні якого по-особливому поєднано дерево, ретельно дібрану оббивку й метал. Легкий м’який силует доповнює виразна деталь, що з’єднує сидіння зі спинкою. Спинку можна повністю оббити або поєднати тканину з фанерою в шпоні.",
+                    "ru": "MyFlow Chair — универсальное кресло на крестовине с колесами, в дизайне которого по-особенному сочетаются дерево, тщательно подобранная обивка и металл. Легкий мягкий силуэт дополняет выразительная деталь, соединяющая сиденье со спинкой. Спинку можно полностью обить или сочетать ткань с фанерой в шпоне.",
+                    "en": "MyFlow Chair is a universal chair on a castored cross base that uniquely combines wood, carefully chosen upholstery and metal. A striking detail joins seat and backrest in a light, soft-lined form. The backrest can be fully upholstered or combine fabric with veneered plywood."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "ISKU (Фінляндія)",
+                            "ru": "ISKU (Финляндия)",
+                            "en": "ISKU (Finland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло на колесах",
+                            "ru": "Кресло на колесах",
+                            "en": "Chair with castors"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Vertti Kivi",
+                            "ru": "Vertti Kivi",
+                            "en": "Vertti Kivi"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-isku-myflow-chair-1",
+                    "@media:p-isku-myflow-chair-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "isku-big-hug",
+                "title": "ISKU Big Hug"
+            },
+            "thumbnail": "@media:p-isku-big-hug-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Big Hug — виразне крісло для лаунж-зон і дому, переможець конкурсу Finland 100 Furniture Design Competition 2017. Як і підказує назва, воно «обіймає» того, хто сидить, а підлокітники створюють затишний захищений простір. Каркас сидіння — з термоформованого матеріалу Grada, ніжки дерев’яні або зі сталевої труби.",
+                    "ru": "Big Hug — выразительное кресло для лаунж-зон и дома, победитель конкурса Finland 100 Furniture Design Competition 2017. Как и подсказывает название, оно «обнимает» сидящего, а подлокотники создают уютное защищенное пространство. Каркас сиденья — из термоформованного материала Grada, ножки деревянные или из стальной трубы.",
+                    "en": "Big Hug is a striking easy chair for lounges and homes, winner of the Finland 100 Furniture Design Competition in 2017. As the name suggests, it hugs its user, with armrests forming a sheltered spot. The seat frame is thermoformable Grada wood; legs are wood or steel tube."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "ISKU (Фінляндія)",
+                            "ru": "ISKU (Финляндия)",
+                            "en": "ISKU (Finland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло",
+                            "ru": "Лаунж-кресло",
+                            "en": "Easy chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Mika Tolvanen",
+                            "ru": "Mika Tolvanen",
+                            "en": "Mika Tolvanen"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Розміри",
+                            "ru": "Размеры",
+                            "en": "Dimensions"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "1060 × 930 × 1020 мм (Ш × Г × В)",
+                            "ru": "1060 × 930 × 1020 мм (Ш × Г × В)",
+                            "en": "1060 × 930 × 1020 mm (W × D × H)"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-isku-big-hug-1",
+                    "@media:p-isku-big-hug-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "isku",
+                "title": "ISKU"
+            },
+            "thumbnail": "@media:b-isku-cover",
+            "acf": {
+                "sp__logo": "@media:logo-isku",
+                "sp__logo-dark": "@media:logo-isku",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>ISKU</strong> — фінський виробник меблів для офісів, навчальних закладів і громадських просторів з історією з 1928 року. Виробництво розташоване в місті Лахті. ISKU поєднує північний дизайн, фінську якість і турботу про довкілля.</p>\n<ul>\n<li>Повний асортимент: столи з електроприводом, робочі та конференц-крісла, м’які меблі.</li>\n<li>Багато моделей доступні з <strong>антимікробними</strong> поверхнями.</li>\n<li>Співпраця з фінськими дизайнерами; крісло Big Hug — переможець конкурсу Finland 100 (2017).</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>.</p>\n<p><strong>Країна:</strong> Фінляндія. <strong>Офіційний сайт:</strong> <a href=\"https://isku.com/en/isku/\" target=\"_blank\" rel=\"noopener nofollow\">isku.com/en/isku</a></p>",
+                            "ru": "<p><strong>ISKU</strong> — финский производитель мебели для офисов, учебных заведений и общественных пространств с историей с 1928 года. Производство расположено в городе Лахти. ISKU сочетает северный дизайн, финское качество и заботу об окружающей среде.</p>\n<ul>\n<li>Полный ассортимент: столы с электроприводом, рабочие и конференц-кресла, мягкая мебель.</li>\n<li>Многие модели доступны с <strong>антимикробными</strong> поверхностями.</li>\n<li>Сотрудничество с финскими дизайнерами; кресло Big Hug — победитель конкурса Finland 100 (2017).</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>.</p>\n<p><strong>Страна:</strong> Финляндия. <strong>Официальный сайт:</strong> <a href=\"https://isku.com/en/isku/\" target=\"_blank\" rel=\"noopener nofollow\">isku.com/en/isku</a></p>",
+                            "en": "<p><strong>ISKU</strong> is a Finnish maker of furniture for offices, education and public spaces with a history going back to 1928. Production is in Lahti. ISKU combines Nordic design, Finnish quality and a commitment to sustainability.</p>\n<ul>\n<li>A full range: electric desks, task and conference chairs and soft seating.</li>\n<li>Many models are available with <strong>antimicrobial</strong> surfaces.</li>\n<li>Work with Finnish designers; the Big Hug chair won the Finland 100 competition (2017).</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>.</p>\n<p><strong>Country:</strong> Finland. <strong>Official website:</strong> <a href=\"https://isku.com/en/isku/\" target=\"_blank\" rel=\"noopener nofollow\">isku.com/en/isku</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:isku-myflow-office-table",
+                            "@product:isku-myflow-chair",
+                            "@product:isku-big-hug"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

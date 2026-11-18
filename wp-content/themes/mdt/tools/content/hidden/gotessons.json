@@ -1,0 +1,112 @@
+{
+    "_readme": "Götessons (supplier + Sandy sofa), cut from brands-c.json on 2026-11-18: the client no longer works with them and asked to hide the brand for now. Not read by content-pages.php (it only globs tools/content/*.json). To restore: move these posts/media back into brands-c.json, move the files from hidden/media/ back to media/, re-add \"@suppliers:gotessons\" to the lp__brands lists in mebli.json, mebli-myaki-mebli.json and akustyka-stinovi-paneli.json and \"@product:gotessons-sandy\" to lp__products in mebli-myaki-mebli.json, run content-pages.php --apply, then publish the drafted posts in wp-admin.",
+    "media": {
+        "b-gotessons-cover": {
+            "file": "b-gotessons-cover.jpg",
+            "title": "Götessons",
+            "source": "https://gotessons.com/storage/FB7EBD91C8DC59C119132833684A626D1FD0CC7DC787A19885897585CA9B2C40/75657c2fc7fa4250ad1d42fb3e7402f9/jpg/media/ffd34ff707d543cca6c293c281992aec/V_The_Hut_Sofa_Gotessons_1500px.jpg"
+        },
+        "logo-gotessons": {
+            "file": "logo-gotessons.png",
+            "title": "Götessons",
+            "source": "https://gotessons.com/eu/ (recoloured #343434)"
+        },
+        "p-gotessons-sandy-1": {
+            "file": "p-gotessons-sandy-1.jpg",
+            "title": "Götessons Sandy",
+            "source": "https://gotessons.com/eu/products/soft-seating/sandy"
+        },
+        "p-gotessons-sandy-2": {
+            "file": "p-gotessons-sandy-2.jpg",
+            "title": "Götessons Sandy",
+            "source": "https://gotessons.com/eu/products/soft-seating/sandy"
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "gotessons-sandy",
+                "title": "Götessons Sandy"
+            },
+            "thumbnail": "@media:p-gotessons-sandy-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Sandy — серія модульних м’яких сидінь, яка постійно розширюється новими модулями й аксесуарами. Для більшого комфорту є спинка, що кріпиться двома металевими стрижнями, а до круглих пуфів додалися прямі модулі Annex — з них складають власні композиції для лаунжів і зон очікування. Цоколь — з ламінованого мазоніту в кількох кольорах.",
+                    "ru": "Sandy — серия модульных мягких сидений, которая постоянно расширяется новыми модулями и аксессуарами. Для большего комфорта есть спинка, крепящаяся двумя металлическими стержнями, а к круглым пуфам добавились прямые модули Annex — из них составляют собственные композиции для лаунжей и зон ожидания. Цоколь — из ламинированного мазонита в нескольких цветах.",
+                    "en": "Sandy is a modular soft-seating series that keeps growing with new modules and accessories. A backrest attaches with two metal rods for extra comfort, and straight Annex modules now join the round poufs to build your own lounge and waiting-area layouts. The plinth is laminated Masonite in several colours."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Götessons (Швеція)",
+                            "ru": "Götessons (Швеция)",
+                            "en": "Götessons (Sweden)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Модульні м’які сидіння",
+                            "ru": "Модульные мягкие сиденья",
+                            "en": "Modular soft seating"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Розміри",
+                            "ru": "Размеры",
+                            "en": "Dimensions"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "висота сидіння 460 мм",
+                            "ru": "высота сиденья 460 мм",
+                            "en": "seat height 460 mm"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-gotessons-sandy-1",
+                    "@media:p-gotessons-sandy-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "gotessons",
+                "title": "Götessons"
+            },
+            "thumbnail": "@media:b-gotessons-cover",
+            "acf": {
+                "sp__logo": "@media:logo-gotessons",
+                "sp__logo-dark": "@media:logo-gotessons",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Götessons</strong> — шведський виробник рішень для офісів і громадських просторів, заснований 1984 року в Дальсторпі; з 2015 року штаб-квартира й склад — в Ульрісегамні. Компанія розробляє продукти з думкою про людей: хороша акустика, ергономічні сидіння, правильне світло й творча атмосфера допомагають працювати краще.</p>\n<ul>\n<li>Акустичні екрани й панелі для відкритих офісів.</li>\n<li>Багато продуктів отримують екомаркування <strong>Nordic Swan</strong> з відповідними тканинами.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, <a href=\"/category/akustychni-rishennya/stinovi-paneli/\">акустичні панелі та екрани</a>.</p>\n<p><strong>Країна:</strong> Швеція. <strong>Офіційний сайт:</strong> <a href=\"https://gotessons.com/eu/\" target=\"_blank\" rel=\"noopener nofollow\">gotessons.com/eu</a></p>",
+                            "ru": "<p><strong>Götessons</strong> — шведский производитель решений для офисов и общественных пространств, основанный в 1984 году в Дальсторпе; с 2015 года штаб-квартира и склад — в Ульрисехамне. Компания разрабатывает продукты с мыслью о людях: хорошая акустика, эргономичные сиденья, правильный свет и творческая атмосфера помогают работать лучше.</p>\n<ul>\n<li>Акустические экраны и панели для открытых офисов.</li>\n<li>Многие продукты получают экомаркировку <strong>Nordic Swan</strong> с соответствующими тканями.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, <a href=\"/ru/category/akustychni-rishennya/stinovi-paneli/\">акустические панели и экраны</a>.</p>\n<p><strong>Страна:</strong> Швеция. <strong>Официальный сайт:</strong> <a href=\"https://gotessons.com/eu/\" target=\"_blank\" rel=\"noopener nofollow\">gotessons.com/eu</a></p>",
+                            "en": "<p><strong>Götessons</strong> is a Swedish maker of solutions for offices and public spaces, founded in 1984 in Dalstorp and headquartered in Ulricehamn since 2015. Its products are developed with people in focus: good acoustics, ergonomic seating, proper lighting and a creative atmosphere help people perform at their best.</p>\n<ul>\n<li>Acoustic screens and panels for open-plan offices.</li>\n<li>Many products qualify for the <strong>Nordic Swan</strong> ecolabel with selected textiles.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, <a href=\"/en/category/acoustic-solutions/wall-panels/\">acoustic panels and screens</a>.</p>\n<p><strong>Country:</strong> Sweden. <strong>Official website:</strong> <a href=\"https://gotessons.com/eu/\" target=\"_blank\" rel=\"noopener nofollow\">gotessons.com/eu</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:gotessons-sandy"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

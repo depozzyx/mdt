@@ -33,3 +33,9 @@ wp-content/uploads
 
 
 *.DS_Store
+# Source images for tools/content-pages.php (copied into uploads/mdt-content/ by the tool).
+!wp-content/themes/mdt/tools/content/media/*.jpg
+!wp-content/themes/mdt/tools/content/media/*.png
+!wp-content/themes/mdt/tools/content/media/*.webp
+!wp-content/themes/mdt/tools/content/hidden/media/*.jpg
+!wp-content/themes/mdt/tools/content/hidden/media/*.png

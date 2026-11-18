@@ -261,7 +261,7 @@
                               $posts->the_post();
                               $id=$posts->ID;
                               setup_postdata($post); ?>
-                                <div class="partners__item col__custom wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * $i; ?>s">
+                                <div class="partners__item col__custom wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * (($i - 1) % 4 + 1); ?>s">
                                     <a href="<?php the_permalink(); ?>" class="partners__item-bl d-flex align-items-center justify-content-center">
                                         <div class="partners__item-img">
                                             <img src="<?php the_field('sp__logo-dark') ?>" width="100">
@@ -309,7 +309,7 @@
                                         </div>
                                       <?php if(get_field('p__price')): ?>
                                           <div class="card__info">
-                                            <?php _e('Ціна від', 'mdt'); ?> <?php the_field( $col_item, 'p__price'); ?> <span>грн. / м²</span>
+                                            <?php _e('Ціна від', 'mdt'); ?> <?php the_field( $col_item, 'p__price'); ?> <span><?php _e('грн. / м²', 'mdt'); ?></span>
                                           </div>
                                       <?php endif; ?>
                                     </div>
@@ -410,16 +410,16 @@
                   <div class="info__list">
                       <div class="row row__custom">
                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 col__custom info__item wow fadeInUpDes" data-wow-delay="0.1s">
-                              <a href="<?php the_permalink(5922); ?>" class="info__item-bl d-flex align-items-center">
+                              <a href="<?php the_permalink(lang_page_original_id(5922)); ?>" class="info__item-bl d-flex align-items-center">
                                   <div class="info__item-img">
-                                      <img src="<?php echo get_field('src__preview', 5922)['sizes']['t-1'] ?>">
+                                      <img src="<?php echo get_field('src__preview', lang_page_original_id(5922))['sizes']['t-1'] ?>">
                                   </div>
                                   <div class="info__item-content">
                                       <div class="info__item-title">
-                                        <?php echo  get_the_title(5922) ?>
+                                        <?php echo  get_the_title(lang_page_original_id(5922)) ?>
                                       </div>
                                       <div class="info__item-descr">
-                                        <?php the_field('src__preview-descr', 5922) ?>
+                                        <?php the_field('src__preview-descr', lang_page_original_id(5922)) ?>
                                       </div>
                                   </div>
                                   <div class="redirect__decor d-flex align-items-center justify-content-center">
@@ -436,16 +436,16 @@
                               </a>
                           </div>
                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 col__custom info__item wow fadeInUpDes" data-wow-delay="0.3s">
-                              <a href="<?php the_permalink(5935); ?>" class="info__item-bl d-flex align-items-center">
+                              <a href="<?php the_permalink(lang_page_original_id(5935)); ?>" class="info__item-bl d-flex align-items-center">
                                   <div class="info__item-img">
-                                      <img src="<?php echo get_field('src__preview', 5935)['sizes']['t-1'] ?>">
+                                      <img src="<?php echo get_field('src__preview', lang_page_original_id(5935))['sizes']['t-1'] ?>">
                                   </div>
                                   <div class="info__item-content">
                                       <div class="info__item-title">
-                                        <?php echo  get_the_title(5935) ?>
+                                        <?php echo  get_the_title(lang_page_original_id(5935)) ?>
                                       </div>
                                       <div class="info__item-descr">
-                                        <?php the_field('src__preview-descr', 5935) ?>
+                                        <?php the_field('src__preview-descr', lang_page_original_id(5935)) ?>
                                       </div>
                                   </div>
                                   <div class="redirect__decor d-flex align-items-center justify-content-center">

@@ -1,0 +1,2656 @@
+{
+    "_readme": "Factories from the client table «Фабрики MDT (Region: Ukraine)», part B (Danish and Italian makers). Texts written from each maker's own site (see each media \"source\"); logos recoloured #343434.",
+    "media": {
+        "b-audo-cover": {
+            "file": "b-audo-cover.jpg",
+            "title": "Audo Copenhagen",
+            "source": "https://audocph.com/cdn/shop/files/Audo_2023_CMA_4P0A3750_FINAL_cbd3b2b2-ca61-4391-95ca-363b4f2b2872.jpg"
+        },
+        "logo-audo": {
+            "file": "logo-audo.png",
+            "title": "Audo Copenhagen",
+            "source": "https://audocph.com/ (recoloured #343434)"
+        },
+        "p-audo-the-tired-man-1": {
+            "file": "p-audo-the-tired-man-1.jpg",
+            "title": "Audo The Tired Man",
+            "source": "https://audocph.com/products/tired-man"
+        },
+        "p-audo-the-tired-man-2": {
+            "file": "p-audo-the-tired-man-2.jpg",
+            "title": "Audo The Tired Man",
+            "source": "https://audocph.com/products/tired-man"
+        },
+        "p-audo-eclipse-desk-1": {
+            "file": "p-audo-eclipse-desk-1.jpg",
+            "title": "Audo Eclipse Desk",
+            "source": "https://audocph.com/products/the-eclipse-desk"
+        },
+        "p-audo-eclipse-desk-2": {
+            "file": "p-audo-eclipse-desk-2.jpg",
+            "title": "Audo Eclipse Desk",
+            "source": "https://audocph.com/products/the-eclipse-desk"
+        },
+        "b-diemme-cover": {
+            "file": "b-diemme-cover.jpg",
+            "title": "Diemme",
+            "source": "https://www.diemmeoffice.com/wp-content/uploads/2020/06/pouf_1145._amb.jpg"
+        },
+        "logo-diemme": {
+            "file": "logo-diemme.png",
+            "title": "Diemme",
+            "source": "https://www.diemmeoffice.com/en/ (recoloured #343434)"
+        },
+        "p-diemme-skin-1": {
+            "file": "p-diemme-skin-1.jpg",
+            "title": "Diemme Skin",
+            "source": "https://www.diemmeoffice.com/en/collections/skin/"
+        },
+        "p-diemme-skin-2": {
+            "file": "p-diemme-skin-2.jpg",
+            "title": "Diemme Skin",
+            "source": "https://www.diemmeoffice.com/en/collections/skin/"
+        },
+        "p-diemme-velvet-1": {
+            "file": "p-diemme-velvet-1.jpg",
+            "title": "Diemme Velvet",
+            "source": "https://www.diemmeoffice.com/en/collections/velvet/"
+        },
+        "p-diemme-velvet-2": {
+            "file": "p-diemme-velvet-2.jpg",
+            "title": "Diemme Velvet",
+            "source": "https://www.diemmeoffice.com/en/collections/velvet/"
+        },
+        "p-diemme-circuit-1": {
+            "file": "p-diemme-circuit-1.jpg",
+            "title": "Diemme Circuit",
+            "source": "https://www.diemmeoffice.com/en/collections/circuit/"
+        },
+        "p-diemme-circuit-2": {
+            "file": "p-diemme-circuit-2.jpg",
+            "title": "Diemme Circuit",
+            "source": "https://www.diemmeoffice.com/en/collections/circuit/"
+        },
+        "b-ditre-italia-cover": {
+            "file": "b-ditre-italia-cover.jpg",
+            "title": "Ditre Italia",
+            "source": "https://www.ditreitalia.com/wp-content/uploads/2025/12/2025_DitreItalia_Novelties_Melville-7-1.jpg"
+        },
+        "logo-ditre-italia": {
+            "file": "logo-ditre-italia.png",
+            "title": "Ditre Italia",
+            "source": "https://www.ditreitalia.com/en/ (recoloured #343434)"
+        },
+        "p-ditre-italia-manta-1": {
+            "file": "p-ditre-italia-manta-1.jpg",
+            "title": "Ditre Italia Manta",
+            "source": "https://www.ditreitalia.com/en/products/armchairs/manta/"
+        },
+        "p-ditre-italia-manta-2": {
+            "file": "p-ditre-italia-manta-2.jpg",
+            "title": "Ditre Italia Manta",
+            "source": "https://www.ditreitalia.com/en/products/armchairs/manta/"
+        },
+        "p-ditre-italia-babel-1": {
+            "file": "p-ditre-italia-babel-1.jpg",
+            "title": "Ditre Italia Babel",
+            "source": "https://www.ditreitalia.com/en/products/coffee-tables/babel/"
+        },
+        "p-ditre-italia-babel-2": {
+            "file": "p-ditre-italia-babel-2.jpg",
+            "title": "Ditre Italia Babel",
+            "source": "https://www.ditreitalia.com/en/products/coffee-tables/babel/"
+        },
+        "p-ditre-italia-pacific-1": {
+            "file": "p-ditre-italia-pacific-1.jpg",
+            "title": "Ditre Italia Pacific",
+            "source": "https://www.ditreitalia.com/en/products/outdoor-sofas/pacific/"
+        },
+        "p-ditre-italia-pacific-2": {
+            "file": "p-ditre-italia-pacific-2.jpg",
+            "title": "Ditre Italia Pacific",
+            "source": "https://www.ditreitalia.com/en/products/outdoor-sofas/pacific/"
+        },
+        "b-true-design-cover": {
+            "file": "b-true-design-cover.jpg",
+            "title": "True Design",
+            "source": "https://www.truedesign.it/app/uploads/2025/02/TRUE_Nhero_2615-HDR-Pano.jpg"
+        },
+        "logo-true-design": {
+            "file": "logo-true-design.png",
+            "title": "True Design",
+            "source": "https://www.truedesign.it/en/ (recoloured #343434)"
+        },
+        "p-true-design-e-quo-table-1": {
+            "file": "p-true-design-e-quo-table-1.jpg",
+            "title": "True Design E-quo Table",
+            "source": "https://www.truedesign.it/en/products/e-quo-table/"
+        },
+        "p-true-design-e-quo-table-2": {
+            "file": "p-true-design-e-quo-table-2.jpg",
+            "title": "True Design E-quo Table",
+            "source": "https://www.truedesign.it/en/products/e-quo-table/"
+        },
+        "p-true-design-abisko-1": {
+            "file": "p-true-design-abisko-1.jpg",
+            "title": "True Design Abisko",
+            "source": "https://www.truedesign.it/en/products/abisko/"
+        },
+        "p-true-design-abisko-2": {
+            "file": "p-true-design-abisko-2.jpg",
+            "title": "True Design Abisko",
+            "source": "https://www.truedesign.it/en/products/abisko/"
+        },
+        "p-true-design-patch-1": {
+            "file": "p-true-design-patch-1.jpg",
+            "title": "True Design Patch",
+            "source": "https://www.truedesign.it/en/products/patch/"
+        },
+        "p-true-design-patch-2": {
+            "file": "p-true-design-patch-2.jpg",
+            "title": "True Design Patch",
+            "source": "https://www.truedesign.it/en/products/patch/"
+        },
+        "p-true-design-laguna-1": {
+            "file": "p-true-design-laguna-1.jpg",
+            "title": "True Design Laguna",
+            "source": "https://www.truedesign.it/en/products/laguna/"
+        },
+        "p-true-design-laguna-2": {
+            "file": "p-true-design-laguna-2.jpg",
+            "title": "True Design Laguna",
+            "source": "https://www.truedesign.it/en/products/laguna/"
+        },
+        "b-midj-cover": {
+            "file": "b-midj-cover.jpg",
+            "title": "MIDJ",
+            "source": "https://www.midj.com/cdn-cgi/image/fit=scale-down,format=jpeg,width=1600/sfsites/c/cms/delivery/media/MCGMCZWOS74RE4ZLIHXD25WLADOY?version=1.1&channelId=0apSW00000006F8&oid=00D09000007llsA"
+        },
+        "logo-midj": {
+            "file": "logo-midj.png",
+            "title": "MIDJ",
+            "source": "https://www.midj.com/ (recoloured #343434)"
+        },
+        "p-midj-cover-1-1": {
+            "file": "p-midj-cover-1-1.jpg",
+            "title": "MIDJ Cover.1",
+            "source": "https://www.midj.com/product/cover1-dp-ts/01tSW00000FclLRYAZ"
+        },
+        "p-midj-cover-1-2": {
+            "file": "p-midj-cover-1-2.jpg",
+            "title": "MIDJ Cover.1",
+            "source": "https://www.midj.com/product/cover1-dp-ts/01tSW00000FclLRYAZ"
+        },
+        "p-midj-leo-1": {
+            "file": "p-midj-leo-1.jpg",
+            "title": "MIDJ Leo",
+            "source": "https://www.midj.com/product/leo-%C3%B8150/01tSW00000DU85XYAT"
+        },
+        "p-midj-yak-1": {
+            "file": "p-midj-yak-1.jpg",
+            "title": "MIDJ Yak",
+            "source": "https://www.midj.com/en/category/collections/Yak"
+        },
+        "p-midj-yak-2": {
+            "file": "p-midj-yak-2.jpg",
+            "title": "MIDJ Yak",
+            "source": "https://www.midj.com/en/category/collections/Yak"
+        },
+        "b-marelli-cover": {
+            "file": "b-marelli-cover.jpg",
+            "title": "Marelli",
+            "source": "https://giuliomarelli.com/wp-content/uploads/2026/04/hhome1-2048x2048.jpg"
+        },
+        "logo-marelli": {
+            "file": "logo-marelli.png",
+            "title": "Marelli",
+            "source": "https://giuliomarelli.com/?lang=en (recoloured #343434)"
+        },
+        "p-marelli-simmy-1": {
+            "file": "p-marelli-simmy-1.jpg",
+            "title": "Marelli Simmy",
+            "source": "https://giuliomarelli.com/prodotti/simmy-lacquered/"
+        },
+        "p-marelli-simmy-2": {
+            "file": "p-marelli-simmy-2.jpg",
+            "title": "Marelli Simmy",
+            "source": "https://giuliomarelli.com/prodotti/simmy-lacquered/"
+        },
+        "p-marelli-lara-1": {
+            "file": "p-marelli-lara-1.jpg",
+            "title": "Marelli Lara",
+            "source": "https://giuliomarelli.com/prodotti/lara-armchair/"
+        },
+        "p-marelli-lara-2": {
+            "file": "p-marelli-lara-2.jpg",
+            "title": "Marelli Lara",
+            "source": "https://giuliomarelli.com/prodotti/lara-armchair/"
+        },
+        "p-marelli-pierre-1": {
+            "file": "p-marelli-pierre-1.jpg",
+            "title": "Marelli Pierre",
+            "source": "https://giuliomarelli.com/prodotti/pierre-bookshelf/"
+        },
+        "p-marelli-pierre-2": {
+            "file": "p-marelli-pierre-2.jpg",
+            "title": "Marelli Pierre",
+            "source": "https://giuliomarelli.com/prodotti/pierre-bookshelf/"
+        },
+        "b-scab-cover": {
+            "file": "b-scab-cover.jpg",
+            "title": "S•CAB",
+            "source": "https://www.s-cab.it/wp-content/uploads/2025/04/scab-news-stand-03.jpg"
+        },
+        "logo-scab": {
+            "file": "logo-scab.png",
+            "title": "S•CAB",
+            "source": "https://www.s-cab.it/ (recoloured #343434)"
+        },
+        "p-scab-nolo-1": {
+            "file": "p-scab-nolo-1.jpg",
+            "title": "S•CAB Nolo",
+            "source": "https://www.s-cab.it/en/prodotti/nolo/"
+        },
+        "p-scab-nolo-2": {
+            "file": "p-scab-nolo-2.jpg",
+            "title": "S•CAB Nolo",
+            "source": "https://www.s-cab.it/en/prodotti/nolo/"
+        },
+        "p-scab-brezza-relax-1": {
+            "file": "p-scab-brezza-relax-1.jpg",
+            "title": "S•CAB Brezza Relax",
+            "source": "https://www.s-cab.it/en/prodotti/brezza-relax-indoor-2/"
+        },
+        "p-scab-brezza-relax-2": {
+            "file": "p-scab-brezza-relax-2.jpg",
+            "title": "S•CAB Brezza Relax",
+            "source": "https://www.s-cab.it/en/prodotti/brezza-relax-indoor-2/"
+        },
+        "p-scab-koala-outdoor-1": {
+            "file": "p-scab-koala-outdoor-1.jpg",
+            "title": "S•CAB Koala Outdoor",
+            "source": "https://www.s-cab.it/en/prodotti/koala-outdoor/"
+        },
+        "p-scab-koala-outdoor-2": {
+            "file": "p-scab-koala-outdoor-2.jpg",
+            "title": "S•CAB Koala Outdoor",
+            "source": "https://www.s-cab.it/en/prodotti/koala-outdoor/"
+        },
+        "b-archiutti-cover": {
+            "file": "b-archiutti-cover.jpg",
+            "title": "Archiutti",
+            "source": "https://archiutti.it/wp-content/uploads/2024/01/Ellan_Ambientata-01_2.jpg"
+        },
+        "logo-archiutti": {
+            "file": "logo-archiutti.png",
+            "title": "Archiutti",
+            "source": "https://archiutti.it/en/ (recoloured #343434)"
+        },
+        "p-archiutti-ellan-1": {
+            "file": "p-archiutti-ellan-1.jpg",
+            "title": "Archiutti Ellan",
+            "source": "https://archiutti.it/en/prodotto/tavolo-direzionale-ellan/"
+        },
+        "p-archiutti-ellan-2": {
+            "file": "p-archiutti-ellan-2.jpg",
+            "title": "Archiutti Ellan",
+            "source": "https://archiutti.it/en/prodotto/tavolo-direzionale-ellan/"
+        },
+        "p-archiutti-ellan-meeting-1": {
+            "file": "p-archiutti-ellan-meeting-1.jpg",
+            "title": "Archiutti Ellan Meeting",
+            "source": "https://archiutti.it/en/prodotto/tavolo-riunione-ellan/"
+        },
+        "p-archiutti-ellan-meeting-2": {
+            "file": "p-archiutti-ellan-meeting-2.jpg",
+            "title": "Archiutti Ellan Meeting",
+            "source": "https://archiutti.it/en/prodotto/tavolo-riunione-ellan/"
+        },
+        "b-lecomfort-cover": {
+            "file": "b-lecomfort-cover.jpg",
+            "title": "LeComfort",
+            "source": "https://lecomfort.com/wp-content/uploads/divano-togo-ambientata-3.jpg"
+        },
+        "logo-lecomfort": {
+            "file": "logo-lecomfort.png",
+            "title": "LeComfort",
+            "source": "https://lecomfort.com/ (recoloured #343434)"
+        },
+        "p-lecomfort-oyster-1": {
+            "file": "p-lecomfort-oyster-1.jpg",
+            "title": "LeComfort Oyster",
+            "source": "https://lecomfort.com/en/armchair-loveseat/oyster/"
+        },
+        "p-lecomfort-oyster-2": {
+            "file": "p-lecomfort-oyster-2.jpg",
+            "title": "LeComfort Oyster",
+            "source": "https://lecomfort.com/en/armchair-loveseat/oyster/"
+        },
+        "b-mogg-cover": {
+            "file": "b-mogg-cover.jpg",
+            "title": "Mogg",
+            "source": "https://www.mogg.it/wp-content/uploads/2022/05/mogg_seats_TALK_11.jpg"
+        },
+        "logo-mogg": {
+            "file": "logo-mogg.png",
+            "title": "Mogg",
+            "source": "https://www.mogg.it/ (recoloured #343434)"
+        },
+        "p-mogg-hero-1": {
+            "file": "p-mogg-hero-1.jpg",
+            "title": "Mogg Hero",
+            "source": "https://www.mogg.it/products/tables/hero/"
+        },
+        "p-mogg-hero-2": {
+            "file": "p-mogg-hero-2.jpg",
+            "title": "Mogg Hero",
+            "source": "https://www.mogg.it/products/tables/hero/"
+        },
+        "p-mogg-talk-1": {
+            "file": "p-mogg-talk-1.jpg",
+            "title": "Mogg Talk",
+            "source": "https://www.mogg.it/products/seats/talk/"
+        },
+        "p-mogg-talk-2": {
+            "file": "p-mogg-talk-2.jpg",
+            "title": "Mogg Talk",
+            "source": "https://www.mogg.it/products/seats/talk/"
+        },
+        "p-mogg-judd-1": {
+            "file": "p-mogg-judd-1.jpg",
+            "title": "Mogg Judd",
+            "source": "https://www.mogg.it/products/storage-units/judd-base/"
+        },
+        "p-mogg-judd-2": {
+            "file": "p-mogg-judd-2.jpg",
+            "title": "Mogg Judd",
+            "source": "https://www.mogg.it/products/storage-units/judd-base/"
+        },
+        "b-tonelli-design-cover": {
+            "file": "b-tonelli-design-cover.jpg",
+            "title": "Tonelli Design",
+            "source": "https://tonellidesign.it/wp-content/uploads/2026/07/Aterea_Cam_010000-scaled.jpg"
+        },
+        "logo-tonelli-design": {
+            "file": "logo-tonelli-design.png",
+            "title": "Tonelli Design",
+            "source": "https://tonellidesign.it/en/ (recoloured #343434)"
+        },
+        "p-tonelli-metropolis-xxl-1": {
+            "file": "p-tonelli-metropolis-xxl-1.jpg",
+            "title": "Tonelli Metropolis XXL",
+            "source": "https://tonellidesign.it/en/products/xxl-tables/"
+        },
+        "p-tonelli-naked-1": {
+            "file": "p-tonelli-naked-1.jpg",
+            "title": "Tonelli Naked",
+            "source": "https://tonellidesign.it/en/products/armchairs-modern-design/"
+        },
+        "p-tonelli-naked-2": {
+            "file": "p-tonelli-naked-2.jpg",
+            "title": "Tonelli Naked",
+            "source": "https://tonellidesign.it/en/products/armchairs-modern-design/"
+        },
+        "p-tonelli-aterea-1": {
+            "file": "p-tonelli-aterea-1.jpg",
+            "title": "Tonelli Aterea",
+            "source": "https://tonellidesign.it/en/products/sideboards-living-room-sitting-room-bedroom/"
+        },
+        "p-tonelli-aterea-2": {
+            "file": "p-tonelli-aterea-2.jpg",
+            "title": "Tonelli Aterea",
+            "source": "https://tonellidesign.it/en/products/sideboards-living-room-sitting-room-bedroom/"
+        },
+        "b-cantori-cover": {
+            "file": "b-cantori-cover.jpg",
+            "title": "Cantori",
+            "source": "https://www.cantori.it/public/images/3444_cantori-sofa-cloud-tavolini-cloud.jpg"
+        },
+        "logo-cantori": {
+            "file": "logo-cantori.png",
+            "title": "Cantori",
+            "source": "https://www.cantori.it/it/ (recoloured #343434)"
+        },
+        "p-cantori-milton-1": {
+            "file": "p-cantori-milton-1.jpg",
+            "title": "Cantori Milton",
+            "source": "https://www.cantori.it/en/products/tables/milton/"
+        },
+        "p-cantori-milton-2": {
+            "file": "p-cantori-milton-2.jpg",
+            "title": "Cantori Milton",
+            "source": "https://www.cantori.it/en/products/tables/milton/"
+        },
+        "p-cantori-twist-1": {
+            "file": "p-cantori-twist-1.jpg",
+            "title": "Cantori Twist",
+            "source": "https://www.cantori.it/en/products/armchairs-pouffes-benches/twist/"
+        },
+        "p-cantori-twist-2": {
+            "file": "p-cantori-twist-2.jpg",
+            "title": "Cantori Twist",
+            "source": "https://www.cantori.it/en/products/armchairs-pouffes-benches/twist/"
+        },
+        "p-cantori-cloud-1": {
+            "file": "p-cantori-cloud-1.jpg",
+            "title": "Cantori Cloud",
+            "source": "https://www.cantori.it/en/products/outdoor/cloud-modular-sofa-outdoor/"
+        },
+        "p-cantori-cloud-2": {
+            "file": "p-cantori-cloud-2.jpg",
+            "title": "Cantori Cloud",
+            "source": "https://www.cantori.it/en/products/outdoor/cloud-modular-sofa-outdoor/"
+        },
+        "b-frag-cover": {
+            "file": "b-frag-cover.jpg",
+            "title": "Frag",
+            "source": "https://www.frag.it/wp-content/uploads/2022/01/Frag_Gast_Riviera_AritaCT_Clubby-pouf-1-min-scaled.jpg"
+        },
+        "logo-frag": {
+            "file": "logo-frag.png",
+            "title": "Frag",
+            "source": "https://www.frag.it/en/ (recoloured #343434)"
+        },
+        "p-frag-clubby-1": {
+            "file": "p-frag-clubby-1.jpg",
+            "title": "Frag Clubby",
+            "source": "https://www.frag.it/en/product/clubby/"
+        },
+        "p-frag-clubby-2": {
+            "file": "p-frag-clubby-2.jpg",
+            "title": "Frag Clubby",
+            "source": "https://www.frag.it/en/product/clubby/"
+        },
+        "p-frag-dante-1": {
+            "file": "p-frag-dante-1.jpg",
+            "title": "Frag Dante",
+            "source": "https://www.frag.it/en/product/dante-180-2/"
+        },
+        "p-frag-dante-2": {
+            "file": "p-frag-dante-2.jpg",
+            "title": "Frag Dante",
+            "source": "https://www.frag.it/en/product/dante-180-2/"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "audo-the-tired-man",
+                "title": "Audo The Tired Man"
+            },
+            "thumbnail": "@media:p-audo-the-tired-man-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "The Tired Man («Втомлений чоловік») представили на виставці Гільдії столярів Копенгагена 1936 року, і відтоді це крісло стало іконою данського дизайну. Флеммінг Лассен задумав його «теплим і затишним, як ведмежа в обіймах матері». Перевипущене 2015 року, крісло пропонують у м’якій оббивці, зокрема з овчини, на ніжках з олієного дуба з латунними коліщатами спереду; є відповідний пуф.",
+                    "ru": "The Tired Man («Усталый человек») представили на выставке Гильдии столяров Копенгагена в 1936 году, и с тех пор это кресло стало иконой датского дизайна. Флемминг Лассен задумал его «теплым и уютным, как медвежонок в объятиях матери». Перевыпущенное в 2015 году, кресло предлагают в мягкой обивке, в том числе из овчины, на ножках из масляного дуба с латунными колесиками спереди; есть соответствующий пуф.",
+                    "en": "The Tired Man was launched at the Copenhagen Cabinetmakers’ Guild Exhibition in 1936 and has since become an icon of Danish design. Flemming Lassen wanted it to feel “as warm and snug as a polar bear cub in the arms of its mother”. Relaunched in 2015, it comes in plush upholstery including sheepskin, on oiled oak legs with brass front casters, with a matching footstool."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Audo Copenhagen (Данія)",
+                            "ru": "Audo Copenhagen (Дания)",
+                            "en": "Audo Copenhagen (Denmark)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло",
+                            "ru": "Лаунж-кресло",
+                            "en": "Lounge chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Flemming Lassen",
+                            "ru": "Flemming Lassen",
+                            "en": "Flemming Lassen"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-audo-the-tired-man-1",
+                    "@media:p-audo-the-tired-man-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "audo-eclipse-desk",
+                "title": "Audo Eclipse Desk"
+            },
+            "thumbnail": "@media:p-audo-eclipse-desk-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Eclipse Desk Фреда Рігбі — стіл з асиметричним силуетом, назва якого відсилає до увігнуто-опуклої форми, схожої на шлях небесних тіл. Стільниця з дуба (чорний лак або натуральна олія) має кришку, під якою у сталевій колоні сховано місце для дрібниць, тож на столі не буде безладу. Його можна поставити в центрі кабінету як акцент або біля стіни.",
+                    "ru": "Eclipse Desk Фреда Ригби — стол с асимметричным силуэтом, название которого отсылает к вогнуто-выпуклой форме, похожей на путь небесных тел. Столешница из дуба (черный лак или натуральное масло) имеет крышку, под которой в стальной колонне спрятано место для мелочей, поэтому на столе не будет беспорядка. Его можно поставить в центре кабинета как акцент или у стены.",
+                    "en": "Fred Rigby’s Eclipse Desk has an asymmetric silhouette named after its concave-convex form, which recalls the passage of celestial bodies. The oak top (black lacquered or natural oiled) has a lid that lifts to reveal storage in the steel column, keeping the desk clear. It works as a centrepiece or against a wall."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Audo Copenhagen (Данія)",
+                            "ru": "Audo Copenhagen (Дания)",
+                            "en": "Audo Copenhagen (Denmark)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Письмовий стіл",
+                            "ru": "Письменный стол",
+                            "en": "Desk"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Fred Rigby",
+                            "ru": "Fred Rigby",
+                            "en": "Fred Rigby"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-audo-eclipse-desk-1",
+                    "@media:p-audo-eclipse-desk-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "audo",
+                "title": "Audo Copenhagen"
+            },
+            "thumbnail": "@media:b-audo-cover",
+            "acf": {
+                "sp__logo": "@media:logo-audo",
+                "sp__logo-dark": "@media:logo-audo",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Audo Copenhagen</strong> — данський бренд меблів, світла й аксесуарів, що поєднує столітню традицію данського дизайну із сучасним глобальним поглядом. Audo об’єднав колекції брендів MENU і by Lassen, зокрема класику Флеммінга Лассена, і створює речі для житла, офісів і готелів.</p>\n<ul>\n<li>Дизайн-ікони, як-от крісло <strong>The Tired Man</strong> (1936), поруч із новими роботами сучасних дизайнерів.</li>\n<li>Єдина естетика меблів, освітлення й аксесуарів для кабінетів, лаунжів і житлових інтер’єрів.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Данія. <strong>Офіційний сайт:</strong> <a href=\"https://audocph.com/\" target=\"_blank\" rel=\"noopener nofollow\">audocph.com</a></p>",
+                            "ru": "<p><strong>Audo Copenhagen</strong> — датский бренд мебели, света и аксессуаров, сочетающий столетнюю традицию датского дизайна с современным глобальным взглядом. Audo объединил коллекции брендов MENU и by Lassen, в том числе классику Флемминга Лассена, и создает вещи для жилья, офисов и отелей.</p>\n<ul>\n<li>Дизайн-иконы, такие как кресло <strong>The Tired Man</strong> (1936), рядом с новыми работами современных дизайнеров.</li>\n<li>Единая эстетика мебели, освещения и аксессуаров для кабинетов, лаунжей и жилых интерьеров.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Дания. <strong>Официальный сайт:</strong> <a href=\"https://audocph.com/\" target=\"_blank\" rel=\"noopener nofollow\">audocph.com</a></p>",
+                            "en": "<p><strong>Audo Copenhagen</strong> is a Danish furniture, lighting and accessories brand that blends a century of Danish design tradition with a modern, global outlook. Audo brings together the MENU and by Lassen collections, including Flemming Lassen classics, for homes, offices and hotels.</p>\n<ul>\n<li>Design icons such as <strong>The Tired Man</strong> chair (1936) alongside new work by contemporary designers.</li>\n<li>One aesthetic across furniture, lighting and accessories for private offices, lounges and homes.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Denmark. <strong>Official website:</strong> <a href=\"https://audocph.com/\" target=\"_blank\" rel=\"noopener nofollow\">audocph.com</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:audo-the-tired-man",
+                            "@product:audo-eclipse-desk"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "diemme-skin",
+                "title": "Diemme Skin"
+            },
+            "thumbnail": "@media:p-diemme-skin-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Skin — робоче крісло, створене разом з Анджело Пінаффо: поєднання високотехнологічної інженерії, якісного дизайну й досвіду Diemme. Дарує відчуття природної рівноваги, має виразний вигляд, а ергономічні форми підтримують здорову поставу.",
+                    "ru": "Skin — рабочее кресло, созданное вместе с Анджело Пинаффо: сочетание высокотехнологичной инженерии, качественного дизайна и опыта Diemme. Дарит ощущение естественного равновесия, имеет выразительный вид, а эргономичные формы поддерживают здоровую осанку.",
+                    "en": "Skin is a task chair developed with Angelo Pinaffo, combining high-tech engineering, quality design and Diemme’s experience. It gives a feeling of natural balance with a strikingly distinctive look, and its ergonomic shapes support healthy posture."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Diemme (Італія)",
+                            "ru": "Diemme (Италия)",
+                            "en": "Diemme (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Робоче крісло",
+                            "ru": "Рабочее кресло",
+                            "en": "Task chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Angelo Pinaffo",
+                            "ru": "Angelo Pinaffo",
+                            "en": "Angelo Pinaffo"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-diemme-skin-1",
+                    "@media:p-diemme-skin-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "diemme-velvet",
+                "title": "Diemme Velvet"
+            },
+            "thumbnail": "@media:p-diemme-velvet-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Velvet — витончене сімейство крісел керівника від Джорджо Топана з тонкими лініями профілю та багатьма деталями, які можна налаштувати. Легке й струнке, але комфортне завдяки сидінню з піни високої щільності; доступні два варіанти підлокітників.",
+                    "ru": "Velvet — изящное семейство кресел руководителя от Джорджо Топана с тонкими линиями профиля и множеством настраиваемых деталей. Легкое и стройное, но комфортное благодаря сиденью из пены высокой плотности; доступны два варианта подлокотников.",
+                    "en": "Velvet is a slender executive chair family by Giorgio Topan with fine profile lines and many customisable details. Light and slim yet comfortable thanks to its high-density seat, with two armrest options."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Diemme (Італія)",
+                            "ru": "Diemme (Италия)",
+                            "en": "Diemme (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло керівника",
+                            "ru": "Кресло руководителя",
+                            "en": "Executive chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Giorgio Topan",
+                            "ru": "Giorgio Topan",
+                            "en": "Giorgio Topan"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-diemme-velvet-1",
+                    "@media:p-diemme-velvet-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "diemme-circuit",
+                "title": "Diemme Circuit"
+            },
+            "thumbnail": "@media:p-diemme-circuit-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Circuit від DorigoDesign — модульна система м’яких меблів, унікальна своєю гнучкістю. Вона вільно підлаштовується під простір, утворюючи прямі або вигнуті композиції, і може доповнюватися аксесуарами. Підходить для лаунж-зон, холів і зон очікування.",
+                    "ru": "Circuit от DorigoDesign — модульная система мягкой мебели, уникальная своей гибкостью. Она свободно подстраивается под пространство, образуя прямые или изогнутые композиции, и может дополняться аксессуарами. Подходит для лаунж-зон, холлов и зон ожидания.",
+                    "en": "Circuit by DorigoDesign is a uniquely versatile modular soft-seating system. It adapts fluidly to the space in straight or curved configurations and can be fitted with accessories. Suited to lounges, lobbies and waiting areas."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Diemme (Італія)",
+                            "ru": "Diemme (Италия)",
+                            "en": "Diemme (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Модульні м’які меблі",
+                            "ru": "Модульная мягкая мебель",
+                            "en": "Modular soft seating"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "DorigoDesign",
+                            "ru": "DorigoDesign",
+                            "en": "DorigoDesign"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-diemme-circuit-1",
+                    "@media:p-diemme-circuit-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "diemme",
+                "title": "Diemme"
+            },
+            "thumbnail": "@media:b-diemme-cover",
+            "acf": {
+                "sp__logo": "@media:logo-diemme",
+                "sp__logo-dark": "@media:logo-diemme",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Diemme</strong> — італійський виробник офісних, контрактних і лаунж-крісел, заснований 1995 року двома майстрами з оббивного ремесла. Компанія досі працює в регіоні, де народилася, разом із місцевими партнерами, а колекції створює з італійськими дизайнерами.</p>\n<ul>\n<li>Робочі крісла, крісла керівників, конференц-крісла, табурети й м’які меблі для зон очікування.</li>\n<li>Власна колекція тканин і оббивних матеріалів, підтримка конфігуратора pCon.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.diemmeoffice.com/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.diemmeoffice.com/en</a></p>",
+                            "ru": "<p><strong>Diemme</strong> — итальянский производитель офисных, контрактных и лаунж-кресел, основанный в 1995 году двумя мастерами обивочного ремесла. Компания по-прежнему работает в регионе, где родилась, вместе с местными партнерами, а коллекции создает с итальянскими дизайнерами.</p>\n<ul>\n<li>Рабочие кресла, кресла руководителей, конференц-кресла, табуреты и мягкая мебель для зон ожидания.</li>\n<li>Собственная коллекция тканей и обивочных материалов, поддержка конфигуратора pCon.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.diemmeoffice.com/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.diemmeoffice.com/en</a></p>",
+                            "en": "<p><strong>Diemme</strong> is an Italian maker of office, contract and lounge seating founded in 1995 by two upholstery craftsmen. It still works in the region where it was born, with local partners, and develops its collections with Italian designers.</p>\n<ul>\n<li>Task and executive chairs, conference chairs, stools and soft seating for waiting areas.</li>\n<li>Its own upholstery collection and pCon configurator support.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.diemmeoffice.com/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.diemmeoffice.com/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:diemme-skin",
+                            "@product:diemme-velvet",
+                            "@product:diemme-circuit"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "ditre-italia-manta",
+                "title": "Ditre Italia Manta"
+            },
+            "thumbnail": "@media:p-ditre-italia-manta-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Як і морська істота, на честь якої його названо, крісло Manta легке й елегантне — воно ніби м’яко ширяє над підлогою. Органічний дизайн із гармонійних вигинів дарує незвичайний комфорт і водночас стає витонченим акцентом інтер’єру.",
+                    "ru": "Как и морское существо, в честь которого оно названо, кресло Manta легкое и элегантное — оно словно мягко парит над полом. Органичный дизайн из гармоничных изгибов дарит необычный комфорт и одновременно становится изящным акцентом интерьера.",
+                    "en": "Like the marine creature it is named after, the Manta armchair is light and elegant, almost hovering above the floor. Its organic design of harmonious curves offers an extraordinary seat and a refined accent for the interior."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Ditre Italia (Італія)",
+                            "ru": "Ditre Italia (Италия)",
+                            "en": "Ditre Italia (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло",
+                            "ru": "Кресло",
+                            "en": "Armchair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Daniele Lo Scalzo Moscheri",
+                            "ru": "Daniele Lo Scalzo Moscheri",
+                            "en": "Daniele Lo Scalzo Moscheri"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-ditre-italia-manta-1",
+                    "@media:p-ditre-italia-manta-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "ditre-italia-babel",
+                "title": "Ditre Italia Babel"
+            },
+            "thumbnail": "@media:p-ditre-italia-babel-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Babel — сімейство журнальних столиків Патріка Норге. Елементарна геометрія — це чиста простота: коло переходить у два циліндри, поставлені один на одного, і утворює невелику вежу, навколо якої обертається вітальня чи лаунж-зона.",
+                    "ru": "Babel — семейство журнальных столиков Патрика Норге. Элементарная геометрия — это чистая простота: круг переходит в два цилиндра, поставленных один на другой, и образует небольшую башню, вокруг которой вращается гостиная или лаунж-зона.",
+                    "en": "Babel is a family of coffee tables by Patrick Norguet. Its elementary geometry is pure simplicity: a circle develops into two stacked cylinders, forming a little tower around which the living room or lounge revolves."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Ditre Italia (Італія)",
+                            "ru": "Ditre Italia (Италия)",
+                            "en": "Ditre Italia (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Журнальні столики",
+                            "ru": "Журнальные столики",
+                            "en": "Coffee tables"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Patrick Norguet",
+                            "ru": "Patrick Norguet",
+                            "en": "Patrick Norguet"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-ditre-italia-babel-1",
+                    "@media:p-ditre-italia-babel-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "ditre-italia-pacific",
+                "title": "Ditre Italia Pacific"
+            },
+            "thumbnail": "@media:p-ditre-italia-pacific-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Pacific — вулична система для сидіння, натхненна океанськими хвилями. Органічні форми передають плинність хвиль, а заокруглені деталі створюють «острівці» відпочинку. Серія складається з різних елементів, які можна використовувати окремо або поєднувати в композиції для терас і басейнів.",
+                    "ru": "Pacific — уличная система для сидения, вдохновленная океанскими волнами. Органичные формы передают текучесть волн, а скругленные детали создают «островки» отдыха. Серия состоит из разных элементов, которые можно использовать отдельно или объединять в композиции для террас и бассейнов.",
+                    "en": "Pacific is an outdoor seating range inspired by ocean waves. Its organic forms recall their fluidity, while rounded details create islands of relaxation. The range has various elements that can be used alone or combined into compositions for terraces and pools."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Ditre Italia (Італія)",
+                            "ru": "Ditre Italia (Италия)",
+                            "en": "Ditre Italia (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Вуличні дивани",
+                            "ru": "Уличные диваны",
+                            "en": "Outdoor sofas"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Daniele Lo Scalzo Moscheri",
+                            "ru": "Daniele Lo Scalzo Moscheri",
+                            "en": "Daniele Lo Scalzo Moscheri"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-ditre-italia-pacific-1",
+                    "@media:p-ditre-italia-pacific-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "ditre-italia",
+                "title": "Ditre Italia"
+            },
+            "thumbnail": "@media:b-ditre-italia-cover",
+            "acf": {
+                "sp__logo": "@media:logo-ditre-italia",
+                "sp__logo-dark": "@media:logo-ditre-italia",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Ditre Italia</strong> — італійський виробник дизайнерських диванів, крісел і систем для житлових і контрактних інтер’єрів, повністю зроблених в Італії. Бренд поєднує ремісничу майстерність, високий комфорт і впізнаваний стиль, а колекції створює разом із міжнародними дизайнерами, зокрема Патріком Норге.</p>\n<ul>\n<li>Дивани, крісла, журнальні столики, столи й стільці, а також вулична колекція.</li>\n<li>3D-конфігуратор з вибором оздоблення та оббивки й файлами 2D/3D для архітекторів.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.ditreitalia.com/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.ditreitalia.com/en</a></p>",
+                            "ru": "<p><strong>Ditre Italia</strong> — итальянский производитель дизайнерских диванов, кресел и систем для жилых и контрактных интерьеров, полностью сделанных в Италии. Бренд сочетает ремесленное мастерство, высокий комфорт и узнаваемый стиль, а коллекции создает вместе с международными дизайнерами, в том числе Патриком Норге.</p>\n<ul>\n<li>Диваны, кресла, журнальные столики, столы и стулья, а также уличная коллекция.</li>\n<li>3D-конфигуратор с выбором отделки и обивки и файлами 2D/3D для архитекторов.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.ditreitalia.com/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.ditreitalia.com/en</a></p>",
+                            "en": "<p><strong>Ditre Italia</strong> is an Italian maker of designer sofas, armchairs and living systems for residential and contract interiors, made entirely in Italy. It blends craftsmanship, superior comfort and a distinctive style, working with international designers such as Patrick Norguet.</p>\n<ul>\n<li>Sofas, armchairs, coffee tables, tables and chairs, plus an outdoor collection.</li>\n<li>A 3D configurator with finishes, upholstery and 2D/3D files for architects.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.ditreitalia.com/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.ditreitalia.com/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:ditre-italia-manta",
+                            "@product:ditre-italia-babel",
+                            "@product:ditre-italia-pacific"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "true-design-e-quo-table",
+                "title": "True Design E-quo Table"
+            },
+            "thumbnail": "@media:p-true-design-e-quo-table-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "E-quo Table — офісний стіл, який продовжує колекцію E-quo й переймає її головну рису: суцільні дерев’яні ніжки унікальної форми. Стільниця з фанери, доступ до кабелів зверху й сталевий каркас; 100% зроблено в Італії. Стіл стає центром, навколо якого працюють, навчаються, обмінюються ідеями й зустрічаються.",
+                    "ru": "E-quo Table — офисный стол, продолжающий коллекцию E-quo и перенимающий ее главную черту: массивные деревянные ножки уникальной формы. Столешница из фанеры, доступ к кабелям сверху и стальной каркас; 100% сделано в Италии. Стол становится центром, вокруг которого работают, учатся, обмениваются идеями и встречаются.",
+                    "en": "E-quo Table extends the E-quo collection and takes its defining feature, the uniquely shaped solid wood legs. Plywood top, top cable access and steel frame, 100% made in Italy. It becomes the focal point for working, studying, sharing ideas and meeting."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "True Design (Італія)",
+                            "ru": "True Design (Италия)",
+                            "en": "True Design (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Офісний стіл",
+                            "ru": "Офисный стол",
+                            "en": "Office desk"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-true-design-e-quo-table-1",
+                    "@media:p-true-design-e-quo-table-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "true-design-abisko",
+                "title": "True Design Abisko"
+            },
+            "thumbnail": "@media:p-true-design-abisko-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Abisko — сімейство диванів і крісел із заокругленим силуетом і м’яким об’ємом, чітко зрізаним з чотирьох боків. Такий підхід дає не лише впізнаваний вигляд, а й меншу площу та зручну розстановку вздовж стін — для офісів, готелів і громадських зон. Видимий дерев’яний каркас — характерна деталь колекції.",
+                    "ru": "Abisko — семейство диванов и кресел со скругленным силуэтом и мягким объемом, четко срезанным с четырех сторон. Такой подход дает не только узнаваемый вид, но и меньшую площадь и удобную расстановку вдоль стен — для офисов, отелей и общественных зон. Видимый деревянный каркас — характерная деталь коллекции.",
+                    "en": "Abisko is a family of sofas and armchairs with a rounded silhouette and a soft volume cut sharp on four sides. Beyond its distinctive look, this gives a smaller footprint and easy placement along walls in offices, hotels and public areas. The visible wooden frame is a signature detail."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "True Design (Італія)",
+                            "ru": "True Design (Италия)",
+                            "en": "True Design (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Дивани та крісла",
+                            "ru": "Диваны и кресла",
+                            "en": "Sofas and armchairs"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-true-design-abisko-1",
+                    "@media:p-true-design-abisko-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "true-design-patch",
+                "title": "True Design Patch"
+            },
+            "thumbnail": "@media:p-true-design-patch-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Patch — колекція звукопоглинальних панелей-перегородок, зроблених в Італії. Самонесуча конструкція дозволяє вбудовувати окремі елементи, що вільно обертаються, відкриваючи й закриваючи простір. Модуль покращує акустику, зонує open space без капітальних стін і дає легкі перегородки, які можна змінювати з часом. Є версія з багатошарового бука з оздобленням дуб або горіх.",
+                    "ru": "Patch — коллекция звукопоглощающих панелей-перегородок, сделанных в Италии. Самонесущая конструкция позволяет встраивать отдельные элементы, которые свободно вращаются, открывая и закрывая пространство. Модуль улучшает акустику, зонирует open space без капитальных стен и дает легкие перегородки, которые можно менять со временем. Есть версия из многослойного бука с отделкой дуб или орех.",
+                    "en": "Patch is a Made in Italy collection of sound-absorbing partition panels. Its self-supporting structure holds individual elements that rotate freely to open and close the space. It improves acoustics, zones open-plan areas without fixed walls and creates light partitions that can evolve over time. A multilayer beech version with oak or walnut finish is available."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "True Design (Італія)",
+                            "ru": "True Design (Италия)",
+                            "en": "True Design (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Акустичні перегородки",
+                            "ru": "Акустические перегородки",
+                            "en": "Acoustic partitions"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-true-design-patch-1",
+                    "@media:p-true-design-patch-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "true-design-laguna",
+                "title": "True Design Laguna"
+            },
+            "thumbnail": "@media:p-true-design-laguna-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Laguna — вуличний шезлонг мінімалістичного сучасного дизайну для зон відпочинку, басейнів і спа. Назва відсилає до лагуни — смуги між морем і берегом, яка є не зовсім одним і не зовсім іншим. Безперервний рух сталевого профілю робить шезлонг упізнаваним, а покриття — його «шкіра» — змінюється завдяки різним матеріалам.",
+                    "ru": "Laguna — уличный шезлонг минималистичного современного дизайна для зон отдыха, бассейнов и спа. Название отсылает к лагуне — полосе между морем и берегом, которая не совсем одно и не совсем другое. Непрерывное движение стального профиля делает шезлонг узнаваемым, а покрытие — его «кожа» — меняется благодаря разным материалам.",
+                    "en": "Laguna is a minimalist, modern outdoor lounger for relaxation areas, pools and spas. Its name refers to the lagoon, the strip between sea and shore that is neither one thing nor the other. The continuous steel profile makes it recognisable, while the covering, its “skin”, changes with different materials."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "True Design (Італія)",
+                            "ru": "True Design (Италия)",
+                            "en": "True Design (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Вуличний шезлонг",
+                            "ru": "Уличный шезлонг",
+                            "en": "Outdoor lounger"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-true-design-laguna-1",
+                    "@media:p-true-design-laguna-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "true-design",
+                "title": "True Design"
+            },
+            "thumbnail": "@media:b-true-design-cover",
+            "acf": {
+                "sp__logo": "@media:logo-true-design",
+                "sp__logo-dark": "@media:logo-true-design",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>True Design</strong> — італійський бренд функціональних меблів для робочих просторів, готелів, громадських зон і житла, повністю виготовлених в Італії. True поєднує комфорт, якість та інновації: від столів і крісел до акустичних перегородок і вуличних колекцій.</p>\n<ul>\n<li>Одна з небагатьох фабрик, що робить і м’які меблі, і <strong>акустичні рішення</strong> для офісу.</li>\n<li>Колекції для контрактних проєктів: офіси, готелі, бібліотеки, зони очікування.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, <a href=\"/category/akustychni-rishennya/stinovi-paneli/\">акустичні панелі та екрани</a>, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.truedesign.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.truedesign.it/en</a></p>",
+                            "ru": "<p><strong>True Design</strong> — итальянский бренд функциональной мебели для рабочих пространств, отелей, общественных зон и жилья, полностью изготовленной в Италии. True сочетает комфорт, качество и инновации: от столов и кресел до акустических перегородок и уличных коллекций.</p>\n<ul>\n<li>Одна из немногих фабрик, которая делает и мягкую мебель, и <strong>акустические решения</strong> для офиса.</li>\n<li>Коллекции для контрактных проектов: офисы, отели, библиотеки, зоны ожидания.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, <a href=\"/ru/category/akustychni-rishennya/stinovi-paneli/\">акустические панели и экраны</a>, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.truedesign.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.truedesign.it/en</a></p>",
+                            "en": "<p><strong>True Design</strong> is an Italian brand of functional furniture for workplaces, hospitality, public spaces and homes, made entirely in Italy. True combines comfort, quality and innovation, from tables and seating to acoustic partitions and outdoor collections.</p>\n<ul>\n<li>One of few makers offering both soft seating and <strong>acoustic solutions</strong> for the office.</li>\n<li>Collections for contract projects: offices, hotels, libraries and waiting areas.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, <a href=\"/en/category/acoustic-solutions/wall-panels/\">acoustic panels and screens</a>, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.truedesign.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.truedesign.it/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:true-design-e-quo-table",
+                            "@product:true-design-abisko",
+                            "@product:true-design-patch",
+                            "@product:true-design-laguna"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "midj-cover-1",
+                "title": "MIDJ Cover.1"
+            },
+            "thumbnail": "@media:p-midj-cover-1-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Cover.1 — крісло лаконічного дизайну з м’якою оболонкою та акуратними декоративними строчками. Доступне з вісьмома основами, зокрема на п’ятипроменевій хрестовині з колесами — з підлокітниками або без, тож пасує і до робочого місця, і до переговорної.",
+                    "ru": "Cover.1 — кресло лаконичного дизайна с мягкой оболочкой и аккуратными декоративными строчками. Доступно с восемью основаниями, в том числе на пятилучевой крестовине с колесами — с подлокотниками или без, поэтому подходит и для рабочего места, и для переговорной.",
+                    "en": "Cover.1 is a chair of essential design with a padded shell and tailored stitching. It comes with eight bases, including a five-star base on castors with or without armrests, so it suits both workstations and meeting rooms."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "MIDJ (Італія)",
+                            "ru": "MIDJ (Италия)",
+                            "en": "MIDJ (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Офісне крісло",
+                            "ru": "Офисное кресло",
+                            "en": "Office chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Officina delle Idee",
+                            "ru": "Officina delle Idee",
+                            "en": "Officina delle Idee"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-midj-cover-1-1",
+                    "@media:p-midj-cover-1-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "midj-leo",
+                "title": "MIDJ Leo"
+            },
+            "thumbnail": "@media:p-midj-leo-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Leo — дизайнерський стіл на центральній ніжці від Паоло Верньє з металевою основою й круглою стільницею. Стільниця доступна зі скла, HPL, шпону, кераміки й мармуру. До колекції входять обідні, розкладні, барні й журнальні столи — для переговорних, кафе та лаунж-зон.",
+                    "ru": "Leo — дизайнерский стол на центральной ножке от Паоло Вернье с металлическим основанием и круглой столешницей. Столешница доступна из стекла, HPL, шпона, керамики и мрамора. В коллекцию входят обеденные, раздвижные, барные и журнальные столы — для переговорных, кафе и лаунж-зон.",
+                    "en": "Leo is a central-leg designer table by Paolo Vernier with a metal base and round top, available in glass, HPL, veneer, ceramic or marble. The collection includes dining, extending, bistro and coffee tables for meeting rooms, cafés and lounges."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "MIDJ (Італія)",
+                            "ru": "MIDJ (Италия)",
+                            "en": "MIDJ (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл",
+                            "ru": "Стол",
+                            "en": "Table"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Paolo Vernier",
+                            "ru": "Paolo Vernier",
+                            "en": "Paolo Vernier"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-midj-leo-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "midj-yak",
+                "title": "MIDJ Yak"
+            },
+            "thumbnail": "@media:p-midj-yak-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Yak — модульний диван Ніколи Бонріпозі (2024), що дає архітекторам повну свободу композиції. Модулі природно з’єднуються й роз’єднуються, утворюючи безліч конфігурацій для житла й контрактних проєктів. Каркас з переробленого EPP легкий і міцний, збирається без гвинтів, а чохли повністю знімаються. Є версія для вулиці.",
+                    "ru": "Yak — модульный диван Николы Бонрипози (2024), дающий архитекторам полную свободу композиции. Модули естественно соединяются и разъединяются, образуя множество конфигураций для жилья и контрактных проектов. Каркас из перерабатываемого EPP легкий и прочный, собирается без винтов, а чехлы полностью снимаются. Есть версия для улицы.",
+                    "en": "Yak is a modular sofa by Nicola Bonriposi (2024) that gives architects full compositional freedom. Modules join and separate naturally into countless configurations for residential and contract projects. The recyclable EPP structure is light and strong, assembles without screws, and covers are fully removable. An outdoor version is available."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "MIDJ (Італія)",
+                            "ru": "MIDJ (Италия)",
+                            "en": "MIDJ (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Модульний диван (є вулична версія)",
+                            "ru": "Модульный диван (есть уличная версия)",
+                            "en": "Modular sofa (outdoor version available)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Nicola Bonriposi",
+                            "ru": "Nicola Bonriposi",
+                            "en": "Nicola Bonriposi"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-midj-yak-1",
+                    "@media:p-midj-yak-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "midj",
+                "title": "MIDJ"
+            },
+            "thumbnail": "@media:b-midj-cover",
+            "acf": {
+                "sp__logo": "@media:logo-midj",
+                "sp__logo-dark": "@media:logo-midj",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>MIDJ</strong> — італійський виробник стільців, крісел, столів і диванів для житла та контрактних проєктів під гаслом «Design is a wonderful life». Колекції MIDJ створюють італійські дизайнери, а більшість моделей доступна з різними основами, оббивкою й оздобленням.</p>\n<ul>\n<li>Широкі можливості конфігурації: десятки основ, тканин, шкіри й металевих оздоблень.</li>\n<li>Колекції для офісів, кафе, готелів, терас і житла.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.midj.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.midj.com</a></p>",
+                            "ru": "<p><strong>MIDJ</strong> — итальянский производитель стульев, кресел, столов и диванов для жилья и контрактных проектов под девизом «Design is a wonderful life». Коллекции MIDJ создают итальянские дизайнеры, а большинство моделей доступно с разными основаниями, обивкой и отделкой.</p>\n<ul>\n<li>Широкие возможности конфигурации: десятки оснований, тканей, кожи и металлических отделок.</li>\n<li>Коллекции для офисов, кафе, отелей, террас и жилья.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.midj.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.midj.com</a></p>",
+                            "en": "<p><strong>MIDJ</strong> is an Italian maker of chairs, armchairs, tables and sofas for homes and contract projects under the motto “Design is a wonderful life”. Its collections are created by Italian designers, and most models come with a choice of bases, upholstery and finishes.</p>\n<ul>\n<li>Extensive configuration: dozens of bases, fabrics, leathers and metal finishes.</li>\n<li>Collections for offices, cafés, hotels, terraces and homes.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.midj.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.midj.com</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:midj-cover-1",
+                            "@product:midj-leo",
+                            "@product:midj-yak"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "marelli-simmy",
+                "title": "Marelli Simmy"
+            },
+            "thumbnail": "@media:p-marelli-simmy-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Simmy — сімейство обідніх і журнальних столів сучасної мови з м’якими, органічними, майже скульптурними лініями. Колекція поєднує матеріальність і візуальну легкість і стає виразним акцентом простору. Спочатку столи робили з травертину з лакованою вставкою, тепер стільниці доступні з різних видів мармуру з лакованими ніжками й деталями.",
+                    "ru": "Simmy — семейство обеденных и журнальных столов современного языка с мягкими, органичными, почти скульптурными линиями. Коллекция сочетает материальность и визуальную легкость и становится выразительным акцентом пространства. Изначально столы делали из травертина с лакированной вставкой, теперь столешницы доступны из разных видов мрамора с лакированными ножками и деталями.",
+                    "en": "Simmy is a family of dining and coffee tables with soft, organic, almost sculptural lines, pairing material presence with visual lightness. Originally made with travertine tops and bases separated by a lacquered element, it now comes with tops in various marbles and lacquered legs and details."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Marelli (Італія)",
+                            "ru": "Marelli (Италия)",
+                            "en": "Marelli (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Журнальні та обідні столи",
+                            "ru": "Журнальные и обеденные столы",
+                            "en": "Coffee and dining tables"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-marelli-simmy-1",
+                    "@media:p-marelli-simmy-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "marelli-lara",
+                "title": "Marelli Lara"
+            },
+            "thumbnail": "@media:p-marelli-lara-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Lara — крісло з чіткими пропорційними геометріями, яке впевнено тримає простір і пасує як до сучасних житлових інтер’єрів, так і до вишуканих готельних проєктів. Його основа — масивний каркас із дуба, а підлокітники мають циліндричний профіль. Дубову основу пропонують у натуральних і насичених тонах — венге, чорний, мока.",
+                    "ru": "Lara — кресло с четкими пропорциональными геометриями, которое уверенно держит пространство и подходит как для современных жилых интерьеров, так и для изысканных гостиничных проектов. Его основа — массивный каркас из дуба, а подлокотники имеют цилиндрический профиль. Дубовое основание предлагают в натуральных и насыщенных тонах — венге, черный, мокко.",
+                    "en": "Lara is an armchair of bold, well-proportioned geometry that commands the space, at home in contemporary residences and refined hospitality projects. It is built around an exposed solid-oak frame with cylindrical armrests, offered in natural finishes or deeper wenge, black and mocha stains."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Marelli (Італія)",
+                            "ru": "Marelli (Италия)",
+                            "en": "Marelli (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло",
+                            "ru": "Кресло",
+                            "en": "Armchair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-marelli-lara-1",
+                    "@media:p-marelli-lara-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "marelli-pierre",
+                "title": "Marelli Pierre"
+            },
+            "thumbnail": "@media:p-marelli-pierre-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Pierre — колекція меблів виразного характеру: стелажі, буфети, комоди, бар-шафи й приліжкові тумби з єдиною концепцією й суворою рівновагою форми та матеріалу. Масивні стійки й полиці утворюють відкриту архітектурну сітку — стелаж підходить для кабінету керівника, бібліотеки чи вітальні.",
+                    "ru": "Pierre — коллекция мебели выразительного характера: стеллажи, буфеты, комоды, бар-шкафы и прикроватные тумбы с единой концепцией и строгим балансом формы и материала. Массивные стойки и полки образуют открытую архитектурную сетку — стеллаж подходит для кабинета руководителя, библиотеки или гостиной.",
+                    "en": "Pierre is a collection of strong-charactered pieces — bookshelves, sideboards, chests, bar cabinets and bedside tables — sharing one rigorous balance of form and material. Thick uprights and shelves trace an open architectural grid, suited to an executive office, library or living room."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Marelli (Італія)",
+                            "ru": "Marelli (Италия)",
+                            "en": "Marelli (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стелаж",
+                            "ru": "Стеллаж",
+                            "en": "Bookshelf"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-marelli-pierre-1",
+                    "@media:p-marelli-pierre-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "marelli",
+                "title": "Marelli"
+            },
+            "thumbnail": "@media:b-marelli-cover",
+            "acf": {
+                "sp__logo": "@media:logo-marelli",
+                "sp__logo-dark": "@media:logo-marelli",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Marelli</strong> (Giulio Marelli Home & Contract) — сімейна компанія з понад 60-річним досвідом у виробництві дизайнерських меблів. Фабрика розташована в Меді, у самому серці італійського меблевого округу Бріанца. Marelli поєднує традиції та інновації й створює рішення на замовлення для дизайнерів, архітекторів і декораторів.</p>\n<ul>\n<li>Колекції від розкішних меблів для житла до контрактних рішень для готелів, престижних офісів і ресторанів.</li>\n<li>Безкомпромісна якість, увага до деталей і можливість виготовлення на замовлення.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://giuliomarelli.com/?lang=en\" target=\"_blank\" rel=\"noopener nofollow\">giuliomarelli.com/?lang=en</a></p>",
+                            "ru": "<p><strong>Marelli</strong> (Giulio Marelli Home & Contract) — семейная компания с более чем 60-летним опытом в производстве дизайнерской мебели. Фабрика расположена в Меде, в самом сердце итальянского мебельного округа Брианца. Marelli сочетает традиции и инновации и создает решения на заказ для дизайнеров, архитекторов и декораторов.</p>\n<ul>\n<li>Коллекции от роскошной мебели для жилья до контрактных решений для отелей, престижных офисов и ресторанов.</li>\n<li>Бескомпромиссное качество, внимание к деталям и возможность изготовления на заказ.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://giuliomarelli.com/?lang=en\" target=\"_blank\" rel=\"noopener nofollow\">giuliomarelli.com/?lang=en</a></p>",
+                            "en": "<p><strong>Marelli</strong> (Giulio Marelli Home & Contract) is a family-run company with more than 60 years’ experience in design furniture. Based in Meda, in the heart of Italy’s Brianza furniture district, it combines tradition and innovation to create bespoke solutions for designers, architects and decorators.</p>\n<ul>\n<li>Collections from luxury residential furniture to contract pieces for hotels, prestigious offices and restaurants.</li>\n<li>Uncompromising quality, attention to detail and bespoke production.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://giuliomarelli.com/?lang=en\" target=\"_blank\" rel=\"noopener nofollow\">giuliomarelli.com/?lang=en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:marelli-simmy",
+                            "@product:marelli-lara",
+                            "@product:marelli-pierre"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "scab-nolo",
+                "title": "S•CAB Nolo"
+            },
+            "thumbnail": "@media:p-scab-nolo-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Nolo — колекція столів Simone Bonanni для кафе, ресторанів, переговорних і зон відпочинку. Доступна в кількох висотах — від журнального столика (h 50) до високого барного стола (h 109) — і з різними стільницями, зокрема з техно-полімеру, компакт-HPL і Fenix NTM®.",
+                    "ru": "Nolo — коллекция столов Simone Bonanni для кафе, ресторанов, переговорных и зон отдыха. Доступна в нескольких высотах — от журнального столика (h 50) до высокого барного стола (h 109) — и с разными столешницами, в том числе из технополимера, компакт-HPL и Fenix NTM®.",
+                    "en": "Nolo is a table collection by Simone Bonanni for cafés, restaurants, meeting rooms and lounge areas. It comes in several heights — from a coffee table (h 50) to a high bar table (h 109) — with a choice of tops including technopolymer, compact HPL and Fenix NTM®."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "S•CAB (Італія)",
+                            "ru": "S•CAB (Италия)",
+                            "en": "S•CAB (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Столи",
+                            "ru": "Столы",
+                            "en": "Tables"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Simone Bonanni",
+                            "ru": "Simone Bonanni",
+                            "en": "Simone Bonanni"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-scab-nolo-1",
+                    "@media:p-scab-nolo-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "scab-brezza-relax",
+                "title": "S•CAB Brezza Relax"
+            },
+            "thumbnail": "@media:p-scab-brezza-relax-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Brezza Relax — лаунж-крісло Alessandro Stabile для зон відпочинку в офісах, готелях і вдома. Колекцію доповнюють пуф і шезлонг, а також версії для вулиці, тож інтер’єр і терасу можна облаштувати в єдиному стилі.",
+                    "ru": "Brezza Relax — лаунж-кресло Alessandro Stabile для зон отдыха в офисах, отелях и дома. Коллекцию дополняют пуф и шезлонг, а также версии для улицы, поэтому интерьер и террасу можно обставить в едином стиле.",
+                    "en": "Brezza Relax is a lounge armchair by Alessandro Stabile for relaxation areas in offices, hotels and homes. A pouf, a chaise longue and outdoor versions complete the collection, so interiors and terraces can share one style."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "S•CAB (Італія)",
+                            "ru": "S•CAB (Италия)",
+                            "en": "S•CAB (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло",
+                            "ru": "Лаунж-кресло",
+                            "en": "Lounge armchair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Alessandro Stabile",
+                            "ru": "Alessandro Stabile",
+                            "en": "Alessandro Stabile"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-scab-brezza-relax-1",
+                    "@media:p-scab-brezza-relax-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "scab-koala-outdoor",
+                "title": "S•CAB Koala Outdoor"
+            },
+            "thumbnail": "@media:p-scab-koala-outdoor-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Koala Outdoor — вулична версія колекції Koala для терас, кафе й готельних зон. Колекція включає також барні стільці з низькою й високою спинкою (висота сидіння 65 або 75 см), тож можна підібрати меблі для обідніх і барних зон в одному стилі.",
+                    "ru": "Koala Outdoor — уличная версия коллекции Koala для террас, кафе и гостиничных зон. Коллекция включает также барные стулья с низкой и высокой спинкой (высота сиденья 65 или 75 см), поэтому можно подобрать мебель для обеденных и барных зон в одном стиле.",
+                    "en": "Koala Outdoor is the outdoor version of the Koala collection for terraces, cafés and hotel areas. The collection also includes low- and high-back bar stools (seat height 65 or 75 cm), so dining and bar areas can share one style."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "S•CAB (Італія)",
+                            "ru": "S•CAB (Италия)",
+                            "en": "S•CAB (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Вуличні меблі",
+                            "ru": "Уличная мебель",
+                            "en": "Outdoor seating"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-scab-koala-outdoor-1",
+                    "@media:p-scab-koala-outdoor-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "scab",
+                "title": "S•CAB"
+            },
+            "thumbnail": "@media:b-scab-cover",
+            "acf": {
+                "sp__logo": "@media:logo-scab",
+                "sp__logo-dark": "@media:logo-scab",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>S•CAB</strong> — італійська сімейна компанія з шістдесятирічною історією в меблевій індустрії. Виробляє стільці, крісла, дивани й столи для контрактних і житлових просторів — від кафе й готелів до офісів і терас, з увагою до дизайну, якості, функціональності та сталого розвитку.</p>\n<ul>\n<li>Колекції для інтер’єру та вулиці в одній стилістиці.</li>\n<li>Співпраця з італійськими дизайнерами, зокрема Simone Bonanni та Alessandro Stabile.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.s-cab.it/\" target=\"_blank\" rel=\"noopener nofollow\">www.s-cab.it</a></p>",
+                            "ru": "<p><strong>S•CAB</strong> — итальянская семейная компания с шестидесятилетней историей в мебельной индустрии. Производит стулья, кресла, диваны и столы для контрактных и жилых пространств — от кафе и отелей до офисов и террас, с вниманием к дизайну, качеству, функциональности и устойчивому развитию.</p>\n<ul>\n<li>Коллекции для интерьера и улицы в одной стилистике.</li>\n<li>Сотрудничество с итальянскими дизайнерами, в том числе Simone Bonanni и Alessandro Stabile.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.s-cab.it/\" target=\"_blank\" rel=\"noopener nofollow\">www.s-cab.it</a></p>",
+                            "en": "<p><strong>S•CAB</strong> is an Italian family company with sixty years in the furniture industry. It makes chairs, armchairs, sofas and tables for contract and residential spaces — from cafés and hotels to offices and terraces — with a focus on design, quality, function and sustainability.</p>\n<ul>\n<li>Indoor and outdoor collections in a shared style.</li>\n<li>Work with Italian designers including Simone Bonanni and Alessandro Stabile.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.s-cab.it/\" target=\"_blank\" rel=\"noopener nofollow\">www.s-cab.it</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:scab-nolo",
+                            "@product:scab-brezza-relax",
+                            "@product:scab-koala-outdoor"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "archiutti-ellan",
+                "title": "Archiutti Ellan"
+            },
+            "thumbnail": "@media:p-archiutti-ellan-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Ellan — колекція для представницьких кабінетів від B+B Associati: знакові столи керівника, приставні модулі та шафи — підвісні або на металевій конструкції в тому ж стилі. Сувора, але виразна архітектура робить кабінет цілісним.",
+                    "ru": "Ellan — коллекция для представительских кабинетов от B+B Associati: знаковые столы руководителя, приставные модули и шкафы — подвесные или на металлической конструкции в том же стиле. Строгая, но выразительная архитектура делает кабинет целостным.",
+                    "en": "Ellan by B+B Associati furnishes prestigious offices with iconic executive desks, side extensions and storage, suspended or on a matching metal structure. Its rigorous yet expressive architecture gives the office a unified look."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Archiutti (Італія)",
+                            "ru": "Archiutti (Италия)",
+                            "en": "Archiutti (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл керівника",
+                            "ru": "Стол руководителя",
+                            "en": "Executive desk"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "B+B Associati",
+                            "ru": "B+B Associati",
+                            "en": "B+B Associati"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-archiutti-ellan-1",
+                    "@media:p-archiutti-ellan-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "archiutti-ellan-meeting",
+                "title": "Archiutti Ellan Meeting"
+            },
+            "thumbnail": "@media:p-archiutti-ellan-meeting-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Переговорний стіл Ellan: L-подібний профіль проходить по всьому периметру стола й утворює елегантну, впізнавану основу. Доступні прямокутні й квадратні стільниці, а також висока версія для коротких зустрічей стоячи.",
+                    "ru": "Переговорный стол Ellan: L-образный профиль проходит по всему периметру стола и образует элегантное, узнаваемое основание. Доступны прямоугольные и квадратные столешницы, а также высокая версия для коротких встреч стоя.",
+                    "en": "The Ellan meeting table: an L-shaped profile runs around the whole perimeter, forming an elegant, distinctive base. Rectangular and square tops are available, plus a high version for short stand-up meetings."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Archiutti (Італія)",
+                            "ru": "Archiutti (Италия)",
+                            "en": "Archiutti (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Переговорний стіл",
+                            "ru": "Переговорный стол",
+                            "en": "Meeting table"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "B+B Associati",
+                            "ru": "B+B Associati",
+                            "en": "B+B Associati"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-archiutti-ellan-meeting-1",
+                    "@media:p-archiutti-ellan-meeting-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "archiutti",
+                "title": "Archiutti"
+            },
+            "thumbnail": "@media:b-archiutti-cover",
+            "acf": {
+                "sp__logo": "@media:logo-archiutti",
+                "sp__logo-dark": "@media:logo-archiutti",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Archiutti</strong> — італійський бренд офісних меблів, який понад 60 років облаштовує робочі простори по всьому світу. В асортименті — столи керівників, робочі й переговорні столи, системи зберігання, ресепшн і перегородки, які можна поєднувати в цілісні офісні проєкти.</p>\n<ul>\n<li>Цілісні колекції для кабінету керівника: стіл, приставні модулі, тумби й шафи.</li>\n<li>Співпраця з італійськими студіями, зокрема B+B Associati.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, меблі для кабінетів керівників.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://archiutti.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">archiutti.it/en</a></p>",
+                            "ru": "<p><strong>Archiutti</strong> — итальянский бренд офисной мебели, который более 60 лет обустраивает рабочие пространства по всему миру. В ассортименте — столы руководителей, рабочие и переговорные столы, системы хранения, ресепшн и перегородки, которые можно сочетать в целостные офисные проекты.</p>\n<ul>\n<li>Целостные коллекции для кабинета руководителя: стол, приставные модули, тумбы и шкафы.</li>\n<li>Сотрудничество с итальянскими студиями, в том числе B+B Associati.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, мебель для кабинетов руководителей.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://archiutti.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">archiutti.it/en</a></p>",
+                            "en": "<p><strong>Archiutti</strong> is an Italian office-furniture brand that has been improving workplaces worldwide for over 60 years. Its range covers executive desks, operative and meeting tables, storage, receptions and partitions that combine into complete office projects.</p>\n<ul>\n<li>Complete executive collections: desk, side extensions, pedestals and cabinets.</li>\n<li>Work with Italian studios such as B+B Associati.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, executive office furniture.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://archiutti.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">archiutti.it/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:archiutti-ellan",
+                            "@product:archiutti-ellan-meeting"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "lecomfort-oyster",
+                "title": "LeComfort Oyster"
+            },
+            "thumbnail": "@media:p-lecomfort-oyster-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Oyster — заокруглене крісло, що огортає, як мушля. Доступне на нерухомій або поворотній основі, в оббивці з тканини, тексилю чи шкіри, з повністю або частково знімним чохлом. Як і всі моделі LeComfort, має широкі можливості налаштування.",
+                    "ru": "Oyster — скругленное обволакивающее кресло, напоминающее ракушку. Доступно на неподвижном или поворотном основании, в обивке из ткани, тексиля или кожи, с полностью или частично съемным чехлом. Как и все модели LeComfort, имеет широкие возможности настройки.",
+                    "en": "Oyster is an enveloping, rounded armchair inspired by a seashell. It comes on a fixed or swivel base in fabric, texil or leather, with fully or partly removable covers, and like every LeComfort model offers extensive customisation."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "LeComfort (Італія)",
+                            "ru": "LeComfort (Италия)",
+                            "en": "LeComfort (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло",
+                            "ru": "Кресло",
+                            "en": "Armchair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-lecomfort-oyster-1",
+                    "@media:p-lecomfort-oyster-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "lecomfort",
+                "title": "LeComfort"
+            },
+            "thumbnail": "@media:b-lecomfort-cover",
+            "acf": {
+                "sp__logo": "@media:logo-lecomfort",
+                "sp__logo-dark": "@media:logo-lecomfort",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>LeComfort</strong> — італійський виробник м’яких меблів: дивани, дивани-ліжка, ліжка, крісла й аксесуари. Ремісничу традицію компанія веде з 1970-х років — це понад 50 років досвіду. Кожну модель можна налаштувати під інтер’єр: модулі, розміри, тканини й шкіру.</p>\n<ul>\n<li>Знімні чохли й широкий вибір тканин, тексилю та шкіри.</li>\n<li>Модульність як основа бренду — дивани й крісла під будь-який простір.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://lecomfort.com/\" target=\"_blank\" rel=\"noopener nofollow\">lecomfort.com</a></p>",
+                            "ru": "<p><strong>LeComfort</strong> — итальянский производитель мягкой мебели: диваны, диваны-кровати, кровати, кресла и аксессуары. Ремесленную традицию компания ведет с 1970-х годов — это более 50 лет опыта. Каждую модель можно настроить под интерьер: модули, размеры, ткани и кожу.</p>\n<ul>\n<li>Съемные чехлы и широкий выбор тканей, тексиля и кожи.</li>\n<li>Модульность как основа бренда — диваны и кресла под любое пространство.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://lecomfort.com/\" target=\"_blank\" rel=\"noopener nofollow\">lecomfort.com</a></p>",
+                            "en": "<p><strong>LeComfort</strong> is an Italian upholstered-furniture maker of sofas, sofa beds, beds, armchairs and accessories. Its craft tradition dates back to the 1970s — over 50 years of expertise. Every model can be customised with modules, sizes, fabrics and leathers.</p>\n<ul>\n<li>Removable covers and a wide choice of fabrics, texil and leathers.</li>\n<li>Modularity at the brand’s core: sofas and armchairs for any space.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://lecomfort.com/\" target=\"_blank\" rel=\"noopener nofollow\">lecomfort.com</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:lecomfort-oyster"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "mogg-hero",
+                "title": "Mogg Hero"
+            },
+            "thumbnail": "@media:p-mogg-hero-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Hero — обідній стіл, що вирізняється силою й міцністю: чотири квадратні ніжки тримають стільницю, яка завдяки заокругленим краям здається майже ширяючою. Вигнуті й прямі лінії переплітаються й утворюють гармонійний образ — стіл стає центром їдальні чи переговорної.",
+                    "ru": "Hero — обеденный стол, который отличается силой и прочностью: четыре квадратные ножки держат столешницу, которая благодаря скругленным краям кажется почти парящей. Изогнутые и прямые линии переплетаются и создают гармоничный образ — стол становится центром столовой или переговорной.",
+                    "en": "Hero is a dining table of strength and solidity: four square legs support a top that seems almost suspended, lightened by curves and rounded edges. Curved and straight lines intertwine in visual harmony, making it the centrepiece of a dining or meeting room."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Mogg (Італія)",
+                            "ru": "Mogg (Италия)",
+                            "en": "Mogg (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл",
+                            "ru": "Стол",
+                            "en": "Table"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-mogg-hero-1",
+                    "@media:p-mogg-hero-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "mogg-talk",
+                "title": "Mogg Talk"
+            },
+            "thumbnail": "@media:p-mogg-talk-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Talk — м’яке лаунж-крісло з трьох елементів, що походять від однієї форми. Так виходить сидіння простих і чистих ліній із сильним геометричним характером. Підходить для вітальні, зон відпочинку й очікування.",
+                    "ru": "Talk — мягкое лаунж-кресло из трех элементов, происходящих от одной формы. Так получается сиденье простых и чистых линий с сильным геометрическим характером. Подходит для гостиной, зон отдыха и ожидания.",
+                    "en": "Talk is a padded lounge armchair made of three elements derived from the same shape, giving a seat of simple, essential lines with a strong geometric character. Suited to living, relaxation and waiting areas."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Mogg (Італія)",
+                            "ru": "Mogg (Италия)",
+                            "en": "Mogg (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло",
+                            "ru": "Лаунж-кресло",
+                            "en": "Lounge armchair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-mogg-talk-1",
+                    "@media:p-mogg-talk-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "mogg-judd",
+                "title": "Mogg Judd"
+            },
+            "thumbnail": "@media:p-mogg-judd-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Judd — функціональна й декоративна металева система зберігання, що впорядковує й позначає простір. Є настінна й підлогова версії; модулі ставлять поруч, створюючи безліч композицій, а підлогова версія може працювати як перегородка.",
+                    "ru": "Judd — функциональная и декоративная металлическая система хранения, которая упорядочивает и обозначает пространство. Есть настенная и напольная версии; модули ставят рядом, создавая множество композиций, а напольная версия может работать как перегородка.",
+                    "en": "Judd is a functional, decorative metal storage system that organises and marks the space. Available in wall and floor versions, its modules sit side by side in endless compositions, and the floor version can act as a room divider."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Mogg (Італія)",
+                            "ru": "Mogg (Италия)",
+                            "en": "Mogg (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Система зберігання",
+                            "ru": "Система хранения",
+                            "en": "Storage unit"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-mogg-judd-1",
+                    "@media:p-mogg-judd-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "mogg",
+                "title": "Mogg"
+            },
+            "thumbnail": "@media:b-mogg-cover",
+            "acf": {
+                "sp__logo": "@media:logo-mogg",
+                "sp__logo-dark": "@media:logo-mogg",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Mogg</strong> (MObili OGGetti) — італійська компанія меблів і предметів інтер’єру, яка дебютувала на Salone del Mobile в Мілані 2012 року. Її стиль — контраст графічних і м’яких ліній, теплих і холодних матеріалів, насичені кольори й «демократичний дизайн»: стильний, але відкритий для всіх.</p>\n<ul>\n<li>Столи, крісла, дивани, системи зберігання, світильники, дзеркала й килими в одній естетиці.</li>\n<li>Підходить і для житла, і для зон очікування, лаунжів та кабінетів.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.mogg.it/\" target=\"_blank\" rel=\"noopener nofollow\">www.mogg.it</a></p>",
+                            "ru": "<p><strong>Mogg</strong> (MObili OGGetti) — итальянская компания мебели и предметов интерьера, которая дебютировала на Salone del Mobile в Милане в 2012 году. Ее стиль — контраст графичных и мягких линий, теплых и холодных материалов, насыщенные цвета и «демократичный дизайн»: стильный, но открытый для всех.</p>\n<ul>\n<li>Столы, кресла, диваны, системы хранения, светильники, зеркала и ковры в одной эстетике.</li>\n<li>Подходит и для жилья, и для зон ожидания, лаунжей и кабинетов.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.mogg.it/\" target=\"_blank\" rel=\"noopener nofollow\">www.mogg.it</a></p>",
+                            "en": "<p><strong>Mogg</strong> (MObili OGGetti) is an Italian furniture and objects company that debuted at Milan’s Salone del Mobile in 2012. Its style plays graphic against curved lines and warm against cool materials, with intense colours and “democratic design”: stylish yet open to all.</p>\n<ul>\n<li>Tables, seating, storage, lamps, mirrors and rugs in one aesthetic.</li>\n<li>Suited to homes as well as waiting areas, lounges and private offices.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.mogg.it/\" target=\"_blank\" rel=\"noopener nofollow\">www.mogg.it</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:mogg-hero",
+                            "@product:mogg-talk",
+                            "@product:mogg-judd"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "tonelli-metropolis-xxl",
+                "title": "Tonelli Metropolis XXL"
+            },
+            "thumbnail": "@media:p-tonelli-metropolis-xxl-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Metropolis XXL — лаконічний і еклектичний скляний стіл, головний герой домашніх і офісних інтер’єрів. Легкість скла й великий вибір розмірів дозволяють вписати його в будь-який стиль — як робочий, переговорний чи обідній стіл.",
+                    "ru": "Metropolis XXL — лаконичный и эклектичный стеклянный стол, главный герой домашних и офисных интерьеров. Легкость стекла и большой выбор размеров позволяют вписать его в любой стиль — как рабочий, переговорный или обеденный стол.",
+                    "en": "Metropolis XXL is an essential, eclectic glass table, the protagonist of homes and offices. The lightness of glass and the wide range of sizes let it suit any interior as a desk, meeting or dining table."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Tonelli Design (Італія)",
+                            "ru": "Tonelli Design (Италия)",
+                            "en": "Tonelli Design (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Скляний стіл",
+                            "ru": "Стеклянный стол",
+                            "en": "Glass table"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-tonelli-metropolis-xxl-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "tonelli-naked",
+                "title": "Tonelli Naked"
+            },
+            "thumbnail": "@media:p-tonelli-naked-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Naked — крісло архітектора й дизайнера Джованні Томмазо Гаратоні з мінімалістичною чистою конструкцією. Легкий силует добре поєднується зі скляними столами й буфетами Tonelli у вітальні, кабінеті чи лаунж-зоні.",
+                    "ru": "Naked — кресло архитектора и дизайнера Джованни Томмазо Гаратони с минималистичной чистой конструкцией. Легкий силуэт хорошо сочетается со стеклянными столами и буфетами Tonelli в гостиной, кабинете или лаунж-зоне.",
+                    "en": "Naked is an armchair by architect and designer Giovanni Tommaso Garattoni with a minimal, clean structure. Its light silhouette pairs well with Tonelli glass tables and sideboards in living rooms, offices and lounges."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Tonelli Design (Італія)",
+                            "ru": "Tonelli Design (Италия)",
+                            "en": "Tonelli Design (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло",
+                            "ru": "Кресло",
+                            "en": "Armchair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Giovanni Tommaso Garattoni",
+                            "ru": "Giovanni Tommaso Garattoni",
+                            "en": "Giovanni Tommaso Garattoni"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-tonelli-naked-1",
+                    "@media:p-tonelli-naked-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "tonelli-aterea",
+                "title": "Tonelli Aterea"
+            },
+            "thumbnail": "@media:p-tonelli-aterea-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Aterea — буфет чистого лінійного дизайну, який можна персоналізувати під смак і стиль інтер’єру. Версія-шафа (highboard) має дзеркальну задню стінку й LED-підсвітку для глибокого візуального ефекту, дерев’яні полиці та скляні перегородки — для кабінету, вітальні чи їдальні.",
+                    "ru": "Aterea — буфет чистого линейного дизайна, который можно персонализировать под вкус и стиль интерьера. Версия-шкаф (highboard) имеет зеркальную заднюю стенку и LED-подсветку для глубокого визуального эффекта, деревянные полки и стеклянные перегородки — для кабинета, гостиной или столовой.",
+                    "en": "Aterea is a sideboard of pure, linear design that can be personalised to taste and interior style. The highboard version adds a mirrored back and LED lighting for visual depth, with wooden shelves and glass dividers, for offices, living or dining rooms."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Tonelli Design (Італія)",
+                            "ru": "Tonelli Design (Италия)",
+                            "en": "Tonelli Design (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Буфет",
+                            "ru": "Буфет",
+                            "en": "Sideboard"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-tonelli-aterea-1",
+                    "@media:p-tonelli-aterea-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "tonelli-design",
+                "title": "Tonelli Design"
+            },
+            "thumbnail": "@media:b-tonelli-design-cover",
+            "acf": {
+                "sp__logo": "@media:logo-tonelli-design",
+                "sp__logo-dark": "@media:logo-tonelli-design",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Tonelli Design</strong> — італійська компанія з Пезаро, заснована у 1980-х, яка спеціалізується на меблях і предметах інтер’єру зі скла. Поєднуючи традиції й інновації, Tonelli популяризує культуру скла, а сьогодні доповнює його деревом, тканиною, металом і шкірою.</p>\n<ul>\n<li>Скло — міцний, екологічний і виразний матеріал для столів, буфетів і стелажів.</li>\n<li>Столи XXL для домашніх кабінетів, переговорних і їдалень у великому діапазоні розмірів.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://tonellidesign.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">tonellidesign.it/en</a></p>",
+                            "ru": "<p><strong>Tonelli Design</strong> — итальянская компания из Пезаро, основанная в 1980-х, которая специализируется на мебели и предметах интерьера из стекла. Сочетая традиции и инновации, Tonelli популяризирует культуру стекла, а сегодня дополняет его деревом, тканью, металлом и кожей.</p>\n<ul>\n<li>Стекло — прочный, экологичный и выразительный материал для столов, буфетов и стеллажей.</li>\n<li>Столы XXL для домашних кабинетов, переговорных и столовых в большом диапазоне размеров.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://tonellidesign.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">tonellidesign.it/en</a></p>",
+                            "en": "<p><strong>Tonelli Design</strong> is an Italian company from Pesaro, founded in the 1980s, specialising in glass furniture and complements. Blending tradition and innovation, it promotes the culture of glass and now pairs it with wood, fabric, metal and leather.</p>\n<ul>\n<li>Glass as a strong, ecological and striking material for tables, sideboards and shelving.</li>\n<li>XXL tables for home offices, meeting and dining rooms in a wide range of sizes.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://tonellidesign.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">tonellidesign.it/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:tonelli-metropolis-xxl",
+                            "@product:tonelli-naked",
+                            "@product:tonelli-aterea"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "cantori-milton",
+                "title": "Cantori Milton"
+            },
+            "thumbnail": "@media:p-cantori-milton-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Milton — скляний стіл у фіксованій і розкладній версіях: розкладна працює завдяки складному, але дуже простому в користуванні механізму, що легко висуває вставки. Основа — дві вигнуті сталеві ніжки ромбоподібного перерізу, а стільниця має багатогранну призматичну форму.",
+                    "ru": "Milton — стеклянный стол в фиксированной и раздвижной версиях: раздвижная работает благодаря сложному, но очень простому в использовании механизму, который легко выдвигает вставки. Основание — две изогнутые стальные ножки ромбовидного сечения, а столешница имеет многогранную призматическую форму.",
+                    "en": "Milton is a glass table in fixed and extendable versions; the latter uses a sophisticated yet simple mechanism that lets the extensions slide out with ease. The base is two bent steel legs with a rhomboid section, and the top has a polygonal, prismatic shape."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Cantori (Італія)",
+                            "ru": "Cantori (Италия)",
+                            "en": "Cantori (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл",
+                            "ru": "Стол",
+                            "en": "Table"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-cantori-milton-1",
+                    "@media:p-cantori-milton-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "cantori-twist",
+                "title": "Cantori Twist"
+            },
+            "thumbnail": "@media:p-cantori-twist-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Twist — скульптурне крісло, натхненне світом моди й гламуру. Його впізнають за видимими швами й закрученими стрічками зі шкіри або еконубуку, що огортають металевий каркас і зшиваються вручну. Сидіння з фрезерованого дерева має наповнення з гуми двох щільностей і верхній шар пуху; оббивка — тканина, оксамит або шкіра.",
+                    "ru": "Twist — скульптурное кресло, вдохновленное миром моды и гламура. Его узнают по видимым швам и закрученным лентам из кожи или эконубука, которые обвивают металлический каркас и сшиваются вручную. Сиденье из фрезерованного дерева имеет наполнение из резины двух плотностей и верхний слой пуха; обивка — ткань, бархат или кожа.",
+                    "en": "Twist is a sculptural armchair inspired by fashion and glamour, recognisable by its visible stitching and the twisted leather or econabuk bands, hand-sewn around a metal frame. The routed-wood seat is padded with dual-density foam and a feather top layer, upholstered in fabric, velvet or leather."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Cantori (Італія)",
+                            "ru": "Cantori (Италия)",
+                            "en": "Cantori (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло",
+                            "ru": "Кресло",
+                            "en": "Armchair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-cantori-twist-1",
+                    "@media:p-cantori-twist-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "cantori-cloud",
+                "title": "Cantori Cloud"
+            },
+            "thumbnail": "@media:p-cantori-cloud-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Cloud — модульна система вуличних диванів Мауріціо Манцоні, натхненна округлістю хмар і їх вільним розташуванням у просторі. T-подібна конструкція з нержавіючої сталі тримає заокруглені сидіння й спинки, які можна розставляти по-своєму, створюючи власні композиції для терас.",
+                    "ru": "Cloud — модульная система уличных диванов Маурицио Манцони, вдохновленная округлостью облаков и их свободным положением в пространстве. T-образная конструкция из нержавеющей стали держит скругленные сиденья и спинки, которые можно расставлять по-своему, создавая собственные композиции для террас.",
+                    "en": "Cloud is a modular outdoor sofa system by Maurizio Manzoni, inspired by the roundness of clouds and their free position in space. A stainless-steel T structure supports rounded seats and backs that can be arranged freely into your own terrace compositions."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Cantori (Італія)",
+                            "ru": "Cantori (Италия)",
+                            "en": "Cantori (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Модульний вуличний диван",
+                            "ru": "Модульный уличный диван",
+                            "en": "Modular outdoor sofa"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Maurizio Manzoni",
+                            "ru": "Maurizio Manzoni",
+                            "en": "Maurizio Manzoni"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-cantori-cloud-1",
+                    "@media:p-cantori-cloud-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "cantori",
+                "title": "Cantori"
+            },
+            "thumbnail": "@media:b-cantori-cover",
+            "acf": {
+                "sp__logo": "@media:logo-cantori",
+                "sp__logo-dark": "@media:logo-cantori",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Cantori</strong> — італійська фабрика з Камерано (регіон Марке), яку 1976 року заснував Санте Кантори, об’єднавши майстерність місцевих ремісників. Понад 40 років Cantori виготовляє меблі для кожної кімнати — від кованих і м’яких ліжок до столів, крісел і вуличних колекцій — і бере участь у великих житлових і комерційних проєктах, зокрема для яхт.</p>\n<ul>\n<li>Поєднання металу, скла, дерева й шкіри ручної роботи.</li>\n<li>Файли 2D/3D для архітекторів і проєкти «під ключ».</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.cantori.it/it/\" target=\"_blank\" rel=\"noopener nofollow\">www.cantori.it/it</a></p>",
+                            "ru": "<p><strong>Cantori</strong> — итальянская фабрика из Камерано (регион Марке), которую в 1976 году основал Санте Кантори, объединив мастерство местных ремесленников. Более 40 лет Cantori изготавливает мебель для каждой комнаты — от кованых и мягких кроватей до столов, кресел и уличных коллекций — и участвует в крупных жилых и коммерческих проектах, в том числе для яхт.</p>\n<ul>\n<li>Сочетание металла, стекла, дерева и кожи ручной работы.</li>\n<li>Файлы 2D/3D для архитекторов и проекты «под ключ».</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.cantori.it/it/\" target=\"_blank\" rel=\"noopener nofollow\">www.cantori.it/it</a></p>",
+                            "en": "<p><strong>Cantori</strong> is an Italian maker from Camerano (Marche), founded in 1976 by Sante Cantori, who drew on the area’s network of craftsmen. For over 40 years it has made furniture for every room — from wrought-iron and upholstered beds to tables, armchairs and outdoor collections — and works on large residential and commercial projects, including yachts.</p>\n<ul>\n<li>Hand-crafted combinations of metal, glass, wood and leather.</li>\n<li>2D/3D files for architects and turnkey projects.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.cantori.it/it/\" target=\"_blank\" rel=\"noopener nofollow\">www.cantori.it/it</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:cantori-milton",
+                            "@product:cantori-twist",
+                            "@product:cantori-cloud"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "frag-clubby",
+                "title": "Frag Clubby"
+            },
+            "thumbnail": "@media:p-frag-clubby-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Clubby — колекція лаунж-крісел і стільців із циліндричними пуфами, натхненна кріслами лондонських клубних курилень. Крісло має м’які, обгортальні форми й повністю оббите тканиною або шкірою — в одному чи двох матеріалах. Поворотна металева основа з поверненням у вихідне положення — латунь або чорний.",
+                    "ru": "Clubby — коллекция лаунж-кресел и стульев с цилиндрическими пуфами, вдохновленная креслами лондонских клубных курительных. Кресло имеет мягкие, обволакивающие формы и полностью обито тканью или кожей — в одном или двух материалах. Поворотное металлическое основание с возвратом в исходное положение — латунь или черный.",
+                    "en": "Clubby is a collection of lounge and dining chairs with cylindrical poufs, inspired by London club smoking-room armchairs. The armchair has soft, enveloping shapes, fully upholstered in fabric or leather, in one or two materials, on a swivel metal base with return in brushed brass or black."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Frag (Італія)",
+                            "ru": "Frag (Италия)",
+                            "en": "Frag (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло",
+                            "ru": "Лаунж-кресло",
+                            "en": "Lounge armchair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-frag-clubby-1",
+                    "@media:p-frag-clubby-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "frag-dante",
+                "title": "Frag Dante"
+            },
+            "thumbnail": "@media:p-frag-dante-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Dante — стіл і письмовий стіл, у яких головне — чиста форма, підкреслена повною оббивкою сідельною шкірою з декоративними строчками, що малюють геометричні лінії на стільниці. Усередині — сталевий каркас. Вишуканий варіант для кабінету керівника.",
+                    "ru": "Dante — стол и письменный стол, в которых главное — чистая форма, подчеркнутая полной обивкой седельной кожей с декоративными строчками, рисующими геометрические линии на столешнице. Внутри — стальной каркас. Изысканный вариант для кабинета руководителя.",
+                    "en": "Dante is a table and desk defined by pure form, fully upholstered in saddle leather with decorative stitching that draws clean geometric lines on the top, around a steel core. A refined choice for an executive office."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Frag (Італія)",
+                            "ru": "Frag (Италия)",
+                            "en": "Frag (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Письмовий стіл",
+                            "ru": "Письменный стол",
+                            "en": "Desk"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-frag-dante-1",
+                    "@media:p-frag-dante-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "frag",
+                "title": "Frag"
+            },
+            "thumbnail": "@media:b-frag-cover",
+            "acf": {
+                "sp__logo": "@media:logo-frag",
+                "sp__logo-dark": "@media:logo-frag",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Frag</strong> — італійська сімейна компанія, заснована 1921 року, що спеціалізується на меблях зі шкіри: стільцях, кріслах, диванах і столах. Сьогодні в бізнесі вже четверте покоління родини. Frag поєднує мануфактурну майстерність із творчістю провідних дизайнерів і представляє Made in Italy на міжнародному рівні.</p>\n<ul>\n<li>Фірмова сідельна шкіра FRAG #02, дублена в Італії: міцна, еластична, стійка до зношування.</li>\n<li>Меблі для житла, готелів, ресторанів і представницьких кабінетів.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.frag.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.frag.it/en</a></p>",
+                            "ru": "<p><strong>Frag</strong> — итальянская семейная компания, основанная в 1921 году и специализирующаяся на мебели из кожи: стульях, креслах, диванах и столах. Сегодня в бизнесе уже четвертое поколение семьи. Frag сочетает мануфактурное мастерство с творчеством ведущих дизайнеров и представляет Made in Italy на международном уровне.</p>\n<ul>\n<li>Фирменная седельная кожа FRAG #02, дубленная в Италии: прочная, эластичная, устойчивая к износу.</li>\n<li>Мебель для жилья, отелей, ресторанов и представительских кабинетов.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.frag.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.frag.it/en</a></p>",
+                            "en": "<p><strong>Frag</strong> is an Italian family company founded in 1921 that specialises in leather furniture: chairs, armchairs, sofas and tables. The fourth generation now runs the business, combining manufacturing skill with leading designers to represent Made in Italy internationally.</p>\n<ul>\n<li>Signature FRAG #02 saddle leather, tanned in Italy: strong, elastic and hard-wearing.</li>\n<li>Furniture for homes, hotels, restaurants and executive offices.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.frag.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.frag.it/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:frag-clubby",
+                            "@product:frag-dante"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

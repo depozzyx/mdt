@@ -1,0 +1,1906 @@
+{
+    "_readme": "Factories from the client table «Фабрики MDT (Region: Ukraine)», part D (premium segment). Texts written from each maker's own site (see each media \"source\"); logos recoloured #343434.",
+    "media": {
+        "b-i4mariani-cover": {
+            "file": "b-i4mariani-cover.jpg",
+            "title": "i 4 Mariani",
+            "source": "https://www.i4mariani.com/wp-content/uploads/2026/04/4Mariani_ATRIUM-scaled.jpg"
+        },
+        "logo-i4mariani": {
+            "file": "logo-i4mariani.png",
+            "title": "i 4 Mariani",
+            "source": "https://www.i4mariani.com/ (recoloured #343434)"
+        },
+        "p-i4mariani-royal-1": {
+            "file": "p-i4mariani-royal-1.jpg",
+            "title": "i 4 Mariani Royal",
+            "source": "https://www.i4mariani.com/product/royal/"
+        },
+        "p-i4mariani-congress-1": {
+            "file": "p-i4mariani-congress-1.jpg",
+            "title": "i 4 Mariani Congress",
+            "source": "https://www.i4mariani.com/product/congress/"
+        },
+        "p-i4mariani-sella-lounge-1": {
+            "file": "p-i4mariani-sella-lounge-1.jpg",
+            "title": "i 4 Mariani Sella Lounge",
+            "source": "https://www.i4mariani.com/product/sella-lounge/"
+        },
+        "p-i4mariani-sella-lounge-2": {
+            "file": "p-i4mariani-sella-lounge-2.jpg",
+            "title": "i 4 Mariani Sella Lounge",
+            "source": "https://www.i4mariani.com/product/sella-lounge/"
+        },
+        "b-flexform-cover": {
+            "file": "b-flexform-cover.jpg",
+            "title": "Flexform",
+            "source": "https://www.flexform.it/_next/image?w=1920&q=75&url=https%3A%2F%2Fstorage.onpage.it%2F9dac44f99b8afafc9627d9549e22630fec33f88f.x1680.webp"
+        },
+        "logo-flexform": {
+            "file": "logo-flexform.png",
+            "title": "Flexform",
+            "source": "https://www.flexform.it/en (recoloured #343434)"
+        },
+        "p-flexform-feel-good-1": {
+            "file": "p-flexform-feel-good-1.jpg",
+            "title": "Flexform Feel Good",
+            "source": "https://www.flexform.it/en/products/indoor/all-products/armchairs/feel-good"
+        },
+        "p-flexform-feel-good-2": {
+            "file": "p-flexform-feel-good-2.jpg",
+            "title": "Flexform Feel Good",
+            "source": "https://www.flexform.it/en/products/indoor/all-products/armchairs/feel-good"
+        },
+        "p-flexform-desco-1": {
+            "file": "p-flexform-desco-1.jpg",
+            "title": "Flexform Desco",
+            "source": "https://www.flexform.it/en/products/indoor/all-products/tables/desco"
+        },
+        "p-flexform-desco-2": {
+            "file": "p-flexform-desco-2.jpg",
+            "title": "Flexform Desco",
+            "source": "https://www.flexform.it/en/products/indoor/all-products/tables/desco"
+        },
+        "p-flexform-oasis-1": {
+            "file": "p-flexform-oasis-1.jpg",
+            "title": "Flexform Oasis",
+            "source": "https://www.flexform.it/en/products/outdoor/all-products/sofas/sectional-sofas/oasis"
+        },
+        "p-flexform-oasis-2": {
+            "file": "p-flexform-oasis-2.jpg",
+            "title": "Flexform Oasis",
+            "source": "https://www.flexform.it/en/products/outdoor/all-products/sofas/sectional-sofas/oasis"
+        },
+        "b-poliform-cover": {
+            "file": "b-poliform-cover.jpg",
+            "title": "Poliform",
+            "source": "https://s3.poliform.it/2025/09/poliform_studio_amb.8.jpg"
+        },
+        "logo-poliform": {
+            "file": "logo-poliform.png",
+            "title": "Poliform",
+            "source": "https://www.poliform.it/en/ (recoloured #343434)"
+        },
+        "p-poliform-concorde-1": {
+            "file": "p-poliform-concorde-1.jpg",
+            "title": "Poliform Concorde",
+            "source": "https://www.poliform.it/en/products/concorde-desks/"
+        },
+        "p-poliform-attimo-1": {
+            "file": "p-poliform-attimo-1.jpg",
+            "title": "Poliform Attimo",
+            "source": "https://www.poliform.it/us/products/attimo-armchair/"
+        },
+        "p-poliform-attimo-2": {
+            "file": "p-poliform-attimo-2.jpg",
+            "title": "Poliform Attimo",
+            "source": "https://www.poliform.it/us/products/attimo-armchair/"
+        },
+        "p-poliform-curve-outdoor-1": {
+            "file": "p-poliform-curve-outdoor-1.jpg",
+            "title": "Poliform Curve Outdoor",
+            "source": "https://www.poliform.it/us/products/curve-table-outdoor/"
+        },
+        "b-bralco-cover": {
+            "file": "b-bralco-cover.jpg",
+            "title": "Bralco",
+            "source": "https://www.bralco.it/wp-content/uploads/2025/10/Bralco-WDS-office-curator-LARGE-8-Copia.jpg"
+        },
+        "logo-bralco": {
+            "file": "logo-bralco.png",
+            "title": "Bralco",
+            "source": "https://www.bralco.it/ (recoloured #343434)"
+        },
+        "p-bralco-sile-4-1": {
+            "file": "p-bralco-sile-4-1.jpg",
+            "title": "Bralco Sile 4",
+            "source": "https://www.bralco.it/en/prodotti/scrivania/"
+        },
+        "p-bralco-feel-1": {
+            "file": "p-bralco-feel-1.jpg",
+            "title": "Bralco Feel",
+            "source": "https://www.bralco.it/en/prodotti/sedia_feel/"
+        },
+        "b-okamura-cover": {
+            "file": "b-okamura-cover.jpg",
+            "title": "Okamura",
+            "source": "https://www.okamura.com/wp-content/uploads/2025/10/Contessa_hero_pc.jpg"
+        },
+        "logo-okamura": {
+            "file": "logo-okamura.png",
+            "title": "Okamura",
+            "source": "https://www.okamura.com/ (recoloured #343434)"
+        },
+        "p-okamura-contessa-ii-1": {
+            "file": "p-okamura-contessa-ii-1.jpg",
+            "title": "Okamura Contessa II",
+            "source": "https://www.okamura.com/products/contessa-ii/"
+        },
+        "p-okamura-contessa-ii-2": {
+            "file": "p-okamura-contessa-ii-2.jpg",
+            "title": "Okamura Contessa II",
+            "source": "https://www.okamura.com/products/contessa-ii/"
+        },
+        "p-okamura-finora-1": {
+            "file": "p-okamura-finora-1.jpg",
+            "title": "Okamura Finora",
+            "source": "https://www.okamura.com/products/finora/"
+        },
+        "p-okamura-finora-2": {
+            "file": "p-okamura-finora-2.jpg",
+            "title": "Okamura Finora",
+            "source": "https://www.okamura.com/products/finora/"
+        },
+        "p-okamura-risefit-iii-1": {
+            "file": "p-okamura-risefit-iii-1.jpg",
+            "title": "Okamura Risefit III",
+            "source": "https://www.okamura.com/products/risefit-iii/"
+        },
+        "p-okamura-risefit-iii-2": {
+            "file": "p-okamura-risefit-iii-2.jpg",
+            "title": "Okamura Risefit III",
+            "source": "https://www.okamura.com/products/risefit-iii/"
+        },
+        "b-bontempi-cover": {
+            "file": "b-bontempi-cover.jpg",
+            "title": "Bontempi",
+            "source": "https://www.bontempi.it/wp-content/uploads/2026/05/Tessa_2.jpg"
+        },
+        "logo-bontempi": {
+            "file": "logo-bontempi.png",
+            "title": "Bontempi",
+            "source": "https://www.bontempi.it/en/ (recoloured #343434)"
+        },
+        "p-bontempi-echo-1": {
+            "file": "p-bontempi-echo-1.jpg",
+            "title": "Bontempi Echo",
+            "source": "https://www.bontempi.it/en/echo-2075/"
+        },
+        "p-bontempi-echo-2": {
+            "file": "p-bontempi-echo-2.jpg",
+            "title": "Bontempi Echo",
+            "source": "https://www.bontempi.it/en/echo-2075/"
+        },
+        "p-bontempi-tessa-1": {
+            "file": "p-bontempi-tessa-1.jpg",
+            "title": "Bontempi Tessa",
+            "source": "https://www.bontempi.it/en/tessa-1599/"
+        },
+        "p-bontempi-tessa-2": {
+            "file": "p-bontempi-tessa-2.jpg",
+            "title": "Bontempi Tessa",
+            "source": "https://www.bontempi.it/en/tessa-1599/"
+        },
+        "b-arper-cover": {
+            "file": "b-arper-cover.jpg",
+            "title": "Arper",
+            "source": "https://www.arper.com/media/wysiwyg/CollectionImages/Kiik_Gallery_8_3.webp"
+        },
+        "logo-arper": {
+            "file": "logo-arper.png",
+            "title": "Arper",
+            "source": "https://www.arper.com/ (recoloured #343434)"
+        },
+        "p-arper-catifa-53-1": {
+            "file": "p-arper-catifa-53-1.jpg",
+            "title": "Arper Catifa 53",
+            "source": "https://www.arper.com/en_GB/collections/catifa-53.html"
+        },
+        "p-arper-catifa-53-2": {
+            "file": "p-arper-catifa-53-2.jpg",
+            "title": "Arper Catifa 53",
+            "source": "https://www.arper.com/en_GB/collections/catifa-53.html"
+        },
+        "p-arper-kiik-1": {
+            "file": "p-arper-kiik-1.jpg",
+            "title": "Arper Kiik",
+            "source": "https://www.arper.com/en_GB/collections/kiik.html"
+        },
+        "p-arper-kiik-2": {
+            "file": "p-arper-kiik-2.jpg",
+            "title": "Arper Kiik",
+            "source": "https://www.arper.com/en_GB/collections/kiik.html"
+        },
+        "p-arper-nuur-1": {
+            "file": "p-arper-nuur-1.jpg",
+            "title": "Arper Nuur",
+            "source": "https://www.arper.com/en_GB/collections/nuur.html"
+        },
+        "p-arper-nuur-2": {
+            "file": "p-arper-nuur-2.jpg",
+            "title": "Arper Nuur",
+            "source": "https://www.arper.com/en_GB/collections/nuur.html"
+        },
+        "p-arper-parentesit-1": {
+            "file": "p-arper-parentesit-1.jpg",
+            "title": "Arper Parentesit",
+            "source": "https://www.arper.com/en_GB/collections/parentesit.html"
+        },
+        "p-arper-parentesit-2": {
+            "file": "p-arper-parentesit-2.jpg",
+            "title": "Arper Parentesit",
+            "source": "https://www.arper.com/en_GB/collections/parentesit.html"
+        },
+        "b-sancal-cover": {
+            "file": "b-sancal-cover.jpg",
+            "title": "Sancal",
+            "source": "https://sancal.com/wp-content/uploads/sancal_blog_instalaciones_exterior-13.jpg"
+        },
+        "logo-sancal": {
+            "file": "logo-sancal.png",
+            "title": "Sancal",
+            "source": "https://sancal.com/en/ (recoloured #343434)"
+        },
+        "p-sancal-tortuga-1": {
+            "file": "p-sancal-tortuga-1.jpg",
+            "title": "Sancal Tortuga",
+            "source": "https://sancal.com/en/lounge-chair-tortuga/"
+        },
+        "p-sancal-tortuga-2": {
+            "file": "p-sancal-tortuga-2.jpg",
+            "title": "Sancal Tortuga",
+            "source": "https://sancal.com/en/lounge-chair-tortuga/"
+        },
+        "p-sancal-collar-1": {
+            "file": "p-sancal-collar-1.jpg",
+            "title": "Sancal Collar",
+            "source": "https://sancal.com/en/office-chair-collar/"
+        },
+        "p-sancal-collar-2": {
+            "file": "p-sancal-collar-2.jpg",
+            "title": "Sancal Collar",
+            "source": "https://sancal.com/en/office-chair-collar/"
+        },
+        "p-sancal-bold-1": {
+            "file": "p-sancal-bold-1.jpg",
+            "title": "Sancal Bold",
+            "source": "https://sancal.com/en/table-bold/"
+        },
+        "p-sancal-bold-2": {
+            "file": "p-sancal-bold-2.jpg",
+            "title": "Sancal Bold",
+            "source": "https://sancal.com/en/table-bold/"
+        },
+        "b-bla-station-cover": {
+            "file": "b-bla-station-cover.jpg",
+            "title": "Blå Station",
+            "source": "https://cms.blastation.com/wp-content/uploads/2024/08/blank-svsm_drip_bob-technicolour_blank_big-talk-_17018.jpg"
+        },
+        "logo-bla-station": {
+            "file": "logo-bla-station.png",
+            "title": "Blå Station",
+            "source": "https://blastation.com/ (recoloured #343434)"
+        },
+        "p-bla-station-bob-1": {
+            "file": "p-bla-station-bob-1.jpg",
+            "title": "Blå Station BOB",
+            "source": "https://blastation.com/family/bob"
+        },
+        "p-bla-station-arc-1": {
+            "file": "p-bla-station-arc-1.jpg",
+            "title": "Blå Station Arc",
+            "source": "https://blastation.com/family/acoustic-family"
+        },
+        "p-bla-station-arc-2": {
+            "file": "p-bla-station-arc-2.jpg",
+            "title": "Blå Station Arc",
+            "source": "https://blastation.com/family/acoustic-family"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "i4mariani-royal",
+                "title": "i 4 Mariani Royal"
+            },
+            "thumbnail": "@media:p-i4mariani-royal-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Royal — колекція столів керівника для справжніх поціновувачів розкоші від Умберто Аснаго. Дерев’яні рами з криволінійним профілем, бювар із сідельної шкіри, що повторює плавний контур, ручки й з’єднувальні елементи кольору шампань і можливість інтегрувати LED-підсвітку підкреслюють майстерність 4Mariani.",
+                    "ru": "Royal — коллекция столов руководителя для истинных ценителей роскоши от Умберто Аснаго. Деревянные рамы с криволинейным профилем, бювар из седельной кожи, повторяющий плавный контур, ручки и соединительные элементы цвета шампань и возможность встроить LED-подсветку подчеркивают мастерство 4Mariani.",
+                    "en": "Royal is an executive desk collection for true connoisseurs of luxury by Umberto Asnago. Curvilinear wood frames, a saddle-leather desk pad following the sinuous outline, champagne-lacquered handles and connectors, and optional integrated LED lights showcase 4Mariani’s craftsmanship."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "i 4 Mariani (Італія)",
+                            "ru": "i 4 Mariani (Италия)",
+                            "en": "i 4 Mariani (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл керівника",
+                            "ru": "Стол руководителя",
+                            "en": "Executive desk"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Umberto Asnago",
+                            "ru": "Umberto Asnago",
+                            "en": "Umberto Asnago"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-i4mariani-royal-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "i4mariani-congress",
+                "title": "i 4 Mariani Congress"
+            },
+            "thumbnail": "@media:p-i4mariani-congress-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Congress — конференц-стіл зі шпоном цінних порід, меламіну або сідельної шкіри, які можна поєднувати. Крім стандартних версій, стіл виготовляють на замовлення за розмірами й оздобленням, з електричними колонами й кабельними вводами.",
+                    "ru": "Congress — конференц-стол из шпона ценных пород, меламина или седельной кожи, которые можно сочетать. Кроме стандартных версий, стол изготавливают на заказ по размерам и отделке, с электрическими колоннами и кабельными вводами.",
+                    "en": "Congress is a conference table in wood veneer, melamine or saddle leather, also combined. Beyond the standard versions it can be made to measure in size and finish, with power towers and grommets."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "i 4 Mariani (Італія)",
+                            "ru": "i 4 Mariani (Италия)",
+                            "en": "i 4 Mariani (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Конференц-стіл",
+                            "ru": "Конференц-стол",
+                            "en": "Conference table"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-i4mariani-congress-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "i4mariani-sella-lounge",
+                "title": "i 4 Mariani Sella Lounge"
+            },
+            "thumbnail": "@media:p-i4mariani-sella-lounge-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Sella Lounge — крісло-«ванна» з колекції Sella від Palomba Serafini: компактніша й обгортальніша форма для вишуканого комфорту. М’які безперервні лінії зливають спинку й підлокітники в один плавний жест — для лаунжів, кабінетів і зон очікування.",
+                    "ru": "Sella Lounge — кресло-«ванна» из коллекции Sella от Palomba Serafini: более компактная и обволакивающая форма для изысканного комфорта. Мягкие непрерывные линии сливают спинку и подлокотники в один плавный жест — для лаунжей, кабинетов и зон ожидания.",
+                    "en": "Sella Lounge is the tub version of the Sella armchair by Palomba Serafini, more compact and enveloping for refined comfort. Soft, continuous lines merge back and arms into one fluid gesture, for lounges, offices and waiting areas."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "i 4 Mariani (Італія)",
+                            "ru": "i 4 Mariani (Италия)",
+                            "en": "i 4 Mariani (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло",
+                            "ru": "Лаунж-кресло",
+                            "en": "Lounge armchair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Palomba Serafini",
+                            "ru": "Palomba Serafini",
+                            "en": "Palomba Serafini"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-i4mariani-sella-lounge-1",
+                    "@media:p-i4mariani-sella-lounge-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "i4mariani",
+                "title": "i 4 Mariani"
+            },
+            "thumbnail": "@media:b-i4mariani-cover",
+            "acf": {
+                "sp__logo": "@media:logo-i4mariani",
+                "sp__logo-dark": "@media:logo-i4mariani",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>i 4 Mariani</strong> — італійська фабрика, яка вже 70 років утілює Made in Italy через оригінальний дизайн і майстерну роботу зі шкірою. Бренд відомий передусім меблями для кабінетів керівників: столами, переговорними столами, кріслами й системами зберігання, а також диванами й кріслами для представницьких просторів.</p>\n<ul>\n<li>Сідельна шкіра, цінні породи дерева, деталі ручної роботи.</li>\n<li>Співпраця з італійськими дизайнерами: Umberto Asnago, Palomba Serafini, Guido Faleschini.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.i4mariani.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.i4mariani.com</a></p>",
+                            "ru": "<p><strong>i 4 Mariani</strong> — итальянская фабрика, которая уже 70 лет воплощает Made in Italy через оригинальный дизайн и мастерскую работу с кожей. Бренд известен прежде всего мебелью для кабинетов руководителей: столами, переговорными столами, креслами и системами хранения, а также диванами и креслами для представительских пространств.</p>\n<ul>\n<li>Седельная кожа, ценные породы дерева, детали ручной работы.</li>\n<li>Сотрудничество с итальянскими дизайнерами: Umberto Asnago, Palomba Serafini, Guido Faleschini.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.i4mariani.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.i4mariani.com</a></p>",
+                            "en": "<p><strong>i 4 Mariani</strong> is an Italian maker that has embodied Made in Italy for 70 years through original design and refined leather craftsmanship. It is best known for executive office furniture — desks, meeting tables, seating and storage — as well as sofas and armchairs for prestigious spaces.</p>\n<ul>\n<li>Saddle leather, fine woods and hand-finished details.</li>\n<li>Work with Italian designers such as Umberto Asnago, Palomba Serafini and Guido Faleschini.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.i4mariani.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.i4mariani.com</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:i4mariani-royal",
+                            "@product:i4mariani-congress",
+                            "@product:i4mariani-sella-lounge"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "flexform-feel-good",
+                "title": "Flexform Feel Good"
+            },
+            "thumbnail": "@media:p-flexform-feel-good-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Feel Good (Антоніо Чіттеріо, 2009) — дуже універсальна лінійка крісел із позачасовим класичним дизайном і сучасними лініями. Впізнавана обгортальна оболонка зроблена зі структурного поліуретану й пінополіуретану, а подушки сидіння забезпечують справжній комфорт — для вітальні, кабінету чи лаунжу.",
+                    "ru": "Feel Good (Антонио Читтерио, 2009) — очень универсальная линейка кресел с вневременным классическим дизайном и современными линиями. Узнаваемая обволакивающая оболочка сделана из структурного полиуретана и пенополиуретана, а подушки сиденья обеспечивают настоящий комфорт — для гостиной, кабинета или лаунжа.",
+                    "en": "Feel Good (Antonio Citterio, 2009) is a highly versatile seating range of timeless classic design and contemporary lines. Its trademark enveloping shell is made of structural polyurethane and polyurethane foam, with seat cushions for real comfort in living rooms, studies or lounges."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Flexform (Італія)",
+                            "ru": "Flexform (Италия)",
+                            "en": "Flexform (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло",
+                            "ru": "Кресло",
+                            "en": "Armchair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Antonio Citterio",
+                            "ru": "Antonio Citterio",
+                            "en": "Antonio Citterio"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-flexform-feel-good-1",
+                    "@media:p-flexform-feel-good-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "flexform-desco",
+                "title": "Flexform Desco"
+            },
+            "thumbnail": "@media:p-flexform-desco-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Desco (Антоніо Чіттеріо, 2022) — сімейство столів, яке вирізняється надійною стійкістю, переосмисленою традицією та функціональністю. Основа — точені ніжки з масиву дерева в різних відтінках, стільниця — з різних порід дерева або мармуру. Підходить для їдальні, переговорної чи кабінету.",
+                    "ru": "Desco (Антонио Читтерио, 2022) — семейство столов, которое отличается надежной устойчивостью, переосмысленной традицией и функциональностью. Основание — точеные ножки из массива дерева в разных оттенках, столешница — из разных пород дерева или мрамора. Подходит для столовой, переговорной или кабинета.",
+                    "en": "Desco (Antonio Citterio, 2022) is a table family of robust stability, tradition reinterpreted and remarkable functionality. Turned solid-wood legs come in a choice of stains, with tops in various woods or marbles — for dining rooms, meeting rooms or studies."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Flexform (Італія)",
+                            "ru": "Flexform (Италия)",
+                            "en": "Flexform (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл",
+                            "ru": "Стол",
+                            "en": "Table"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Antonio Citterio",
+                            "ru": "Antonio Citterio",
+                            "en": "Antonio Citterio"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-flexform-desco-1",
+                    "@media:p-flexform-desco-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "flexform-oasis",
+                "title": "Flexform Oasis"
+            },
+            "thumbnail": "@media:p-flexform-oasis-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Oasis (Антоніо Чіттеріо, 2024) — система вуличних диванів із плавними обгортальними лініями для затишних, розслаблених зон відпочинку. Велика спинка з плетеного шнура на металевому каркасі з сітчастим візерунком надає дивану сміливого характеру.",
+                    "ru": "Oasis (Антонио Читтерио, 2024) — система уличных диванов с плавными обволакивающими линиями для уютных, расслабленных зон отдыха. Большая спинка из плетеного шнура на металлическом каркасе с сетчатым узором придает дивану смелый характер.",
+                    "en": "Oasis (Antonio Citterio, 2024) is an outdoor seating system with sinuous, enveloping lines for cosy, relaxing settings. Its generous woven-cord and metal backrest with a mesh-like pattern gives the sofa a bold personality."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Flexform (Італія)",
+                            "ru": "Flexform (Италия)",
+                            "en": "Flexform (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Вуличний модульний диван",
+                            "ru": "Уличный модульный диван",
+                            "en": "Outdoor sectional sofa"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Antonio Citterio",
+                            "ru": "Antonio Citterio",
+                            "en": "Antonio Citterio"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-flexform-oasis-1",
+                    "@media:p-flexform-oasis-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "flexform",
+                "title": "Flexform"
+            },
+            "thumbnail": "@media:b-flexform-cover",
+            "acf": {
+                "sp__logo": "@media:logo-flexform",
+                "sp__logo-dark": "@media:logo-flexform",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Flexform</strong> — італійська сімейна компанія, історія якої почалася 1959 року в невеликій ремісничій майстерні в Бріанці, між Міланом, Комо й Лекко. Сьогодні це один із символів італійського дизайну: дивани, крісла, столи й системи для житла та вулиці з позачасовим стилем і преміальними матеріалами. Багато колекцій створено разом з Антоніо Чіттеріо.</p>\n<ul>\n<li>Конфігуратор, база продуктів і матеріалів для архітекторів.</li>\n<li>Колекції для вітальні, кабінету, їдальні й терас.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.flexform.it/en\" target=\"_blank\" rel=\"noopener nofollow\">www.flexform.it/en</a></p>",
+                            "ru": "<p><strong>Flexform</strong> — итальянская семейная компания, история которой началась в 1959 году в небольшой ремесленной мастерской в Брианце, между Миланом, Комо и Лекко. Сегодня это один из символов итальянского дизайна: диваны, кресла, столы и системы для жилья и улицы с вневременным стилем и премиальными материалами. Многие коллекции созданы вместе с Антонио Читтерио.</p>\n<ul>\n<li>Конфигуратор, база продуктов и материалов для архитекторов.</li>\n<li>Коллекции для гостиной, кабинета, столовой и террас.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.flexform.it/en\" target=\"_blank\" rel=\"noopener nofollow\">www.flexform.it/en</a></p>",
+                            "en": "<p><strong>Flexform</strong> is an Italian family company whose story began in 1959 in a small artisan workshop in Brianza, between Milan, Como and Lecco. Today it is a byword for Italian design: sofas, armchairs, tables and systems for indoors and outdoors with timeless style and premium materials, many created with Antonio Citterio.</p>\n<ul>\n<li>Configurator, product database and materials library for architects.</li>\n<li>Collections for living rooms, studies, dining rooms and terraces.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.flexform.it/en\" target=\"_blank\" rel=\"noopener nofollow\">www.flexform.it/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:flexform-feel-good",
+                            "@product:flexform-desco",
+                            "@product:flexform-oasis"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "poliform-concorde",
+                "title": "Poliform Concorde"
+            },
+            "thumbnail": "@media:p-poliform-concorde-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Concorde — письмовий стіл, у якому легкі й лаконічні форми столу Concorde переосмислено для домашнього кабінету чи кабінету керівника. Матеріали ретельно дібрано: масив дерева та вишукане оздоблення.",
+                    "ru": "Concorde — письменный стол, в котором легкие и лаконичные формы стола Concorde переосмыслены для домашнего кабинета или кабинета руководителя. Материалы тщательно подобраны: массив дерева и изысканная отделка.",
+                    "en": "Concorde reinterprets the light, essential shapes of the Concorde table as a writing desk for a home study or private office, with carefully selected materials including solid wood and sophisticated finishes."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Poliform (Італія)",
+                            "ru": "Poliform (Италия)",
+                            "en": "Poliform (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Письмовий стіл",
+                            "ru": "Письменный стол",
+                            "en": "Desk"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-poliform-concorde-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "poliform-attimo",
+                "title": "Poliform Attimo"
+            },
+            "thumbnail": "@media:p-poliform-attimo-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Attimo — крісло з колекції 2026 року від Jean-Marie Massaud, що приносить комфорт і сучасний стиль у найвишуканіші житлові та представницькі простори.",
+                    "ru": "Attimo — кресло из коллекции 2026 года от Jean-Marie Massaud, которое привносит комфорт и современный стиль в самые изысканные жилые и представительские пространства.",
+                    "en": "Attimo, from the 2026 collection by Jean-Marie Massaud, brings comfort and contemporary style to the most refined living and representative spaces."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Poliform (Італія)",
+                            "ru": "Poliform (Италия)",
+                            "en": "Poliform (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло",
+                            "ru": "Кресло",
+                            "en": "Armchair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Jean-Marie Massaud",
+                            "ru": "Jean-Marie Massaud",
+                            "en": "Jean-Marie Massaud"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-poliform-attimo-1",
+                    "@media:p-poliform-attimo-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "poliform-curve-outdoor",
+                "title": "Poliform Curve Outdoor"
+            },
+            "thumbnail": "@media:p-poliform-curve-outdoor-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Curve — вуличний стіл колекції 2026 року з вишуканими матеріалами, деталями з мотузки й дизайном, натхненним морським світом. Для елегантних терас, садів і зон al fresco.",
+                    "ru": "Curve — уличный стол коллекции 2026 года с изысканными материалами, деталями из веревки и дизайном, вдохновленным морским миром. Для элегантных террас, садов и зон al fresco.",
+                    "en": "Curve is a 2026 outdoor table with sophisticated materials, rope details and a nautical-inspired design for elegant terraces, gardens and al fresco areas."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Poliform (Італія)",
+                            "ru": "Poliform (Италия)",
+                            "en": "Poliform (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Вуличний стіл",
+                            "ru": "Уличный стол",
+                            "en": "Outdoor table"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-poliform-curve-outdoor-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "poliform",
+                "title": "Poliform"
+            },
+            "thumbnail": "@media:b-poliform-cover",
+            "acf": {
+                "sp__logo": "@media:logo-poliform",
+                "sp__logo-dark": "@media:logo-poliform",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Poliform</strong> — італійський бренд сучасних меблів, синонім елегантності, дизайнерського стилю й якісного оздоблення. Компанія з Бріанци створює цілісні інтер’єри: дивани й крісла, столи й письмові столи, системи зберігання, кухні та вуличні колекції від відомих дизайнерів, зокрема Jean-Marie Massaud.</p>\n<ul>\n<li>Єдиний стиль для житла, кабінетів і готелів — від вітальні до домашнього офісу.</li>\n<li>Технічні ресурси та бібліотеки для архітекторів.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, меблі для кабінетів керівників, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.poliform.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.poliform.it/en</a></p>",
+                            "ru": "<p><strong>Poliform</strong> — итальянский бренд современной мебели, синоним элегантности, дизайнерского стиля и качественной отделки. Компания из Брианцы создает целостные интерьеры: диваны и кресла, столы и письменные столы, системы хранения, кухни и уличные коллекции от известных дизайнеров, в том числе Jean-Marie Massaud.</p>\n<ul>\n<li>Единый стиль для жилья, кабинетов и отелей — от гостиной до домашнего офиса.</li>\n<li>Технические ресурсы и библиотеки для архитекторов.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, мебель для кабинетов руководителей, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.poliform.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.poliform.it/en</a></p>",
+                            "en": "<p><strong>Poliform</strong> is an Italian contemporary-furniture brand synonymous with elegance, designer styling and quality finishes. From Brianza, it creates complete interiors — sofas and armchairs, tables and desks, storage, kitchens and outdoor collections — by renowned designers including Jean-Marie Massaud.</p>\n<ul>\n<li>One style across homes, offices and hotels — from living room to home office.</li>\n<li>Technical resources and libraries for architects.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, executive office furniture, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.poliform.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.poliform.it/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:poliform-concorde",
+                            "@product:poliform-attimo",
+                            "@product:poliform-curve-outdoor"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bralco-sile-4",
+                "title": "Bralco Sile 4"
+            },
+            "thumbnail": "@media:p-bralco-sile-4-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Sile 4 — стіл лаконічного й вишуканого дизайну для сучасного офісу. Колекція Sile включає робочі столи й переговорні столи, тож кабінет і зону зустрічей можна облаштувати в одному стилі.",
+                    "ru": "Sile 4 — стол лаконичного и изысканного дизайна для современного офиса. Коллекция Sile включает рабочие и переговорные столы, поэтому кабинет и зону встреч можно обставить в одном стиле.",
+                    "en": "Sile 4 is a desk of essential, refined design for the contemporary office. The Sile collection includes desks and meeting tables, so offices and meeting areas can share one style."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bralco (Італія)",
+                            "ru": "Bralco (Италия)",
+                            "en": "Bralco (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Офісний стіл",
+                            "ru": "Офисный стол",
+                            "en": "Office desk"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bralco-sile-4-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bralco-feel",
+                "title": "Bralco Feel"
+            },
+            "thumbnail": "@media:p-bralco-feel-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Feel — стильне багатофункціональне крісло, що підлаштовується під змінні потреби сучасного офісу: для робочих місць, переговорних і зон спільної роботи.",
+                    "ru": "Feel — стильное многофункциональное кресло, которое подстраивается под меняющиеся потребности современного офиса: для рабочих мест, переговорных и зон совместной работы.",
+                    "en": "Feel is a stylish multipurpose chair that adapts to the changing needs of the contemporary office — for workstations, meeting rooms and collaboration areas."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bralco (Італія)",
+                            "ru": "Bralco (Италия)",
+                            "en": "Bralco (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Офісне крісло",
+                            "ru": "Офисное кресло",
+                            "en": "Office chair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bralco-feel-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "bralco",
+                "title": "Bralco"
+            },
+            "thumbnail": "@media:b-bralco-cover",
+            "acf": {
+                "sp__logo": "@media:logo-bralco",
+                "sp__logo-dark": "@media:logo-bralco",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Bralco</strong> — італійський виробник дизайнерських і ергономічних офісних меблів у стилі Made in Italy. Компанія пропонує рішення для кожного простору офісу — кабінету керівника, ресепшн, робочих і переговорних зон, домашнього офісу — з екологічним підходом і турботою про добробут людей на роботі.</p>\n<ul>\n<li>Столи, столи з регулюванням висоти, крісла, системи зберігання й акустичні рішення.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, меблі для кабінетів керівників.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.bralco.it/\" target=\"_blank\" rel=\"noopener nofollow\">www.bralco.it</a></p>",
+                            "ru": "<p><strong>Bralco</strong> — итальянский производитель дизайнерской и эргономичной офисной мебели в стиле Made in Italy. Компания предлагает решения для каждого пространства офиса — кабинета руководителя, ресепшн, рабочих и переговорных зон, домашнего офиса — с экологичным подходом и заботой о благополучии людей на работе.</p>\n<ul>\n<li>Столы, столы с регулировкой высоты, кресла, системы хранения и акустические решения.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, мебель для кабинетов руководителей.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.bralco.it/\" target=\"_blank\" rel=\"noopener nofollow\">www.bralco.it</a></p>",
+                            "en": "<p><strong>Bralco</strong> is an Italian maker of designer, ergonomic office furniture in the Made in Italy tradition. It offers solutions for every office space — executive, reception, operative and meeting areas, home office — with an eco-sustainable approach focused on workplace well-being.</p>\n<ul>\n<li>Desks, height-adjustable desks, seating, storage and acoustic solutions.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, executive office furniture.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.bralco.it/\" target=\"_blank\" rel=\"noopener nofollow\">www.bralco.it</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:bralco-sile-4",
+                            "@product:bralco-feel"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "okamura-contessa-ii",
+                "title": "Okamura Contessa II"
+            },
+            "thumbnail": "@media:p-okamura-contessa-ii-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Contessa II — флагманське крісло Okamura, вершина майстерного виробництва, технологій і турботи про користувача. Впізнаваний силует створює подвійна рама спинки: вигнута алюмінієва рама надійно підтримує тіло, а гнучка пластикова рама облягає плечі й поперек. Розраховане на вагу до 136 кг, пройшло незалежні випробування за BIFMA X5.1.",
+                    "ru": "Contessa II — флагманское кресло Okamura, вершина мастерского производства, технологий и заботы о пользователе. Узнаваемый силуэт создает двойная рама спинки: изогнутая алюминиевая рама надежно поддерживает тело, а гибкая пластиковая рама облегает плечи и поясницу. Рассчитано на вес до 136 кг, прошло независимые испытания по BIFMA X5.1.",
+                    "en": "Contessa II is Okamura’s flagship chair, the culmination of skilled manufacturing, technology and care for users. Its distinctive silhouette comes from a double backrest frame: a curved aluminium frame supports the body while a supple plastic frame fits shoulders and lower back. Rated to 136 kg and third-party tested to BIFMA X5.1."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Okamura (Японія)",
+                            "ru": "Okamura (Япония)",
+                            "en": "Okamura (Japan)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Ергономічне крісло",
+                            "ru": "Эргономичное кресло",
+                            "en": "Ergonomic chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Розміри",
+                            "ru": "Размеры",
+                            "en": "Dimensions"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Ш 650–702, Г 570–620, В 994–1104 мм",
+                            "ru": "Ш 650–702, Г 570–620, В 994–1104 мм",
+                            "en": "W 650–702, D 570–620, H 994–1104 mm"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-okamura-contessa-ii-1",
+                    "@media:p-okamura-contessa-ii-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "okamura-finora",
+                "title": "Okamura Finora"
+            },
+            "thumbnail": "@media:p-okamura-finora-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Finora поєднує італійський дизайн Italdesign і японську інженерію: легке на вигляд крісло з повним набором регулювань для будь-якого робочого місця. Розраховане на вагу до 124 кг, відповідає BIFMA X5.1.",
+                    "ru": "Finora сочетает итальянский дизайн Italdesign и японскую инженерию: легкое на вид кресло с полным набором регулировок для любого рабочего места. Рассчитано на вес до 124 кг, соответствует BIFMA X5.1.",
+                    "en": "Finora blends Italian design by Italdesign with Japanese engineering: a light-looking chair with full adjustments for any workplace. Rated to 124 kg and tested to BIFMA X5.1."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Okamura (Японія)",
+                            "ru": "Okamura (Япония)",
+                            "en": "Okamura (Japan)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Робоче крісло",
+                            "ru": "Рабочее кресло",
+                            "en": "Task chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Italdesign",
+                            "ru": "Italdesign",
+                            "en": "Italdesign"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Розміри",
+                            "ru": "Размеры",
+                            "en": "Dimensions"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Ш 640, Г 540–590, В 991–1101 мм",
+                            "ru": "Ш 640, Г 540–590, В 991–1101 мм",
+                            "en": "W 640, D 540–590, H 991–1101 mm"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-okamura-finora-1",
+                    "@media:p-okamura-finora-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "okamura-risefit-iii",
+                "title": "Okamura Risefit III"
+            },
+            "thumbnail": "@media:p-okamura-risefit-iii-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Risefit III — універсальний додатковий робочий стіл для офісу, лобі чи лаунжу. Висота плавно змінюється гідравлічним важелем — від роботи сидячи до роботи стоячи — і її можна налаштувати під кожного користувача.",
+                    "ru": "Risefit III — универсальный дополнительный рабочий стол для офиса, лобби или лаунжа. Высота плавно меняется гидравлическим рычагом — от работы сидя до работы стоя — и ее можно настроить под каждого пользователя.",
+                    "en": "Risefit III is a versatile supplementary work table for offices, lobbies or lounges. Its height adjusts smoothly via a hydraulic lever from sitting to standing, readjustable for each user."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Okamura (Японія)",
+                            "ru": "Okamura (Япония)",
+                            "en": "Okamura (Japan)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл з регулюванням висоти",
+                            "ru": "Стол с регулировкой высоты",
+                            "en": "Height-adjustable table"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Розміри",
+                            "ru": "Размеры",
+                            "en": "Dimensions"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "720 × 626 мм, висота 665–1000 мм",
+                            "ru": "720 × 626 мм, высота 665–1000 мм",
+                            "en": "720 × 626 mm, height 665–1000 mm"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-okamura-risefit-iii-1",
+                    "@media:p-okamura-risefit-iii-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "okamura",
+                "title": "Okamura"
+            },
+            "thumbnail": "@media:b-okamura-cover",
+            "acf": {
+                "sp__logo": "@media:logo-okamura",
+                "sp__logo-dark": "@media:logo-okamura",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Okamura</strong> — японський виробник офісних меблів, відомий увагою до найменших деталей. Продукти Okamura створюються з надзвичайною чутливістю й точністю, поєднуючи майстерне виробництво, складні технології та турботу про користувачів.</p>\n<ul>\n<li>Флагманські ергономічні крісла, протестовані за стандартом BIFMA X5.1.</li>\n<li>Столи для роботи сидячи й стоячи, меблі для кабінетів керівників.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, меблі для кабінетів керівників.</p>\n<p><strong>Країна:</strong> Японія. <strong>Офіційний сайт:</strong> <a href=\"https://www.okamura.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.okamura.com</a></p>",
+                            "ru": "<p><strong>Okamura</strong> — японский производитель офисной мебели, известный вниманием к мельчайшим деталям. Продукты Okamura создаются с необычайной чуткостью и точностью, сочетая мастерское производство, сложные технологии и заботу о пользователях.</p>\n<ul>\n<li>Флагманские эргономичные кресла, протестированные по стандарту BIFMA X5.1.</li>\n<li>Столы для работы сидя и стоя, мебель для кабинетов руководителей.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, мебель для кабинетов руководителей.</p>\n<p><strong>Страна:</strong> Япония. <strong>Официальный сайт:</strong> <a href=\"https://www.okamura.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.okamura.com</a></p>",
+                            "en": "<p><strong>Okamura</strong> is a Japanese office-furniture maker known for attention to the last detail. Its products are created with extraordinary sensitivity and precision, combining skilled manufacturing, sophisticated technology and care for users.</p>\n<ul>\n<li>Flagship ergonomic chairs tested to BIFMA X5.1.</li>\n<li>Sit-stand tables and executive furniture.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, executive office furniture.</p>\n<p><strong>Country:</strong> Japan. <strong>Official website:</strong> <a href=\"https://www.okamura.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.okamura.com</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:okamura-contessa-ii",
+                            "@product:okamura-finora",
+                            "@product:okamura-risefit-iii"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bontempi-echo",
+                "title": "Bontempi Echo"
+            },
+            "thumbnail": "@media:p-bontempi-echo-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Echo — розкладний стіл на лакованому металевому каркасі. Стільниця й вставка — з глянцевого скла, матового лакованого скла Velvet із захистом від подряпин, SuperCeramic або SuperMarble. Кілька розмірів, від 120/180 до 190/270 см, — для переговорних і їдалень.",
+                    "ru": "Echo — раздвижной стол на лакированном металлическом каркасе. Столешница и вставка — из глянцевого стекла, матового лакированного стекла Velvet с защитой от царапин, SuperCeramic или SuperMarble. Несколько размеров, от 120/180 до 190/270 см, — для переговорных и столовых.",
+                    "en": "Echo is an extending table on a lacquered metal frame. Top and extension come in glossy glass, scratch-resistant matt Velvet lacquered glass, SuperCeramic or SuperMarble, in sizes from 120/180 to 190/270 cm, for meeting and dining rooms."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bontempi (Італія)",
+                            "ru": "Bontempi (Италия)",
+                            "en": "Bontempi (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Розкладний стіл",
+                            "ru": "Раздвижной стол",
+                            "en": "Extending table"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Розміри",
+                            "ru": "Размеры",
+                            "en": "Dimensions"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "від 120/180 × 80 до 190/270 × 100 см, висота 75 см",
+                            "ru": "от 120/180 × 80 до 190/270 × 100 см, высота 75 см",
+                            "en": "from 120/180 × 80 to 190/270 × 100 cm, height 75 cm"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bontempi-echo-1",
+                    "@media:p-bontempi-echo-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bontempi-tessa",
+                "title": "Bontempi Tessa"
+            },
+            "thumbnail": "@media:p-bontempi-tessa-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Буфет Tessa виражає свій характер через сувору рівновагу геометрії та поверхні. Фарбовані металеві дверцята лаконічного дизайну перетинають тонкі грані, які моделюють світло й тінь, створюючи м’які тіні й мінливі відблиски. Пасує до кабінету, переговорної чи вітальні.",
+                    "ru": "Буфет Tessa выражает свой характер через строгий баланс геометрии и поверхности. Окрашенные металлические дверцы лаконичного дизайна пересекают тонкие грани, которые моделируют свет и тень, создавая мягкие тени и меняющиеся отблески. Подходит для кабинета, переговорной или гостиной.",
+                    "en": "The Tessa sideboard expresses itself through a rigorous balance of geometry and surface. Painted metal doors of essential design are crossed by subtle facets that modulate light and shadow, creating soft shadows and changing reflections — for offices, meeting rooms or living rooms."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bontempi (Італія)",
+                            "ru": "Bontempi (Италия)",
+                            "en": "Bontempi (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Буфет",
+                            "ru": "Буфет",
+                            "en": "Sideboard"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bontempi-tessa-1",
+                    "@media:p-bontempi-tessa-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "bontempi",
+                "title": "Bontempi"
+            },
+            "thumbnail": "@media:b-bontempi-cover",
+            "acf": {
+                "sp__logo": "@media:logo-bontempi",
+                "sp__logo-dark": "@media:logo-bontempi",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Bontempi</strong> — італійський виробник дизайнерських меблів, який понад 60 років поєднує красу, комфорт і функціональність. Історія почалася 1963 року, коли Алессандро й Джанкарло Бонтемпі перетворили пристрасть на справу. Сьогодні це столи, стільці, консолі й письмові столи, системи зберігання, ліжка й аксесуари.</p>\n<ul>\n<li>Фірмові матеріали стільниць: скло, кераміка SuperCeramic, SuperMarble.</li>\n<li>Розкладні столи й контрактна програма для готелів і офісів.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, меблі для кабінетів керівників, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.bontempi.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.bontempi.it/en</a></p>",
+                            "ru": "<p><strong>Bontempi</strong> — итальянский производитель дизайнерской мебели, который более 60 лет сочетает красоту, комфорт и функциональность. История началась в 1963 году, когда Алессандро и Джанкарло Бонтемпи превратили увлечение в дело. Сегодня это столы, стулья, консоли и письменные столы, системы хранения, кровати и аксессуары.</p>\n<ul>\n<li>Фирменные материалы столешниц: стекло, керамика SuperCeramic, SuperMarble.</li>\n<li>Раздвижные столы и контрактная программа для отелей и офисов.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, мебель для кабинетов руководителей, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.bontempi.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.bontempi.it/en</a></p>",
+                            "en": "<p><strong>Bontempi</strong> is an Italian design-furniture maker that has combined beauty, comfort and function for over 60 years. The story began in 1963 when Alessandro and Giancarlo Bontempi turned a passion into a business. Today it makes tables, chairs, consoles and desks, storage, beds and accessories.</p>\n<ul>\n<li>Signature top materials: glass, SuperCeramic and SuperMarble.</li>\n<li>Extending tables and a contract programme for hotels and offices.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, executive office furniture, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.bontempi.it/en/\" target=\"_blank\" rel=\"noopener nofollow\">www.bontempi.it/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:bontempi-echo",
+                            "@product:bontempi-tessa"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "arper-catifa-53",
+                "title": "Arper Catifa 53"
+            },
+            "thumbnail": "@media:p-arper-catifa-53-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Catifa 53 — оригінал, що сформував ідентичність Arper. Позачасовий за своєю суттю, з елегантним вигнутим сидінням і обтічним профілем, він утілює баланс чистоти й функції. Колекція включає стільці на різних основах, зокрема поворотні офісні версії, і лави для громадських просторів.",
+                    "ru": "Catifa 53 — оригинал, сформировавший идентичность Arper. Вневременной по своей сути, с элегантным изогнутым сиденьем и обтекаемым профилем, он воплощает баланс чистоты и функции. Коллекция включает стулья на разных основаниях, в том числе поворотные офисные версии, и скамьи для общественных пространств.",
+                    "en": "Catifa 53 is the original design that shaped Arper’s identity. Timeless in essence, its elegant curved seat and streamlined profile balance purity and function. The collection spans chairs on various bases, including swivel office versions, and beam seating for public spaces."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Arper (Італія)",
+                            "ru": "Arper (Италия)",
+                            "en": "Arper (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло (є поворотна офісна версія)",
+                            "ru": "Кресло (есть поворотная офисная версия)",
+                            "en": "Chair (swivel office version available)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Lievore Altherr Molina",
+                            "ru": "Lievore Altherr Molina",
+                            "en": "Lievore Altherr Molina"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-arper-catifa-53-1",
+                    "@media:p-arper-catifa-53-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "arper-kiik",
+                "title": "Arper Kiik"
+            },
+            "thumbnail": "@media:p-arper-kiik-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Kiik — модульна колекція сидінь, столів, пуфів і консолей для просторів «між приходом і відходом, між очікуванням і дією». Графічні форми утворюють острівці для зустрічей і сузір’я для роботи чи відпочинку. Ідеальна для контрактних проєктів: зон очікування, робочих і переговорних зон, спільних просторів.",
+                    "ru": "Kiik — модульная коллекция сидений, столов, пуфов и консолей для пространств «между приходом и уходом, между ожиданием и действием». Графичные формы образуют островки для встреч и созвездия для работы или отдыха. Идеальна для контрактных проектов: зон ожидания, рабочих и переговорных зон, общих пространств.",
+                    "en": "Kiik is a modular collection of seating, tables, ottomans and consoles for the spaces “between entry and departure, between waiting and doing”. Graphic forms create islands for gathering and constellations for work or rest — ideal for waiting rooms, work and meeting areas and common spaces."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Arper (Італія)",
+                            "ru": "Arper (Италия)",
+                            "en": "Arper (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Модульні м’які меблі",
+                            "ru": "Модульная мягкая мебель",
+                            "en": "Modular soft seating"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-arper-kiik-1",
+                    "@media:p-arper-kiik-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "arper-nuur",
+                "title": "Arper Nuur"
+            },
+            "thumbnail": "@media:p-arper-nuur-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Nuur — архетипний стіл: одна легка площина «пливе» над чотирма тонкими ніжками. Універсальна система з чотирьох кутових алюмінієвих ніжок, царг і стільниці адаптується до різних задач — від офісу й переговорних до готелів і житла; доступні стандартні й офісні стільниці.",
+                    "ru": "Nuur — архетипный стол: одна легкая плоскость «плывет» над четырьмя тонкими ножками. Универсальная система из четырех угловых алюминиевых ножек, царг и столешницы адаптируется к разным задачам — от офиса и переговорных до отелей и жилья; доступны стандартные и офисные столешницы.",
+                    "en": "Nuur is the archetypal table: a single spare plane floats above four slender legs. A universal system of four aluminium corner legs, rails and a top adapts to diverse uses, from offices and meeting rooms to hospitality and homes, with standard or office tops."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Arper (Італія)",
+                            "ru": "Arper (Италия)",
+                            "en": "Arper (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Стіл",
+                            "ru": "Стол",
+                            "en": "Table"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Simon Pengelly",
+                            "ru": "Simon Pengelly",
+                            "en": "Simon Pengelly"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-arper-nuur-1",
+                    "@media:p-arper-nuur-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "arper-parentesit",
+                "title": "Arper Parentesit"
+            },
+            "thumbnail": "@media:p-arper-parentesit-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Parentesit — модульні звукопоглинальні стінові панелі, що зменшують сторонній фоновий шум і створюють простір для зосередження. Мінімалістичні геометричні модулі складаються в композиції з паралельних, перпендикулярних або діагональних ліній і додають спільним просторам комфорту й виразності.",
+                    "ru": "Parentesit — модульные звукопоглощающие стеновые панели, которые уменьшают посторонний фоновый шум и создают пространство для сосредоточения. Минималистичные геометрические модули складываются в композиции из параллельных, перпендикулярных или диагональных линий и добавляют общим пространствам комфорта и выразительности.",
+                    "en": "Parentesit is a system of modular sound-absorbing wall panels that reduce background noise and create space for concentration. Minimal geometric modules form compositions of parallel, perpendicular or diagonal lines, adding comfort and expression to shared spaces."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Arper (Італія)",
+                            "ru": "Arper (Италия)",
+                            "en": "Arper (Italy)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Акустичні стінові панелі",
+                            "ru": "Акустические стеновые панели",
+                            "en": "Acoustic wall panels"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-arper-parentesit-1",
+                    "@media:p-arper-parentesit-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "arper",
+                "title": "Arper"
+            },
+            "thumbnail": "@media:b-arper-cover",
+            "acf": {
+                "sp__logo": "@media:logo-arper",
+                "sp__logo-dark": "@media:logo-arper",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Arper</strong> — італійський бренд меблів для робочих, громадських і житлових просторів під гаслом «The project of living». Arper створює рішення, що підтримують гармонійне й комфортне життя в усіх його формах: стільці, крісла, дивани, столи й акустичні панелі з упізнаваним чистим дизайном.</p>\n<ul>\n<li>Знакові колекції для контракту: Catifa, Kiik, Nuur, Parentesit.</li>\n<li>Модульні системи для офісів, зон очікування, освіти й HoReCa.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, <a href=\"/category/akustychni-rishennya/stinovi-paneli/\">акустичні панелі та екрани</a>.</p>\n<p><strong>Країна:</strong> Італія. <strong>Офіційний сайт:</strong> <a href=\"https://www.arper.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.arper.com</a></p>",
+                            "ru": "<p><strong>Arper</strong> — итальянский бренд мебели для рабочих, общественных и жилых пространств под девизом «The project of living». Arper создает решения, которые поддерживают гармоничную и комфортную жизнь во всех ее формах: стулья, кресла, диваны, столы и акустические панели с узнаваемым чистым дизайном.</p>\n<ul>\n<li>Знаковые коллекции для контракта: Catifa, Kiik, Nuur, Parentesit.</li>\n<li>Модульные системы для офисов, зон ожидания, образования и HoReCa.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, <a href=\"/ru/category/akustychni-rishennya/stinovi-paneli/\">акустические панели и экраны</a>.</p>\n<p><strong>Страна:</strong> Италия. <strong>Официальный сайт:</strong> <a href=\"https://www.arper.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.arper.com</a></p>",
+                            "en": "<p><strong>Arper</strong> is an Italian brand of furniture for work, public and living spaces — “The project of living”. It creates solutions that support harmonious, comfortable living in its many forms: chairs, armchairs, sofas, tables and acoustic panels with a recognisably clean design.</p>\n<ul>\n<li>Signature contract collections: Catifa, Kiik, Nuur and Parentesit.</li>\n<li>Modular systems for offices, waiting areas, education and hospitality.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, <a href=\"/en/category/acoustic-solutions/wall-panels/\">acoustic panels and screens</a>.</p>\n<p><strong>Country:</strong> Italy. <strong>Official website:</strong> <a href=\"https://www.arper.com/\" target=\"_blank\" rel=\"noopener nofollow\">www.arper.com</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:arper-catifa-53",
+                            "@product:arper-kiik",
+                            "@product:arper-nuur",
+                            "@product:arper-parentesit"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "sancal-tortuga",
+                "title": "Sancal Tortuga"
+            },
+            "thumbnail": "@media:p-sancal-tortuga-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Tortuga Ісаака Піньєйро натхненне черепахою з її неквапливим ритмом і довгим життям: це «панцир», у який можна сховатися з книжкою чи задрімати. Простота форми відображає спокій автора, а вибір тканин додає контрасту. Є повнорозмірні й міні-крісла — для кафе й готельних номерів, — а також пуфи й приставні столики.",
+                    "ru": "Tortuga Исаака Пиньейро вдохновлено черепахой с ее неспешным ритмом и долгой жизнью: это «панцирь», в который можно спрятаться с книгой или задремать. Простота формы отражает спокойствие автора, а выбор тканей добавляет контраста. Есть полноразмерные и мини-кресла — для кафе и гостиничных номеров, — а также пуфы и приставные столики.",
+                    "en": "Isaac Piñeiro’s Tortuga is inspired by the tortoise’s stately pace and long life — a shell to withdraw into with a good novel or a nap. Its simplicity reflects the designer’s calm, while textiles can add contrast. Full-size and mini lounge chairs suit cafés and hotel rooms, with poufs and side tables completing the family."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Sancal (Іспанія)",
+                            "ru": "Sancal (Испания)",
+                            "en": "Sancal (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Лаунж-крісло",
+                            "ru": "Лаунж-кресло",
+                            "en": "Lounge chair"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Isaac Piñeiro",
+                            "ru": "Isaac Piñeiro",
+                            "en": "Isaac Piñeiro"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-sancal-tortuga-1",
+                    "@media:p-sancal-tortuga-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "sancal-collar",
+                "title": "Sancal Collar"
+            },
+            "thumbnail": "@media:p-sancal-collar-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Collar від студії Skrivo натхненне кравецтвом: як підказує назва, підлокітники оригінальної версії загинаються, ніби комір сорочки. Крісло поєднує технології та ручну роботу — литий внутрішній каркас і оббивку, пошиту як костюм на замовлення, з обтягнутими ґудзиками й кантом. Є офісна версія на колесах.",
+                    "ru": "Collar от студии Skrivo вдохновлено портновским делом: как подсказывает название, подлокотники оригинальной версии загибаются, словно воротник рубашки. Кресло сочетает технологии и ручную работу — литой внутренний каркас и обивку, сшитую как костюм на заказ, с обтянутыми пуговицами и кантом. Есть офисная версия на колесах.",
+                    "en": "Collar by Skrivo is inspired by tailoring: as the name suggests, the arms of the original fold over like a button-down collar. It combines technology and handcraft — an injection-moulded interior and upholstery tailored like a made-to-measure suit, with matching buttons and piping. An office version on castors is available."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Sancal (Іспанія)",
+                            "ru": "Sancal (Испания)",
+                            "en": "Sancal (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Крісло (є офісна версія)",
+                            "ru": "Кресло (есть офисная версия)",
+                            "en": "Chair (office version available)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Skrivo",
+                            "ru": "Skrivo",
+                            "en": "Skrivo"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-sancal-collar-1",
+                    "@media:p-sancal-collar-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "sancal-bold",
+                "title": "Sancal Bold"
+            },
+            "thumbnail": "@media:p-sancal-bold-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Bold від Studiopepe — не лише XL журнальний стіл, а й модульна програма конференц-столів. Лише з чотирьох модулів збирають робочі й переговорні простори від 3,2 м і довше; початковий і кінцевий модулі по 160 см на круглій основі зберігають скульптурний характер. Різні матеріали й оздоблення.",
+                    "ru": "Bold от Studiopepe — не только XL журнальный стол, но и модульная программа конференц-столов. Всего из четырех модулей собирают рабочие и переговорные пространства от 3,2 м и длиннее; начальный и конечный модули по 160 см на круглом основании сохраняют скульптурный характер. Разные материалы и отделки.",
+                    "en": "Studiopepe’s Bold is more than an XL coffee table: it is a modular conference-table programme. Just four modules build work and meeting spaces from 3.2 m upwards, with 160 cm start and end modules on circular bases keeping the sculptural character. Various materials and finishes."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Sancal (Іспанія)",
+                            "ru": "Sancal (Испания)",
+                            "en": "Sancal (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Конференц-стіл",
+                            "ru": "Конференц-стол",
+                            "en": "Conference table"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Studiopepe",
+                            "ru": "Studiopepe",
+                            "en": "Studiopepe"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-sancal-bold-1",
+                    "@media:p-sancal-bold-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "sancal",
+                "title": "Sancal"
+            },
+            "thumbnail": "@media:b-sancal-cover",
+            "acf": {
+                "sp__logo": "@media:logo-sancal",
+                "sp__logo-dark": "@media:logo-sancal",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Sancal</strong> — іспанська фабрика дизайнерських меблів, що з 1973 року працює «під іспанським сонцем». Її стиль — сучасний, позачасовий і еклектичний: продукти з сильним характером, які легко персоналізувати. Sancal співпрацює з відомими дизайнерами й робить меблі для житла, офісів і готелів.</p>\n<ul>\n<li>Широка палітра тканин і кольорів для персоналізації кожної моделі.</li>\n<li>Крісла, дивани, офісні крісла, столи й акустичні аксесуари.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/robochi-ta-peregovorni-stoly/\">робочі та переговорні столи</a>, <a href=\"/category/mebli/robochi-krisla/\">робочі крісла</a>, <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>.</p>\n<p><strong>Країна:</strong> Іспанія. <strong>Офіційний сайт:</strong> <a href=\"https://sancal.com/en/\" target=\"_blank\" rel=\"noopener nofollow\">sancal.com/en</a></p>",
+                            "ru": "<p><strong>Sancal</strong> — испанская фабрика дизайнерской мебели, которая с 1973 года работает «под испанским солнцем». Ее стиль — современный, вневременной и эклектичный: продукты с сильным характером, которые легко персонализировать. Sancal сотрудничает с известными дизайнерами и делает мебель для жилья, офисов и отелей.</p>\n<ul>\n<li>Широкая палитра тканей и цветов для персонализации каждой модели.</li>\n<li>Кресла, диваны, офисные кресла, столы и акустические аксессуары.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/robochi-ta-peregovorni-stoly/\">рабочие и переговорные столы</a>, <a href=\"/ru/category/mebli/robochi-krisla/\">рабочие кресла</a>, <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>.</p>\n<p><strong>Страна:</strong> Испания. <strong>Официальный сайт:</strong> <a href=\"https://sancal.com/en/\" target=\"_blank\" rel=\"noopener nofollow\">sancal.com/en</a></p>",
+                            "en": "<p><strong>Sancal</strong> is a Spanish design-furniture maker working “under the Spanish sun” since 1973. Its style is contemporary, timeless and eclectic — products with strong identity that are easy to personalise. Sancal works with renowned designers on furniture for homes, offices and hotels.</p>\n<ul>\n<li>A wide palette of fabrics and colours to personalise every model.</li>\n<li>Armchairs, sofas, office chairs, tables and acoustic accessories.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/desks-and-meeting-tables/\">desks and meeting tables</a>, <a href=\"/en/category/furniture/task-chairs/\">task chairs</a>, <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>.</p>\n<p><strong>Country:</strong> Spain. <strong>Official website:</strong> <a href=\"https://sancal.com/en/\" target=\"_blank\" rel=\"noopener nofollow\">sancal.com/en</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:sancal-tortuga",
+                            "@product:sancal-collar",
+                            "@product:sancal-bold"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bla-station-bob",
+                "title": "Blå Station BOB"
+            },
+            "thumbnail": "@media:p-bla-station-bob-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "BOB — модульна система м’яких сидінь, з якої складають острівці, дивани й зони відпочинку будь-якої форми для офісів, лобі та громадських просторів. Онлайн-планувальник BOB Planner допомагає створювати власні композиції, а тканина Synergy від Camira додає нових кольорів і фактур.",
+                    "ru": "BOB — модульная система мягких сидений, из которой собирают островки, диваны и зоны отдыха любой формы для офисов, лобби и общественных пространств. Онлайн-планировщик BOB Planner помогает создавать собственные композиции, а ткань Synergy от Camira добавляет новых цветов и фактур.",
+                    "en": "BOB is a modular soft-seating system for building islands, sofas and lounge areas of any shape in offices, lobbies and public spaces. The online BOB Planner helps create your own layouts, and Camira’s Synergy fabric adds new colours and textures."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Blå Station (Швеція)",
+                            "ru": "Blå Station (Швеция)",
+                            "en": "Blå Station (Sweden)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Модульні м’які меблі",
+                            "ru": "Модульная мягкая мебель",
+                            "en": "Modular soft seating"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bla-station-bob-1"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bla-station-arc",
+                "title": "Blå Station Arc"
+            },
+            "thumbnail": "@media:p-bla-station-arc-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Arc — звукопоглинальна панель з акустичної сім’ї Blå Station (Arc, Gaia, Ginkgo). Основа — поліестеровий формований фетр із чудовими акустичними властивостями, в середньому на 50% з переробленої сировини; щоб зменшити використання пластику, є версія з 30% конопляного волокна.",
+                    "ru": "Arc — звукопоглощающая панель из акустического семейства Blå Station (Arc, Gaia, Ginkgo). Основа — полиэстеровый формованный фетр с отличными акустическими свойствами, в среднем на 50% из переработанного сырья; чтобы сократить использование пластика, есть версия с 30% конопляного волокна.",
+                    "en": "Arc is a sound absorber from Blå Station’s acoustic family (Arc, Gaia, Ginkgo). It is built on polyester form felt with excellent acoustic properties and on average 50% recycled content; to reduce plastics, a version with 30% hemp fibre is available."
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Blå Station (Швеція)",
+                            "ru": "Blå Station (Швеция)",
+                            "en": "Blå Station (Sweden)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Тип",
+                            "ru": "Тип",
+                            "en": "Type"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Акустична панель",
+                            "ru": "Акустическая панель",
+                            "en": "Acoustic panel"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bla-station-arc-1",
+                    "@media:p-bla-station-arc-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "bla-station",
+                "title": "Blå Station"
+            },
+            "thumbnail": "@media:b-bla-station-cover",
+            "acf": {
+                "sp__logo": "@media:logo-bla-station",
+                "sp__logo-dark": "@media:logo-bla-station",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Blå Station</strong> — шведський бренд інноваційних дизайнерських меблів з колишньої швейної фабрики в Огусі на південно-східному узбережжі Швеції, де компанія працює з 1986 року. Назву дав засновник, дизайнер Берге Ліндау: він підписував креслення «BLÅ» — ініціали та «Å» від Огуса. Blå Station робить м’які меблі, крісла, столи й акустичні рішення для офісів і громадських просторів.</p>\n<ul>\n<li>Акустичні панелі з поліестерового фетру, що в середньому на 50% складається з переробленої сировини; є версія з коноплею.</li>\n<li>Модульні системи сидінь для офісів, лобі та зон очікування.</li>\n</ul>\n<p><strong>Через МДТ можна замовити:</strong> <a href=\"/category/mebli/myaki-mebli/\">м’які меблі для лаунж-зон</a>, <a href=\"/category/akustychni-rishennya/stinovi-paneli/\">акустичні панелі та екрани</a>, <a href=\"/category/mebli/mebli-dlya-terasy/\">меблі для терас і вуличних зон</a>, меблі для житлових інтер’єрів.</p>\n<p><strong>Країна:</strong> Швеція. <strong>Офіційний сайт:</strong> <a href=\"https://blastation.com/\" target=\"_blank\" rel=\"noopener nofollow\">blastation.com</a></p>",
+                            "ru": "<p><strong>Blå Station</strong> — шведский бренд инновационной дизайнерской мебели с бывшей швейной фабрики в Окусе на юго-восточном побережье Швеции, где компания работает с 1986 года. Название дал основатель, дизайнер Бёрге Линдау: он подписывал чертежи «BLÅ» — инициалы и «Å» от Окуса. Blå Station делает мягкую мебель, кресла, столы и акустические решения для офисов и общественных пространств.</p>\n<ul>\n<li>Акустические панели из полиэстерового фетра, который в среднем на 50% состоит из переработанного сырья; есть версия с коноплей.</li>\n<li>Модульные системы сидений для офисов, лобби и зон ожидания.</li>\n</ul>\n<p><strong>Через МДТ можно заказать:</strong> <a href=\"/ru/category/mebli/myaki-mebli/\">мягкая мебель для лаунж-зон</a>, <a href=\"/ru/category/akustychni-rishennya/stinovi-paneli/\">акустические панели и экраны</a>, <a href=\"/ru/category/mebli/mebli-dlya-terasy/\">мебель для террас и уличных зон</a>, мебель для жилых интерьеров.</p>\n<p><strong>Страна:</strong> Швеция. <strong>Официальный сайт:</strong> <a href=\"https://blastation.com/\" target=\"_blank\" rel=\"noopener nofollow\">blastation.com</a></p>",
+                            "en": "<p><strong>Blå Station</strong> is a Swedish brand of innovative design furniture based in a former sewing factory in Åhus, on Sweden’s southeast coast, since 1986. The name comes from founder and designer Börge Lindau, who signed his drawings “BLÅ” — his initials plus the Å of Åhus. It makes soft seating, chairs, tables and acoustic solutions for offices and public spaces.</p>\n<ul>\n<li>Acoustic panels in polyester form felt with on average 50% recycled content; a hemp-blend version is available.</li>\n<li>Modular seating systems for offices, lobbies and waiting areas.</li>\n</ul>\n<p><strong>Available through MDT:</strong> <a href=\"/en/category/furniture/soft-seating/\">soft seating for lounge areas</a>, <a href=\"/en/category/acoustic-solutions/wall-panels/\">acoustic panels and screens</a>, <a href=\"/en/category/furniture/outdoor-furniture/\">terrace and outdoor furniture</a>, furniture for residential interiors.</p>\n<p><strong>Country:</strong> Sweden. <strong>Official website:</strong> <a href=\"https://blastation.com/\" target=\"_blank\" rel=\"noopener nofollow\">blastation.com</a></p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:bla-station-bob",
+                            "@product:bla-station-arc"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

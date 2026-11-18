@@ -1,0 +1,499 @@
+{
+    "_readme": [
+        "Hub page «Меблі» (/category/mebli/): intro, tiles to the 7 subcategories, usage table, brands, projects, text, FAQ, CTA.",
+        "Written from the subcategory pages and the Omni Space / Zest project data in mebli-common.json."
+    ],
+    "posts": [
+        {
+            "target": "category:mebli",
+            "thumbnail": "@media:proj-media-01",
+            "thumbnail_alt": {
+                "uk": "Лаунж-зона в офісі міжнародної медіакомпанії, Київ",
+                "ru": "Лаунж-зона в офисе международной медиакомпании, Киев",
+                "en": "Lounge at an international media company office, Kyiv"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Офісні меблі: крісла, столи, м’які меблі — комплектація під ключ | MDT",
+                    "ru": "Офисная мебель: кресла, столы, мягкая мебель — комплектация под ключ | MDT",
+                    "en": "Office furniture: chairs, desks, soft seating — turnkey furnishing | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Офісні та комерційні меблі європейських і українських брендів та меблі на замовлення: крісла, столи, м’які та вуличні меблі. Комплектація під ключ від MDT.",
+                    "ru": "Офисная и коммерческая мебель европейских и украинских брендов, мебель на заказ: кресла, столы, мягкая и уличная мебель. Комплектация под ключ от MDT.",
+                    "en": "Office and commercial furniture from European and Ukrainian brands plus made-to-order pieces: chairs, desks, soft and outdoor furniture. Turnkey furnishing by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Меблі для офісу та комерційних просторів",
+                    "ru": "Мебель для офиса и коммерческих пространств",
+                    "en": "Furniture for offices and commercial spaces"
+                },
+                "lp__intro": {
+                    "uk": "MDT комплектує <strong>офіси, готелі, ресторани та громадські простори</strong> меблями європейських та українських виробників і меблями, виготовленими на замовлення. У каталозі — <strong>робочі, переговорні та конференц-крісла, столи, барні стільці, м’які й вуличні меблі</strong> брендів, які ми представляємо. Ми підбираємо рішення під сценарії роботи вашої команди та беремо на себе <strong>комплектацію під ключ</strong> — від планування до монтажу.",
+                    "ru": "MDT комплектует <strong>офисы, отели, рестораны и общественные пространства</strong> мебелью европейских и украинских производителей и мебелью, изготовленной на заказ. В каталоге — <strong>рабочие, переговорные и конференц-кресла, столы, барные стулья, мягкая и уличная мебель</strong> брендов, которые мы представляем. Мы подбираем решения под сценарии работы вашей команды и берем на себя <strong>комплектацию под ключ</strong> — от планирования до монтажа.",
+                    "en": "MDT furnishes <strong>offices, hotels, restaurants and public spaces</strong> with furniture from European and Ukrainian manufacturers and pieces made to order. The range covers <strong>task, meeting and conference chairs, desks and tables, bar stools, soft seating and outdoor furniture</strong> from the brands we represent. We match solutions to how your team works and take care of <strong>turnkey furnishing</strong>, from planning to installation."
+                },
+                "lp__tiles": [
+                    {
+                        "lp__tile-cat": "@category:mebli/robochi-krisla",
+                        "lp__tile-text": {
+                            "uk": "Ергономічні крісла для щоденної роботи: синхромеханізм, регулювання поперекового упору, підлокітників і глибини сидіння.",
+                            "ru": "Эргономичные кресла для ежедневной работы: синхромеханизм, регулировка поясничного упора, подлокотников и глубины сиденья.",
+                            "en": "Ergonomic chairs for everyday work: synchro mechanism, adjustable lumbar support, armrests and seat depth."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: ергономіка на весь робочий день",
+                            "ru": "Ключевая характеристика: эргономика на весь рабочий день",
+                            "en": "Key feature: all-day ergonomics"
+                        }
+                    },
+                    {
+                        "lp__tile-cat": "@category:mebli/peregovorni-krisla",
+                        "lp__tile-text": {
+                            "uk": "Крісла для переговорних і кабінетів — на хрестовині, полозах або чотирьох ніжках, з оббивкою чи сіткою.",
+                            "ru": "Кресла для переговорных и кабинетов — на крестовине, полозьях или четырех ножках, с обивкой или сеткой.",
+                            "en": "Chairs for meeting rooms and private offices — on a star base, sled or four legs, upholstered or mesh."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: комфорт і представницький вигляд",
+                            "ru": "Ключевая характеристика: комфорт и представительный вид",
+                            "en": "Key feature: comfort with presence"
+                        }
+                    },
+                    {
+                        "lp__tile-cat": "@category:mebli/konferents-krisla",
+                        "lp__tile-text": {
+                            "uk": "Легкі крісла й стільці для конференц-залів і аудиторій: штабелювання, з’єднання в ряди, пюпітри.",
+                            "ru": "Легкие кресла и стулья для конференц-залов и аудиторий: штабелирование, соединение в ряды, пюпитры.",
+                            "en": "Light chairs for conference halls and auditoriums: stacking, row linking, writing tablets."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: швидка трансформація залу",
+                            "ru": "Ключевая характеристика: быстрая трансформация зала",
+                            "en": "Key feature: quick room changeovers"
+                        }
+                    },
+                    {
+                        "lp__tile-cat": "@category:mebli/barni-stiltsi",
+                        "lp__tile-text": {
+                            "uk": "Барні стільці й високі табурети для офісних кухонь, кафе та стійок, а також високі робочі стільці для режиму sit & stand.",
+                            "ru": "Барные стулья и высокие табуреты для офисных кухонь, кафе и стоек, а также высокие рабочие стулья для режима sit & stand.",
+                            "en": "Bar stools and high stools for office kitchens, cafés and counters, plus high work stools for sit & stand."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: висота під стійку чи високий стіл",
+                            "ru": "Ключевая характеристика: высота под стойку или высокий стол",
+                            "en": "Key feature: the right height for every counter"
+                        }
+                    },
+                    {
+                        "lp__tile-cat": "@category:mebli/robochi-ta-peregovorni-stoly",
+                        "lp__tile-text": {
+                            "uk": "Столи з електричним регулюванням висоти, переговорні та конференц-столи, а також столи за індивідуальним проєктом.",
+                            "ru": "Столы с электрической регулировкой высоты, переговорные и конференц-столы, а также столы по индивидуальному проекту.",
+                            "en": "Electric height-adjustable desks, meeting and conference tables, and tables made to your design."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: sit & stand і виготовлення на замовлення",
+                            "ru": "Ключевая характеристика: sit & stand и изготовление на заказ",
+                            "en": "Key feature: sit & stand and made to order"
+                        }
+                    },
+                    {
+                        "lp__tile-cat": "@category:mebli/myaki-mebli",
+                        "lp__tile-text": {
+                            "uk": "Модульні дивани, лаунж-крісла та пуфи для зон відпочинку, рецепцій і неформальних зустрічей.",
+                            "ru": "Модульные диваны, лаунж-кресла и пуфы для зон отдыха, ресепшн и неформальных встреч.",
+                            "en": "Modular sofas, lounge chairs and poufs for break areas, receptions and informal meetings."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: атмосфера лаунж-зони",
+                            "ru": "Ключевая характеристика: атмосфера лаунж-зоны",
+                            "en": "Key feature: lounge atmosphere"
+                        }
+                    },
+                    {
+                        "lp__tile-cat": "@category:mebli/mebli-dlya-terasy",
+                        "lp__tile-text": {
+                            "uk": "Вуличні стільці, крісла, барні табурети й столи з поліпропілену та нержавіючої сталі для терас, кафе й готелів.",
+                            "ru": "Уличные стулья, кресла, барные табуреты и столы из полипропилена и нержавеющей стали для террас, кафе и отелей.",
+                            "en": "Outdoor chairs, armchairs, bar stools and tables in polypropylene and stainless steel for terraces, cafés and hotels."
+                        },
+                        "lp__tile-key": {
+                            "uk": "Ключова характеристика: витривалість просто неба",
+                            "ru": "Ключевая характеристика: выносливость под открытым небом",
+                            "en": "Key feature: built for the open air"
+                        }
+                    }
+                ],
+                "lp__use-title": {
+                    "uk": "Меблі за типами просторів",
+                    "ru": "Мебель по типам пространств",
+                    "en": "Furniture by type of space"
+                },
+                "lp__use-col1": {
+                    "uk": "Тип простору",
+                    "ru": "Тип пространства",
+                    "en": "Type of space"
+                },
+                "lp__use-col2": {
+                    "uk": "Рекомендовані рішення",
+                    "ru": "Рекомендуемые решения",
+                    "en": "Recommended solutions"
+                },
+                "lp__use": [
+                    {
+                        "lp__use-room": {
+                            "uk": "Open space і робочі місця",
+                            "ru": "Open space и рабочие места",
+                            "en": "Open space and workstations"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Робочі крісла, столи з регулюванням висоти",
+                            "ru": "Рабочие кресла, столы с регулировкой высоты",
+                            "en": "Task chairs, height-adjustable desks"
+                        }
+                    },
+                    {
+                        "lp__use-room": {
+                            "uk": "Переговорні та кабінети",
+                            "ru": "Переговорные и кабинеты",
+                            "en": "Meeting rooms and private offices"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Переговорні крісла, переговорні столи",
+                            "ru": "Переговорные кресла, переговорные столы",
+                            "en": "Meeting chairs, meeting tables"
+                        }
+                    },
+                    {
+                        "lp__use-room": {
+                            "uk": "Конференц-зали, навчальні класи",
+                            "ru": "Конференц-залы, учебные классы",
+                            "en": "Conference halls, training rooms"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Конференц-крісла, модульні столи",
+                            "ru": "Конференц-кресла, модульные столы",
+                            "en": "Conference chairs, modular tables"
+                        }
+                    },
+                    {
+                        "lp__use-room": {
+                            "uk": "Кухні та кафе-зони",
+                            "ru": "Кухни и кафе-зоны",
+                            "en": "Kitchens and café areas"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Барні стільці, столи Tables:cross, стільці Orte",
+                            "ru": "Барные стулья, столы Tables:cross, стулья Orte",
+                            "en": "Bar stools, Tables:cross tables, Orte chairs"
+                        }
+                    },
+                    {
+                        "lp__use-room": {
+                            "uk": "Лаунж-зони, рецепція, лобі",
+                            "ru": "Лаунж-зоны, ресепшн, лобби",
+                            "en": "Lounges, reception, lobby"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Модульні дивани, лаунж-крісла, пуфи",
+                            "ru": "Модульные диваны, лаунж-кресла, пуфы",
+                            "en": "Modular sofas, lounge chairs, poufs"
+                        }
+                    },
+                    {
+                        "lp__use-room": {
+                            "uk": "Тераси та патіо",
+                            "ru": "Террасы и патио",
+                            "en": "Terraces and patios"
+                        },
+                        "lp__use-solution": {
+                            "uk": "Вуличні стільці, табурети й столи Inclass Outdoor",
+                            "ru": "Уличные стулья, табуреты и столы Inclass Outdoor",
+                            "en": "Inclass Outdoor chairs, stools and tables"
+                        }
+                    }
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@suppliers:bejot",
+                    "@suppliers:ld-seating",
+                    "@suppliers:inclass",
+                    "@suppliers:mdd",
+                    "@suppliers:profim",
+                    "@suppliers:isku",
+                    "@suppliers:diemme",
+                    "@suppliers:midj",
+                    "@suppliers:i4mariani",
+                    "@suppliers:bralco",
+                    "@suppliers:okamura",
+                    "@suppliers:arper",
+                    "@suppliers:sancal",
+                    "@suppliers:noti",
+                    "@suppliers:audo",
+                    "@suppliers:ditre-italia",
+                    "@suppliers:true-design",
+                    "@suppliers:marelli",
+                    "@suppliers:scab",
+                    "@suppliers:archiutti",
+                    "@suppliers:mogg",
+                    "@suppliers:tonelli-design",
+                    "@suppliers:cantori",
+                    "@suppliers:frag",
+                    "@suppliers:joyf",
+                    "@suppliers:woo",
+                    "@suppliers:tivoli",
+                    "@suppliers:diza",
+                    "@suppliers:flexform",
+                    "@suppliers:poliform",
+                    "@suppliers:bontempi",
+                    "@suppliers:vondom",
+                    "@suppliers:lecomfort",
+                    "@suppliers:offecct",
+                    "@suppliers:4corners",
+                    "@suppliers:bla-station"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:ofis-mizhnarodnoyi-mediakompaniyi",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Комплектація під ключ",
+                            "ru": "Комплектация под ключ",
+                            "en": "Turnkey furnishing"
+                        },
+                        "lp__proj-area": {
+                            "uk": "920 м²",
+                            "ru": "920 м²",
+                            "en": "920 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-danone",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Фабричні меблі та меблі на замовлення",
+                            "ru": "Фабричная мебель и мебель на заказ",
+                            "en": "Factory and made-to-order furniture"
+                        },
+                        "lp__proj-area": {
+                            "uk": "1 870 м²",
+                            "ru": "1 870 м²",
+                            "en": "1,870 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:it-ofis-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Меблі на замовлення (Zest)",
+                            "ru": "Мебель на заказ (Zest)",
+                            "en": "Made-to-order furniture (Zest)"
+                        },
+                        "lp__proj-area": {
+                            "uk": "2 100 м²",
+                            "ru": "2 100 м²",
+                            "en": "2,100 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-yurydychnoyi-kompaniyi-trilogy",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Офіс і outdoor-зони",
+                            "ru": "Офис и outdoor-зоны",
+                            "en": "Office and outdoor areas"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:studiya-cobalt-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Робочі та переговорні крісла",
+                            "ru": "Рабочие и переговорные кресла",
+                            "en": "Task and meeting chairs"
+                        },
+                        "lp__proj-area": {
+                            "uk": "70 м²",
+                            "ru": "70 м²",
+                            "en": "70 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-yurydychnoyi-kompaniyi-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Часткова комплектація",
+                            "ru": "Частичная комплектация",
+                            "en": "Partial furnishing"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:it-ofis-400-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Робочі зони, переговорні, лаунжі",
+                            "ru": "Рабочие зоны, переговорные, лаунжи",
+                            "en": "Workspaces, meeting rooms, lounges"
+                        },
+                        "lp__proj-area": {
+                            "uk": "400 м²",
+                            "ru": "400 м²",
+                            "en": "400 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Комплектація офісу меблями від MDT</h2>\n<p>Ми комплектуємо офіси, громадські та комерційні простори під ключ — від планування й підбору моделей до доставки та монтажу. Разом з компаніями групи MDT — <strong>Omni Space</strong> (комплектація фабричними меблями) і <strong>Zest</strong> (виготовлення меблів на замовлення) — ми реалізували проєкти в Києві та Лімасолі площею до 2 100 м².</p>\n<h3>Як ми працюємо</h3>\n<ol>\n<li><strong>Бриф і планування</strong> — кількість співробітників, сценарії роботи, зони та стиль простору.</li>\n<li><strong>Підбір рішень</strong> — фабричні меблі європейських та українських брендів, які ми представляємо, і меблі за індивідуальним проєктом.</li>\n<li><strong>Зразки та специфікація</strong> — тканини, кольори каркасів, оздоблення стільниць.</li>\n<li><strong>Логістика, доставка й монтаж</strong> — координуємо всіх постачальників і здаємо простір у погоджені терміни.</li>\n</ol>\n<h3>Меблі, акустика й підлога — разом</h3>\n<p>Меблі працюють у парі з акустикою та покриттям для підлоги. Тому ми підбираємо їх комплексно: крісла з опорами під конкретне покриття, акустичні кабінки й панелі для open space, зносостійку підлогу для кухонь і кафе-зон.</p>",
+                            "ru": "<h2>Комплектация офиса мебелью от MDT</h2>\n<p>Мы комплектуем офисы, общественные и коммерческие пространства под ключ — от планирования и подбора моделей до доставки и монтажа. Вместе с компаниями группы MDT — <strong>Omni Space</strong> (комплектация фабричной мебелью) и <strong>Zest</strong> (изготовление мебели на заказ) — мы реализовали проекты в Киеве и Лимасоле площадью до 2 100 м².</p>\n<h3>Как мы работаем</h3>\n<ol>\n<li><strong>Бриф и планирование</strong> — количество сотрудников, сценарии работы, зоны и стиль пространства.</li>\n<li><strong>Подбор решений</strong> — фабричная мебель европейских и украинских брендов, которые мы представляем, и мебель по индивидуальному проекту.</li>\n<li><strong>Образцы и спецификация</strong> — ткани, цвета каркасов, отделка столешниц.</li>\n<li><strong>Логистика, доставка и монтаж</strong> — координируем всех поставщиков и сдаем пространство в согласованные сроки.</li>\n</ol>\n<h3>Мебель, акустика и пол — вместе</h3>\n<p>Мебель работает в паре с акустикой и напольным покрытием. Поэтому мы подбираем их комплексно: кресла с опорами под конкретное покрытие, акустические кабинки и панели для open space, износостойкий пол для кухонь и кафе-зон.</p>",
+                            "en": "<h2>Office furnishing by MDT</h2>\n<p>We furnish offices, public and commercial spaces turnkey — from planning and product selection to delivery and installation. Together with MDT group companies <strong>Omni Space</strong> (factory furniture) and <strong>Zest</strong> (made-to-order furniture), we have delivered projects in Kyiv and Limassol of up to 2,100 m².</p>\n<h3>How we work</h3>\n<ol>\n<li><strong>Brief and planning</strong> — headcount, ways of working, zones and the style of the space.</li>\n<li><strong>Selection</strong> — factory furniture from the European and Ukrainian brands we represent, and pieces made to your design.</li>\n<li><strong>Samples and specification</strong> — fabrics, frame colours, tabletop finishes.</li>\n<li><strong>Logistics, delivery and installation</strong> — we coordinate every supplier and hand over the space on the agreed date.</li>\n</ol>\n<h3>Furniture, acoustics and flooring together</h3>\n<p>Furniture works hand in hand with acoustics and flooring, so we choose them together: chairs with feet suited to the floor, acoustic booths and panels for open space, hard-wearing floors for kitchens and café areas.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи комплектуєте ви офіс під ключ?",
+                            "ru": "Комплектуете ли вы офис под ключ?",
+                            "en": "Do you furnish offices turnkey?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Ми беремо на себе планування, підбір меблів, зразки, логістику, доставку й монтаж, а також координуємо всіх постачальників. Наприклад, офіс міжнародної медіакомпанії в Києві площею 920 м² укомплектували за 6–9 тижнів.",
+                            "ru": "Да. Мы берем на себя планирование, подбор мебели, образцы, логистику, доставку и монтаж, а также координируем всех поставщиков. Например, офис международной медиакомпании в Киеве площадью 920 м² укомплектовали за 6–9 недель.",
+                            "en": "Yes. We handle planning, furniture selection, samples, logistics, delivery and installation, and coordinate every supplier. For example, we furnished a 920 m² office for an international media company in Kyiv in 6–9 weeks."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна поєднати фабричні меблі з меблями на замовлення?",
+                            "ru": "Можно ли сочетать фабричную мебель с мебелью на заказ?",
+                            "en": "Can factory furniture be combined with made-to-order pieces?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так, це найпоширеніший сценарій. Крісла, дивани й типові столи підбираємо з колекцій європейських та українських брендів, а рецепції, нестандартні столи, шафи й стінові панелі виготовляє Zest — компанія групи MDT.",
+                            "ru": "Да, это самый распространенный сценарий. Кресла, диваны и типовые столы подбираем из коллекций европейских и украинских брендов, а ресепшн, нестандартные столы, шкафы и стеновые панели изготавливает Zest — компания группы MDT.",
+                            "en": "Yes, that is the most common approach. Chairs, sofas and standard tables come from the collections of European and Ukrainian brands, while reception desks, custom tables, cabinets and wall panels are made by Zest, an MDT group company."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна побачити зразки тканин і оздоблення?",
+                            "ru": "Можно ли увидеть образцы тканей и отделки?",
+                            "en": "Can I see fabric and finish samples?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Ми підготуємо зразки тканин, кольорів каркасів і стільниць для вашого проєкту, щоб ви могли погодити поєднання до замовлення.",
+                            "ru": "Да. Мы подготовим образцы тканей, цветов каркасов и столешниц для вашего проекта, чтобы вы могли согласовать сочетания до заказа.",
+                            "en": "Yes. We prepare fabric, frame colour and tabletop samples for your project so you can approve combinations before ordering."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Ви працюєте лише з офісами?",
+                            "ru": "Вы работаете только с офисами?",
+                            "en": "Do you only work with offices?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Ні. Окрім офісів, ми комплектуємо готелі, ресторани й кафе, навчальні заклади та громадські простори — включно з терасами й відкритими зонами.",
+                            "ru": "Нет. Помимо офисов, мы комплектуем отели, рестораны и кафе, учебные заведения и общественные пространства — включая террасы и открытые зоны.",
+                            "en": "No. Besides offices, we furnish hotels, restaurants and cafés, schools and public spaces — including terraces and outdoor areas."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Сплануємо меблювання вашого простору",
+                    "ru": "Спланируем меблировку вашего пространства",
+                    "en": "Let’s plan the furniture for your space"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план приміщення й кількість співробітників — запропонуємо рішення, бюджет і терміни комплектації.",
+                    "ru": "Пришлите план помещения и количество сотрудников — предложим решения, бюджет и сроки комплектации.",
+                    "en": "Send us your floor plan and headcount and we’ll propose solutions, a budget and a timeline."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

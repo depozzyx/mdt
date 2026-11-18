@@ -1,0 +1,636 @@
+{
+    "_readme": [
+        "Shared by the furniture and acoustics pages: MDT project pages built from the case studies of Omni Space and Zest (MDT group companies) and the supplier pages.",
+        "Project photos: omnispace.com.ua and zest.furniture portfolios (sources per image under \"media\"). Logos: the manufacturers' own sites.",
+        "Two pairs of case studies describe the same offices from both companies' side and are merged here: Omni Space \"law company\" = Zest \"Trilogy Business Centre\"; Omni Space \"IT office 1800 m²\" = Zest \"IT office 2100 m²\" (the Zest figure is used).",
+        "Omni Space «partial office furniture fit-out for a law company» and «IT office furniture fit-out» (400 m²) added 18.11.2026 so all 7 Omni Space portfolio projects are on the site; photos are a selection from each gallery (mostly design visualisations, as published there)."
+    ],
+    "media": {
+        "proj-media-01": {
+            "file": "proj-media-01.jpg",
+            "title": "Офіс міжнародної медіакомпанії",
+            "source": "https://omnispace.com.ua/portfolio/modern-office-furnishing-for-an-international-company-focused-on-comfort-functionality-and-brand-identity"
+        },
+        "proj-media-02": {
+            "file": "proj-media-02.jpg",
+            "title": "Офіс міжнародної медіакомпанії",
+            "source": "https://omnispace.com.ua/portfolio/modern-office-furnishing-for-an-international-company-focused-on-comfort-functionality-and-brand-identity"
+        },
+        "proj-media-03": {
+            "file": "proj-media-03.jpg",
+            "title": "Офіс міжнародної медіакомпанії",
+            "source": "https://omnispace.com.ua/portfolio/modern-office-furnishing-for-an-international-company-focused-on-comfort-functionality-and-brand-identity"
+        },
+        "proj-media-05": {
+            "file": "proj-media-05.jpg",
+            "title": "Офіс міжнародної медіакомпанії",
+            "source": "https://omnispace.com.ua/portfolio/modern-office-furnishing-for-an-international-company-focused-on-comfort-functionality-and-brand-identity"
+        },
+        "proj-media-08": {
+            "file": "proj-media-08.jpg",
+            "title": "Офіс міжнародної медіакомпанії",
+            "source": "https://omnispace.com.ua/portfolio/modern-office-furnishing-for-an-international-company-focused-on-comfort-functionality-and-brand-identity"
+        },
+        "proj-media-10": {
+            "file": "proj-media-10.jpg",
+            "title": "Офіс міжнародної медіакомпанії",
+            "source": "https://omnispace.com.ua/portfolio/modern-office-furnishing-for-an-international-company-focused-on-comfort-functionality-and-brand-identity"
+        },
+        "proj-media-12": {
+            "file": "proj-media-12.jpg",
+            "title": "Офіс міжнародної медіакомпанії",
+            "source": "https://omnispace.com.ua/portfolio/modern-office-furnishing-for-an-international-company-focused-on-comfort-functionality-and-brand-identity"
+        },
+        "proj-danone-01": {
+            "file": "proj-danone-01.jpg",
+            "title": "Офіс Danone",
+            "source": "https://omnispace.com.ua/portfolio/danone-office-full-furnishing-with-custom-and-factory-made-furniture"
+        },
+        "proj-danone-02": {
+            "file": "proj-danone-02.jpg",
+            "title": "Офіс Danone",
+            "source": "https://omnispace.com.ua/portfolio/danone-office-full-furnishing-with-custom-and-factory-made-furniture"
+        },
+        "proj-danone-03": {
+            "file": "proj-danone-03.jpg",
+            "title": "Офіс Danone",
+            "source": "https://omnispace.com.ua/portfolio/danone-office-full-furnishing-with-custom-and-factory-made-furniture"
+        },
+        "proj-danone-04": {
+            "file": "proj-danone-04.jpg",
+            "title": "Офіс Danone",
+            "source": "https://omnispace.com.ua/portfolio/danone-office-full-furnishing-with-custom-and-factory-made-furniture"
+        },
+        "proj-danone-06": {
+            "file": "proj-danone-06.jpg",
+            "title": "Офіс Danone",
+            "source": "https://omnispace.com.ua/portfolio/danone-office-full-furnishing-with-custom-and-factory-made-furniture"
+        },
+        "proj-danone-09": {
+            "file": "proj-danone-09.jpg",
+            "title": "Офіс Danone",
+            "source": "https://omnispace.com.ua/portfolio/danone-office-full-furnishing-with-custom-and-factory-made-furniture"
+        },
+        "proj-law-02": {
+            "file": "proj-law-02.jpg",
+            "title": "Офіс юридичної компанії, БЦ Trilogy",
+            "source": "https://omnispace.com.ua/portfolio/furniture-supply-for-indoor-and-outdoor-areas-for-a-law-company"
+        },
+        "proj-law-09": {
+            "file": "proj-law-09.jpg",
+            "title": "Офіс юридичної компанії, БЦ Trilogy",
+            "source": "https://omnispace.com.ua/portfolio/furniture-supply-for-indoor-and-outdoor-areas-for-a-law-company"
+        },
+        "proj-law-14": {
+            "file": "proj-law-14.jpg",
+            "title": "Офіс юридичної компанії, БЦ Trilogy",
+            "source": "https://omnispace.com.ua/portfolio/furniture-supply-for-indoor-and-outdoor-areas-for-a-law-company"
+        },
+        "proj-law-21": {
+            "file": "proj-law-21.jpg",
+            "title": "Офіс юридичної компанії, БЦ Trilogy",
+            "source": "https://omnispace.com.ua/portfolio/furniture-supply-for-indoor-and-outdoor-areas-for-a-law-company"
+        },
+        "proj-law-24": {
+            "file": "proj-law-24.jpg",
+            "title": "Офіс юридичної компанії, БЦ Trilogy",
+            "source": "https://omnispace.com.ua/portfolio/furniture-supply-for-indoor-and-outdoor-areas-for-a-law-company"
+        },
+        "proj-law-25": {
+            "file": "proj-law-25.jpg",
+            "title": "Офіс юридичної компанії, БЦ Trilogy",
+            "source": "https://omnispace.com.ua/portfolio/furniture-supply-for-indoor-and-outdoor-areas-for-a-law-company"
+        },
+        "proj-law-28": {
+            "file": "proj-law-28.jpg",
+            "title": "Офіс юридичної компанії, БЦ Trilogy",
+            "source": "https://omnispace.com.ua/portfolio/furniture-supply-for-indoor-and-outdoor-areas-for-a-law-company"
+        },
+        "proj-law-31": {
+            "file": "proj-law-31.jpg",
+            "title": "Офіс юридичної компанії, БЦ Trilogy",
+            "source": "https://omnispace.com.ua/portfolio/furniture-supply-for-indoor-and-outdoor-areas-for-a-law-company"
+        },
+        "proj-it1800-02": {
+            "file": "proj-it1800-02.jpg",
+            "title": "IT-офіс, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/it-office-full-cycle-office-furnishing-from-selection-to-final-installation"
+        },
+        "proj-it1800-03": {
+            "file": "proj-it1800-03.jpg",
+            "title": "IT-офіс, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/it-office-full-cycle-office-furnishing-from-selection-to-final-installation"
+        },
+        "proj-it1800-04": {
+            "file": "proj-it1800-04.jpg",
+            "title": "IT-офіс, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/it-office-full-cycle-office-furnishing-from-selection-to-final-installation"
+        },
+        "proj-zit-01": {
+            "file": "proj-zit-01.jpg",
+            "title": "IT-офіс, Лімасол",
+            "source": "https://www.zest.furniture/project/meblyuvannya-it-ofisu-funkcionalni-rishennya-dlya-biznes-prostoru"
+        },
+        "proj-zit-09": {
+            "file": "proj-zit-09.jpg",
+            "title": "IT-офіс, Лімасол",
+            "source": "https://www.zest.furniture/project/meblyuvannya-it-ofisu-funkcionalni-rishennya-dlya-biznes-prostoru"
+        },
+        "proj-zit-11": {
+            "file": "proj-zit-11.jpg",
+            "title": "IT-офіс, Лімасол",
+            "source": "https://www.zest.furniture/project/meblyuvannya-it-ofisu-funkcionalni-rishennya-dlya-biznes-prostoru"
+        },
+        "proj-zit-16": {
+            "file": "proj-zit-16.jpg",
+            "title": "IT-офіс, Лімасол",
+            "source": "https://www.zest.furniture/project/meblyuvannya-it-ofisu-funkcionalni-rishennya-dlya-biznes-prostoru"
+        },
+        "proj-zit-19": {
+            "file": "proj-zit-19.jpg",
+            "title": "IT-офіс, Лімасол",
+            "source": "https://www.zest.furniture/project/meblyuvannya-it-ofisu-funkcionalni-rishennya-dlya-biznes-prostoru"
+        },
+        "proj-zit-25": {
+            "file": "proj-zit-25.jpg",
+            "title": "IT-офіс, Лімасол",
+            "source": "https://www.zest.furniture/project/meblyuvannya-it-ofisu-funkcionalni-rishennya-dlya-biznes-prostoru"
+        },
+        "proj-cobalt-01": {
+            "file": "proj-cobalt-01.jpg",
+            "title": "Студія Cobalt",
+            "source": "https://omnispace.com.ua/portfolio/cobalt-office-furnishing-aligned-with-the-design-project-within-time-and-budget-constraints"
+        },
+        "proj-cobalt-03": {
+            "file": "proj-cobalt-03.jpg",
+            "title": "Студія Cobalt",
+            "source": "https://omnispace.com.ua/portfolio/cobalt-office-furnishing-aligned-with-the-design-project-within-time-and-budget-constraints"
+        },
+        "proj-cobalt-05": {
+            "file": "proj-cobalt-05.jpg",
+            "title": "Студія Cobalt",
+            "source": "https://omnispace.com.ua/portfolio/cobalt-office-furnishing-aligned-with-the-design-project-within-time-and-budget-constraints"
+        },
+        "proj-cobalt-06": {
+            "file": "proj-cobalt-06.jpg",
+            "title": "Студія Cobalt",
+            "source": "https://omnispace.com.ua/portfolio/cobalt-office-furnishing-aligned-with-the-design-project-within-time-and-budget-constraints"
+        },
+        "proj-cobalt-07": {
+            "file": "proj-cobalt-07.jpg",
+            "title": "Студія Cobalt",
+            "source": "https://omnispace.com.ua/portfolio/cobalt-office-furnishing-aligned-with-the-design-project-within-time-and-budget-constraints"
+        },
+        "logo-bejot": {
+            "file": "logo-bejot.svg",
+            "title": "Bejot",
+            "source": "https://www.bejot.eu/"
+        },
+        "logo-bejot-dark": {
+            "file": "logo-bejot-dark.svg",
+            "title": "Bejot",
+            "source": "https://www.bejot.eu/ (recoloured #343434)"
+        },
+        "logo-ld-seating": {
+            "file": "logo-ld-seating.svg",
+            "title": "LD Seating",
+            "source": "https://www.ldseating.com/"
+        },
+        "logo-ld-seating-dark": {
+            "file": "logo-ld-seating-dark.svg",
+            "title": "LD Seating",
+            "source": "https://www.ldseating.com/ (recoloured #343434)"
+        },
+        "proj-law2-01": {
+            "file": "proj-law2-01.jpg",
+            "title": "Офіс юридичної компанії, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/partial-office-furniture-fit-out-for-a-law-company"
+        },
+        "proj-law2-04": {
+            "file": "proj-law2-04.jpg",
+            "title": "Офіс юридичної компанії, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/partial-office-furniture-fit-out-for-a-law-company"
+        },
+        "proj-law2-06": {
+            "file": "proj-law2-06.jpg",
+            "title": "Офіс юридичної компанії, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/partial-office-furniture-fit-out-for-a-law-company"
+        },
+        "proj-law2-13": {
+            "file": "proj-law2-13.jpg",
+            "title": "Офіс юридичної компанії, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/partial-office-furniture-fit-out-for-a-law-company"
+        },
+        "proj-law2-20": {
+            "file": "proj-law2-20.jpg",
+            "title": "Офіс юридичної компанії, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/partial-office-furniture-fit-out-for-a-law-company"
+        },
+        "proj-law2-24": {
+            "file": "proj-law2-24.jpg",
+            "title": "Офіс юридичної компанії, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/partial-office-furniture-fit-out-for-a-law-company"
+        },
+        "proj-law2-28": {
+            "file": "proj-law2-28.jpg",
+            "title": "Офіс юридичної компанії, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/partial-office-furniture-fit-out-for-a-law-company"
+        },
+        "proj-law2-32": {
+            "file": "proj-law2-32.jpg",
+            "title": "Офіс юридичної компанії, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/partial-office-furniture-fit-out-for-a-law-company"
+        },
+        "proj-law2-38": {
+            "file": "proj-law2-38.jpg",
+            "title": "Офіс юридичної компанії, Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/partial-office-furniture-fit-out-for-a-law-company"
+        },
+        "proj-it400-01": {
+            "file": "proj-it400-01.jpg",
+            "title": "IT-офіс на 400 м², Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/it-office-furniture-fit-out"
+        },
+        "proj-it400-02": {
+            "file": "proj-it400-02.jpg",
+            "title": "IT-офіс на 400 м², Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/it-office-furniture-fit-out"
+        },
+        "proj-it400-03": {
+            "file": "proj-it400-03.jpg",
+            "title": "IT-офіс на 400 м², Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/it-office-furniture-fit-out"
+        },
+        "proj-it400-04": {
+            "file": "proj-it400-04.jpg",
+            "title": "IT-офіс на 400 м², Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/it-office-furniture-fit-out"
+        },
+        "proj-it400-05": {
+            "file": "proj-it400-05.jpg",
+            "title": "IT-офіс на 400 м², Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/it-office-furniture-fit-out"
+        },
+        "proj-it400-06": {
+            "file": "proj-it400-06.jpg",
+            "title": "IT-офіс на 400 м², Лімасол",
+            "source": "https://omnispace.com.ua/portfolio/it-office-furniture-fit-out"
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "bejot",
+                "title": "Bejot"
+            },
+            "thumbnail": "@media:proj-cobalt-06",
+            "acf": {
+                "sp__logo": "@media:logo-bejot",
+                "sp__logo-dark": "@media:logo-bejot-dark",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Bejot</strong> — польський сімейний виробник офісних меблів та акустичних рішень. Компанія виросла з невеликої столярної майстерні у великого виробника робочих і конференц-крісел, м’яких меблів, столів, акустичних панелей і кабінок.</p>\n<p>Bejot співпрацює з науковими установами у сферах акустики, біофільного дизайну та ергономіки робочого місця, а над колекціями працюють польські та іноземні дизайнери. Кожен елемент проходить сотні годин проєктування й тестування, а матеріали відбирають без компромісів.</p>\n<p>Через MDT меблі Bejot можна замовити для офісів, освітніх закладів, готелів і ресторанів: допоможемо підібрати моделі, тканини й комплектації, організуємо доставку та монтаж.</p>",
+                            "ru": "<p><strong>Bejot</strong> — польский семейный производитель офисной мебели и акустических решений. Компания выросла из небольшой столярной мастерской в крупного производителя рабочих и конференц-кресел, мягкой мебели, столов, акустических панелей и кабинок.</p>\n<p>Bejot сотрудничает с научными учреждениями в сферах акустики, биофильного дизайна и эргономики рабочего места, а над коллекциями работают польские и иностранные дизайнеры. Каждый элемент проходит сотни часов проектирования и тестирования, а материалы отбирают без компромиссов.</p>\n<p>Через MDT мебель Bejot можно заказать для офисов, учебных заведений, отелей и ресторанов: поможем подобрать модели, ткани и комплектации, организуем доставку и монтаж.</p>",
+                            "en": "<p><strong>Bejot</strong> is a Polish family-owned manufacturer of office furniture and acoustic solutions. It grew from a small carpentry workshop into a major producer of task and conference chairs, soft seating, tables, acoustic panels and booths.</p>\n<p>Bejot works with scientific institutions on acoustics, biophilic design and workplace ergonomics, and its collections are created by Polish and international designers. Every component goes through hundreds of hours of design and testing, and materials are chosen without compromise.</p>\n<p>Through MDT you can order Bejot furniture for offices, education, hotels and restaurants: we help choose models, fabrics and specifications, and handle delivery and installation.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:bejot-eight-et-103b",
+                            "@product:bejot-mate-mt-103",
+                            "@product:bejot-orte-ah-4r",
+                            "@product:bejot-lumi-lm-4r1",
+                            "@product:bejot-oxco-ox-215",
+                            "@product:bejot-volo-vo-215",
+                            "@product:bejot-momo-mo-260",
+                            "@product:bejot-split-sp-215",
+                            "@product:bejot-orte-ot-h",
+                            "@product:bejot-epocc-ep-h",
+                            "@product:bejot-spin-sn-w-h",
+                            "@product:bejot-lift-lf-10r",
+                            "@product:bejot-tables-hr-tb-hre",
+                            "@product:bejot-tables-conference-tb-conf3",
+                            "@product:bejot-orte-ot-4l",
+                            "@product:bejot-tables-cross-tb-cr-180",
+                            "@product:bejot-fora-office-fo-423",
+                            "@product:bejot-clip-cl-502",
+                            "@product:bejot-barbara-br-230",
+                            "@product:bejot-vieni-ve-w-742",
+                            "@product:bejot-nubi-nb-po18",
+                            "@product:bejot-flathouse-fh-1t-g2",
+                            "@product:bejot-treehouse-th-4-g2",
+                            "@product:bejot-flos-sky-fs-src-120",
+                            "@product:bejot-silent-block-sky-sbs-r120",
+                            "@product:bejot-selva-sky-sv-psf16",
+                            "@product:bejot-selva-hang-sv-hn-12"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "ld-seating",
+                "title": "LD Seating"
+            },
+            "thumbnail": "@media:p-ld-arcus-1",
+            "acf": {
+                "sp__logo": "@media:logo-ld-seating",
+                "sp__logo-dark": "@media:logo-ld-seating-dark",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>LD Seating</strong> — сімейна компанія з міста Босковіце (Чехія), яка понад 30 років проєктує та виготовляє крісла для офісів і громадських просторів. Колекції створюються у співпраці зі світовими дизайнерами й відзначені нагородами Red Dot Design Award, German Design Award та iF Design Award.</p>\n<p>Попри сучасне автоматизоване виробництво — від виготовлення пінополіуретану до власного фарбувального цеху й металообробки — ключові компоненти фабрика виготовляє вручну: майстри збирають конструкції, а швачки й оббивальники підганяють кожен елемент оббивки.</p>\n<p>У MDT можна підібрати робочі, переговорні, конференц-крісла та лаунж-меблі LD Seating і замовити їх з доставкою та монтажем.</p>",
+                            "ru": "<p><strong>LD Seating</strong> — семейная компания из города Босковице (Чехия), которая более 30 лет проектирует и производит кресла для офисов и общественных пространств. Коллекции создаются в сотрудничестве с мировыми дизайнерами и отмечены наградами Red Dot Design Award, German Design Award и iF Design Award.</p>\n<p>Несмотря на современное автоматизированное производство — от изготовления пенополиуретана до собственного покрасочного цеха и металлообработки, — ключевые компоненты фабрика делает вручную: мастера собирают конструкции, а швеи и обивщики подгоняют каждый элемент обивки.</p>\n<p>В MDT можно подобрать рабочие, переговорные, конференц-кресла и лаунж-мебель LD Seating и заказать их с доставкой и монтажом.</p>",
+                            "en": "<p><strong>LD Seating</strong> is a family-run company from Boskovice, Czech Republic, with over 30 years of designing and manufacturing seating for offices and public spaces. Its collections are created with world-renowned designers and have won the Red Dot Design Award, German Design Award and iF Design Award.</p>\n<p>Alongside state-of-the-art production — from foam-making to an in-house paint shop and metalworking — key components are still made by hand: craftsmen assemble the frames, and seamstresses and upholsterers fit every fabric element.</p>\n<p>At MDT you can choose LD Seating task, meeting and conference chairs and lounge furniture and order them with delivery and installation.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:ld-seating-lyra-air",
+                            "@product:ld-seating-arcus",
+                            "@product:ld-seating-melody-meeting",
+                            "@product:ld-seating-seance"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "projects",
+                "slug": "ofis-mizhnarodnoyi-mediakompaniyi",
+                "title": {
+                    "uk": "Офіс міжнародної медіакомпанії, Київ",
+                    "ru": "Офис международной медиакомпании, Киев",
+                    "en": "International media company office, Kyiv"
+                }
+            },
+            "thumbnail": "@media:proj-media-03",
+            "acf": {
+                "proj__prev": "@media:proj-media-01",
+                "proj__us-gr": "@311",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Клієнт:</strong> офіс міжнародної медіакомпанії<br><strong>Локація:</strong> Київ, Україна<br><strong>Площа:</strong> 920 м²<br><strong>Термін реалізації:</strong> 6–9 тижнів<br><strong>Комплектація:</strong> Omni Space — компанія групи MDT</p>\n<p>Завдання — повністю укомплектувати сучасний офіс приблизно на 50 співробітників: зробити простір зручним для щоденної роботи, функціональним і таким, що відображає айдентику бренду.</p>\n<h3>Що зробили</h3>\n<ul>\n<li>Підібрали меблі українських брендів DIZA та 4Corners і європейських фабрик Bejot, MDD, LD Seating та Kare Design.</li>\n<li>Встановили акустичну кабінку Framery для дзвінків і зосередженої роботи.</li>\n<li>Спланували open space, переговорні кімнати, лобі та кабінети керівників.</li>\n<li>Скоординували українських і європейських постачальників, забезпечили логістику, доставку й монтаж.</li>\n</ul>\n<p>Результат — ергономічний робочий простір, що відображає цінності клієнта. Монтаж завершили вчасно, у межах погодженого графіка.</p>",
+                            "ru": "<p><strong>Клиент:</strong> офис международной медиакомпании<br><strong>Локация:</strong> Киев, Украина<br><strong>Площадь:</strong> 920 м²<br><strong>Срок реализации:</strong> 6–9 недель<br><strong>Комплектация:</strong> Omni Space — компания группы MDT</p>\n<p>Задача — полностью укомплектовать современный офис примерно на 50 сотрудников: сделать пространство удобным для ежедневной работы, функциональным и отражающим айдентику бренда.</p>\n<h3>Что сделали</h3>\n<ul>\n<li>Подобрали мебель украинских брендов DIZA и 4Corners и европейских фабрик Bejot, MDD, LD Seating и Kare Design.</li>\n<li>Установили акустическую кабинку Framery для звонков и сосредоточенной работы.</li>\n<li>Спланировали open space, переговорные комнаты, лобби и кабинеты руководителей.</li>\n<li>Скоординировали украинских и европейских поставщиков, обеспечили логистику, доставку и монтаж.</li>\n</ul>\n<p>Результат — эргономичное рабочее пространство, отражающее ценности клиента. Монтаж завершили вовремя, в рамках согласованного графика.</p>",
+                            "en": "<p><strong>Client:</strong> office of an international media company<br><strong>Location:</strong> Kyiv, Ukraine<br><strong>Area:</strong> 920 m²<br><strong>Timeline:</strong> 6–9 weeks<br><strong>Furnishing:</strong> Omni Space, an MDT group company</p>\n<p>The brief was to fully furnish a modern office for around 50 employees: comfortable for everyday work, functional, and an expression of the brand’s identity.</p>\n<h3>What we did</h3>\n<ul>\n<li>Selected furniture from Ukrainian brands DIZA and 4Corners and from European manufacturers Bejot, MDD, LD Seating and Kare Design.</li>\n<li>Installed a Framery acoustic booth for calls and focused work.</li>\n<li>Planned the open space, meeting rooms, lobby and executive offices.</li>\n<li>Coordinated Ukrainian and European suppliers and handled logistics, delivery and installation.</li>\n</ul>\n<p>The result is an ergonomic workspace that reflects the client’s values. Installation was completed on schedule.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "slider",
+                        "bl__item-sl": [
+                            "@media:proj-media-03",
+                            "@media:proj-media-01",
+                            "@media:proj-media-02",
+                            "@media:proj-media-05",
+                            "@media:proj-media-08",
+                            "@media:proj-media-10",
+                            "@media:proj-media-12"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "projects",
+                "slug": "ofis-danone",
+                "title": {
+                    "uk": "Офіс Danone, Київ",
+                    "ru": "Офис Danone, Киев",
+                    "en": "Danone office, Kyiv"
+                }
+            },
+            "thumbnail": "@media:proj-danone-02",
+            "acf": {
+                "proj__prev": "@media:proj-danone-01",
+                "proj__us-gr": "@311",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Клієнт:</strong> Danone<br><strong>Локація:</strong> Київ, Україна<br><strong>Площа:</strong> 1 870 м²<br><strong>Комплектація:</strong> Omni Space — компанія групи MDT</p>\n<p>Завдання — повна комплектація офісу фабричними меблями та меблями на замовлення.</p>\n<p>Ми підібрали й поставили меблі для open space, переговорних кімнат, лаунж-зон і кухні. Від підбору до монтажу кожен елемент продумували так, щоб він підтримував ефективну роботу, комфорт і візуальну цілісність простору.</p>",
+                            "ru": "<p><strong>Клиент:</strong> Danone<br><strong>Локация:</strong> Киев, Украина<br><strong>Площадь:</strong> 1 870 м²<br><strong>Комплектация:</strong> Omni Space — компания группы MDT</p>\n<p>Задача — полная комплектация офиса фабричной мебелью и мебелью на заказ.</p>\n<p>Мы подобрали и поставили мебель для open space, переговорных комнат, лаунж-зон и кухни. От подбора до монтажа каждый элемент продумывали так, чтобы он поддерживал эффективную работу, комфорт и визуальную целостность пространства.</p>",
+                            "en": "<p><strong>Client:</strong> Danone<br><strong>Location:</strong> Kyiv, Ukraine<br><strong>Area:</strong> 1,870 m²<br><strong>Furnishing:</strong> Omni Space, an MDT group company</p>\n<p>The brief was to furnish the entire office with a mix of factory-made and custom furniture.</p>\n<p>We selected and supplied furniture for the open-plan areas, meeting rooms, lounge zones and kitchen. From selection to installation, every element was chosen to support efficient work, comfort and a coherent look across the space.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "slider",
+                        "bl__item-sl": [
+                            "@media:proj-danone-02",
+                            "@media:proj-danone-03",
+                            "@media:proj-danone-04",
+                            "@media:proj-danone-06",
+                            "@media:proj-danone-09",
+                            "@media:proj-danone-01"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "projects",
+                "slug": "ofis-yurydychnoyi-kompaniyi-trilogy",
+                "title": {
+                    "uk": "Офіс юридичної компанії в БЦ Trilogy, Лімасол",
+                    "ru": "Офис юридической компании в БЦ Trilogy, Лимасол",
+                    "en": "Law firm office at Trilogy Business Centre, Limassol"
+                }
+            },
+            "thumbnail": "@media:proj-law-25",
+            "acf": {
+                "proj__prev": "@media:proj-law-24",
+                "proj__us-gr": "@311",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Клієнт:</strong> юридична компанія<br><strong>Локація:</strong> БЦ Trilogy, Лімасол, Кіпр<br><strong>Комплектація:</strong> Omni Space і Zest — компанії групи MDT</p>\n<p>Офіс поєднує фабричні меблі європейських брендів і меблі, виготовлені на замовлення. Omni Space підібрала меблі для робочих зон, переговорних і зон відпочинку, а також outdoor-меблі, які продовжують стилістику інтер’єру на відкритих зонах.</p>\n<p>Zest виготовила робочі столи з підйомними механізмами та металевими накладками, що піднімаються разом із конструкцією, стіл із двома підйомними стільницями, а також шафи з поєднанням ДСП, фрезерованого МДФ і вставок з нержавіючої сталі. LED-підсвітка підкреслює архітектуру меблів.</p>\n<p>У результаті вийшов ергономічний і витривалий простір, де меблі працюють як інструмент для комфортної щоденної роботи.</p>",
+                            "ru": "<p><strong>Клиент:</strong> юридическая компания<br><strong>Локация:</strong> БЦ Trilogy, Лимасол, Кипр<br><strong>Комплектация:</strong> Omni Space и Zest — компании группы MDT</p>\n<p>Офис сочетает фабричную мебель европейских брендов и мебель, изготовленную на заказ. Omni Space подобрала мебель для рабочих зон, переговорных и зон отдыха, а также outdoor-мебель, которая продолжает стилистику интерьера на открытых зонах.</p>\n<p>Zest изготовила рабочие столы с подъемными механизмами и металлическими накладками, которые поднимаются вместе с конструкцией, стол с двумя подъемными столешницами, а также шкафы из ДСП, фрезерованного МДФ и вставок из нержавеющей стали. LED-подсветка подчеркивает архитектуру мебели.</p>\n<p>В результате получилось эргономичное и долговечное пространство, где мебель работает как инструмент для комфортной ежедневной работы.</p>",
+                            "en": "<p><strong>Client:</strong> law firm<br><strong>Location:</strong> Trilogy Business Centre, Limassol, Cyprus<br><strong>Furnishing:</strong> Omni Space and Zest, MDT group companies</p>\n<p>The office combines factory furniture from European brands with custom-made pieces. Omni Space selected furniture for the work areas, meeting rooms and lounges, as well as outdoor furniture that carries the interior style onto the open-air areas.</p>\n<p>Zest manufactured height-adjustable desks with metal trims that rise together with the frame, a desk with two independently lifting tops, and cabinets combining chipboard, milled MDF and stainless-steel inserts. LED lighting highlights the architecture of the furniture.</p>\n<p>The result is an ergonomic, durable workspace where the furniture is a tool for comfortable everyday work.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "slider",
+                        "bl__item-sl": [
+                            "@media:proj-law-25",
+                            "@media:proj-law-02",
+                            "@media:proj-law-09",
+                            "@media:proj-law-14",
+                            "@media:proj-law-21",
+                            "@media:proj-law-28",
+                            "@media:proj-law-31"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "projects",
+                "slug": "it-ofis-limasol",
+                "title": {
+                    "uk": "IT-офіс, Лімасол",
+                    "ru": "IT-офис, Лимасол",
+                    "en": "IT company office, Limassol"
+                }
+            },
+            "thumbnail": "@media:proj-it1800-02",
+            "acf": {
+                "proj__prev": "@media:proj-it1800-04",
+                "proj__us-gr": "@311",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Клієнт:</strong> IT-компанія<br><strong>Локація:</strong> Лімасол, Кіпр<br><strong>Площа:</strong> 2 100 м²<br><strong>Дизайн:</strong> ZIKZAK Architects<br><strong>Комплектація:</strong> Zest і Omni Space — компанії групи MDT</p>\n<p>Комплектація офісу під ключ — від підбору рішень до монтажу. Zest виготовила меблі для робочих місць, конференц-залів, кухонь, зон відпочинку, принт- і кава-пойнтів: робочі та конференц-столи, м’які меблі, вбудовані шафи, локери, тумби, стінові й акустичні панелі, двері прихованого монтажу та металеві стельові конструкції. Omni Space доповнила простір фабричними меблями європейських брендів.</p>\n<p>Для меблів використали фарбований і шпонований МДФ, ДСП, метал, скло, штучний і натуральний камінь та HPL-пластик. Великий обсяг робіт і складні дизайнерські рішення вимагали високої точності на кожному етапі — проєкт реалізували вчасно.</p>",
+                            "ru": "<p><strong>Клиент:</strong> IT-компания<br><strong>Локация:</strong> Лимасол, Кипр<br><strong>Площадь:</strong> 2 100 м²<br><strong>Дизайн:</strong> ZIKZAK Architects<br><strong>Комплектация:</strong> Zest и Omni Space — компании группы MDT</p>\n<p>Комплектация офиса под ключ — от подбора решений до монтажа. Zest изготовила мебель для рабочих мест, конференц-залов, кухонь, зон отдыха, принт- и кофе-пойнтов: рабочие и конференц-столы, мягкую мебель, встроенные шкафы, локеры, тумбы, стеновые и акустические панели, двери скрытого монтажа и металлические потолочные конструкции. Omni Space дополнила пространство фабричной мебелью европейских брендов.</p>\n<p>Для мебели использовали окрашенный и шпонированный МДФ, ДСП, металл, стекло, искусственный и натуральный камень и HPL-пластик. Большой объем работ и сложные дизайнерские решения требовали высокой точности на каждом этапе — проект реализовали вовремя.</p>",
+                            "en": "<p><strong>Client:</strong> IT company<br><strong>Location:</strong> Limassol, Cyprus<br><strong>Area:</strong> 2,100 m²<br><strong>Design:</strong> ZIKZAK Architects<br><strong>Furnishing:</strong> Zest and Omni Space, MDT group companies</p>\n<p>A turnkey office fit-out, from selecting solutions to installation. Zest manufactured furniture for the workstations, conference rooms, kitchens, lounges and print and coffee points: work and conference tables, soft seating, built-in storage, lockers, pedestals, wall and acoustic panels, flush-mounted doors and metal ceiling structures. Omni Space complemented the space with factory furniture from European brands.</p>\n<p>The furniture was made from painted and veneered MDF, chipboard, metal, glass, artificial and natural stone, and HPL laminate. The scale of the work and complex design solutions demanded precision at every stage, and the project was delivered on time.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "slider",
+                        "bl__item-sl": [
+                            "@media:proj-it1800-02",
+                            "@media:proj-it1800-03",
+                            "@media:proj-zit-01",
+                            "@media:proj-zit-09",
+                            "@media:proj-zit-11",
+                            "@media:proj-zit-16",
+                            "@media:proj-zit-19",
+                            "@media:proj-zit-25"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "projects",
+                "slug": "studiya-cobalt-limasol",
+                "title": {
+                    "uk": "Офіс студії дизайну Cobalt, Лімасол",
+                    "ru": "Офис студии дизайна Cobalt, Лимасол",
+                    "en": "Cobalt design studio office, Limassol"
+                }
+            },
+            "thumbnail": "@media:proj-cobalt-01",
+            "acf": {
+                "proj__prev": "@media:proj-cobalt-06",
+                "proj__us-gr": "@311",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Клієнт:</strong> студія дизайну інтер’єрів Cobalt<br><strong>Локація:</strong> Лімасол, Кіпр<br><strong>Площа:</strong> 70 м²<br><strong>Комплектація:</strong> Omni Space — компанія групи MDT</p>\n<p>Цей офіс — візитівка самої студії Cobalt, яка проєктує комерційні та приватні інтер’єри. Завдання — укомплектувати простір відповідно до дизайн-проєкту в стислі терміни та в межах бюджету.</p>\n<p>Ми поставили робочі та переговорні крісла польської фабрики Bejot — стильні, функціональні й органічні в інтер’єрі, де важить кожен квадратний метр.</p>",
+                            "ru": "<p><strong>Клиент:</strong> студия дизайна интерьеров Cobalt<br><strong>Локация:</strong> Лимасол, Кипр<br><strong>Площадь:</strong> 70 м²<br><strong>Комплектация:</strong> Omni Space — компания группы MDT</p>\n<p>Этот офис — визитная карточка самой студии Cobalt, которая проектирует коммерческие и частные интерьеры. Задача — укомплектовать пространство в соответствии с дизайн-проектом в сжатые сроки и в рамках бюджета.</p>\n<p>Мы поставили рабочие и переговорные кресла польской фабрики Bejot — стильные, функциональные и органичные в интерьере, где важен каждый квадратный метр.</p>",
+                            "en": "<p><strong>Client:</strong> Cobalt interior design studio<br><strong>Location:</strong> Limassol, Cyprus<br><strong>Area:</strong> 70 m²<br><strong>Furnishing:</strong> Omni Space, an MDT group company</p>\n<p>This office is a showcase for Cobalt itself, a studio that designs commercial and residential interiors. The brief was to furnish the space to the design project on a tight schedule and budget.</p>\n<p>We supplied task and meeting chairs by the Polish manufacturer Bejot — stylish, functional and a natural fit for an interior where every square metre counts.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "slider",
+                        "bl__item-sl": [
+                            "@media:proj-cobalt-01",
+                            "@media:proj-cobalt-03",
+                            "@media:proj-cobalt-06",
+                            "@media:proj-cobalt-07",
+                            "@media:proj-cobalt-05"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "projects",
+                "slug": "ofis-yurydychnoyi-kompaniyi-limasol",
+                "title": {
+                    "uk": "Офіс юридичної компанії, Лімасол",
+                    "ru": "Офис юридической компании, Лимасол",
+                    "en": "Law firm office, Limassol"
+                }
+            },
+            "thumbnail": "@media:proj-law2-01",
+            "acf": {
+                "proj__prev": "@media:proj-law2-28",
+                "proj__us-gr": "@311",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Клієнт:</strong> юридична компанія<br><strong>Локація:</strong> Лімасол, Кіпр<br><strong>Комплектація:</strong> Omni Space — компанія групи MDT</p>\n<p>Офіс юридичної компанії в Лімасолі став результатом роботи кількох команд. Omni Space виконала часткову комплектацію простору: підібрала меблі європейських фабрик, що поєднують функціональність, якість і сучасну естетику.</p>\n<p>Наша мета — щоб кожен елемент гармонійно вписувався в архітектуру офісу та підтримував комфортне робоче середовище для команди.</p>",
+                            "ru": "<p><strong>Клиент:</strong> юридическая компания<br><strong>Локация:</strong> Лимасол, Кипр<br><strong>Комплектация:</strong> Omni Space — компания группы MDT</p>\n<p>Офис юридической компании в Лимасоле стал результатом работы нескольких команд. Omni Space выполнила частичную комплектацию пространства: подобрала мебель европейских фабрик, которая сочетает функциональность, качество и современную эстетику.</p>\n<p>Наша цель — чтобы каждый элемент гармонично вписывался в архитектуру офиса и поддерживал комфортную рабочую среду для команды.</p>",
+                            "en": "<p><strong>Client:</strong> law firm<br><strong>Location:</strong> Limassol, Cyprus<br><strong>Furnishing:</strong> Omni Space, an MDT group company</p>\n<p>This law firm office in Limassol was the work of several teams. Omni Space handled part of the furnishing, selecting furniture from European manufacturers that combines function, quality and a contemporary look.</p>\n<p>The aim was for every piece to sit naturally within the office architecture and support a comfortable working environment for the team.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "slider",
+                        "bl__item-sl": [
+                            "@media:proj-law2-01",
+                            "@media:proj-law2-28",
+                            "@media:proj-law2-04",
+                            "@media:proj-law2-20",
+                            "@media:proj-law2-06",
+                            "@media:proj-law2-24",
+                            "@media:proj-law2-32",
+                            "@media:proj-law2-13",
+                            "@media:proj-law2-38"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "projects",
+                "slug": {
+                    "uk": "it-ofis-400-limasol",
+                    "ru": "it-ofis-400-limasol",
+                    "en": "it-office-400-limassol"
+                },
+                "title": {
+                    "uk": "IT-офіс на 400 м², Лімасол",
+                    "ru": "IT-офис на 400 м², Лимасол",
+                    "en": "400 m² IT office, Limassol"
+                }
+            },
+            "thumbnail": "@media:proj-it400-04",
+            "acf": {
+                "proj__prev": "@media:proj-it400-01",
+                "proj__us-gr": "@311",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p><strong>Клієнт:</strong> IT-компанія<br><strong>Локація:</strong> Лімасол, Кіпр<br><strong>Площа:</strong> 400 м²<br><strong>Комплектація:</strong> Omni Space — компанія групи MDT</p>\n<p>Omni Space взяла участь у частковій комплектації нового офісу IT-компанії: підібрала меблі європейських брендів, організувала робочі зони, переговорні та лаунжі, а також забезпечила доставку й монтаж.</p>\n<p>Результат — функціональний і комфортний офіс, готовий до щоденної роботи команди, де меблі сприяють продуктивності та зручності.</p>",
+                            "ru": "<p><strong>Клиент:</strong> IT-компания<br><strong>Локация:</strong> Лимасол, Кипр<br><strong>Площадь:</strong> 400 м²<br><strong>Комплектация:</strong> Omni Space — компания группы MDT</p>\n<p>Omni Space приняла участие в частичной комплектации нового офиса IT-компании: подобрала мебель европейских брендов, организовала рабочие зоны, переговорные и лаунжи, а также обеспечила доставку и монтаж.</p>\n<p>Результат — функциональный и комфортный офис, готовый к ежедневной работе команды, где мебель способствует продуктивности и удобству.</p>",
+                            "en": "<p><strong>Client:</strong> IT company<br><strong>Location:</strong> Limassol, Cyprus<br><strong>Area:</strong> 400 m²<br><strong>Furnishing:</strong> Omni Space, an MDT group company</p>\n<p>Omni Space took part in furnishing a new office for an IT company: it selected furniture from European brands, laid out the work areas, meeting rooms and lounges, and handled delivery and installation.</p>\n<p>The result is a functional, comfortable office ready for the team’s everyday work, with furniture that supports productivity and ease.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "slider",
+                        "bl__item-sl": [
+                            "@media:proj-it400-01",
+                            "@media:proj-it400-04",
+                            "@media:proj-it400-02",
+                            "@media:proj-it400-03",
+                            "@media:proj-it400-05",
+                            "@media:proj-it400-06"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

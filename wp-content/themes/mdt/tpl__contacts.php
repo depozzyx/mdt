@@ -117,26 +117,12 @@
             <div class="form__tab-content">
                 <div id="support" class="form__tab-pane fadeIn animated active">
                   <?php
-                      switch(ICL_LANGUAGE_CODE){
-                        case 'uk':
-                          echo do_shortcode('[contact-form-7 id="133" title="Задати питання UA"]');
-                          break;
-                        case 'ru':
-                          echo do_shortcode('[contact-form-7 id="6510" title="Задати питання RU"]');
-                          break;
-                      }
+                      echo do_shortcode('[contact-form-7 id="' . mdt_cf7_id(133, 6510) . '"]');
                   ?>
                 </div>
                 <div id="team" class="form__tab-pane fadeIn animated">
                   <?php
-                  switch(ICL_LANGUAGE_CODE){
-                    case 'uk':
-                      echo do_shortcode('[contact-form-7 id="6511" title="Стати членом команди"]');
-                      break;
-                    case 'ru':
-                      echo do_shortcode('[contact-form-7 id="8248" title="Стати членом команди"]');
-                      break;
-                  }
+                  echo do_shortcode('[contact-form-7 id="' . mdt_cf7_id(6511, 8248) . '"]');
                   ?>
                 </div>
             </div>

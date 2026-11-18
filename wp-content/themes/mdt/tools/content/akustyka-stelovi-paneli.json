@@ -1,0 +1,226 @@
+{
+    "_readme": [
+        "Page «Стельові панелі» (/category/akustychni-rishennya/stelovi-paneli/). Products, brands and projects (Jam Factory, ПриватБанк) already exist on the site (referenced by uk id).",
+        "uk written from the existing product descriptions and project pages; ru and en are translations. Page photo: Jam Factory project gallery (#13469)."
+    ],
+    "posts": [
+        {
+            "target": "product:akustychni-ostrovy-dlya-steli-amf-topiq-sonic",
+            "create": {
+                "type": "product",
+                "slug": {
+                    "uk": "akustychni-ostrovy-dlya-steli-amf-topiq-sonic",
+                    "ru": "akustychni-ostrovy-dlya-steli-amf-topiq-sonic",
+                    "en": "amf-topiq-sonic-acoustic-ceiling-islands"
+                },
+                "title": {
+                    "uk": "Акустичні острови для стелі AMF TOPIQ Sonic",
+                    "ru": "Акустические острова для потолка AMF TOPIQ Sonic",
+                    "en": "AMF TOPIQ Sonic acoustic ceiling islands"
+                }
+            }
+        },
+        {
+            "target": "product:mineralne-akustychne-volokno",
+            "create": {
+                "type": "product",
+                "slug": {
+                    "uk": "mineralne-akustychne-volokno",
+                    "ru": "mineralne-akustychne-volokno",
+                    "en": "mineral-acoustic-fibre"
+                },
+                "title": {
+                    "uk": "Мінеральне акустичне волокно",
+                    "ru": "Минеральное акустическое волокно",
+                    "en": "Mineral acoustic fibre"
+                }
+            }
+        },
+        {
+            "target": "category:akustychni-rishennya/stelovi-paneli",
+            "thumbnail": 13469,
+            "thumbnail_alt": {
+                "uk": "Акустична стеля Heradesign Superfine у Jam Factory Art Center, Львів",
+                "ru": "Акустический потолок Heradesign Superfine в Jam Factory Art Center, Львов",
+                "en": "Heradesign Superfine acoustic ceiling at Jam Factory Art Center, Lviv"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Стельові акустичні панелі — Heradesign, Slalom, Knauf AMF | MDT",
+                    "ru": "Потолочные акустические панели — Heradesign, Slalom, Knauf AMF | MDT",
+                    "en": "Acoustic ceiling panels — Heradesign, Slalom, Knauf AMF | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Акустичні стельові панелі, острови й бафли для open space, переговорних, шкіл і громадських просторів: Heradesign, Slalom, Knauf AMF. Розрахунок і монтаж — MDT.",
+                    "ru": "Акустические потолочные панели, острова и бафлы для open space, переговорных, школ и общественных пространств: Heradesign, Slalom, Knauf AMF. Расчет и монтаж — MDT.",
+                    "en": "Acoustic ceiling panels, islands and baffles for open space, meeting rooms, schools and public spaces: Heradesign, Slalom, Knauf AMF. Calculation and installation by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Стельові акустичні панелі",
+                    "ru": "Потолочные акустические панели",
+                    "en": "Acoustic ceiling panels"
+                },
+                "lp__intro": {
+                    "uk": "Стеля — найбільша вільна поверхня в будь-якому приміщенні, і саме тут акустичні рішення працюють найефективніше. <strong>Стельові акустичні панелі</strong> поглинають звук, що відбивається від твердих поверхонь, і <strong>знижують загальний шум в open space, переговорних, класах і холах</strong>. MDT пропонує <strong>панелі з деревної вовни Heradesign, мінеральні стелі та острови Knauf AMF, бафли й підвісні елементи Slalom</strong> — для суцільних стель, відкритих стель-«лофтів» і точкових акцентів.",
+                    "ru": "Потолок — самая большая свободная поверхность в любом помещении, и именно здесь акустические решения работают эффективнее всего. <strong>Потолочные акустические панели</strong> поглощают звук, отражающийся от твердых поверхностей, и <strong>снижают общий шум в open space, переговорных, классах и холлах</strong>. MDT предлагает <strong>панели из древесной шерсти Heradesign, минеральные потолки и острова Knauf AMF, бафлы и подвесные элементы Slalom</strong> — для сплошных потолков, открытых потолков-«лофтов» и точечных акцентов.",
+                    "en": "The ceiling is the largest free surface in any room, and it is where acoustic treatment works best. <strong>Acoustic ceiling panels</strong> absorb sound reflected from hard surfaces and <strong>lower overall noise in open-plan offices, meeting rooms, classrooms and lobbies</strong>. MDT offers <strong>Heradesign wood wool panels, Knauf AMF mineral ceilings and islands, and Slalom baffles and pendants</strong> — for continuous ceilings, exposed loft-style ceilings and focal accents."
+                },
+                "lp__products-title": {
+                    "uk": "Колекції стельових панелей",
+                    "ru": "Коллекции потолочных панелей",
+                    "en": "Ceiling panel collections"
+                },
+                "lp__products": [
+                    "@9683",
+                    "@9670",
+                    "@9675",
+                    "@10008",
+                    "@10097",
+                    "@9686",
+                    "@9870",
+                    "@9761"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@2851",
+                    "@2843",
+                    "@146"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@13466",
+                        "lp__proj-type": {
+                            "uk": "Арт-центр",
+                            "ru": "Арт-центр",
+                            "en": "Art centre"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Heradesign Superfine 25 і 35 мм",
+                            "ru": "Heradesign Superfine 25 и 35 мм",
+                            "en": "Heradesign Superfine 25 and 35 mm"
+                        },
+                        "lp__proj-area": {
+                            "uk": "632 м²",
+                            "ru": "632 м²",
+                            "en": "632 m²"
+                        },
+                        "lp__proj-city": {
+                            "uk": "Львів",
+                            "ru": "Львов",
+                            "en": "Lviv"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@12115",
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Акустичні панелі",
+                            "ru": "Акустические панели",
+                            "en": "Acoustic panels"
+                        },
+                        "lp__proj-area": {
+                            "uk": "400 м²",
+                            "ru": "400 м²",
+                            "en": "400 m²"
+                        },
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати стельові акустичні панелі</h2>\n<p>Вибір стельового рішення залежить від того, чи є в приміщенні підвісна стеля, яка висота стелі, які інженерні мережі над нею та який ефект потрібен — суцільне поглинання чи акцентні зони.</p>\n<h3>Суцільна стеля чи підвісні елементи</h3>\n<ul>\n<li><strong>Суцільна акустична стеля</strong> з панелей Heradesign або мінеральних плит Knauf AMF дає максимальну площу поглинання й рівномірну акустику в усьому приміщенні.</li>\n<li><strong>Острови й бафли</strong> підходять для відкритих стель у стилі лофт, де інженерні мережі залишаються на виду: елементи підвішують на тросах над робочими зонами.</li>\n<li><strong>Підвісні акценти</strong> (Slalom T-Frame, Ecodrop) поєднують акустику, світло й декор — над столами переговорних, у кафе, на рецепції.</li>\n</ul>\n<h3>Матеріали</h3>\n<ul>\n<li><strong>Деревна вовна (Heradesign)</strong> — деревне волокно на магнезитовому сполучному: міцна, ударостійка, з натуральною фактурою від крупної (Macro) до дуже дрібної (Superfine) та гладкою поверхнею Plano.</li>\n<li><strong>Мінеральне волокно (Knauf AMF)</strong> — класичні стельові плити й острови з базальтових волокон, вогнестійкі та вологостійкі.</li>\n<li><strong>Поліефірне волокно (Slalom)</strong> — легкі бафли й панелі, що не вигоряють, не вбирають вологи й легко чистяться.</li>\n</ul>\n<h3>Висота стелі та розміщення</h3>\n<p>Бафли найефективніші у високих приміщеннях: вони поглинають звук з обох боків, тому працюють навіть при невеликому покритті. Острови розміщують над джерелами шуму — робочими групами, столами переговорних, зонами кафе. Між елементами залишають простір для світильників, датчиків і спринклерів.</p>\n<h3>Комплексна акустика</h3>\n<p>Стеля дає основний ефект, але найкращий результат — у поєднанні зі стіновими панелями, килимовим покриттям і акустичними кабінками. MDT розраховує акустику приміщення та підбирає рішення разом з покриттям для підлоги.</p>",
+                            "ru": "<h2>Как выбрать потолочные акустические панели</h2>\n<p>Выбор потолочного решения зависит от того, есть ли в помещении подвесной потолок, какова высота потолка, какие инженерные сети над ним и какой эффект нужен — сплошное поглощение или акцентные зоны.</p>\n<h3>Сплошной потолок или подвесные элементы</h3>\n<ul>\n<li><strong>Сплошной акустический потолок</strong> из панелей Heradesign или минеральных плит Knauf AMF дает максимальную площадь поглощения и равномерную акустику во всем помещении.</li>\n<li><strong>Острова и бафлы</strong> подходят для открытых потолков в стиле лофт, где инженерные сети остаются на виду: элементы подвешивают на тросах над рабочими зонами.</li>\n<li><strong>Подвесные акценты</strong> (Slalom T-Frame, Ecodrop) сочетают акустику, свет и декор — над столами переговорных, в кафе, на ресепшн.</li>\n</ul>\n<h3>Материалы</h3>\n<ul>\n<li><strong>Древесная шерсть (Heradesign)</strong> — древесное волокно на магнезитовом связующем: прочная, ударостойкая, с натуральной фактурой от крупной (Macro) до очень мелкой (Superfine) и гладкой поверхностью Plano.</li>\n<li><strong>Минеральное волокно (Knauf AMF)</strong> — классические потолочные плиты и острова из базальтовых волокон, огнестойкие и влагостойкие.</li>\n<li><strong>Полиэфирное волокно (Slalom)</strong> — легкие бафлы и панели, которые не выгорают, не впитывают влагу и легко чистятся.</li>\n</ul>\n<h3>Высота потолка и размещение</h3>\n<p>Бафлы наиболее эффективны в высоких помещениях: они поглощают звук с обеих сторон, поэтому работают даже при небольшом покрытии. Острова размещают над источниками шума — рабочими группами, столами переговорных, зонами кафе. Между элементами оставляют пространство для светильников, датчиков и спринклеров.</p>\n<h3>Комплексная акустика</h3>\n<p>Потолок дает основной эффект, но лучший результат — в сочетании со стеновыми панелями, ковровым покрытием и акустическими кабинками. MDT рассчитывает акустику помещения и подбирает решения вместе с напольным покрытием.</p>",
+                            "en": "<h2>How to choose acoustic ceiling panels</h2>\n<p>The right ceiling solution depends on whether there is a suspended ceiling, the ceiling height, the services above it and the effect you need — full absorption or focal zones.</p>\n<h3>Continuous ceiling or suspended elements</h3>\n<ul>\n<li><strong>A continuous acoustic ceiling</strong> of Heradesign panels or Knauf AMF mineral tiles gives the largest absorbing area and even acoustics throughout the room.</li>\n<li><strong>Islands and baffles</strong> suit exposed loft-style ceilings where services stay visible: they hang on cables above work areas.</li>\n<li><strong>Suspended accents</strong> (Slalom T-Frame, Ecodrop) combine acoustics, light and decor above meeting tables, in cafés and at reception.</li>\n</ul>\n<h3>Materials</h3>\n<ul>\n<li><strong>Wood wool (Heradesign)</strong> — wood fibre bound with magnesite: strong and impact-resistant, with natural textures from coarse (Macro) to very fine (Superfine) and the smooth Plano surface.</li>\n<li><strong>Mineral fibre (Knauf AMF)</strong> — classic ceiling tiles and islands made from basalt fibres, fire- and moisture-resistant.</li>\n<li><strong>Polyester fibre (Slalom)</strong> — light baffles and panels that don’t fade, don’t absorb moisture and are easy to clean.</li>\n</ul>\n<h3>Ceiling height and placement</h3>\n<p>Baffles are most effective in tall rooms: they absorb sound on both sides, so they work even with limited coverage. Islands go above noise sources — team clusters, meeting tables, café areas. Leave room between elements for lights, sensors and sprinklers.</p>\n<h3>Acoustics as a whole</h3>\n<p>The ceiling does most of the work, but the best result comes with wall panels, carpet and acoustic booths. MDT calculates room acoustics and selects solutions together with flooring.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Що краще для офісу: суцільна акустична стеля чи острови?",
+                            "ru": "Что лучше для офиса: сплошной акустический потолок или острова?",
+                            "en": "Which is better for an office: a continuous acoustic ceiling or islands?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Суцільна стеля дає максимальне поглинання й підходить, якщо підвісна стеля передбачена проєктом. Острови й бафли обирають для відкритих стель або коли потрібно додати акустику в готове приміщення без демонтажу. Часто ці рішення поєднують: суцільна стеля в open space й острови над переговорними столами.",
+                            "ru": "Сплошной потолок дает максимальное поглощение и подходит, если подвесной потолок предусмотрен проектом. Острова и бафлы выбирают для открытых потолков или когда нужно добавить акустику в готовое помещение без демонтажа. Часто эти решения сочетают: сплошной потолок в open space и острова над переговорными столами.",
+                            "en": "A continuous ceiling gives maximum absorption and suits projects that include a suspended ceiling. Islands and baffles are chosen for exposed ceilings or to add acoustics to a finished space without demolition. The two are often combined: a continuous ceiling in the open space and islands above meeting tables."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "З чого складаються панелі Heradesign?",
+                            "ru": "Из чего состоят панели Heradesign?",
+                            "en": "What are Heradesign panels made of?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Панелі Heradesign виготовляють з трьох натуральних компонентів: деревного волокна, магнезиту як сполучного та води. Завдяки цьому вони міцні, ударостійкі й мають високу вогнестійкість, а поверхню можна фарбувати.",
+                            "ru": "Панели Heradesign изготавливают из трех натуральных компонентов: древесного волокна, магнезита в качестве связующего и воды. Благодаря этому они прочные, ударостойкие и обладают высокой огнестойкостью, а поверхность можно окрашивать.",
+                            "en": "Heradesign panels are made from three natural components: wood fibre, magnesite as the binder, and water. This makes them strong, impact-resistant and highly fire-resistant, and the surface can be painted."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна використовувати акустичні стелі у вологих приміщеннях?",
+                            "ru": "Можно ли использовать акустические потолки во влажных помещениях?",
+                            "en": "Can acoustic ceilings be used in humid rooms?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так, але матеріал потрібно підбирати під умови. Мінеральні острови Knauf AMF TOPIQ Sonic вологостійкі й допускають вологе прибирання, а Heradesign не рекомендують лише там, де можливий прямий контакт з водою.",
+                            "ru": "Да, но материал нужно подбирать под условия. Минеральные острова Knauf AMF TOPIQ Sonic влагостойкие и допускают влажную уборку, а Heradesign не рекомендуют только там, где возможен прямой контакт с водой.",
+                            "en": "Yes, but the material must suit the conditions. Knauf AMF TOPIQ Sonic mineral islands are moisture-resistant and can be wiped clean, while Heradesign is not recommended only where direct contact with water is possible."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Як акустична стеля поєднується зі світлом і вентиляцією?",
+                            "ru": "Как акустический потолок сочетается со светом и вентиляцией?",
+                            "en": "How does an acoustic ceiling work with lighting and ventilation?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Розміщення панелей, островів і бафлів плануємо разом з інженерними мережами: залишаємо місця для світильників, дифузорів вентиляції, датчиків і спринклерів. Деякі підвісні елементи Slalom можна використовувати як плафони світильників.",
+                            "ru": "Размещение панелей, островов и бафлов планируем вместе с инженерными сетями: оставляем места для светильников, диффузоров вентиляции, датчиков и спринклеров. Некоторые подвесные элементы Slalom можно использовать как плафоны светильников.",
+                            "en": "We plan panels, islands and baffles together with building services, leaving room for lights, air diffusers, sensors and sprinklers. Some Slalom pendants can double as lampshades."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Підберемо акустичну стелю для вашого приміщення",
+                    "ru": "Подберем акустический потолок для вашего помещения",
+                    "en": "Let’s find the right acoustic ceiling"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план, висоту стелі та фото — розрахуємо акустику й запропонуємо рішення.",
+                    "ru": "Пришлите план, высоту потолка и фото — рассчитаем акустику и предложим решения.",
+                    "en": "Send us a plan, ceiling height and photos and we’ll calculate the acoustics and propose solutions."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

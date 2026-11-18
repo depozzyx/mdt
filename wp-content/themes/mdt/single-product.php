@@ -23,7 +23,7 @@
             <div class="coll__header-details">
               <?php if(get_field('p__price')): ?>
                   <div class="coll__price wow fadeInUpDes" data-wow-delay="0.2s">
-                      <span class="price-before"><?php _e('від', 'mdt'); ?></span><?php the_field('p__price'); ?><span class="price-after">грн. / м²</span>
+                      <span class="price-before"><?php _e('від', 'mdt'); ?></span><?php the_field('p__price'); ?><span class="price-after"><?php _e('грн. / м²', 'mdt'); ?></span>
                   </div>
               <?php endif; ?>
               <?php if(get_field('p__time_d')): ?>
@@ -43,31 +43,36 @@
                                 <!--dg_crumb_url:<?php echo get_permalink(lang_page_original_id(9)) ?>;;dg_crumb_name:<?php echo get_the_title(lang_page_original_id(9)) ?>-->
                             </li>
 
-                          <?  //dg_crumbs_start//
-                              $parents = array_reverse(get_post_ancestors(get_field('p__cat')));
-                              $id = icl_object_id(get_the_id(), 'page', true, 'uk');
-                              $linkedCategory = $wpdb->get_results("SELECT * FROM $wpdb->postmeta WHERE meta_key = 'bl__list_3_bl__item-cl-list' AND  meta_value LIKE '%".$id."%' LIMIT 1", ARRAY_A);
+                          <?php //dg_crumbs_start//
+                              /*
+                               * The lists that tie a product to its category live in ACF meta on the categories and
+                               * hold *Ukrainian* product ids in every language (mdt_translate_related_posts() resolves
+                               * them on read). So the lookup runs against the uk id, and the chain it finds is then
+                               * translated into the current language. A category's own product list (lp__products,
+                               * matched exactly) wins; the legacy lookup in the 4th content row is the fallback.
+                               */
+                              $uk_id = icl_object_id(get_the_ID(), 'product', true, 'uk');
+                              $linkedCategory = $wpdb->get_results($wpdb->prepare("SELECT * FROM $wpdb->postmeta WHERE meta_key = 'lp__products' AND meta_value LIKE %s LIMIT 1", '%"' . (int) $uk_id . '"%'), ARRAY_A);
+                              if (empty($linkedCategory)) {
+                                $linkedCategory = $wpdb->get_results("SELECT * FROM $wpdb->postmeta WHERE meta_key = 'bl__list_3_bl__item-cl-list' AND  meta_value LIKE '%".$uk_id."%' LIMIT 1", ARRAY_A);
+                              }
                               $parents = [];
                               if (isset($linkedCategory[0])){
-                                $linkedCategoryId = $linkedCategory[0]['post_id'];
-                                $parents[] = get_post($linkedCategoryId);
+                                $uk_chain = [];
+                                $uk_cat_id = (int) $linkedCategory[0]['post_id'];
                                 $iters = 0;
-                                while (true){
-                                  $parentId = wp_get_post_parent_id(get_post($linkedCategoryId));
-                                  $linkedCategoryId = $parentId;
+                                while ($uk_cat_id && $iters < 10){
+                                  $uk_chain[] = $uk_cat_id;
+                                  $uk_cat_id = (int) wp_get_post_parent_id($uk_cat_id);
                                   $iters += 1;
-                                  if ($iters >= 10 || $parentId == 0 || $parentId == $id){
-                                    break;
+                                }
+                                foreach (array_reverse($uk_chain) as $uk_cat_id){
+                                  $localised = icl_object_id($uk_cat_id, 'category', true, ICL_LANGUAGE_CODE);
+                                  if ($localised){
+                                    $parents[] = get_post($localised);
                                   }
-                                  if (strpos($_SERVER['REQUEST_URI'], '/ru/') !== false){
-                                    $parentId = icl_object_id($parentId, 'page', true, 'ru');
-                                  } else {
-                                    $parentId = icl_object_id($parentId, 'page', true, 'uk');
-                                  }
-                                  $parents[] = get_post($parentId);
                                 }
                               }
-                              $parents = array_reverse($parents);
                               //dg_crumbs_start//
                             ?>
 
@@ -134,8 +139,8 @@
                     <div class="coll__media-box-list">
                         <?php if($img_m[0]): ?>
                             <div class="coll__media-img">
-                              <img class="new_dg_img" src="<?php echo esc_url($img_m[0]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 1" title="<?php the_title(); ?> - Фото 1">
-                              <!--dg_img_in_sitemap:<?php echo esc_url($img_m[0]['sizes']['pr-prev']); ?>-->
+                              <img class="new_dg_img" src="<?php echo esc_url($img_m[0]['sizes']['1536x1536']); ?>" alt="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 1 ); ?>" title="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 1 ); ?>">
+                              <!--dg_img_in_sitemap:<?php echo esc_url($img_m[0]['sizes']['1536x1536']); ?>-->
                                 <div class="coll__media-info d-flex align-items-center justify-content-center">
                                   <?php echo $img_m[0]['title']; ?>
                                 </div>
@@ -143,8 +148,8 @@
                         <?php endif; ?>
                       <?php if($img_m[1]): ?>
                           <div class="coll__media-img">
-                            <img class="new_dg_img" src="<?php echo esc_url($img_m[1]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 2" title="<?php the_title(); ?> - Фото 2">
-                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[1]['sizes']['pr-prev']); ?>-->
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[1]['sizes']['1536x1536']); ?>" alt="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 2 ); ?>" title="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 2 ); ?>">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[1]['sizes']['1536x1536']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[1]['title']; ?>
                               </div>
@@ -152,8 +157,8 @@
                       <?php endif; ?>
                       <?php if($img_m[2]): ?>
                           <div class="coll__media-img">
-                            <img class="new_dg_img" src="<?php echo esc_url($img_m[2]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 3" title="<?php the_title(); ?> - Фото 3">
-                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[2]['sizes']['pr-prev']); ?>-->
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[2]['sizes']['1536x1536']); ?>" alt="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 3 ); ?>" title="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 3 ); ?>">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[2]['sizes']['1536x1536']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[2]['title']; ?>
                               </div>
@@ -161,8 +166,8 @@
                       <?php endif; ?>
                       <?php if($img_m[3]): ?>
                           <div class="coll__media-img">
-                            <img class="new_dg_img" src="<?php echo esc_url($img_m[3]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 4" title="<?php the_title(); ?> - Фото 4">
-                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[3]['sizes']['pr-prev']); ?>-->
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[3]['sizes']['1536x1536']); ?>" alt="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 4 ); ?>" title="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 4 ); ?>">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[3]['sizes']['1536x1536']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[3]['title']; ?>
                               </div>
@@ -170,8 +175,8 @@
                       <?php endif; ?>
                       <?php if($img_m[4]): ?>
                           <div class="coll__media-img">
-                            <img class="new_dg_img" src="<?php echo esc_url($img_m[4]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 5" title="<?php the_title(); ?> - Фото 5">
-                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[4]['sizes']['pr-prev']); ?>-->
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[4]['sizes']['1536x1536']); ?>" alt="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 5 ); ?>" title="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 5 ); ?>">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[4]['sizes']['1536x1536']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[4]['title']; ?>
                               </div>
@@ -179,8 +184,8 @@
                       <?php endif; ?>
                       <?php if($img_m[5]): ?>
                           <div class="coll__media-img">
-                            <img class="new_dg_img" src="<?php echo esc_url($img_m[5]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 6" title="<?php the_title(); ?> - Фото 6">
-                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[5]['sizes']['pr-prev']); ?>-->
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[5]['sizes']['1536x1536']); ?>" alt="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 6 ); ?>" title="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 6 ); ?>">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[5]['sizes']['1536x1536']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[5]['title']; ?>
                               </div>
@@ -188,8 +193,8 @@
                       <?php endif; ?>
                       <?php if($img_m[6]): ?>
                           <div class="coll__media-img">
-                            <img class="new_dg_img" src="<?php echo esc_url($img_m[6]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 7" title="<?php the_title(); ?> - Фото 7">
-                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[6]['sizes']['pr-prev']); ?>-->
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[6]['sizes']['1536x1536']); ?>" alt="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 7 ); ?>" title="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 7 ); ?>">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[6]['sizes']['1536x1536']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[6]['title']; ?>
                               </div>
@@ -197,8 +202,8 @@
                       <?php endif; ?>
                       <?php if($img_m[7]): ?>
                           <div class="coll__media-img">
-                            <img class="new_dg_img" src="<?php echo esc_url($img_m[7]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 8" title="<?php the_title(); ?> - Фото 8">
-                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[7]['sizes']['pr-prev']); ?>-->
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[7]['sizes']['1536x1536']); ?>" alt="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 8 ); ?>" title="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 8 ); ?>">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[7]['sizes']['1536x1536']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[7]['title']; ?>
                               </div>
@@ -206,8 +211,8 @@
                       <?php endif; ?>
                       <?php if($img_m[8]): ?>
                           <div class="coll__media-img">
-                            <img class="new_dg_img" src="<?php echo esc_url($img_m[8]['sizes']['pr-prev']); ?>" alt="<?php the_title(); ?> - Фото 9" title="<?php the_title(); ?> - Фото 9">
-                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[8]['sizes']['pr-prev']); ?>-->
+                            <img class="new_dg_img" src="<?php echo esc_url($img_m[8]['sizes']['1536x1536']); ?>" alt="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 9 ); ?>" title="<?php the_title(); ?> - <?php printf( __( 'Фото %d', 'mdt' ), 9 ); ?>">
+                            <!--dg_img_in_sitemap:<?php echo esc_url($img_m[8]['sizes']['1536x1536']); ?>-->
                               <div class="coll__media-info d-flex align-items-center justify-content-center">
                                 <?php echo $img_m[8]['title']; ?>
                               </div>
@@ -225,7 +230,7 @@
                     </div>
                     <?php if(get_field('p__price')): ?>
                         <div class="coll__price wow fadeInUpDes" data-wow-delay="0.2s">
-                            <span class="price-before"><?php _e('від', 'mdt'); ?></span><?php the_field('p__price'); ?><span class="price-after">грн. / м²</span>
+                            <span class="price-before"><?php _e('від', 'mdt'); ?></span><?php the_field('p__price'); ?><span class="price-after"><?php _e('грн. / м²', 'mdt'); ?></span>
                         </div>
                     <?php endif; ?>
                     <?php if(get_field('p__time_d')): ?>

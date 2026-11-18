@@ -1,0 +1,205 @@
+{
+    "_readme": [
+        "Page «Стінові панелі» (/category/akustychni-rishennya/stinovi-paneli/). Products, brands and the Jam Factory project already exist on the site (referenced by uk id).",
+        "uk written from the existing product descriptions and supplier pages; ru and en are translations. Page photo: existing Slalom Ecowall image (#9851)."
+    ],
+    "posts": [
+        {
+            "target": "category:akustychni-rishennya/stinovi-paneli",
+            "thumbnail": 9851,
+            "thumbnail_alt": {
+                "uk": "Стінові акустичні панелі Slalom Ecowall",
+                "ru": "Стеновые акустические панели Slalom Ecowall",
+                "en": "Slalom Ecowall acoustic wall panels"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Стінові акустичні панелі для офісу та громадських просторів | MDT",
+                    "ru": "Стеновые акустические панели для офиса и общественных пространств | MDT",
+                    "en": "Acoustic wall panels for offices and public spaces | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Звукопоглинальні стінові панелі OFFECCT, Slalom, Heradesign і Muratto для офісів, переговорних, ресторанів і шкіл. Підбір, розрахунок і монтаж — MDT.",
+                    "ru": "Звукопоглощающие стеновые панели OFFECCT, Slalom, Heradesign и Muratto для офисов, переговорных, ресторанов и школ. Подбор, расчет и монтаж — MDT.",
+                    "en": "Sound-absorbing wall panels by OFFECCT, Slalom, Heradesign and Muratto for offices, meeting rooms, restaurants and schools. Selection, calculation and installation by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Стінові акустичні панелі",
+                    "ru": "Стеновые акустические панели",
+                    "en": "Acoustic wall panels"
+                },
+                "lp__intro": {
+                    "uk": "Луна, гул розмов і «дзвінкі» переговорні — типові проблеми сучасних інтер’єрів зі склом, бетоном і твердими підлогами. <strong>Стінові акустичні панелі</strong> поглинають звук і скорочують час реверберації, тож у приміщенні стає <strong>тихіше, а мова — розбірливіша</strong>. Водночас вони працюють як декор: колір, фактура й форма перетворюють акустику на частину дизайну. MDT пропонує панелі <strong>OFFECCT, Slalom, Heradesign і Muratto</strong> — від м’яких текстильних модулів до панелей з деревної вовни та корку.",
+                    "ru": "Эхо, гул разговоров и «звонкие» переговорные — типичные проблемы современных интерьеров со стеклом, бетоном и твердыми полами. <strong>Стеновые акустические панели</strong> поглощают звук и сокращают время реверберации, поэтому в помещении становится <strong>тише, а речь — разборчивее</strong>. При этом они работают как декор: цвет, фактура и форма превращают акустику в часть дизайна. MDT предлагает панели <strong>OFFECCT, Slalom, Heradesign и Muratto</strong> — от мягких текстильных модулей до панелей из древесной шерсти и пробки.",
+                    "en": "Echo, the hum of conversation and “ringing” meeting rooms are typical of modern interiors full of glass, concrete and hard floors. <strong>Acoustic wall panels</strong> absorb sound and shorten reverberation time, so rooms become <strong>quieter and speech clearer</strong>. They also work as decor: colour, texture and shape turn acoustics into part of the design. MDT offers panels by <strong>OFFECCT, Slalom, Heradesign and Muratto</strong>, from soft textile modules to wood wool and cork."
+                },
+                "lp__products-title": {
+                    "uk": "Колекції стінових панелей",
+                    "ru": "Коллекции стеновых панелей",
+                    "en": "Wall panel collections"
+                },
+                "lp__products": [
+                    "@9312",
+                    "@9278",
+                    "@9156",
+                    "@9838",
+                    "@9772",
+                    "@9703",
+                    "@9853",
+                    "@9662",
+                    "@product:noti-meno",
+                    "@product:arper-parentesit",
+                    "@product:offecct-spiegel",
+                    "@product:bla-station-arc",
+                    "@product:true-design-patch"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@2843",
+                    "@2851",
+                    "@139",
+                    "@suppliers:mdd",
+                    "@suppliers:noti",
+                    "@suppliers:true-design",
+                    "@suppliers:offecct",
+                    "@suppliers:arper",
+                    "@suppliers:bla-station"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:it-ofis-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Стінові та акустичні панелі (Zest)",
+                            "ru": "Стеновые и акустические панели (Zest)",
+                            "en": "Wall and acoustic panels (Zest)"
+                        },
+                        "lp__proj-area": {
+                            "uk": "2 100 м²",
+                            "ru": "2 100 м²",
+                            "en": "2,100 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@13466",
+                        "lp__proj-type": {
+                            "uk": "Арт-центр",
+                            "ru": "Арт-центр",
+                            "en": "Art centre"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Heradesign Superfine",
+                            "ru": "Heradesign Superfine",
+                            "en": "Heradesign Superfine"
+                        },
+                        "lp__proj-area": {
+                            "uk": "632 м²",
+                            "ru": "632 м²",
+                            "en": "632 m²"
+                        },
+                        "lp__proj-city": {
+                            "uk": "Львів",
+                            "ru": "Львов",
+                            "en": "Lviv"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати стінові акустичні панелі</h2>\n<p>Стінові панелі вирішують дві задачі: поглинають звук, щоб зменшити луну й загальний шум, і задають характер інтер’єру. Щоб отримати відчутний ефект, важливо правильно підібрати матеріал, площу та розміщення.</p>\n<h3>Звукопоглинання: на що дивитися</h3>\n<p>Ефективність панелей показує коефіцієнт звукопоглинання αw (від 0 до 1) або клас звукопоглинання від A до E за EN ISO 11654. Чим ближче αw до 1, тим більше звуку поглинає панель. На результат також впливають товщина панелі й повітряний проміжок між панеллю та стіною.</p>\n<h3>Скільки панелей потрібно</h3>\n<p>Для офісів і переговорних звукопоглинальні поверхні зазвичай займають 15–30% площі стін і стелі разом. Панелі найкраще працюють на рівні голови та на паралельних стінах, між якими виникає «пурхаюча» луна. Точну площу ми розраховуємо за об’ємом приміщення та бажаним часом реверберації.</p>\n<h3>Матеріали</h3>\n<ul>\n<li><strong>Текстильні та поліефірні панелі</strong> (OFFECCT Soundwave, Slalom) — легкі, кольорові, з об’ємними формами; підходять для офісів, переговорних, ресторанів.</li>\n<li><strong>Деревна вовна</strong> (Heradesign) — натуральна фактура, міцність до механічних навантажень, висока вогнестійкість; для шкіл, спортзалів, громадських просторів.</li>\n<li><strong>Корок</strong> (Muratto) — натуральний матеріал з теплою фактурою для біофільних інтер’єрів.</li>\n</ul>\n<h3>Панелі як дизайн</h3>\n<p>Акустика не мусить бути непомітною: модульні панелі складають у візерунки, поєднують кольори, використовують для зонування й навігації. Друк на панелях Slalom Ecofelt Design дозволяє нанести будь-яке зображення — від брендових патернів до фотографій.</p>\n<h3>Комплексна акустика</h3>\n<p>Найкращий результат дає поєднання стінових і стельових панелей, килимового покриття, м’яких меблів і акустичних кабінок. MDT підбирає ці рішення разом — і для нових офісів, і для приміщень, де акустика вже заважає працювати.</p>",
+                            "ru": "<h2>Как выбрать стеновые акустические панели</h2>\n<p>Стеновые панели решают две задачи: поглощают звук, чтобы уменьшить эхо и общий шум, и задают характер интерьера. Чтобы получить ощутимый эффект, важно правильно подобрать материал, площадь и размещение.</p>\n<h3>Звукопоглощение: на что смотреть</h3>\n<p>Эффективность панелей показывает коэффициент звукопоглощения αw (от 0 до 1) или класс звукопоглощения от A до E по EN ISO 11654. Чем ближе αw к 1, тем больше звука поглощает панель. На результат также влияют толщина панели и воздушный зазор между панелью и стеной.</p>\n<h3>Сколько панелей нужно</h3>\n<p>Для офисов и переговорных звукопоглощающие поверхности обычно занимают 15–30% площади стен и потолка вместе. Панели лучше всего работают на уровне головы и на параллельных стенах, между которыми возникает «порхающее» эхо. Точную площадь мы рассчитываем по объему помещения и желаемому времени реверберации.</p>\n<h3>Материалы</h3>\n<ul>\n<li><strong>Текстильные и полиэфирные панели</strong> (OFFECCT Soundwave, Slalom) — легкие, цветные, с объемными формами; подходят для офисов, переговорных, ресторанов.</li>\n<li><strong>Древесная шерсть</strong> (Heradesign) — натуральная фактура, прочность к механическим нагрузкам, высокая огнестойкость; для школ, спортзалов, общественных пространств.</li>\n<li><strong>Пробка</strong> (Muratto) — натуральный материал с теплой фактурой для биофильных интерьеров.</li>\n</ul>\n<h3>Панели как дизайн</h3>\n<p>Акустика не обязана быть незаметной: модульные панели складывают в узоры, сочетают цвета, используют для зонирования и навигации. Печать на панелях Slalom Ecofelt Design позволяет нанести любое изображение — от брендовых паттернов до фотографий.</p>\n<h3>Комплексная акустика</h3>\n<p>Лучший результат дает сочетание стеновых и потолочных панелей, коврового покрытия, мягкой мебели и акустических кабинок. MDT подбирает эти решения вместе — и для новых офисов, и для помещений, где акустика уже мешает работать.</p>",
+                            "en": "<h2>How to choose acoustic wall panels</h2>\n<p>Wall panels do two jobs: they absorb sound to cut echo and overall noise, and they shape the character of the interior. For a noticeable effect, choose the right material, area and placement.</p>\n<h3>Sound absorption: what to look for</h3>\n<p>Panel performance is shown by the sound absorption coefficient αw (0 to 1) or the absorption class A to E under EN ISO 11654. The closer αw is to 1, the more sound the panel absorbs. Panel thickness and the air gap behind it also affect the result.</p>\n<h3>How many panels you need</h3>\n<p>In offices and meeting rooms, absorbent surfaces typically cover 15–30% of the combined wall and ceiling area. Panels work best at head height and on parallel walls where flutter echo occurs. We calculate the exact area from the room volume and the target reverberation time.</p>\n<h3>Materials</h3>\n<ul>\n<li><strong>Textile and polyester panels</strong> (OFFECCT Soundwave, Slalom) — light, colourful, sculptural; for offices, meeting rooms and restaurants.</li>\n<li><strong>Wood wool</strong> (Heradesign) — natural texture, impact resistance, high fire resistance; for schools, sports halls and public spaces.</li>\n<li><strong>Cork</strong> (Muratto) — a natural material with a warm texture for biophilic interiors.</li>\n</ul>\n<h3>Panels as design</h3>\n<p>Acoustics need not be invisible: modular panels form patterns, combine colours and help with zoning and wayfinding. Printing on Slalom Ecofelt Design panels allows any image, from brand patterns to photographs.</p>\n<h3>Acoustics as a whole</h3>\n<p>The best result comes from combining wall and ceiling panels, carpet, soft seating and acoustic booths. MDT selects these together, both for new offices and for spaces where acoustics already get in the way.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Яку площу стін потрібно закрити панелями?",
+                            "ru": "Какую площадь стен нужно закрыть панелями?",
+                            "en": "How much wall area should be covered?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Орієнтовно звукопоглинальні поверхні мають займати 15–30% площі стін і стелі разом. Точна площа залежить від об’єму приміщення, наявних матеріалів і призначення: для переговорних і навчальних класів потрібен коротший час реверберації, ніж для холу. Ми виконаємо розрахунок для вашого приміщення.",
+                            "ru": "Ориентировочно звукопоглощающие поверхности должны занимать 15–30% площади стен и потолка вместе. Точная площадь зависит от объема помещения, имеющихся материалов и назначения: для переговорных и учебных классов нужно более короткое время реверберации, чем для холла. Мы выполним расчет для вашего помещения.",
+                            "en": "As a rule of thumb, absorbent surfaces should cover 15–30% of the combined wall and ceiling area. The exact figure depends on room volume, existing finishes and use: meeting rooms and classrooms need a shorter reverberation time than a lobby. We’ll calculate it for your space."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна встановити панелі без ремонту?",
+                            "ru": "Можно ли установить панели без ремонта?",
+                            "en": "Can panels be installed without renovation?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Більшість текстильних і поліефірних панелей кріпляться на клей, магніти чи прості кріплення до вже готових стін, тож їх можна додати в офіс, що працює, за день-два.",
+                            "ru": "Да. Большинство текстильных и полиэфирных панелей крепятся на клей, магниты или простые крепления к уже готовым стенам, поэтому их можно добавить в работающий офис за день-два.",
+                            "en": "Yes. Most textile and polyester panels are fixed with adhesive, magnets or simple brackets to finished walls, so they can be added to a working office in a day or two."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи підходять акустичні панелі для шкіл і спортзалів?",
+                            "ru": "Подходят ли акустические панели для школ и спортзалов?",
+                            "en": "Are acoustic panels suitable for schools and sports halls?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так, але для таких приміщень обирайте ударостійкі матеріали. Панелі Heradesign з деревної вовни на магнезитовому сполучному витримують механічні навантаження й мають високу вогнестійкість, тому їх часто використовують у школах, дитячих садках і спортзалах.",
+                            "ru": "Да, но для таких помещений выбирайте ударопрочные материалы. Панели Heradesign из древесной шерсти на магнезитовом связующем выдерживают механические нагрузки и обладают высокой огнестойкостью, поэтому их часто используют в школах, детских садах и спортзалах.",
+                            "en": "Yes, but choose impact-resistant materials there. Heradesign wood wool panels with a magnesite binder withstand mechanical impact and have high fire resistance, so they are often used in schools, kindergartens and sports halls."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Як доглядати за акустичними панелями?",
+                            "ru": "Как ухаживать за акустическими панелями?",
+                            "en": "How should acoustic panels be cleaned?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Текстильні та поліефірні панелі достатньо періодично очищати пилососом з м’якою насадкою; більшість матеріалів не вбирає забруднень. Панелі з деревної вовни можна перефарбувати за рекомендаціями виробника.",
+                            "ru": "Текстильные и полиэфирные панели достаточно периодически очищать пылесосом с мягкой насадкой; большинство материалов не впитывает загрязнения. Панели из древесной шерсти можно перекрасить по рекомендациям производителя.",
+                            "en": "Textile and polyester panels just need occasional vacuuming with a soft brush; most materials do not absorb dirt. Wood wool panels can be repainted following the manufacturer’s guidance."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Розрахуємо акустику вашого приміщення",
+                    "ru": "Рассчитаем акустику вашего помещения",
+                    "en": "Let’s calculate your room acoustics"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план і фото приміщення — підберемо панелі, розрахуємо площу й підготуємо візуалізацію розміщення.",
+                    "ru": "Пришлите план и фото помещения — подберем панели, рассчитаем площадь и подготовим визуализацию размещения.",
+                    "en": "Send us a plan and photos and we’ll choose panels, calculate the area and prepare a layout visual."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "_readme": [
+        "English text for everything that is not post content: the theme's own strings, the ACF",
+        "options-page values, the navigation menus and the Contact Form 7 forms. Read and applied by",
+        "tools/en-setup.php. Keys are the Ukrainian source text, never a database id, so this file",
+        "still applies after the catalogue migration re-runs against a fresh production dump.",
+        "Post content lives in dict/ instead and is applied by tools/en-translate.php."
+    ],
+    "strings": {
+        "Колекція": "Collection",
+        "Колекції": "Collections",
+        "Детальніше": "Learn more",
+        "Подробнее": "Learn more",
+        "Адреса": "Address",
+        "Відкрити на карті": "Open in maps",
+        "Телефони": "Phone",
+        "Напишіть нам": "Write to us",
+        "Час роботи": "Opening hours",
+        "Соц. мережі": "Social media",
+        "Вгору": "Top",
+        "Вниз": "Down",
+        "Поділитися": "Share",
+        "Постачальник": "Supplier",
+        "Постачальники": "Suppliers",
+        "Ціна від": "Price from",
+        "від": "from",
+        "грн. / м²": "UAH / m²",
+        "Показати ще": "Load more",
+        "Більше": "More",
+        "Усі": "All",
+        "Всі товари": "All products",
+        "Категорії": "Categories",
+        "КАТЕГОРІЇ": "CATEGORIES",
+        "Категорії товарів": "Product categories",
+        "Інші товари": "Other products",
+        "Асортимент": "Our range",
+        "Останні новини": "Latest news",
+        "Часто задавані питання": "Frequently asked questions",
+        "Наші партнери": "Our partners",
+        "Відгуки наших партнерів": "What our partners say",
+        "Проекти": "Projects",
+        "Термін доставки": "Delivery time",
+        "Замовити каталог": "Request a catalogue",
+        "Подивитися всю колекцію": "View the full collection",
+        "Характеристики": "Specifications",
+        "Переваги": "Benefits",
+        "Доставка і оплата": "Delivery and payment",
+        "Гарантія": "Warranty",
+        "Відео": "Video",
+        "Відеоогляд": "Video overview",
+        "Фото %d": "Photo %d",
+        "К сожалению, страница не найдена": "Sorry, we couldn't find that page",
+        "На главную": "Back to home"
+    },
+    "options": {
+        "th__title": "Thank you",
+        "th__subtitle": "We will get back to you shortly",
+        "nav__link-title": "Request a consultation",
+        "nav__descr": "Our range runs to more than 30,000 products. Call us and we will find the best solution for your space.",
+        "op__f-title": "We will find the right solution for your project",
+        "op__f-link": "Request material samples",
+        "modal__title-1": "Leave your details and we will get back to you shortly",
+        "modal__title-2": "Leave your details and we will get back to you shortly",
+        "modal__title-3": "Leave your details and we will get back to you shortly",
+        "modal__title-4": "Leave your details and we will get back to you shortly",
+        "modal__title-5": "Leave your details and we will get back to you shortly",
+        "modal__src-1": "Request a consultation. Popup form",
+        "modal__src-2": "View the full collection. Popup form",
+        "modal__src-3": "Request material samples. Popup form",
+        "modal__src-4": "Consultation request. Navigation. Popup form",
+        "modal__src-5": "Request a catalogue. Popup form"
+    },
+    "menus": {
+        "Основне меню": "Main menu",
+        "Інформаційне меню": "Information menu",
+        "Меню футер": "Footer menu"
+    },
+    "menu_items": {
+        "Каталог товарів": "Product catalogue",
+        "Про нас": "About us",
+        "Проекти": "Projects",
+        "Новини": "News",
+        "Контакти": "Contacts",
+        "Доставка і оплата": "Delivery and payment",
+        "Гарантія": "Warranty",
+        "Відгуки": "Testimonials",
+        "Умови співпраці": "Terms of cooperation",
+        "Оптовим покупцям": "For wholesale buyers"
+    },
+    "forms": {
+        "_readme": "Ukrainian source forms 6498 (order modal), 133 (ask a question) and 6511 (join the team) get English WPML translations. Only the human-readable text is swapped; shortcodes, field names and markup are copied verbatim.",
+        "titles": {
+            "Модальна форма UA": "Modal form EN",
+            "Задати питання UA": "Ask a question EN",
+            "Стати членом команди": "Join the team EN"
+        },
+        "text": {
+            "Це повідомлення було відправлено з сайту": "This message was sent from",
+            "Обов'язково для заповнення": "Required field",
+            "Посилання на резюме": "Link to your CV",
+            "Текст повідомлення": "Message text",
+            "Стати членом команди": "Join the team",
+            "Супровідний лист": "Cover letter",
+            "Задати питання": "Ask a question",
+            "Повідомлення": "Message",
+            "Ваше ім'я": "Your name",
+            "Відправити": "Send",
+            "Прізвище": "Surname",
+            "Телефон": "Phone",
+            "Резюме": "CV",
+            "Деталі": "Details",
+            "Ім'я": "Name"
+        },
+        "messages": {
+            "mail_sent_ok": "Thank you for your message. It has been sent.",
+            "mail_sent_ng": "There was an error trying to send your message. Please try again later.",
+            "validation_error": "One or more fields have an error. Please check and try again.",
+            "spam": "There was an error trying to send your message. Please try again later.",
+            "accept_terms": "You must accept the terms and conditions before sending your message.",
+            "invalid_required": "Please fill out this field.",
+            "invalid_too_long": "This field is too long.",
+            "invalid_too_short": "This field is too short.",
+            "invalid_date": "Please enter a date in YYYY-MM-DD format.",
+            "date_too_early": "This date is too early.",
+            "date_too_late": "This date is too late.",
+            "upload_failed": "There was an unknown error uploading the file.",
+            "upload_file_type_invalid": "You are not allowed to upload files of this type.",
+            "upload_file_too_large": "This file is too large.",
+            "upload_failed_php_error": "There was an error uploading the file.",
+            "invalid_number": "Please enter a number.",
+            "number_too_small": "This number is too small.",
+            "number_too_large": "This number is too large.",
+            "quiz_answer_not_correct": "The answer to the quiz is incorrect.",
+            "invalid_email": "Please enter an email address.",
+            "invalid_url": "Please enter a URL.",
+            "invalid_tel": "Please enter a telephone number."
+        }
+    },
+    "seo": {
+        "_readme": "Rank Math's global title/description templates, translated through WPML's admin-texts strings. Keyed by WPML string name inside context admin_texts_rank-math-options-titles. Without these every /en/ page inherits the Russian templates. Placeholders like %title% and %sitename% must survive verbatim.",
+        "context": "admin_texts_rank-math-options-titles",
+        "strings": {
+            "[rank-math-options-titles]pt_category_title": "%title% - buy in Ukraine | %sitename% Group",
+            "[rank-math-options-titles]pt_category_description": "%title% - buy from MDT Group ⭐ Prices in Kyiv and across Ukraine ⭐ Official distributor of the top brands ⭐ Installation and warranty service",
+            "[rank-math-options-titles]pt_product_title": "%title% - order in Ukraine | %sitename% Group",
+            "[rank-math-options-titles]pt_product_description": "%title% - buy from MDT Group ⭐ Installation and warranty service in Kyiv and across Ukraine ⭐ Official distributor of the top brands ⭐ List price",
+            "[rank-math-options-titles]pt_page_description": "%title% - MDT Group ⭐ Official distributor of the top flooring brands ⭐ Installation and warranty service",
+            "[rank-math-options-titles]pt_post_description": "%title% - MDT Group ⭐ Official distributor of the top flooring brands",
+            "[rank-math-options-titles]pt_projects_description": "%title% - a look at a completed MDT Group project ⭐ Official distributor of the top flooring brands ⭐ Installation and warranty service",
+            "[rank-math-options-titles]pt_reviews_description": "%title% - what MDT Group's clients say",
+            "[rank-math-options-titles]pt_suppliers_description": "%title% - a supplier to MDT Group ⭐ Request samples ⭐ Official distributor of the top brands ⭐ Installation and warranty service",
+            "[rank-math-options-titles]pt_use_description": "%title% - order from MDT Group ⭐ Prices in Kyiv and across Ukraine ⭐ Official distributor of the top brands ⭐ Installation and warranty service"
+        }
+    },
+    "seo_source": {
+        "_readme": "The same Rank Math templates were written in Russian but stored as the Ukrainian (default-language) original, so Ukrainian pages showed Russian titles and descriptions. en-setup.php writes the uk text into the option and the WPML string, and keeps the Russian text as the ru translation. Placeholders must survive verbatim.",
+        "context": "admin_texts_rank-math-options-titles",
+        "option": "rank-math-options-titles",
+        "strings": {
+            "[rank-math-options-titles]pt_category_title": {
+                "uk": "%title% - купити в Україні | %sitename% Group",
+                "ru": "%title% - купить в Украине | %sitename% Group"
+            },
+            "[rank-math-options-titles]pt_category_description": {
+                "uk": "%title% - купити в MDT Group ⭐ Ціна в Києві та по Україні ⭐ Офіційний дистриб’ютор ТОП брендів ⭐ Монтаж і гарантійне обслуговування",
+                "ru": "%title% - купить в MDT Group ⭐ Цена в Киеве и по Украине ⭐ Официальный дистрибьютор ТОП брендов ⭐ Монтаж и гарантийное обслуживание"
+            },
+            "[rank-math-options-titles]pt_product_title": {
+                "uk": "%title% - замовити в Україні | %sitename% Group",
+                "ru": "%title% - заказать в Украине | %sitename% Group"
+            },
+            "[rank-math-options-titles]pt_product_description": {
+                "uk": "%title% - купити в MDT Group ⭐ Монтаж, гарантійне обслуговування в Києві та по Україні ⭐ Офіційний дистриб’ютор ТОП брендів ⭐ Каталожна ціна",
+                "ru": "%title% - купить в MDT Group ⭐ Монтаж, гарантийное обслуживание в Киеве и по Украине ⭐ Официальный дистрибьютор ТОП брендов ⭐ Каталожная цена"
+            },
+            "[rank-math-options-titles]pt_page_description": {
+                "uk": "%title% - компанія MDT Group ⭐ Офіційний дистриб’ютор ТОП брендів підлогових покриттів ⭐ Монтаж і гарантійне обслуговування",
+                "ru": "%title% - компания MDT Group ⭐ Официальный дистрибьютор ТОП брендов напольных покрытий ⭐ Монтаж и гарантийное обслуживание"
+            },
+            "[rank-math-options-titles]pt_post_description": {
+                "uk": "%title% - MDT Group ⭐ Офіційний дистриб’ютор ТОП брендів підлогових покриттів",
+                "ru": "%title% - MDT Group ⭐ Официальный дистрибьютор ТОП брендов напольных покрытий"
+            },
+            "[rank-math-options-titles]pt_projects_description": {
+                "uk": "%title% - огляд готового проєкту MDT Group ⭐ Офіційний дистриб’ютор ТОП брендів підлогових покриттів ⭐ Монтаж і гарантійне обслуговування",
+                "ru": "%title% - обзор готового проекта MDT Group ⭐ Официальный дистрибьютор ТОП брендов напольных покрытий ⭐ Монтаж и гарантийное обслуживание"
+            },
+            "[rank-math-options-titles]pt_reviews_description": {
+                "uk": "%title% - відгуки клієнтів MDT Group",
+                "ru": "%title% - отзывы клиентов MDT Group"
+            },
+            "[rank-math-options-titles]pt_suppliers_description": {
+                "uk": "%title% - постачальник для компанії MDT Group ⭐ Замовити зразки ⭐ Офіційний дистриб’ютор ТОП брендів ⭐ Монтаж і гарантійне обслуговування",
+                "ru": "%title% - поставщик для компании MDT Group ⭐ Заказать образцы ⭐ Официальный дистрибьютор ТОП брендов ⭐ Монтаж и гарантийное обслуживание"
+            },
+            "[rank-math-options-titles]pt_use_description": {
+                "uk": "%title% - замовити в MDT Group ⭐ Ціна в Києві та по Україні ⭐ Офіційний дистриб’ютор ТОП брендів ⭐ Монтаж і гарантійне обслуговування",
+                "ru": "%title% - заказать в MDT Group ⭐ Цена в Киеве и по Украине ⭐ Официальный дистрибьютор ТОП брендов ⭐ Монтаж и гарантийное обслуживание"
+            }
+        }
+    }
+}

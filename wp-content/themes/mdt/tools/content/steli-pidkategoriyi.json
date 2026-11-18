@@ -1,0 +1,773 @@
+{
+    "_readme": [
+        "Ceiling subpages «Касетна стеля», «Акустичні острови», «Акустичні бафли» (/category/steli/…) and four new Bejot hanging-panel products.",
+        "Existing products and projects are referenced by uk id; new products and photos from bejot.eu (source per image under \"media\"). uk written from manufacturer data and existing product descriptions; ru and en are translations.",
+        "These pages replace the plain product lists that steli.json used to set on the subcategories; the products moved into the landing block (lp__products)."
+    ],
+    "media": {
+        "p-bejot-flos-sky-1": {
+            "file": "p-bejot-flos-sky-1.jpg",
+            "title": "Bejot Flos:sky FS SRC 120",
+            "source": "https://www.bejot.eu/en/product/flos-sky-ceiling-panels/model/fs-src-120"
+        },
+        "p-bejot-flos-sky-2": {
+            "file": "p-bejot-flos-sky-2.jpg",
+            "title": "Bejot Flos:sky FS SRC 120",
+            "source": "https://www.bejot.eu/en/product/flos-sky-ceiling-panels/model/fs-src-120"
+        },
+        "p-bejot-silent-block-1": {
+            "file": "p-bejot-silent-block-1.jpg",
+            "title": "Bejot Silent Block:sky SBS R120",
+            "source": "https://www.bejot.eu/en/product/silent-block-sky-acoustic-ceiling-panels/model/sbs-r120"
+        },
+        "p-bejot-silent-block-2": {
+            "file": "p-bejot-silent-block-2.jpg",
+            "title": "Bejot Silent Block:sky SBS H60",
+            "source": "https://www.bejot.eu/en/product/silent-block-sky-acoustic-ceiling-panels/model/sbs-h60"
+        },
+        "p-bejot-selva-sky-1": {
+            "file": "p-bejot-selva-sky-1.jpg",
+            "title": "Bejot Selva:sky SV PSF16",
+            "source": "https://www.bejot.eu/en/product/selva-sky-acoustic-ceiling-panels/model/sv-psf16"
+        },
+        "p-bejot-selva-sky-2": {
+            "file": "p-bejot-selva-sky-2.jpg",
+            "title": "Bejot Selva:sky SV PSFD12",
+            "source": "https://www.bejot.eu/en/product/selva-sky-acoustic-ceiling-panels/model/sv-psfd12"
+        },
+        "p-bejot-selva-hang-1": {
+            "file": "p-bejot-selva-hang-1.jpg",
+            "title": "Bejot Selva:hang SV HN 12",
+            "source": "https://www.bejot.eu/en/product/selva-hang-hanging-acoustic-screens/model/sv-hn-12-h5-6"
+        },
+        "p-bejot-selva-hang-2": {
+            "file": "p-bejot-selva-hang-2.jpg",
+            "title": "Bejot Selva:hang SV HN 12",
+            "source": "https://www.bejot.eu/en/product/selva-hang-hanging-acoustic-screens/model/sv-hn-12-h5-6"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-flos-sky-fs-src-120",
+                "title": "Bejot Flos:sky FS SRC 120"
+            },
+            "thumbnail": "@media:p-bejot-flos-sky-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Flos:sky — підвісні акустичні панелі зі стелі, що створюють окрему зону акустичного комфорту над робочим місцем, столом чи зоною відпочинку. Вони зменшують реверберацію й водночас додають інтер’єру гармонії: на одному з боків кожної панелі нанесено характерну плавну лінію контуру, що об’єднує всю колекцію Flos — стельові, стінові панелі та акустичні екрани. Дизайн — Tomasz Augustyniak.",
+                    "ru": "Flos:sky — подвесные акустические панели с потолка, создающие отдельную зону акустического комфорта над рабочим местом, столом или зоной отдыха. Они уменьшают реверберацию и одновременно добавляют интерьеру гармонии: на одной из сторон каждой панели нанесена характерная плавная линия контура, объединяющая всю коллекцию Flos — потолочные, стеновые панели и акустические экраны. Дизайн — Tomasz Augustyniak.",
+                    "en": "Flos:sky are suspended acoustic ceiling panels that create a zone of acoustic comfort above a desk, table or lounge. They reduce reverberation while bringing harmony to the interior: one side of each panel carries the flowing contour line that unites the whole Flos collection of ceiling panels, wall panels and screens. Designed by Tomasz Augustyniak."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Локальна акустична зона</strong> над робочими місцями чи столами.</li>\n<li><strong>Фірмова плавна лінія</strong> — композиції з кількох панелей виглядають цілісно.</li>\n<li><strong>Різні форми, розміри й кольори</strong>; у колекції є стінові панелі та екрани.</li>\n<li><strong>Монтаж на тросах</strong> без зменшення корисної площі.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Локальная акустическая зона</strong> над рабочими местами или столами.</li>\n<li><strong>Фирменная плавная линия</strong> — композиции из нескольких панелей выглядят цельно.</li>\n<li><strong>Разные формы, размеры и цвета</strong>; в коллекции есть стеновые панели и экраны.</li>\n<li><strong>Монтаж на тросах</strong> без уменьшения полезной площади.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>A local acoustic zone</strong> above desks or tables.</li>\n<li><strong>Signature flowing line</strong> — multi-panel layouts look coherent.</li>\n<li><strong>Various shapes, sizes and colours</strong>; wall panels and screens in the same collection.</li>\n<li><strong>Cable-hung</strong> with no loss of floor space.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Tomasz Augustyniak"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Монтаж",
+                            "ru": "Монтаж",
+                            "en": "Installation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "комплект з 4 тросів по 1,5 м (довжину можна вкоротити); довші троси — опція",
+                            "ru": "комплект из 4 тросов по 1,5 м (длину можно укоротить); более длинные тросы — опция",
+                            "en": "kit of 4 cables, 1.5 m each (can be cut to length); longer cables optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Оббивка",
+                            "ru": "Обивка",
+                            "en": "Upholstery"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тканини та кольори з палітри Bejot",
+                            "ru": "ткани и цвета из палитры Bejot",
+                            "en": "fabrics and colours from the Bejot range"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-flos-sky-1",
+                    "@media:p-bejot-flos-sky-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-silent-block-sky-sbs-r120",
+                "title": "Bejot Silent Block:sky SBS R120"
+            },
+            "thumbnail": "@media:p-bejot-silent-block-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Silent Block:sky — легкі акустичні панелі, що підвішуються до стелі на тросах і помітно покращують акустику офісу без зменшення корисної площі. Колекція має багато форм — коло, квадрат, прямокутник із заокругленими кутами, шестикутник і модулі різної довжини, тож панелі легко скласти в креативну композицію. Коефіцієнт звукопоглинання αw = 0,9 — найвищий клас A.",
+                    "ru": "Silent Block:sky — легкие акустические панели, которые подвешиваются к потолку на тросах и заметно улучшают акустику офиса без уменьшения полезной площади. Коллекция имеет много форм — круг, квадрат, прямоугольник со скругленными углами, шестиугольник и модули разной длины, поэтому панели легко собрать в креативную композицию. Коэффициент звукопоглощения αw = 0,9 — высший класс A.",
+                    "en": "Silent Block:sky are lightweight acoustic panels hung from the ceiling on cables that noticeably improve office acoustics without taking up floor space. The collection comes in many shapes — round, square, rounded rectangle, hexagon and modules of different lengths — so panels are easy to combine into creative layouts. Sound absorption αw = 0.9, the top class A."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>αw = 0,9, клас A</strong> за EN ISO 11654.</li>\n<li><strong>Шість форм</strong> для власних композицій.</li>\n<li><strong>Легкі панелі</strong> — для стелі й стін (є настінна версія).</li>\n<li><strong>Широкий вибір тканин</strong> і кольорів.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>αw = 0,9, класс A</strong> по EN ISO 11654.</li>\n<li><strong>Шесть форм</strong> для собственных композиций.</li>\n<li><strong>Легкие панели</strong> — для потолка и стен (есть настенная версия).</li>\n<li><strong>Широкий выбор тканей</strong> и цветов.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>αw = 0.9, class A</strong> under EN ISO 11654.</li>\n<li><strong>Six shapes</strong> for custom layouts.</li>\n<li><strong>Lightweight</strong> — for ceilings and walls (wall version available).</li>\n<li><strong>Wide choice of fabrics</strong> and colours.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Звукопоглинання",
+                            "ru": "Звукопоглощение",
+                            "en": "Sound absorption"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "αw = 0,9, клас A (EN ISO 11654)",
+                            "ru": "αw = 0,9, класс A (EN ISO 11654)",
+                            "en": "αw = 0.9, class A (EN ISO 11654)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Форми",
+                            "ru": "Формы",
+                            "en": "Shapes"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "коло, квадрат, заокруглений прямокутник, шестикутник, модулі 60 і 105 см",
+                            "ru": "круг, квадрат, скругленный прямоугольник, шестиугольник, модули 60 и 105 см",
+                            "en": "round, square, rounded rectangle, hexagon, 60 and 105 cm modules"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Монтаж",
+                            "ru": "Монтаж",
+                            "en": "Installation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "комплект з 4 тросів по 1,5 м (довжину можна вкоротити); довші троси — опція",
+                            "ru": "комплект из 4 тросов по 1,5 м (длину можно укоротить); более длинные тросы — опция",
+                            "en": "kit of 4 cables, 1.5 m each (can be cut to length); longer cables optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Оббивка",
+                            "ru": "Обивка",
+                            "en": "Upholstery"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тканини та кольори з палітри Bejot",
+                            "ru": "ткани и цвета из палитры Bejot",
+                            "en": "fabrics and colours from the Bejot range"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-silent-block-1",
+                    "@media:p-bejot-silent-block-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-selva-sky-sv-psf16",
+                "title": "Bejot Selva:sky SV PSF16"
+            },
+            "thumbnail": "@media:p-bejot-selva-sky-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Selva:sky — акустичні стельові панелі на тросах для open space, створені німецьким дизайнером Ronald Straubel. Колекція Selva розроблена, щоб поглинати звуки офісної техніки й розмов колег: за даними виробника, вона знижує відчутний шум у середньому на 8 дБ — майже вдвічі. Коефіцієнт звукопоглинання αw = 0,9, клас A.",
+                    "ru": "Selva:sky — акустические потолочные панели на тросах для open space, созданные немецким дизайнером Ronald Straubel. Коллекция Selva разработана, чтобы поглощать звуки офисной техники и разговоров коллег: по данным производителя, она снижает ощутимый шум в среднем на 8 дБ — почти вдвое. Коэффициент звукопоглощения αw = 0,9, класс A.",
+                    "en": "Selva:sky are cable-hung acoustic ceiling panels for open-plan offices, designed by German designer Ronald Straubel. The Selva collection is made to absorb the sound of office equipment and colleagues’ conversations: according to the manufacturer, it lowers perceived noise by 8 dB on average — nearly by half. Sound absorption αw = 0.9, class A."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>−8 дБ</strong> відчутного шуму в середньому (дані виробника).</li>\n<li><strong>αw = 0,9, клас A</strong> за EN ISO 11654.</li>\n<li><strong>Кілька розмірів</strong>: SV PSF 8, 12, 16 і SV PSFD12.</li>\n<li><strong>Колекція Selva</strong> також має настінні, настільні, підвісні та мобільні екрани.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>−8 дБ</strong> ощутимого шума в среднем (данные производителя).</li>\n<li><strong>αw = 0,9, класс A</strong> по EN ISO 11654.</li>\n<li><strong>Несколько размеров</strong>: SV PSF 8, 12, 16 и SV PSFD12.</li>\n<li><strong>Коллекция Selva</strong> также включает настенные, настольные, подвесные и мобильные экраны.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>−8 dB</strong> perceived noise on average (manufacturer’s data).</li>\n<li><strong>αw = 0.9, class A</strong> under EN ISO 11654.</li>\n<li><strong>Several sizes</strong>: SV PSF 8, 12, 16 and SV PSFD12.</li>\n<li><strong>The Selva collection</strong> also includes wall, desk, hanging and mobile screens.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Ronald Straubel"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Звукопоглинання",
+                            "ru": "Звукопоглощение",
+                            "en": "Sound absorption"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "αw = 0,9, клас A (EN ISO 11654)",
+                            "ru": "αw = 0,9, класс A (EN ISO 11654)",
+                            "en": "αw = 0.9, class A (EN ISO 11654)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Монтаж",
+                            "ru": "Монтаж",
+                            "en": "Installation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "комплект з 4 тросів по 1,5 м (довжину можна вкоротити); довші троси — опція",
+                            "ru": "комплект из 4 тросов по 1,5 м (длину можно укоротить); более длинные тросы — опция",
+                            "en": "kit of 4 cables, 1.5 m each (can be cut to length); longer cables optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Оббивка",
+                            "ru": "Обивка",
+                            "en": "Upholstery"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тканини та кольори з палітри Bejot",
+                            "ru": "ткани и цвета из палитры Bejot",
+                            "en": "fabrics and colours from the Bejot range"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-selva-sky-1",
+                    "@media:p-bejot-selva-sky-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-selva-hang-sv-hn-12",
+                "title": "Bejot Selva:hang SV HN 12"
+            },
+            "thumbnail": "@media:p-bejot-selva-hang-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Selva:hang — вертикальні акустичні екрани, що підвішуються до стелі на тросах з естетичною системою кріплення. Вони поглинають звук і водночас ділять open space на зони без стін і перегородок — над робочими групами, між столами чи вздовж проходів. Доступні в різних розмірах і кольорах. Дизайн — Ronald Straubel.",
+                    "ru": "Selva:hang — вертикальные акустические экраны, которые подвешиваются к потолку на тросах с эстетичной системой крепления. Они поглощают звук и одновременно делят open space на зоны без стен и перегородок — над рабочими группами, между столами или вдоль проходов. Доступны в разных размерах и цветах. Дизайн — Ronald Straubel.",
+                    "en": "Selva:hang are vertical acoustic screens hung from the ceiling on cables with a neat mounting system. They absorb sound and divide an open-plan office into zones without walls or partitions — above team clusters, between desks or along walkways. Available in various sizes and colours. Designed by Ronald Straubel."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Вертикальне підвішування</strong> — поглинання з обох боків.</li>\n<li><strong>Зонування без перегородок</strong> над робочими групами.</li>\n<li><strong>Різні розміри й кольори</strong>.</li>\n<li><strong>Колекція Selva</strong> — у середньому −8 дБ відчутного шуму (дані виробника).</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Вертикальное подвешивание</strong> — поглощение с обеих сторон.</li>\n<li><strong>Зонирование без перегородок</strong> над рабочими группами.</li>\n<li><strong>Разные размеры и цвета</strong>.</li>\n<li><strong>Коллекция Selva</strong> — в среднем −8 дБ ощутимого шума (данные производителя).</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Hung vertically</strong> — absorbs on both sides.</li>\n<li><strong>Zoning without partitions</strong> above team clusters.</li>\n<li><strong>Various sizes and colours</strong>.</li>\n<li><strong>Selva collection</strong> — −8 dB perceived noise on average (manufacturer’s data).</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Ronald Straubel"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Монтаж",
+                            "ru": "Монтаж",
+                            "en": "Installation"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "троси з декоративною системою кріплення до стелі",
+                            "ru": "тросы с декоративной системой крепления к потолку",
+                            "en": "cables with a decorative ceiling fixing system"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Оббивка",
+                            "ru": "Обивка",
+                            "en": "Upholstery"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тканини та кольори з палітри Bejot",
+                            "ru": "ткани и цвета из палитры Bejot",
+                            "en": "fabrics and colours from the Bejot range"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-selva-hang-1",
+                    "@media:p-bejot-selva-hang-2"
+                ]
+            }
+        },
+        {
+            "target": "category:steli/kasetna-stelya",
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Касетна стеля для офісу та комерційних приміщень — Knauf AMF, Armstrong | MDT",
+                    "ru": "Кассетный потолок для офиса и коммерческих помещений — Knauf AMF, Armstrong | MDT",
+                    "en": "Cassette ceilings for offices and commercial spaces — Knauf AMF, Armstrong | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Касетні (модульні) підвісні стелі з мінерального волокна, металу та деревної вовни: акустика, доступ до комунікацій, рішення для медичних приміщень. Підбір і монтаж — MDT.",
+                    "ru": "Кассетные (модульные) подвесные потолки из минерального волокна, металла и древесной шерсти: акустика, доступ к коммуникациям, решения для медицинских помещений. Подбор и монтаж — MDT.",
+                    "en": "Cassette (modular) suspended ceilings in mineral fibre, metal and wood wool: acoustics, access to services, solutions for healthcare. Selection and installation by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Касетна стеля",
+                    "ru": "Кассетный потолок",
+                    "en": "Cassette ceilings"
+                },
+                "lp__intro": {
+                    "uk": "<strong>Касетна стеля</strong> — модульна підвісна система з окремих плит (касет), покладених у металевий каркас. Вона створює рівну впорядковану геометрію, приховує інженерні мережі й водночас залишає <strong>до них доступ: будь-яку касету можна підняти й повернути на місце</strong>. Залежно від матеріалу касети <strong>поглинають звук, витримують вологу чи відповідають гігієнічним вимогам</strong> медичних приміщень. MDT пропонує касетні стелі <strong>Knauf AMF, Armstrong та Heradesign</strong>.",
+                    "ru": "<strong>Кассетный потолок</strong> — модульная подвесная система из отдельных плит (кассет), уложенных в металлический каркас. Она создает ровную упорядоченную геометрию, скрывает инженерные сети и при этом оставляет <strong>к ним доступ: любую кассету можно поднять и вернуть на место</strong>. В зависимости от материала кассеты <strong>поглощают звук, выдерживают влагу или соответствуют гигиеническим требованиям</strong> медицинских помещений. MDT предлагает кассетные потолки <strong>Knauf AMF, Armstrong и Heradesign</strong>.",
+                    "en": "A <strong>cassette ceiling</strong> is a modular suspended system of individual tiles (cassettes) laid into a metal grid. It gives an even, orderly ceiling, hides building services and keeps <strong>them accessible: any cassette can be lifted out and put back</strong>. Depending on the material, cassettes <strong>absorb sound, resist moisture or meet the hygiene requirements</strong> of healthcare spaces. MDT offers cassette ceilings by <strong>Knauf AMF, Armstrong and Heradesign</strong>."
+                },
+                "lp__products-title": {
+                    "uk": "Рішення для касетної стелі",
+                    "ru": "Решения для кассетного потолка",
+                    "en": "Cassette ceiling solutions"
+                },
+                "lp__products": [
+                    "@10097",
+                    "@10051",
+                    "@10110",
+                    "@9675"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@146",
+                    "@2825",
+                    "@2851"
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати касетну стелю</h2>\n<p>Касетна стеля складається з двох частин: металевого підвісного каркаса й плит, які в нього вкладають. Вибір залежить від призначення приміщення, вимог до акустики, вологостійкості та гігієни, а також від того, як часто потрібен доступ до комунікацій.</p>\n<h3>Матеріал касет</h3>\n<ul>\n<li><strong>Мінеральне волокно</strong> (Knauf AMF) — класичне рішення для офісів: добре поглинає звук, має високу вогнестійкість, широкий вибір фактур і кромок.</li>\n<li><strong>Метал</strong> (Armstrong) — міцні касети, що легко миються; підходять для коридорів, холів і приміщень з інтенсивним використанням.</li>\n<li><strong>Деревна вовна</strong> (Heradesign) — натуральна фактура й ударостійкість для шкіл, спортзалів і громадських просторів.</li>\n</ul>\n<h3>Акустика</h3>\n<p>Для open space і переговорних обирайте касети з високим коефіцієнтом звукопоглинання (клас A або B за EN ISO 11654). Для коридорів і санвузлів важливіші вологостійкість і легкий догляд.</p>\n<h3>Медичні та «чисті» приміщення</h3>\n<p>Для клінік, лабораторій і харчових виробництв існують спеціальні касети з гігієнічним покриттям, що витримують вологе прибирання й дезінфекцію — як колекція Knauf Healthcare з мінерального волокна.</p>\n<h3>Інтеграція з інженерією</h3>\n<p>Модульна сітка спрощує встановлення світильників, дифузорів вентиляції, датчиків і спринклерів — їх розміщують у розмір касети. А доступ до простору над стелею залишається в будь-якій точці.</p>\n<p>MDT підбере систему під ваше приміщення, розрахує акустику й організує монтаж — разом з покриттям для підлоги та стіновими акустичними рішеннями.</p>",
+                            "ru": "<h2>Как выбрать кассетный потолок</h2>\n<p>Кассетный потолок состоит из двух частей: металлического подвесного каркаса и плит, которые в него укладывают. Выбор зависит от назначения помещения, требований к акустике, влагостойкости и гигиене, а также от того, как часто нужен доступ к коммуникациям.</p>\n<h3>Материал кассет</h3>\n<ul>\n<li><strong>Минеральное волокно</strong> (Knauf AMF) — классическое решение для офисов: хорошо поглощает звук, обладает высокой огнестойкостью, широким выбором фактур и кромок.</li>\n<li><strong>Металл</strong> (Armstrong) — прочные кассеты, которые легко моются; подходят для коридоров, холлов и помещений с интенсивным использованием.</li>\n<li><strong>Древесная шерсть</strong> (Heradesign) — натуральная фактура и ударостойкость для школ, спортзалов и общественных пространств.</li>\n</ul>\n<h3>Акустика</h3>\n<p>Для open space и переговорных выбирайте кассеты с высоким коэффициентом звукопоглощения (класс A или B по EN ISO 11654). Для коридоров и санузлов важнее влагостойкость и легкий уход.</p>\n<h3>Медицинские и «чистые» помещения</h3>\n<p>Для клиник, лабораторий и пищевых производств существуют специальные кассеты с гигиеническим покрытием, которые выдерживают влажную уборку и дезинфекцию — как коллекция Knauf Healthcare из минерального волокна.</p>\n<h3>Интеграция с инженерией</h3>\n<p>Модульная сетка упрощает установку светильников, диффузоров вентиляции, датчиков и спринклеров — их размещают в размер кассеты. А доступ к пространству над потолком остается в любой точке.</p>\n<p>MDT подберет систему под ваше помещение, рассчитает акустику и организует монтаж — вместе с напольным покрытием и стеновыми акустическими решениями.</p>",
+                            "en": "<h2>How to choose a cassette ceiling</h2>\n<p>A cassette ceiling has two parts: a metal suspension grid and the tiles laid into it. The choice depends on the room’s use, acoustic, moisture and hygiene requirements, and how often you need access to services.</p>\n<h3>Cassette material</h3>\n<ul>\n<li><strong>Mineral fibre</strong> (Knauf AMF) — the classic office choice: good sound absorption, high fire resistance, a wide range of textures and edges.</li>\n<li><strong>Metal</strong> (Armstrong) — strong, easy-to-wash cassettes for corridors, lobbies and heavily used areas.</li>\n<li><strong>Wood wool</strong> (Heradesign) — natural texture and impact resistance for schools, sports halls and public spaces.</li>\n</ul>\n<h3>Acoustics</h3>\n<p>For open-plan offices and meeting rooms choose cassettes with high sound absorption (class A or B under EN ISO 11654). In corridors and washrooms, moisture resistance and easy cleaning matter more.</p>\n<h3>Healthcare and clean rooms</h3>\n<p>Clinics, labs and food production use special cassettes with a hygienic coating that stands up to wet cleaning and disinfection — such as the Knauf Healthcare mineral fibre range.</p>\n<h3>Integration with services</h3>\n<p>The modular grid makes it easy to fit lights, air diffusers, sensors and sprinklers to the cassette size, and the void above stays accessible anywhere.</p>\n<p>MDT selects a system for your space, calculates acoustics and organises installation — together with flooring and wall acoustic solutions.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Чим касетна стеля краща за гіпсокартонну?",
+                            "ru": "Чем кассетный потолок лучше гипсокартонного?",
+                            "en": "Why choose a cassette ceiling over plasterboard?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Касетна стеля дає доступ до комунікацій у будь-якій точці без демонтажу, швидше монтується й має кращі акустичні властивості завдяки звукопоглинальним касетам. Пошкоджену касету просто замінюють.",
+                            "ru": "Кассетный потолок дает доступ к коммуникациям в любой точке без демонтажа, быстрее монтируется и обладает лучшими акустическими свойствами благодаря звукопоглощающим кассетам. Поврежденную кассету просто заменяют.",
+                            "en": "A cassette ceiling gives access to services anywhere without demolition, installs faster and performs better acoustically thanks to sound-absorbing tiles. A damaged cassette is simply replaced."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи підходить касетна стеля для вологих приміщень?",
+                            "ru": "Подходит ли кассетный потолок для влажных помещений?",
+                            "en": "Can cassette ceilings be used in humid rooms?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так, якщо обрати відповідні касети: металеві або вологостійкі мінеральні плити. Ми порадимо систему з урахуванням вологості й режиму прибирання.",
+                            "ru": "Да, если выбрать подходящие кассеты: металлические или влагостойкие минеральные плиты. Мы посоветуем систему с учетом влажности и режима уборки.",
+                            "en": "Yes, with the right cassettes: metal or moisture-resistant mineral tiles. We’ll recommend a system for the humidity and cleaning regime."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Які касетні стелі підходять для медичних закладів?",
+                            "ru": "Какие кассетные потолки подходят для медицинских учреждений?",
+                            "en": "Which cassette ceilings suit healthcare facilities?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для клінік використовують гігієнічні касети, що витримують вологе прибирання й дезінфекцію, — наприклад, колекцію Knauf Healthcare з мінерального волокна.",
+                            "ru": "Для клиник используют гигиенические кассеты, которые выдерживают влажную уборку и дезинфекцию, — например, коллекцию Knauf Healthcare из минерального волокна.",
+                            "en": "Clinics use hygienic cassettes that withstand wet cleaning and disinfection, such as the Knauf Healthcare mineral fibre range."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна вбудувати світильники в касетну стелю?",
+                            "ru": "Можно ли встроить светильники в кассетный потолок?",
+                            "en": "Can lights be built into a cassette ceiling?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Світильники, дифузори вентиляції та датчики випускають у розмір касети, тож вони встановлюються замість окремих плит без додаткових конструкцій.",
+                            "ru": "Да. Светильники, диффузоры вентиляции и датчики выпускают в размер кассеты, поэтому они устанавливаются вместо отдельных плит без дополнительных конструкций.",
+                            "en": "Yes. Lights, air diffusers and sensors come in cassette sizes, so they replace individual tiles with no extra framing."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Підберемо касетну стелю для вашого об’єкта",
+                    "ru": "Подберем кассетный потолок для вашего объекта",
+                    "en": "Let’s find the right cassette ceiling"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план, висоту стелі та призначення приміщень — запропонуємо систему, касети й розрахуємо акустику.",
+                    "ru": "Пришлите план, высоту потолка и назначение помещений — предложим систему, кассеты и рассчитаем акустику.",
+                    "en": "Send us the plan, ceiling height and room uses and we’ll propose a system and cassettes and calculate the acoustics."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        },
+        {
+            "target": "category:steli/akustychni-ostrovy",
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Акустичні острови для стелі — Knauf AMF, Bejot, Slalom | MDT",
+                    "ru": "Акустические острова для потолка — Knauf AMF, Bejot, Slalom | MDT",
+                    "en": "Acoustic ceiling islands — Knauf AMF, Bejot, Slalom | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Підвісні акустичні острови для open space, переговорних і відкритих стель: Knauf AMF TOPIQ Sonic, Bejot Flos, Silent Block, Selva, Slalom. Розрахунок і монтаж — MDT.",
+                    "ru": "Подвесные акустические острова для open space, переговорных и открытых потолков: Knauf AMF TOPIQ Sonic, Bejot Flos, Silent Block, Selva, Slalom. Расчет и монтаж — MDT.",
+                    "en": "Suspended acoustic islands for open space, meeting rooms and exposed ceilings: Knauf AMF TOPIQ Sonic, Bejot Flos, Silent Block, Selva and Slalom. Calculation and installation by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Акустичні острови для стелі",
+                    "ru": "Акустические острова для потолка",
+                    "en": "Acoustic ceiling islands"
+                },
+                "lp__intro": {
+                    "uk": "<strong>Акустичні острови</strong> — окремі звукопоглинальні панелі, підвішені горизонтально під стелею. Вони <strong>працюють локально</strong>: над робочими групами, столом переговорної чи зоною кафе, де виникає найбільше шуму. Острови не потребують суцільної підвісної стелі, тож ідеально підходять для <strong>відкритих стель у стилі лофт</strong> і для приміщень, де акустику треба покращити без ремонту. MDT пропонує острови <strong>Knauf AMF, Bejot і Slalom</strong>.",
+                    "ru": "<strong>Акустические острова</strong> — отдельные звукопоглощающие панели, подвешенные горизонтально под потолком. Они <strong>работают локально</strong>: над рабочими группами, столом переговорной или зоной кафе, где возникает больше всего шума. Острова не требуют сплошного подвесного потолка, поэтому идеально подходят для <strong>открытых потолков в стиле лофт</strong> и для помещений, где акустику нужно улучшить без ремонта. MDT предлагает острова <strong>Knauf AMF, Bejot и Slalom</strong>.",
+                    "en": "<strong>Acoustic islands</strong> are individual sound-absorbing panels hung horizontally below the ceiling. They <strong>work locally</strong> — above team clusters, a meeting table or a café area, wherever noise is greatest. Islands need no continuous suspended ceiling, so they are ideal for <strong>exposed loft-style ceilings</strong> and for improving acoustics without renovation. MDT offers islands by <strong>Knauf AMF, Bejot and Slalom</strong>."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі акустичних островів",
+                    "ru": "Модели акустических островов",
+                    "en": "Acoustic island models"
+                },
+                "lp__products": [
+                    "@10008",
+                    "@product:bejot-silent-block-sky-sbs-r120",
+                    "@product:bejot-selva-sky-sv-psf16",
+                    "@product:bejot-flos-sky-fs-src-120",
+                    "@9761"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@146",
+                    "@suppliers:bejot",
+                    "@2843"
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати акустичні острови</h2>\n<p>Острови — найгнучкіший спосіб додати звукопоглинання на стелю. Щоб вони дали відчутний ефект, важливі матеріал, площа, висота підвісу та розташування відносно джерел шуму.</p>\n<h3>Де розміщувати острови</h3>\n<p>Розміщуйте острови безпосередньо над джерелами шуму: над робочими групами в open space, над столом переговорної, над зоною кафе чи рецепцією. Краще кілька островів над активними зонами, ніж один великий у центрі приміщення.</p>\n<h3>Скільки островів потрібно</h3>\n<p>Для відчутного ефекту острови мають покривати значну частину стелі над зоною — орієнтовно 20–40% її площі. Точну кількість ми розраховуємо за об’ємом приміщення, наявними матеріалами та бажаним часом реверберації.</p>\n<h3>Матеріал і звукопоглинання</h3>\n<ul>\n<li><strong>Мінеральні острови</strong> (Knauf AMF TOPIQ Sonic) — з м’яких базальтових волокон, вологостійкі, допускають вологе прибирання.</li>\n<li><strong>Текстильні острови</strong> (Bejot Silent Block, Selva, Flos) — легкі, в широкій палітрі тканин; Silent Block і Selva мають αw = 0,9, клас A.</li>\n<li><strong>Дизайнерські підвісні елементи</strong> (Slalom Ecodrop) — поєднують акустику з декором і можуть бути плафоном світильника.</li>\n</ul>\n<h3>Висота підвісу та світло</h3>\n<p>Острови підвішують на регульованих тросах, тож висоту легко підібрати під світильники, вентиляцію й спринклери. Між островами й стелею залишається простір, що додатково працює на поглинання та підсилює непряме освітлення.</p>\n<p>MDT розрахує кількість і розміщення островів, допоможе обрати форму й колір і змонтує систему — разом зі стіновими панелями та покриттям для підлоги.</p>",
+                            "ru": "<h2>Как выбрать акустические острова</h2>\n<p>Острова — самый гибкий способ добавить звукопоглощение на потолок. Чтобы они дали ощутимый эффект, важны материал, площадь, высота подвеса и расположение относительно источников шума.</p>\n<h3>Где размещать острова</h3>\n<p>Размещайте острова непосредственно над источниками шума: над рабочими группами в open space, над столом переговорной, над зоной кафе или ресепшн. Лучше несколько островов над активными зонами, чем один большой в центре помещения.</p>\n<h3>Сколько островов нужно</h3>\n<p>Для ощутимого эффекта острова должны покрывать значительную часть потолка над зоной — ориентировочно 20–40% его площади. Точное количество мы рассчитываем по объему помещения, имеющимся материалам и желаемому времени реверберации.</p>\n<h3>Материал и звукопоглощение</h3>\n<ul>\n<li><strong>Минеральные острова</strong> (Knauf AMF TOPIQ Sonic) — из мягких базальтовых волокон, влагостойкие, допускают влажную уборку.</li>\n<li><strong>Текстильные острова</strong> (Bejot Silent Block, Selva, Flos) — легкие, в широкой палитре тканей; Silent Block и Selva имеют αw = 0,9, класс A.</li>\n<li><strong>Дизайнерские подвесные элементы</strong> (Slalom Ecodrop) — сочетают акустику с декором и могут быть плафоном светильника.</li>\n</ul>\n<h3>Высота подвеса и свет</h3>\n<p>Острова подвешивают на регулируемых тросах, поэтому высоту легко подобрать под светильники, вентиляцию и спринклеры. Между островами и потолком остается пространство, которое дополнительно работает на поглощение и усиливает непрямое освещение.</p>\n<p>MDT рассчитает количество и размещение островов, поможет выбрать форму и цвет и смонтирует систему — вместе со стеновыми панелями и напольным покрытием.</p>",
+                            "en": "<h2>How to choose acoustic islands</h2>\n<p>Islands are the most flexible way to add absorption to a ceiling. For a noticeable effect, material, area, suspension height and placement relative to noise sources all matter.</p>\n<h3>Where to place islands</h3>\n<p>Place islands directly above noise sources: team clusters in open space, a meeting table, a café or reception area. Several islands over active zones work better than one large panel in the middle of the room.</p>\n<h3>How many you need</h3>\n<p>For a noticeable effect, islands should cover a significant share of the ceiling above the zone — roughly 20–40% of its area. We calculate the exact number from the room volume, existing finishes and target reverberation time.</p>\n<h3>Material and absorption</h3>\n<ul>\n<li><strong>Mineral islands</strong> (Knauf AMF TOPIQ Sonic) — soft basalt fibres, moisture-resistant, can be wiped clean.</li>\n<li><strong>Textile islands</strong> (Bejot Silent Block, Selva, Flos) — light and available in many fabrics; Silent Block and Selva are rated αw = 0.9, class A.</li>\n<li><strong>Designer pendants</strong> (Slalom Ecodrop) — combine acoustics with decor and can double as a lampshade.</li>\n</ul>\n<h3>Suspension height and light</h3>\n<p>Islands hang on adjustable cables, so the height is easy to fit around lights, ventilation and sprinklers. The gap between island and ceiling adds absorption and enhances indirect lighting.</p>\n<p>MDT calculates the number and layout of islands, helps choose shape and colour, and installs the system — together with wall panels and flooring.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Чим острови відрізняються від суцільної акустичної стелі?",
+                            "ru": "Чем острова отличаются от сплошного акустического потолка?",
+                            "en": "How do islands differ from a continuous acoustic ceiling?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Суцільна стеля закриває всю площу й потребує підвісної системи. Острови працюють локально над джерелами шуму, монтуються на тросах до будь-якої стелі й залишають відкритими інженерні мережі — тому їх обирають для лофтів і для покращення акустики без ремонту.",
+                            "ru": "Сплошной потолок закрывает всю площадь и требует подвесной системы. Острова работают локально над источниками шума, монтируются на тросах к любому потолку и оставляют открытыми инженерные сети — поэтому их выбирают для лофтов и для улучшения акустики без ремонта.",
+                            "en": "A continuous ceiling covers the whole area and needs a suspension system. Islands work locally above noise sources, hang on cables from any ceiling and leave services exposed — which is why they suit lofts and upgrades without renovation."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна встановити острови в офісі, що вже працює?",
+                            "ru": "Можно ли установить острова в уже работающем офисе?",
+                            "en": "Can islands be installed in an office that is already in use?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Острови кріпляться до стелі на тросах за кілька годин без будівельних робіт і пилу, тож монтаж можна провести у вихідні чи після робочого дня.",
+                            "ru": "Да. Острова крепятся к потолку на тросах за несколько часов без строительных работ и пыли, поэтому монтаж можно провести в выходные или после рабочего дня.",
+                            "en": "Yes. Islands are hung on cables in a few hours with no construction work or dust, so installation can happen over a weekend or after hours."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Яку форму острова обрати?",
+                            "ru": "Какую форму острова выбрать?",
+                            "en": "Which island shape should I choose?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Форма впливає передусім на дизайн: круглі острови пом’якшують простір, прямокутні підкреслюють геометрію робочих зон, а шестикутники й модулі різної довжини дозволяють створювати власні композиції. Акустичний ефект залежить від загальної площі та матеріалу.",
+                            "ru": "Форма влияет прежде всего на дизайн: круглые острова смягчают пространство, прямоугольные подчеркивают геометрию рабочих зон, а шестиугольники и модули разной длины позволяют создавать собственные композиции. Акустический эффект зависит от общей площади и материала.",
+                            "en": "Shape is mostly about design: round islands soften a space, rectangles echo the geometry of work zones, and hexagons or modules of different lengths allow custom compositions. The acoustic effect depends on total area and material."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи заважають острови світлу та спринклерам?",
+                            "ru": "Мешают ли острова свету и спринклерам?",
+                            "en": "Do islands interfere with lighting and sprinklers?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Ні, якщо правильно спланувати розміщення. Висоту підвісу регулюють тросами, а між островами залишають простір для світильників, спринклерів і датчиків. Ми плануємо острови разом з інженерними мережами.",
+                            "ru": "Нет, если правильно спланировать размещение. Высоту подвеса регулируют тросами, а между островами оставляют пространство для светильников, спринклеров и датчиков. Мы планируем острова вместе с инженерными сетями.",
+                            "en": "Not if they are planned properly. Suspension height is set with the cables, and space is left between islands for lights, sprinklers and sensors. We plan islands together with building services."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Розрахуємо акустичні острови для вашого простору",
+                    "ru": "Рассчитаем акустические острова для вашего пространства",
+                    "en": "Let’s plan acoustic islands for your space"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план, висоту стелі та фото — запропонуємо модель, кількість і схему розміщення островів.",
+                    "ru": "Пришлите план, высоту потолка и фото — предложим модель, количество и схему размещения островов.",
+                    "en": "Send us the plan, ceiling height and photos and we’ll propose a model, quantity and layout."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        },
+        {
+            "target": "category:steli/akustychni-bafly",
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Акустичні бафли для стелі — Slalom, Bejot | MDT",
+                    "ru": "Акустические бафлы для потолка — Slalom, Bejot | MDT",
+                    "en": "Acoustic ceiling baffles — Slalom, Bejot | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Вертикальні підвісні акустичні бафли для відкритих стель, open space, ресторанів і спортзалів: Slalom Baffle, Bejot Selva:hang. Розрахунок і монтаж — MDT.",
+                    "ru": "Вертикальные подвесные акустические бафлы для открытых потолков, open space, ресторанов и спортзалов: Slalom Baffle, Bejot Selva:hang. Расчет и монтаж — MDT.",
+                    "en": "Vertical hanging acoustic baffles for exposed ceilings, open space, restaurants and sports halls: Slalom Baffle and Bejot Selva:hang. Calculation and installation by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Акустичні бафли",
+                    "ru": "Акустические бафлы",
+                    "en": "Acoustic baffles"
+                },
+                "lp__intro": {
+                    "uk": "<strong>Акустичні бафли</strong> — вертикальні звукопоглинальні панелі, підвішені рядами під стелею. Завдяки вертикальному розташуванню вони <strong>поглинають звук з обох боків</strong> і дають великий ефект навіть при невеликій площі проєкції. Бафли зберігають <strong>візуальну відкритість стелі</strong> й доступ до інженерних мереж, тому їх обирають для лофтів, open space з високими стелями, ресторанів, атріумів і спортзалів. MDT пропонує бафли <strong>Slalom і Bejot</strong>.",
+                    "ru": "<strong>Акустические бафлы</strong> — вертикальные звукопоглощающие панели, подвешенные рядами под потолком. Благодаря вертикальному расположению они <strong>поглощают звук с обеих сторон</strong> и дают большой эффект даже при небольшой площади проекции. Бафлы сохраняют <strong>визуальную открытость потолка</strong> и доступ к инженерным сетям, поэтому их выбирают для лофтов, open space с высокими потолками, ресторанов, атриумов и спортзалов. MDT предлагает бафлы <strong>Slalom и Bejot</strong>.",
+                    "en": "<strong>Acoustic baffles</strong> are vertical sound-absorbing panels hung in rows below the ceiling. Because they hang vertically, they <strong>absorb sound on both sides</strong> and deliver a strong effect even with a small footprint. Baffles keep the <strong>ceiling visually open</strong> and services accessible, which is why they are chosen for lofts, high-ceilinged open-plan offices, restaurants, atriums and sports halls. MDT offers baffles by <strong>Slalom and Bejot</strong>."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі бафлів",
+                    "ru": "Модели бафлов",
+                    "en": "Baffle models"
+                },
+                "lp__products": [
+                    "@9686",
+                    "@product:bejot-selva-hang-sv-hn-12",
+                    "@9870"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@2843",
+                    "@suppliers:bejot"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@12115",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Акустичні бафли",
+                            "ru": "Акустические бафлы",
+                            "en": "Acoustic baffles"
+                        },
+                        "lp__proj-area": {
+                            "uk": "400 м²",
+                            "ru": "400 м²",
+                            "en": "400 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати акустичні бафли</h2>\n<p>Бафли найкраще працюють у високих приміщеннях з відкритою стелею, де суцільна підвісна стеля небажана або неможлива. Ефект залежить від кількості бафлів, їх висоти, кроку між рядами та матеріалу.</p>\n<h3>Крок і напрям рядів</h3>\n<p>Що менший крок між бафлами, то більше звукопоглинання на квадратний метр стелі. Для офісів зазвичай достатньо кроку 30–60 см; деякі системи, як Slalom Baffle, мають підвісний варіант з кроком 20 см. Ряди можна вирівняти вздовж робочих зон, світла чи архітектури приміщення.</p>\n<h3>Висота бафлів</h3>\n<p>Вищі бафли поглинають більше звуку, але візуально «опускають» стелю. У приміщеннях до 3,5 м обирайте невисокі бафли або острови, у вищих — бафли більшої висоти та щільніші ряди.</p>\n<h3>Матеріали</h3>\n<ul>\n<li><strong>Поліефірне волокно</strong> (Slalom Baffle) — щільний формостійкий матеріал, що не вигоряє від ультрафіолету, не вбирає вологи й легко чиститься.</li>\n<li><strong>Текстильні екрани</strong> (Bejot Selva:hang) — у широкій палітрі тканин; водночас ділять open space на зони без перегородок.</li>\n<li><strong>Декоративні підвісні елементи</strong> (Slalom T-Frame &amp; T-Light) — поєднують акустику, зонування й світло.</li>\n</ul>\n<h3>Бафли та інженерія</h3>\n<p>Бафли не перекривають стелю, тож світильники, вентиляція й спринклери працюють без змін, а доступ до мереж зберігається. Ряди легко поєднати з лінійними світильниками.</p>\n<p>MDT розрахує крок і кількість бафлів, підбере колір і матеріал та змонтує систему. Так, в офісі ПриватБанку за проєктом ZIKZAK architects ми встановили 400 м² акустичних панелей у поєднанні з покриттям Forbo Flotex by Starck.</p>",
+                            "ru": "<h2>Как выбрать акустические бафлы</h2>\n<p>Бафлы лучше всего работают в высоких помещениях с открытым потолком, где сплошной подвесной потолок нежелателен или невозможен. Эффект зависит от количества бафлов, их высоты, шага между рядами и материала.</p>\n<h3>Шаг и направление рядов</h3>\n<p>Чем меньше шаг между бафлами, тем больше звукопоглощения на квадратный метр потолка. Для офисов обычно достаточно шага 30–60 см; некоторые системы, как Slalom Baffle, имеют подвесной вариант с шагом 20 см. Ряды можно выровнять вдоль рабочих зон, света или архитектуры помещения.</p>\n<h3>Высота бафлов</h3>\n<p>Более высокие бафлы поглощают больше звука, но визуально «опускают» потолок. В помещениях до 3,5 м выбирайте невысокие бафлы или острова, в более высоких — бафлы большей высоты и более плотные ряды.</p>\n<h3>Материалы</h3>\n<ul>\n<li><strong>Полиэфирное волокно</strong> (Slalom Baffle) — плотный формоустойчивый материал, который не выгорает от ультрафиолета, не впитывает влагу и легко чистится.</li>\n<li><strong>Текстильные экраны</strong> (Bejot Selva:hang) — в широкой палитре тканей; одновременно делят open space на зоны без перегородок.</li>\n<li><strong>Декоративные подвесные элементы</strong> (Slalom T-Frame &amp; T-Light) — сочетают акустику, зонирование и свет.</li>\n</ul>\n<h3>Бафлы и инженерия</h3>\n<p>Бафлы не перекрывают потолок, поэтому светильники, вентиляция и спринклеры работают без изменений, а доступ к сетям сохраняется. Ряды легко сочетать с линейными светильниками.</p>\n<p>MDT рассчитает шаг и количество бафлов, подберет цвет и материал и смонтирует систему. Так, в офисе ПриватБанка по проекту ZIKZAK architects мы установили 400 м² акустических панелей в сочетании с покрытием Forbo Flotex by Starck.</p>",
+                            "en": "<h2>How to choose acoustic baffles</h2>\n<p>Baffles work best in tall rooms with exposed ceilings, where a continuous suspended ceiling is unwanted or impossible. The effect depends on the number of baffles, their height, row spacing and material.</p>\n<h3>Spacing and direction</h3>\n<p>The closer the baffles, the more absorption per square metre of ceiling. In offices a 30–60 cm spacing is usually enough; some systems, like Slalom Baffle, offer a suspended version at 20 cm spacing. Rows can follow work zones, lighting or the room’s architecture.</p>\n<h3>Baffle height</h3>\n<p>Taller baffles absorb more sound but visually lower the ceiling. In rooms up to 3.5 m choose shallow baffles or islands; in taller spaces, deeper baffles and denser rows.</p>\n<h3>Materials</h3>\n<ul>\n<li><strong>Polyester fibre</strong> (Slalom Baffle) — dense, shape-stable material that doesn’t fade in UV light, doesn’t absorb moisture and is easy to clean.</li>\n<li><strong>Textile screens</strong> (Bejot Selva:hang) — in a wide range of fabrics; they also zone open space without partitions.</li>\n<li><strong>Decorative pendants</strong> (Slalom T-Frame &amp; T-Light) — combine acoustics, zoning and light.</li>\n</ul>\n<h3>Baffles and building services</h3>\n<p>Baffles don’t close off the ceiling, so lighting, ventilation and sprinklers work unchanged and services stay accessible. Rows combine easily with linear lighting.</p>\n<p>MDT calculates baffle spacing and quantity, selects colour and material and installs the system. At the PrivatBank office designed by ZIKZAK architects, for example, we installed 400 m² of acoustic panels alongside Forbo Flotex by Starck flooring.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Чим бафли відрізняються від акустичних островів?",
+                            "ru": "Чем бафлы отличаются от акустических островов?",
+                            "en": "How do baffles differ from acoustic islands?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Острови підвішують горизонтально, вони поглинають звук переважно однією стороною. Бафли висять вертикально й працюють обома сторонами, тож дають більше поглинання на ту саму площу стелі й краще зберігають відчуття відкритої стелі.",
+                            "ru": "Острова подвешивают горизонтально, они поглощают звук преимущественно одной стороной. Бафлы висят вертикально и работают обеими сторонами, поэтому дают больше поглощения на ту же площадь потолка и лучше сохраняют ощущение открытого потолка.",
+                            "en": "Islands hang horizontally and absorb mostly on one face. Baffles hang vertically and work on both sides, giving more absorption for the same ceiling area and keeping a more open ceiling."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Для яких приміщень підходять бафли?",
+                            "ru": "Для каких помещений подходят бафлы?",
+                            "en": "Which spaces suit baffles?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для високих приміщень з відкритою стелею: лофт-офісів, ресторанів, атріумів, торгових і виставкових залів, спортзалів і навчальних просторів. У низьких приміщеннях часто ефективніші острови або суцільна акустична стеля.",
+                            "ru": "Для высоких помещений с открытым потолком: лофт-офисов, ресторанов, атриумов, торговых и выставочных залов, спортзалов и учебных пространств. В низких помещениях часто эффективнее острова или сплошной акустический потолок.",
+                            "en": "Tall spaces with exposed ceilings: loft offices, restaurants, atriums, retail and exhibition halls, sports halls and schools. In low rooms, islands or a continuous acoustic ceiling are often more effective."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Як доглядати за бафлами?",
+                            "ru": "Как ухаживать за бафлами?",
+                            "en": "How are baffles maintained?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Бафли з поліефірного волокна не вбирають вологи й забруднень — їх достатньо періодично очищати пилососом з м’якою насадкою. Матеріал не вигоряє від сонця, тож колір зберігається роками.",
+                            "ru": "Бафлы из полиэфирного волокна не впитывают влагу и загрязнения — их достаточно периодически очищать пылесосом с мягкой насадкой. Материал не выгорает на солнце, поэтому цвет сохраняется годами.",
+                            "en": "Polyester-fibre baffles don’t absorb moisture or dirt — occasional vacuuming with a soft brush is enough. The material doesn’t fade in sunlight, so the colour lasts for years."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна поєднати бафли з освітленням?",
+                            "ru": "Можно ли сочетать бафлы с освещением?",
+                            "en": "Can baffles be combined with lighting?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Ряди бафлів легко поєднати з лінійними світильниками, а деякі підвісні елементи, як Slalom T-Frame &amp; T-Light, проєктуються разом зі світлом. Розміщення плануємо разом з інженерними мережами.",
+                            "ru": "Да. Ряды бафлов легко сочетать с линейными светильниками, а некоторые подвесные элементы, как Slalom T-Frame &amp; T-Light, проектируются вместе со светом. Размещение планируем вместе с инженерными сетями.",
+                            "en": "Yes. Rows of baffles pair easily with linear lights, and some pendants, such as Slalom T-Frame &amp; T-Light, are designed together with lighting. We plan the layout together with building services."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Розрахуємо бафли для вашого простору",
+                    "ru": "Рассчитаем бафлы для вашего пространства",
+                    "en": "Let’s plan baffles for your space"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план, висоту стелі та фото — порадимо модель, крок і схему розміщення.",
+                    "ru": "Пришлите план, высоту потолка и фото — посоветуем модель, шаг и схему размещения.",
+                    "en": "Send us the plan, ceiling height and photos and we’ll recommend a model, spacing and layout."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

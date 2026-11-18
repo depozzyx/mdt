@@ -1,0 +1,713 @@
+{
+    "_readme": [
+        "Page «М’які меблі» (/category/mebli/myaki-mebli/) and its products. uk written from manufacturer data; ru and en are translations.",
+        "Products and photos: bejot.eu (source per image under \"media\"). Page photo: Omni Space law-firm project, Trilogy (see mebli-common.json)."
+    ],
+    "media": {
+        "p-bejot-fora-office-1": {
+            "file": "p-bejot-fora-office-1.jpg",
+            "title": "Bejot Fora_office FO 423",
+            "source": "https://www.bejot.eu/en/product/fora-ofice-modular-sofas/model/fo-423"
+        },
+        "p-bejot-fora-office-2": {
+            "file": "p-bejot-fora-office-2.jpg",
+            "title": "Bejot Fora_office FO 423",
+            "source": "https://www.bejot.eu/en/product/fora-ofice-modular-sofas/model/fo-423"
+        },
+        "p-bejot-clip-1": {
+            "file": "p-bejot-clip-1.jpg",
+            "title": "Bejot Clip CL 502",
+            "source": "https://www.bejot.eu/en/product/clip-lounge-sofas/model/cl-502"
+        },
+        "p-bejot-clip-2": {
+            "file": "p-bejot-clip-2.jpg",
+            "title": "Bejot Clip CL 502",
+            "source": "https://www.bejot.eu/en/product/clip-lounge-sofas/model/cl-502"
+        },
+        "p-bejot-barbara-1": {
+            "file": "p-bejot-barbara-1.jpg",
+            "title": "Bejot Barbara BR 230",
+            "source": "https://www.bejot.eu/en/product/barbara-timeless-lounge-chair/model/br-230"
+        },
+        "p-bejot-barbara-2": {
+            "file": "p-bejot-barbara-2.jpg",
+            "title": "Bejot Barbara BR 230",
+            "source": "https://www.bejot.eu/en/product/barbara-timeless-lounge-chair/model/br-230"
+        },
+        "p-bejot-vieni-1": {
+            "file": "p-bejot-vieni-1.jpg",
+            "title": "Bejot Vieni VE W 742",
+            "source": "https://www.bejot.eu/en/product/vieni-lounge-chairs/model/ve-w-742"
+        },
+        "p-bejot-vieni-2": {
+            "file": "p-bejot-vieni-2.jpg",
+            "title": "Bejot Vieni VE W 742",
+            "source": "https://www.bejot.eu/en/product/vieni-lounge-chairs/model/ve-w-742"
+        },
+        "p-bejot-nubi-1": {
+            "file": "p-bejot-nubi-1.jpg",
+            "title": "Bejot Nubi NB PO18",
+            "source": "https://www.bejot.eu/en/product/nubi-pouffes-and-sofas/model/nb-po18"
+        },
+        "p-bejot-nubi-2": {
+            "file": "p-bejot-nubi-2.jpg",
+            "title": "Bejot Nubi NB PO18",
+            "source": "https://www.bejot.eu/en/product/nubi-pouffes-and-sofas/model/nb-po18"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-fora-office-fo-423",
+                "title": "Bejot Fora_office FO 423"
+            },
+            "thumbnail": "@media:p-bejot-fora-office-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Fora_office — модульна система м’яких меблів, з якої складають композиції під характер і розмір офісу: від зон зустрічей і командної роботи до затишних куточків для приватних розмов. Колекція розроблена саме для офісу: вище сидіння й менша глибина підтримують активну посадку під час коротких зустрічей, а щільніша піна дає стабільну опору. Дизайн — данський архітектор Kasper Mose.",
+                    "ru": "Fora_office — модульная система мягкой мебели, из которой составляют композиции под характер и размер офиса: от зон встреч и командной работы до уютных уголков для приватных разговоров. Коллекция разработана именно для офиса: более высокое сиденье и меньшая глубина поддерживают активную посадку во время коротких встреч, а более плотная пена дает стабильную опору. Дизайн — датский архитектор Kasper Mose.",
+                    "en": "Fora_office is a modular soft seating system for building layouts that fit the character and size of an office — from meeting and team zones to quiet corners for private conversations. It was designed for offices: a higher seat and shallower depth support an active posture in short meetings, and firmer foam gives stable support. Designed by Danish architect Kasper Mose."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Модульна система</strong> — дивани, кутові та прямі модулі, з’єднувачі.</li>\n<li><strong>Акустичні панелі</strong> — опція для зосередженої роботи й розмов.</li>\n<li><strong>Активна посадка</strong>: вище сидіння, менша глибина, щільніша піна.</li>\n<li><strong>Медіапорти</strong> з розеткою 230 В або USB.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Модульная система</strong> — диваны, угловые и прямые модули, соединители.</li>\n<li><strong>Акустические панели</strong> — опция для сосредоточенной работы и разговоров.</li>\n<li><strong>Активная посадка</strong>: более высокое сиденье, меньшая глубина, более плотная пена.</li>\n<li><strong>Медиапорты</strong> с розеткой 230 В или USB.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Modular system</strong> — sofas, corner and straight modules, connectors.</li>\n<li><strong>Acoustic panels</strong> as an option for focused work and conversation.</li>\n<li><strong>Active sitting</strong>: higher seat, shallower depth, firmer foam.</li>\n<li><strong>Media ports</strong> with a 230 V socket or USB.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Kasper Mose"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Основа",
+                            "ru": "Основание",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "метал, порошкове фарбування (кольори Bejot)",
+                            "ru": "металл, порошковая покраска (цвета Bejot)",
+                            "en": "powder-coated metal (Bejot colours)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Медіапорт",
+                            "ru": "Медиапорт",
+                            "en": "Media port"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "розетка 230 В або USB A + C — опція",
+                            "ru": "розетка 230 В или USB A + C — опция",
+                            "en": "230 V socket or USB A + C (optional)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Опори",
+                            "ru": "Опоры",
+                            "en": "Feet"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "для плитки, бетону й ковроліну; опція — фетрові для дерева й ламінату",
+                            "ru": "для плитки, бетона и ковролина; опция — фетровые для дерева и ламината",
+                            "en": "for tile, concrete and carpet; felt for wood and laminate optional"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-fora-office-1",
+                    "@media:p-bejot-fora-office-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-clip-cl-502",
+                "title": "Bejot Clip CL 502"
+            },
+            "thumbnail": "@media:p-bejot-clip-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Clip — низькі дивани у стилі 1960-х на металевій трубі, що нагадує канцелярську скріпку. Прості форми поєднуються з комфортом і легкістю: кишенькові пружини в сидінні та підібрана піна роблять Clip дуже зручним. Компактні меблі для неформальних зустрічей в офісі, рецепцій, лобі готелів і кафе. Дизайн — Ewa Półtorak.",
+                    "ru": "Clip — низкие диваны в стиле 1960-х на металлической трубе, напоминающей канцелярскую скрепку. Простые формы сочетаются с комфортом и легкостью: карманные пружины в сиденье и подобранная пена делают Clip очень удобным. Компактная мебель для неформальных встреч в офисе, ресепшн, лобби отелей и кафе. Дизайн — Ewa Półtorak.",
+                    "en": "Clip is a low 1960s-style sofa on a metal tube that recalls a paperclip. Simple shapes meet comfort and lightness: pocket springs in the seat and carefully chosen foam make Clip very comfortable. Compact furniture for informal office meetings, receptions, hotel lobbies and cafés. Designed by Ewa Półtorak."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Кишенькові пружини</strong> в сидінні — підвищений комфорт.</li>\n<li><strong>Підлокітники</strong>: без них, трубчасті, з оббитою або дубовою накладкою.</li>\n<li><strong>Медіапорт</strong> — опція для зарядки телефонів і ноутбуків.</li>\n<li><strong>Екодизайн</strong>: оббивка на фіксаторах замість скоб — легко зняти й переробити.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Карманные пружины</strong> в сиденье — повышенный комфорт.</li>\n<li><strong>Подлокотники</strong>: без них, трубчатые, с обитой или дубовой накладкой.</li>\n<li><strong>Медиапорт</strong> — опция для зарядки телефонов и ноутбуков.</li>\n<li><strong>Экодизайн</strong>: обивка на фиксаторах вместо скоб — легко снять и переработать.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Pocket springs</strong> in the seat for extra comfort.</li>\n<li><strong>Armrests</strong>: none, tubular, or with upholstered or oak pads.</li>\n<li><strong>Media port</strong> as an option for charging phones and laptops.</li>\n<li><strong>Eco design</strong>: upholstery fixed with clips instead of staples — easy to remove and recycle.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Ewa Półtorak"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "металева труба, порошкове фарбування",
+                            "ru": "металлическая труба, порошковая покраска",
+                            "en": "powder-coated metal tube"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Сидіння",
+                            "ru": "Сиденье",
+                            "en": "Seat"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "кишенькові пружини + піна",
+                            "ru": "карманные пружины + пена",
+                            "en": "pocket springs + foam"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Медіапорт",
+                            "ru": "Медиапорт",
+                            "en": "Media port"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "розетка 230 В або USB A + C — опція",
+                            "ru": "розетка 230 В или USB A + C — опция",
+                            "en": "230 V socket or USB A + C (optional)"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-clip-1",
+                    "@media:p-bejot-clip-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-barbara-br-230",
+                "title": "Bejot Barbara BR 230"
+            },
+            "thumbnail": "@media:p-bejot-barbara-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Barbara — оновлена версія культового крісла, яке Bejot випускав у 1990-х. Модель зберегла характерний стиль своєї епохи, але відповідає вимогам сучасного офісу. Підібрана піна в сидінні й спинці м’яко підлаштовується під тіло, а міцна конструкція легко розбирається для переробки. Каркас можна пофарбувати в один із 16 кольорів RAL палітри Bejot.",
+                    "ru": "Barbara — обновленная версия культового кресла, которое Bejot выпускал в 1990-х. Модель сохранила характерный стиль своей эпохи, но отвечает требованиям современного офиса. Подобранная пена в сиденье и спинке мягко подстраивается под тело, а прочная конструкция легко разбирается для переработки. Каркас можно окрасить в один из 16 цветов RAL палитры Bejot.",
+                    "en": "Barbara is a refreshed version of the iconic armchair Bejot made in the 1990s. It keeps the distinctive style of its era while meeting the needs of today’s offices. Carefully chosen foam in the seat and back gently adapts to the body, and the sturdy frame disassembles easily for recycling. The frame comes in any of 16 RAL colours from the Bejot palette."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Класика 1990-х</strong> у сучасному виконанні.</li>\n<li><strong>16 кольорів RAL</strong> для каркаса.</li>\n<li><strong>Обволікаючий комфорт</strong> завдяки підібраній піні.</li>\n<li><strong>Сталий дизайн</strong> — легке розбирання й переробка компонентів.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Классика 1990-х</strong> в современном исполнении.</li>\n<li><strong>16 цветов RAL</strong> для каркаса.</li>\n<li><strong>Обволакивающий комфорт</strong> благодаря подобранной пене.</li>\n<li><strong>Устойчивый дизайн</strong> — легкая разборка и переработка компонентов.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>A 1990s classic</strong> made for today.</li>\n<li><strong>16 RAL colours</strong> for the frame.</li>\n<li><strong>Enveloping comfort</strong> from carefully chosen foam.</li>\n<li><strong>Sustainable design</strong> — easy disassembly and recycling.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "сталь, порошкове фарбування (16 кольорів RAL)",
+                            "ru": "сталь, порошковая покраска (16 цветов RAL)",
+                            "en": "powder-coated steel (16 RAL colours)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Полози",
+                            "ru": "Полозья",
+                            "en": "Glides"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "для плитки, бетону й ковроліну; опція — фетрові",
+                            "ru": "для плитки, бетона и ковролина; опция — фетровые",
+                            "en": "for tile, concrete and carpet; felt optional"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-barbara-1",
+                    "@media:p-bejot-barbara-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-vieni-ve-w-742",
+                "title": "Bejot Vieni VE W 742"
+            },
+            "thumbnail": "@media:p-bejot-vieni-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Vieni — просторе й дуже зручне крісло з виразним італійським дизайном від Edi & Paolo Ciani. Плавна лінія шва підкреслює сферичну форму, а якісні компоненти й увага до оздоблення роблять крісло елегантним. Модель VE W 742 — на дерев’яних ніжках. Vieni пасує до сучасних громадських інтер’єрів, лаунж-зон і домашніх просторів.",
+                    "ru": "Vieni — просторное и очень удобное кресло с выразительным итальянским дизайном от Edi & Paolo Ciani. Плавная линия шва подчеркивает сферическую форму, а качественные компоненты и внимание к отделке делают кресло элегантным. Модель VE W 742 — на деревянных ножках. Vieni подходит к современным общественным интерьерам, лаунж-зонам и домашним пространствам.",
+                    "en": "Vieni is a roomy, very comfortable armchair with expressive Italian design by Edi & Paolo Ciani. A smooth seam line emphasises its spherical form, and quality components and careful finishing make it elegant. The VE W 742 stands on wooden legs. Vieni suits modern public interiors, lounge areas and homes."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Італійський дизайн</strong> Edi &amp; Paolo Ciani.</li>\n<li><strong>Сферична форма</strong>, підкреслена плавним швом.</li>\n<li><strong>Дерев’яні ніжки</strong>; у колекції також є поворотні версії на хрестовині й крісло-гойдалка.</li>\n<li><strong>Для лаунжу</strong>, лобі й зон відпочинку.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Итальянский дизайн</strong> Edi &amp; Paolo Ciani.</li>\n<li><strong>Сферическая форма</strong>, подчеркнутая плавным швом.</li>\n<li><strong>Деревянные ножки</strong>; в коллекции также есть поворотные версии на крестовине и кресло-качалка.</li>\n<li><strong>Для лаунжа</strong>, лобби и зон отдыха.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Italian design</strong> by Edi &amp; Paolo Ciani.</li>\n<li><strong>Spherical form</strong> highlighted by a smooth seam.</li>\n<li><strong>Wooden legs</strong>; the collection also has swivel versions on a star base and a rocking chair.</li>\n<li><strong>For lounges</strong>, lobbies and break areas.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Edi & Paolo Ciani"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Ніжки",
+                            "ru": "Ножки",
+                            "en": "Legs"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "дерев’яні",
+                            "ru": "деревянные",
+                            "en": "wooden"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Інші версії",
+                            "ru": "Другие версии",
+                            "en": "Other versions"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "поворотна на 4-променевій основі, гойдалка, низька й висока спинка",
+                            "ru": "поворотная на 4-лучевом основании, качалка, низкая и высокая спинка",
+                            "en": "swivel 4-star base, rocker, low and high back"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-vieni-1",
+                    "@media:p-bejot-vieni-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-nubi-nb-po18",
+                "title": "Bejot Nubi NB PO18"
+            },
+            "thumbnail": "@media:p-bejot-nubi-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Nubi — позачасова колекція диванів і пуфів у стилі mid-century з органічною формою та м’якими заокругленими краями, що додає інтер’єру легкості й елегантності. Завдяки матеріалам Nubi витримує інтенсивне використання в громадських просторах — лобі готелів, open space офісів, банках і торгових центрах. Дизайн — Weronika Politowicz (Royal College of Art, Лондон).",
+                    "ru": "Nubi — вневременная коллекция диванов и пуфов в стиле mid-century с органической формой и мягкими скругленными краями, что добавляет интерьеру легкости и элегантности. Благодаря материалам Nubi выдерживает интенсивное использование в общественных пространствах — лобби отелей, open space офисов, банках и торговых центрах. Дизайн — Weronika Politowicz (Royal College of Art, Лондон).",
+                    "en": "Nubi is a timeless mid-century-style collection of sofas and poufs with an organic shape and soft rounded edges that bring lightness and elegance to a room. Its materials stand up to heavy use in public spaces — hotel lobbies, open-plan offices, banks and shopping centres. Designed by Weronika Politowicz (Royal College of Art, London)."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Органічна форма</strong> — легкий акцент для лобі й open space.</li>\n<li><strong>Ніжки</strong>: фарбований метал або масив дуба.</li>\n<li><strong>Приставний столик</strong> на сидінні — для телефону, нотатника чи ноутбука.</li>\n<li><strong>Медіапорт</strong> 230 В або USB — опція; в колекції є акустичні екрани.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Органическая форма</strong> — легкий акцент для лобби и open space.</li>\n<li><strong>Ножки</strong>: окрашенный металл или массив дуба.</li>\n<li><strong>Приставной столик</strong> на сиденье — для телефона, блокнота или ноутбука.</li>\n<li><strong>Медиапорт</strong> 230 В или USB — опция; в коллекции есть акустические экраны.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Organic shape</strong> — a light accent for lobbies and open space.</li>\n<li><strong>Legs</strong>: powder-coated metal or solid oak.</li>\n<li><strong>Seat-mounted side table</strong> for a phone, notebook or laptop.</li>\n<li><strong>Media port</strong> 230 V or USB optional; the collection includes acoustic screens.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Weronika Politowicz"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Ніжки",
+                            "ru": "Ножки",
+                            "en": "Legs"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "метал, порошкове фарбування; опція — масив дуба",
+                            "ru": "металл, порошковая покраска; опция — массив дуба",
+                            "en": "powder-coated metal; solid oak optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Оббивка",
+                            "ru": "Обивка",
+                            "en": "Upholstery"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "можна двоколірну (сидіння / спинка)",
+                            "ru": "можно двухцветную (сиденье / спинка)",
+                            "en": "two-tone available (seat / back)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Медіапорт",
+                            "ru": "Медиапорт",
+                            "en": "Media port"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "розетка 230 В або USB A + C — опція",
+                            "ru": "розетка 230 В или USB A + C — опция",
+                            "en": "230 V socket or USB A + C (optional)"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-nubi-1",
+                    "@media:p-bejot-nubi-2"
+                ]
+            }
+        },
+        {
+            "target": "category:mebli/myaki-mebli",
+            "thumbnail": "@media:proj-law-24",
+            "thumbnail_alt": {
+                "uk": "Лаунж-зона з м’якими меблями в офісі юридичної компанії, Лімасол",
+                "ru": "Лаунж-зона с мягкой мебелью в офисе юридической компании, Лимасол",
+                "en": "Lounge with soft seating at a law firm office, Limassol"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "М’які меблі для офісу: дивани, крісла, пуфи — Bejot | MDT",
+                    "ru": "Мягкая мебель для офиса: диваны, кресла, пуфы — Bejot | MDT",
+                    "en": "Office soft seating: sofas, lounge chairs, poufs — Bejot | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "М’які меблі для лаунж-зон, рецепцій і зон неформальних зустрічей: модульні дивани, лаунж-крісла та пуфи Bejot. Підбір і комплектація — MDT.",
+                    "ru": "Мягкая мебель для лаунж-зон, ресепшн и зон неформальных встреч: модульные диваны, лаунж-кресла и пуфы Bejot. Подбор и комплектация — MDT.",
+                    "en": "Soft seating for lounges, receptions and informal meeting areas: Bejot modular sofas, lounge chairs and poufs. Selection and furnishing by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "М’які меблі для офісу та громадських просторів",
+                    "ru": "Мягкая мебель для офиса и общественных пространств",
+                    "en": "Soft seating for offices and public spaces"
+                },
+                "lp__intro": {
+                    "uk": "Сучасний офіс — це не лише робочі місця: значна частина спілкування відбувається в <strong>лаунж-зонах, на рецепції та в куточках для неформальних зустрічей</strong>. Саме тут м’які меблі задають атмосферу простору й показують, як компанія ставиться до людей. MDT пропонує <strong>модульні дивани, лаунж-крісла та пуфи Bejot</strong> — від систем для командної роботи з акустичними панелями до знакових крісел для лобі.",
+                    "ru": "Современный офис — это не только рабочие места: значительная часть общения происходит в <strong>лаунж-зонах, на ресепшн и в уголках для неформальных встреч</strong>. Именно здесь мягкая мебель задает атмосферу пространства и показывает, как компания относится к людям. MDT предлагает <strong>модульные диваны, лаунж-кресла и пуфы Bejot</strong> — от систем для командной работы с акустическими панелями до знаковых кресел для лобби.",
+                    "en": "A modern office is more than desks: much of the conversation happens in <strong>lounges, at reception and in corners for informal meetings</strong>. This is where soft seating sets the atmosphere and shows how a company treats its people. MDT offers <strong>Bejot modular sofas, lounge chairs and poufs</strong>, from team-work systems with acoustic panels to signature armchairs for the lobby."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі м’яких меблів",
+                    "ru": "Модели мягкой мебели",
+                    "en": "Soft seating models"
+                },
+                "lp__products": [
+                    "@product:bejot-fora-office-fo-423",
+                    "@product:bejot-clip-cl-502",
+                    "@product:bejot-barbara-br-230",
+                    "@product:bejot-vieni-ve-w-742",
+                    "@product:bejot-nubi-nb-po18",
+                    "@product:mdd-grand-grace",
+                    "@product:profim-chic-lounge",
+                    "@product:noti-topo",
+                    "@product:isku-big-hug",
+                    "@product:offecct-circulus",
+                    "@product:arper-kiik",
+                    "@product:bla-station-bob",
+                    "@product:diemme-circuit",
+                    "@product:true-design-abisko",
+                    "@product:flexform-feel-good",
+                    "@product:audo-the-tired-man",
+                    "@product:poliform-attimo",
+                    "@product:i4mariani-sella-lounge",
+                    "@product:sancal-tortuga",
+                    "@product:ditre-italia-manta",
+                    "@product:midj-yak",
+                    "@product:marelli-lara",
+                    "@product:scab-brezza-relax",
+                    "@product:lecomfort-oyster",
+                    "@product:mogg-talk",
+                    "@product:tonelli-naked",
+                    "@product:cantori-twist",
+                    "@product:frag-clubby",
+                    "@product:vondom-africa",
+                    "@product:woo-sumo",
+                    "@product:tivoli-striha-lounge",
+                    "@product:4corners-combo-sofa",
+                    "@product:4corners-koloda",
+                    "@product:diza-harbuz-lounge"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@suppliers:bejot",
+                    "@suppliers:mdd",
+                    "@suppliers:profim",
+                    "@suppliers:ld-seating",
+                    "@suppliers:noti",
+                    "@suppliers:inclass",
+                    "@suppliers:vondom",
+                    "@suppliers:isku",
+                    "@suppliers:audo",
+                    "@suppliers:diemme",
+                    "@suppliers:ditre-italia",
+                    "@suppliers:true-design",
+                    "@suppliers:midj",
+                    "@suppliers:marelli",
+                    "@suppliers:scab",
+                    "@suppliers:lecomfort",
+                    "@suppliers:mogg",
+                    "@suppliers:tonelli-design",
+                    "@suppliers:cantori",
+                    "@suppliers:frag",
+                    "@suppliers:offecct",
+                    "@suppliers:joyf",
+                    "@suppliers:woo",
+                    "@suppliers:tivoli",
+                    "@suppliers:4corners",
+                    "@suppliers:diza",
+                    "@suppliers:i4mariani",
+                    "@suppliers:flexform",
+                    "@suppliers:poliform",
+                    "@suppliers:arper",
+                    "@suppliers:sancal",
+                    "@suppliers:bla-station"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:ofis-yurydychnoyi-kompaniyi-trilogy",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Лаунж-зони, зона очікування",
+                            "ru": "Лаунж-зоны, зона ожидания",
+                            "en": "Lounges, waiting area"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-mizhnarodnoyi-mediakompaniyi",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Лаунж, кухня",
+                            "ru": "Лаунж, кухня",
+                            "en": "Lounge, kitchen"
+                        },
+                        "lp__proj-area": {
+                            "uk": "920 м²",
+                            "ru": "920 м²",
+                            "en": "920 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-danone",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Лаунж-зони",
+                            "ru": "Лаунж-зоны",
+                            "en": "Lounges"
+                        },
+                        "lp__proj-area": {
+                            "uk": "1 870 м²",
+                            "ru": "1 870 м²",
+                            "en": "1,870 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати м’які меблі для офісу</h2>\n<p>Почніть із того, що відбуватиметься в зоні: короткі зустрічі, очікування гостей, відпочинок чи робота з ноутбуком. Від сценарію залежать висота й глибина сидіння, щільність наповнювача та формат меблів.</p>\n<h3>Модульні дивани для зустрічей і командної роботи</h3>\n<p>Модульні системи, як Bejot Fora_office, дозволяють скласти композицію під конкретне приміщення і змінити її, коли зміниться команда. Для зустрічей обирайте вище сидіння й меншу глибину — так зручніше сидіти активно, з ноутбуком чи нотатником. Акустичні панелі та медіапорти перетворюють диван на повноцінне місце для коротких сесій роботи.</p>\n<h3>Лаунж-крісла для рецепції та лобі</h3>\n<p>Крісла біля входу — перше, що бачать гості. Тут доречні виразні моделі з характером: класика 1990-х Barbara, крісла Vieni з італійським дизайном чи низькі дивани Clip у стилі 1960-х.</p>\n<h3>Пуфи та акценти</h3>\n<p>Пуфи й острівні дивани з м’якими формами, як Nubi, додають гнучкості: на них сідають з будь-якого боку, їх легко переставити, а в open space вони стають природними точками зустрічі.</p>\n<h3>Тканини та догляд</h3>\n<ul>\n<li><strong>Зносостійкість</strong>: для громадських просторів обирайте тканини від 40 000 циклів Мартіндейла.</li>\n<li><strong>Легкий догляд</strong>: тканини з водо- й брудовідштовхувальним просоченням зберігають вигляд довше.</li>\n<li><strong>Пожежна безпека</strong>: перевіряйте відповідність стандартам EN 1021-1/2.</li>\n</ul>\n<h3>Акустика</h3>\n<p>М’які меблі частково поглинають звук, але в open space варто поєднувати їх з акустичними панелями, екранами чи кабінками. MDT підбирає меблі разом з акустичними рішеннями та покриттям для підлоги, щоб лаунж-зона була і красивою, і тихою.</p>",
+                            "ru": "<h2>Как выбрать мягкую мебель для офиса</h2>\n<p>Начните с того, что будет происходить в зоне: короткие встречи, ожидание гостей, отдых или работа с ноутбуком. От сценария зависят высота и глубина сиденья, плотность наполнителя и формат мебели.</p>\n<h3>Модульные диваны для встреч и командной работы</h3>\n<p>Модульные системы, как Bejot Fora_office, позволяют составить композицию под конкретное помещение и изменить ее, когда изменится команда. Для встреч выбирайте более высокое сиденье и меньшую глубину — так удобнее сидеть активно, с ноутбуком или блокнотом. Акустические панели и медиапорты превращают диван в полноценное место для коротких сессий работы.</p>\n<h3>Лаунж-кресла для ресепшн и лобби</h3>\n<p>Кресла у входа — первое, что видят гости. Здесь уместны выразительные модели с характером: классика 1990-х Barbara, кресла Vieni с итальянским дизайном или низкие диваны Clip в стиле 1960-х.</p>\n<h3>Пуфы и акценты</h3>\n<p>Пуфы и островные диваны с мягкими формами, как Nubi, добавляют гибкости: на них садятся с любой стороны, их легко переставить, а в open space они становятся естественными точками встречи.</p>\n<h3>Ткани и уход</h3>\n<ul>\n<li><strong>Износостойкость</strong>: для общественных пространств выбирайте ткани от 40 000 циклов Мартиндейла.</li>\n<li><strong>Легкий уход</strong>: ткани с водо- и грязеотталкивающей пропиткой дольше сохраняют вид.</li>\n<li><strong>Пожарная безопасность</strong>: проверяйте соответствие стандартам EN 1021-1/2.</li>\n</ul>\n<h3>Акустика</h3>\n<p>Мягкая мебель частично поглощает звук, но в open space стоит сочетать ее с акустическими панелями, экранами или кабинками. MDT подбирает мебель вместе с акустическими решениями и напольным покрытием, чтобы лаунж-зона была и красивой, и тихой.</p>",
+                            "en": "<h2>How to choose office soft seating</h2>\n<p>Start with what will happen in the area: short meetings, guests waiting, relaxing or laptop work. The scenario determines seat height and depth, foam density and the type of furniture.</p>\n<h3>Modular sofas for meetings and team work</h3>\n<p>Modular systems such as Bejot Fora_office let you build a layout for a specific room and change it when the team changes. For meetings, choose a higher seat and shallower depth — easier to sit actively with a laptop or notebook. Acoustic panels and media ports turn a sofa into a proper spot for short work sessions.</p>\n<h3>Lounge chairs for reception and lobby</h3>\n<p>The chairs by the entrance are the first thing guests see. Expressive pieces with character work well here: the 1990s classic Barbara, Vieni chairs with Italian design, or low 1960s-style Clip sofas.</p>\n<h3>Poufs and accents</h3>\n<p>Poufs and island sofas with soft shapes, like Nubi, add flexibility: people sit on them from any side, they are easy to move, and in an open-plan office they become natural meeting points.</p>\n<h3>Fabrics and care</h3>\n<ul>\n<li><strong>Durability</strong>: for public spaces choose fabrics rated from 40,000 Martindale cycles.</li>\n<li><strong>Easy care</strong>: water- and stain-repellent finishes keep fabrics looking good for longer.</li>\n<li><strong>Fire safety</strong>: check compliance with EN 1021-1/2.</li>\n</ul>\n<h3>Acoustics</h3>\n<p>Soft seating absorbs some sound, but in open-plan offices combine it with acoustic panels, screens or booths. MDT selects furniture together with acoustic solutions and flooring so the lounge is both attractive and quiet.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Які м’які меблі обрати для зони очікування?",
+                            "ru": "Какую мягкую мебель выбрать для зоны ожидания?",
+                            "en": "What soft seating suits a waiting area?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для зони очікування добре працюють лаунж-крісла й компактні дивани з глибшою посадкою та зносостійкою тканиною. Якщо гості часто працюють з ноутбуком, додайте приставні столики й медіапорти для зарядки.",
+                            "ru": "Для зоны ожидания хорошо работают лаунж-кресла и компактные диваны с более глубокой посадкой и износостойкой тканью. Если гости часто работают с ноутбуком, добавьте приставные столики и медиапорты для зарядки.",
+                            "en": "Lounge chairs and compact sofas with a deeper seat and hard-wearing fabric work well. If guests often use laptops, add side tables and media ports for charging."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чим модульні дивани кращі за звичайні?",
+                            "ru": "Чем модульные диваны лучше обычных?",
+                            "en": "Why choose modular sofas?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Модульну систему можна скласти під будь-яке приміщення — пряму, кутову чи острівну — і переконфігурувати, коли зміниться планування. Окремі модулі легше заносити, а пошкоджений елемент можна замінити без заміни всього дивана.",
+                            "ru": "Модульную систему можно собрать под любое помещение — прямую, угловую или островную — и переконфигурировать, когда изменится планировка. Отдельные модули легче заносить, а поврежденный элемент можно заменить без замены всего дивана.",
+                            "en": "A modular system can be configured for any room — straight, corner or island — and reconfigured when the layout changes. Individual modules are easier to bring in, and a damaged piece can be replaced without replacing the whole sofa."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Яку тканину обрати для офісних м’яких меблів?",
+                            "ru": "Какую ткань выбрать для офисной мягкой мебели?",
+                            "en": "What fabric is best for office soft seating?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для інтенсивного використання — тканини зі зносостійкістю від 40 000 циклів Мартіндейла та сертифікатом EN 1021. Тканини з брудовідштовхувальним просоченням простіші в догляді. Ми підготуємо зразки тканин і кольорів під ваш інтер’єр.",
+                            "ru": "Для интенсивного использования — ткани с износостойкостью от 40 000 циклов Мартиндейла и сертификатом EN 1021. Ткани с грязеотталкивающей пропиткой проще в уходе. Мы подготовим образцы тканей и цветов под ваш интерьер.",
+                            "en": "For heavy use, choose fabrics rated from 40,000 Martindale cycles and certified to EN 1021. Stain-repellent finishes are easier to care for. We’ll prepare fabric and colour samples for your interior."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи допомагають м’які меблі з акустикою?",
+                            "ru": "Помогает ли мягкая мебель с акустикой?",
+                            "en": "Does soft seating help with acoustics?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Частково: оббивка поглинає частину звуку, а моделі з високими спинками чи акустичними панелями створюють тихіші зони для розмов. Для відчутного ефекту в open space поєднуйте м’які меблі зі стіновими та стельовими акустичними панелями.",
+                            "ru": "Частично: обивка поглощает часть звука, а модели с высокими спинками или акустическими панелями создают более тихие зоны для разговоров. Для ощутимого эффекта в open space сочетайте мягкую мебель со стеновыми и потолочными акустическими панелями.",
+                            "en": "Partly: upholstery absorbs some sound, and models with high backs or acoustic panels create quieter zones for conversation. For a noticeable effect in open-plan offices, combine soft seating with wall and ceiling acoustic panels."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Створимо лаунж-зону для вашого офісу",
+                    "ru": "Создадим лаунж-зону для вашего офиса",
+                    "en": "Let’s create a lounge for your office"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план приміщення й розкажіть, як використовуватиметься зона, — запропонуємо меблі, тканини й акустичні рішення.",
+                    "ru": "Пришлите план помещения и расскажите, как будет использоваться зона, — предложим мебель, ткани и акустические решения.",
+                    "en": "Send us your floor plan and tell us how the area will be used, and we’ll suggest furniture, fabrics and acoustic solutions."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

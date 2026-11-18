@@ -1,0 +1,656 @@
+{
+    "_readme": [
+        "Page «Робочі та переговорні столи» (/category/mebli/robochi-ta-peregovorni-stoly/) and its products. uk written from manufacturer data; ru and en are translations.",
+        "Products and photos: bejot.eu (source per image under \"media\"). Made-to-order section: zest.furniture project pages (Trilogy, IT office Limassol). Page photo: Omni Space Danone project (see mebli-common.json)."
+    ],
+    "media": {
+        "p-bejot-tables-hr-1": {
+            "file": "p-bejot-tables-hr-1.jpg",
+            "title": "Bejot Tables:hr TB HRE",
+            "source": "https://www.bejot.eu/en/product/tables-hr-height-adjustable-desks/model/tb-hre"
+        },
+        "p-bejot-tables-hr-2": {
+            "file": "p-bejot-tables-hr-2.jpg",
+            "title": "Bejot Tables:hr TB HRE",
+            "source": "https://www.bejot.eu/en/product/tables-hr-height-adjustable-desks/model/tb-hre"
+        },
+        "p-bejot-conf3-1": {
+            "file": "p-bejot-conf3-1.jpg",
+            "title": "Bejot Tables:conference TB CONF3",
+            "source": "https://www.bejot.eu/en/product/tables-conference-tables/model/tb-conf3"
+        },
+        "p-bejot-conf3-2": {
+            "file": "p-bejot-conf3-2.jpg",
+            "title": "Bejot Tables:conference TB CONF3",
+            "source": "https://www.bejot.eu/en/product/tables-conference-tables/model/tb-conf3"
+        },
+        "p-bejot-orte-4l-1": {
+            "file": "p-bejot-orte-4l-1.jpg",
+            "title": "Bejot Orte OT 4L",
+            "source": "https://www.bejot.eu/en/product/orte-tables-and-desks/model/ot-4l"
+        },
+        "p-bejot-orte-4l-2": {
+            "file": "p-bejot-orte-4l-2.jpg",
+            "title": "Bejot Orte OT 4L",
+            "source": "https://www.bejot.eu/en/product/orte-tables-and-desks/model/ot-4l"
+        },
+        "p-bejot-cross-1": {
+            "file": "p-bejot-cross-1.jpg",
+            "title": "Bejot Tables:cross TB CR 180",
+            "source": "https://www.bejot.eu/en/product/tables-cross-meeting-tables/model/tb-cc-cr-180"
+        },
+        "p-bejot-cross-2": {
+            "file": "p-bejot-cross-2.jpg",
+            "title": "Bejot Tables:cross TB CC 80",
+            "source": "https://www.bejot.eu/en/product/tables-cross-meeting-tables/model/tb-cc-cs-csc-80"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-tables-hr-tb-hre",
+                "title": "Bejot Tables:hr TB HRE"
+            },
+            "thumbnail": "@media:p-bejot-tables-hr-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Tables:hr — робочі столи з електричним регулюванням висоти, створені за ідеєю «sit & stand». Просте й швидке регулювання кнопкою або через мобільний застосунок заохочує частіше змінювати положення — це додає енергії та продуктивності. Вбудований контролер запам’ятовує чотири улюблені висоти стільниці, дисплей показує поточну висоту, а застосунок нагадує встати.",
+                    "ru": "Tables:hr — рабочие столы с электрической регулировкой высоты, созданные по идее «sit & stand». Простая и быстрая регулировка кнопкой или через мобильное приложение побуждает чаще менять положение — это добавляет энергии и продуктивности. Встроенный контроллер запоминает четыре любимые высоты столешницы, дисплей показывает текущую высоту, а приложение напоминает встать.",
+                    "en": "Tables:hr are electrically height-adjustable desks built around the sit & stand idea. Quick, simple adjustment by button or mobile app encourages frequent changes of position for more energy and productivity. The built-in controller remembers four favourite heights, the display shows the current height and the app reminds you to stand up."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Діапазон висоти 610–1260 мм</strong> — для роботи сидячи й стоячи.</li>\n<li><strong>Контролер з кольоровим дисплеєм і Bluetooth</strong>, 4 позиції пам’яті, мобільний застосунок.</li>\n<li><strong>Три розміри стільниці</strong>: 140×80, 160×80, 200×100 см.</li>\n<li><strong>Медіапорт</strong> (розетка 230 В, USB, індукційна зарядка) і кабель-канал — опції.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Диапазон высоты 610–1260 мм</strong> — для работы сидя и стоя.</li>\n<li><strong>Контроллер с цветным дисплеем и Bluetooth</strong>, 4 позиции памяти, мобильное приложение.</li>\n<li><strong>Три размера столешницы</strong>: 140×80, 160×80, 200×100 см.</li>\n<li><strong>Медиапорт</strong> (розетка 230 В, USB, индукционная зарядка) и кабель-канал — опции.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Height range 610–1260 mm</strong> for sitting and standing work.</li>\n<li><strong>Controller with colour display and Bluetooth</strong>, 4 memory positions, mobile app.</li>\n<li><strong>Three top sizes</strong>: 140×80, 160×80, 200×100 cm.</li>\n<li><strong>Media port</strong> (230 V socket, USB, wireless charging) and cable tray as options.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Регулювання висоти",
+                            "ru": "Регулировка высоты",
+                            "en": "Height adjustment"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "електричне, 610–1260 мм",
+                            "ru": "электрическая, 610–1260 мм",
+                            "en": "electric, 610–1260 mm"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Розміри стільниці",
+                            "ru": "Размеры столешницы",
+                            "en": "Top sizes"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "140×80, 160×80, 200×100 см",
+                            "ru": "140×80, 160×80, 200×100 см",
+                            "en": "140×80, 160×80, 200×100 cm"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Основа",
+                            "ru": "Основание",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "чорна RAL 9005 або біла RAL 9016",
+                            "ru": "черная RAL 9005 или белая RAL 9016",
+                            "en": "black RAL 9005 or white RAL 9016"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Керування",
+                            "ru": "Управление",
+                            "en": "Controls"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "дисплей, Bluetooth, застосунок, 4 позиції пам’яті",
+                            "ru": "дисплей, Bluetooth, приложение, 4 позиции памяти",
+                            "en": "display, Bluetooth, app, 4 memory positions"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-tables-hr-1",
+                    "@media:p-bejot-tables-hr-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-tables-conference-tb-conf3",
+                "title": "Bejot Tables:conference TB CONF3"
+            },
+            "thumbnail": "@media:p-bejot-conf3-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Tables:conference — масивний стіл у стилі лофт для переговорних і конференц-залів. Стільниця з масиву дуба приємна на дотик, а природні тріщини й сучки підкреслюють унікальну структуру деревини. Оригінальний асиметричний сталевий каркас, пофарбований у контрастний колір, додає інтер’єру виразного акценту.",
+                    "ru": "Tables:conference — массивный стол в стиле лофт для переговорных и конференц-залов. Столешница из массива дуба приятна на ощупь, а природные трещины и сучки подчеркивают уникальную структуру древесины. Оригинальный асимметричный стальной каркас, окрашенный в контрастный цвет, добавляет интерьеру выразительный акцент.",
+                    "en": "Tables:conference is a sturdy loft-style table for meeting and conference rooms. The solid oak top is pleasant to the touch, with natural cracks and knots that highlight the unique grain. An original asymmetric steel frame in a contrasting colour adds a striking accent to the interior."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Масив дуба</strong> — натуральна, «жива» стільниця.</li>\n<li><strong>Асиметричний сталевий каркас</strong>: білий, чорний або графіт.</li>\n<li><strong>Медіапорт у стільниці</strong>: 2 розетки 230 В + HDMI + 2×RJ45 або 2 розетки + 2 USB + 2×RJ45.</li>\n<li><strong>Розбірний каркас</strong> на болтах — опція для складної логістики; з’єднувачі для столів, що стоять поруч.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Массив дуба</strong> — натуральная, «живая» столешница.</li>\n<li><strong>Асимметричный стальной каркас</strong>: белый, черный или графит.</li>\n<li><strong>Медиапорт в столешнице</strong>: 2 розетки 230 В + HDMI + 2×RJ45 или 2 розетки + 2 USB + 2×RJ45.</li>\n<li><strong>Разборный каркас</strong> на болтах — опция для сложной логистики; соединители для стоящих рядом столов.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Solid oak</strong> — a natural, characterful top.</li>\n<li><strong>Asymmetric steel frame</strong> in white, black or graphite.</li>\n<li><strong>Built-in media port</strong>: 2×230 V + HDMI + 2×RJ45, or 2×230 V + 2×USB + 2×RJ45.</li>\n<li><strong>Bolt-together frame</strong> as an option for difficult deliveries; connectors for tables placed side by side.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Стільниця",
+                            "ru": "Столешница",
+                            "en": "Tabletop"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "масив дуба",
+                            "ru": "массив дуба",
+                            "en": "solid oak"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "сталь, порошкове фарбування: білий, чорний, графіт",
+                            "ru": "сталь, порошковая покраска: белый, черный, графит",
+                            "en": "powder-coated steel: white, black, graphite"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Медіапорт",
+                            "ru": "Медиапорт",
+                            "en": "Media port"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "касета на 2 модулі — опція",
+                            "ru": "кассета на 2 модуля — опция",
+                            "en": "cassette for 2 modules (optional)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Опори",
+                            "ru": "Опоры",
+                            "en": "Feet"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "регульовані — опція",
+                            "ru": "регулируемые — опция",
+                            "en": "adjustable (optional)"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-conf3-1",
+                    "@media:p-bejot-conf3-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-orte-ot-4l",
+                "title": "Bejot Orte OT 4L"
+            },
+            "thumbnail": "@media:p-bejot-orte-4l-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Orte — колекція столів для офісів, переговорних, кафетеріїв та їдалень. Модель OT 4L — мінімалістичний стіл на чотирьох ніжках, який однаково добре працює як робочий стіл, переговорний чи конференц-стіл: кілька столів з’єднуються в довгі ряди або П-подібну конфігурацію для нарад і навчань. Поєднання дерева й металу пасує і до класичного, і до сучасного офісу. Дизайн — Beata Wilk-Naskręt.",
+                    "ru": "Orte — коллекция столов для офисов, переговорных, кафетериев и столовых. Модель OT 4L — минималистичный стол на четырех ножках, который одинаково хорошо работает как рабочий, переговорный или конференц-стол: несколько столов соединяются в длинные ряды или П-образную конфигурацию для совещаний и обучений. Сочетание дерева и металла подходит и к классическому, и к современному офису. Дизайн — Beata Wilk-Naskręt.",
+                    "en": "Orte is a table collection for offices, meeting rooms, cafeterias and canteens. The OT 4L is a minimalist four-leg table that works equally well as a desk, meeting or conference table: several tables link into long rows or a U-shape for meetings and training. The mix of wood and metal suits both classic and modern offices. Designed by Beata Wilk-Naskręt."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Універсальний</strong> — робочий, переговорний або конференц-стіл.</li>\n<li><strong>З’єднувачі LRS2</strong> — столи стикуються в ряди й П-подібні конфігурації без зазорів.</li>\n<li><strong>Стільниця</strong> з ламінованої плити 18 мм або зрощеного масиву дуба 19 мм.</li>\n<li><strong>Каркас</strong> у кольорах палітри Bejot.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Универсальный</strong> — рабочий, переговорный или конференц-стол.</li>\n<li><strong>Соединители LRS2</strong> — столы стыкуются в ряды и П-образные конфигурации без зазоров.</li>\n<li><strong>Столешница</strong> из ламинированной плиты 18 мм или сращенного массива дуба 19 мм.</li>\n<li><strong>Каркас</strong> в цветах палитры Bejot.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Versatile</strong>: desk, meeting or conference table.</li>\n<li><strong>LRS2 connectors</strong> join tables into rows and U-shapes without gaps.</li>\n<li><strong>Top</strong> in 18 mm laminated board or 19 mm finger-jointed solid oak.</li>\n<li><strong>Frame</strong> in Bejot palette colours.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Beata Wilk-Naskręt"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Стільниця",
+                            "ru": "Столешница",
+                            "en": "Tabletop"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "ламінована плита 18 мм або зрощений масив дуба 19 мм",
+                            "ru": "ламинированная плита 18 мм или сращенный массив дуба 19 мм",
+                            "en": "18 mm laminated board or 19 mm finger-jointed solid oak"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "сталь, порошкове фарбування (кольори Bejot)",
+                            "ru": "сталь, порошковая покраска (цвета Bejot)",
+                            "en": "powder-coated steel (Bejot colours)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Опції",
+                            "ru": "Опции",
+                            "en": "Options"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "з’єднувачі LRS2 для конфігурацій зі столів",
+                            "ru": "соединители LRS2 для конфигураций из столов",
+                            "en": "LRS2 connectors for table layouts"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-orte-4l-1",
+                    "@media:p-bejot-orte-4l-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-tables-cross-tb-cr-180",
+                "title": "Bejot Tables:cross TB CR 180"
+            },
+            "thumbnail": "@media:p-bejot-cross-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Tables:cross — колекція столів в індустріальному стилі з характерною металевою ніжкою на хрестоподібній основі. Стільниці бувають круглі, напівкруглі, квадратні й прямокутні (TB CR 180 — прямокутна, 180 см). Столи доступні у двох висотах, тож працюють і як звичайні, і як барні. Окремі столи можна з’єднати стабільним з’єднувачем у довгий стіл для більшої кількості людей — для кафе, їдалень і лаунж-зон.",
+                    "ru": "Tables:cross — коллекция столов в индустриальном стиле с характерной металлической ножкой на крестообразном основании. Столешницы бывают круглые, полукруглые, квадратные и прямоугольные (TB CR 180 — прямоугольная, 180 см). Столы доступны в двух высотах, поэтому работают и как обычные, и как барные. Отдельные столы можно соединить стабильным соединителем в длинный стол для большего количества людей — для кафе, столовых и лаунж-зон.",
+                    "en": "Tables:cross is an industrial-style table collection with a distinctive metal leg on a cross-shaped base. Tops come round, semicircular, square or rectangular (the TB CR 180 is a 180 cm rectangle). Two heights let them work as standard or bar tables, and a stable connector joins single tables into one long table for more guests — for cafés, canteens and lounge areas."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Чотири форми стільниці</strong>: кругла, напівкругла, квадратна, прямокутна.</li>\n<li><strong>Дві висоти</strong> — звичайний або барний стіл (TB CR 180H).</li>\n<li><strong>Стільниці</strong>: ламінат 18 мм, HPL 10 мм або дубова фанера 19 мм.</li>\n<li><strong>Основа з дубовим оздобленням</strong> — опція.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Четыре формы столешницы</strong>: круглая, полукруглая, квадратная, прямоугольная.</li>\n<li><strong>Две высоты</strong> — обычный или барный стол (TB CR 180H).</li>\n<li><strong>Столешницы</strong>: ламинат 18 мм, HPL 10 мм или дубовая фанера 19 мм.</li>\n<li><strong>Основание с дубовой отделкой</strong> — опция.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Four top shapes</strong>: round, semicircular, square, rectangular.</li>\n<li><strong>Two heights</strong> — standard or bar table (TB CR 180H).</li>\n<li><strong>Tops</strong>: 18 mm laminate, 10 mm HPL or 19 mm oak plywood.</li>\n<li><strong>Oak-finished base</strong> as an option.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Стільниця",
+                            "ru": "Столешница",
+                            "en": "Tabletop"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "ламінат 18 мм, HPL 10 мм або дубова фанера 19 мм",
+                            "ru": "ламинат 18 мм, HPL 10 мм или дубовая фанера 19 мм",
+                            "en": "18 mm laminate, 10 mm HPL or 19 mm oak plywood"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "сталь, порошкове фарбування; опція — з дубовим оздобленням",
+                            "ru": "сталь, порошковая покраска; опция — с дубовой отделкой",
+                            "en": "powder-coated steel; oak finish optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Висота",
+                            "ru": "Высота",
+                            "en": "Height"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "стандартна або барна",
+                            "ru": "стандартная или барная",
+                            "en": "standard or bar"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Опори",
+                            "ru": "Опоры",
+                            "en": "Feet"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "регульовані, універсальні або фетрові",
+                            "ru": "регулируемые, универсальные или фетровые",
+                            "en": "adjustable, universal or felt"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-cross-1",
+                    "@media:p-bejot-cross-2"
+                ]
+            }
+        },
+        {
+            "target": "category:mebli/robochi-ta-peregovorni-stoly",
+            "thumbnail": "@media:proj-danone-02",
+            "thumbnail_alt": {
+                "uk": "Робочі столи в open space офісу Danone, Київ",
+                "ru": "Рабочие столы в open space офиса Danone, Киев",
+                "en": "Desks in the Danone office open space, Kyiv"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Робочі та переговорні столи для офісу — Bejot, на замовлення | MDT",
+                    "ru": "Рабочие и переговорные столы для офиса — Bejot, на заказ | MDT",
+                    "en": "Office desks and meeting tables — Bejot and made to order | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Робочі столи з регулюванням висоти, переговорні й конференц-столи Bejot, а також столи за індивідуальним проєктом від Zest. Підбір і комплектація офісу — MDT.",
+                    "ru": "Рабочие столы с регулировкой высоты, переговорные и конференц-столы Bejot, а также столы по индивидуальному проекту от Zest. Подбор и комплектация офиса — MDT.",
+                    "en": "Height-adjustable desks, Bejot meeting and conference tables, and made-to-order tables by Zest. Office furnishing by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Робочі та переговорні столи",
+                    "ru": "Рабочие и переговорные столы",
+                    "en": "Desks and meeting tables"
+                },
+                "lp__intro": {
+                    "uk": "Стіл — центр будь-якого робочого місця й будь-якої зустрічі. MDT пропонує <strong>робочі столи з електричним регулюванням висоти</strong> для режиму sit &amp; stand, <strong>переговорні та конференц-столи</strong> з медіапортами й модульні системи, що стикуються під будь-яку кількість учасників. Окрім фабричних моделей Bejot, ми виготовляємо <strong>столи за індивідуальним проєктом</strong> — на виробництві Zest, компанії групи MDT.",
+                    "ru": "Стол — центр любого рабочего места и любой встречи. MDT предлагает <strong>рабочие столы с электрической регулировкой высоты</strong> для режима sit &amp; stand, <strong>переговорные и конференц-столы</strong> с медиапортами и модульные системы, которые стыкуются под любое количество участников. Помимо фабричных моделей Bejot, мы изготавливаем <strong>столы по индивидуальному проекту</strong> — на производстве Zest, компании группы MDT.",
+                    "en": "The table is the centre of every workstation and every meeting. MDT offers <strong>electric height-adjustable desks</strong> for sit &amp; stand working, <strong>meeting and conference tables</strong> with media ports, and modular systems that link up for any number of people. Alongside Bejot factory models, we make <strong>tables to your own design</strong> at Zest, an MDT group company."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі столів",
+                    "ru": "Модели столов",
+                    "en": "Table models"
+                },
+                "lp__products": [
+                    "@product:bejot-tables-hr-tb-hre",
+                    "@product:bejot-tables-conference-tb-conf3",
+                    "@product:bejot-orte-ot-4l",
+                    "@product:bejot-tables-cross-tb-cr-180",
+                    "@product:mdd-ogi-drive",
+                    "@product:isku-myflow-office-table",
+                    "@product:true-design-e-quo-table",
+                    "@product:bralco-sile-4",
+                    "@product:okamura-risefit-iii",
+                    "@product:profim-revo-t180",
+                    "@product:archiutti-ellan-meeting",
+                    "@product:i4mariani-congress",
+                    "@product:sancal-bold",
+                    "@product:arper-nuur",
+                    "@product:midj-leo",
+                    "@product:tivoli-kars",
+                    "@product:mogg-hero",
+                    "@product:cantori-milton",
+                    "@product:tonelli-metropolis-xxl",
+                    "@product:bontempi-echo",
+                    "@product:joyf-aero",
+                    "@product:mdd-viga",
+                    "@product:archiutti-ellan",
+                    "@product:i4mariani-royal",
+                    "@product:poliform-concorde",
+                    "@product:frag-dante",
+                    "@product:audo-eclipse-desk"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@suppliers:bejot",
+                    "@suppliers:mdd",
+                    "@suppliers:profim",
+                    "@suppliers:ld-seating",
+                    "@suppliers:noti",
+                    "@suppliers:inclass",
+                    "@suppliers:isku",
+                    "@suppliers:audo",
+                    "@suppliers:ditre-italia",
+                    "@suppliers:true-design",
+                    "@suppliers:midj",
+                    "@suppliers:marelli",
+                    "@suppliers:scab",
+                    "@suppliers:archiutti",
+                    "@suppliers:mogg",
+                    "@suppliers:tonelli-design",
+                    "@suppliers:cantori",
+                    "@suppliers:frag",
+                    "@suppliers:joyf",
+                    "@suppliers:woo",
+                    "@suppliers:tivoli",
+                    "@suppliers:diza",
+                    "@suppliers:i4mariani",
+                    "@suppliers:flexform",
+                    "@suppliers:poliform",
+                    "@suppliers:bralco",
+                    "@suppliers:okamura",
+                    "@suppliers:bontempi",
+                    "@suppliers:arper",
+                    "@suppliers:sancal"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:ofis-yurydychnoyi-kompaniyi-trilogy",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Столи з підйомними механізмами (Zest)",
+                            "ru": "Столы с подъемными механизмами (Zest)",
+                            "en": "Height-adjustable desks (Zest)"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:it-ofis-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Робочі та конференц-столи (Zest)",
+                            "ru": "Рабочие и конференц-столы (Zest)",
+                            "en": "Desks and conference tables (Zest)"
+                        },
+                        "lp__proj-area": {
+                            "uk": "2 100 м²",
+                            "ru": "2 100 м²",
+                            "en": "2,100 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-danone",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Open space, переговорні",
+                            "ru": "Open space, переговорные",
+                            "en": "Open space, meeting rooms"
+                        },
+                        "lp__proj-area": {
+                            "uk": "1 870 м²",
+                            "ru": "1 870 м²",
+                            "en": "1,870 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати робочі та переговорні столи</h2>\n<p>Робочий стіл обирають під людину й тип роботи, переговорний — під кількість учасників і формат зустрічей. В обох випадках важливі розмір, висота, матеріал стільниці та те, як до столу підводиться електрика.</p>\n<h3>Робочі столи: розмір і sit &amp; stand</h3>\n<p>Для комфортної роботи з одним-двома моніторами стільниця має бути щонайменше 140×80 см, для двох великих моніторів і документів — 160×80 см. Столи з електричним регулюванням висоти дозволяють чергувати роботу сидячи й стоячи: це зменшує навантаження на спину й додає енергії протягом дня. Моделі з пам’яттю положень, як Bejot Tables:hr, повертають улюблену висоту одним натиском.</p>\n<h3>Переговорні столи: скільки місць</h3>\n<p>Розраховуйте 60–70 см довжини стільниці на одну людину. Стіл 180 см зручно вміщує 6 учасників, 240 см — 8, а для більших нарад столи з’єднують у ряди або П-подібну конфігурацію. Залиште щонайменше 90–100 см між столом і стіною, щоб вільно відсувати крісла.</p>\n<h3>Електрика та медіа</h3>\n<p>Медіапорт у стільниці (розетки, USB, HDMI, RJ45) і кабель-канали під нею зберігають порядок на столі й у переговорній. Передбачте їх ще на етапі планування — разом з розташуванням розеток у підлозі чи стінах.</p>\n<h3>Матеріал стільниці</h3>\n<ul>\n<li><strong>Ламінат і HPL</strong> — практичні, зносостійкі, легко чистяться.</li>\n<li><strong>Масив і шпон дуба</strong> — теплі на дотик, підкреслюють статус переговорної.</li>\n</ul>\n<h3>Столи за індивідуальним проєктом</h3>\n<p>Коли фабричні розміри чи форми не підходять, ми виготовляємо столи на замовлення на виробництві Zest. Так, для офісу в БЦ Trilogy у Лімасолі Zest виготовила робочі столи з підйомними механізмами та металевими накладками, що піднімаються разом із конструкцією, і стіл з двома незалежними підйомними стільницями. Для IT-офісу площею 2 100 м² — робочі та конференц-столи за проєктом ZIKZAK Architects із МДФ, шпону, HPL, металу та каменю.</p>\n<p>MDT допоможе спланувати робочі місця й переговорні, підібрати фабричні столи або виготовити їх за вашим проєктом — разом із кріслами, акустикою та покриттям для підлоги.</p>",
+                            "ru": "<h2>Как выбрать рабочие и переговорные столы</h2>\n<p>Рабочий стол выбирают под человека и тип работы, переговорный — под количество участников и формат встреч. В обоих случаях важны размер, высота, материал столешницы и то, как к столу подводится электричество.</p>\n<h3>Рабочие столы: размер и sit &amp; stand</h3>\n<p>Для комфортной работы с одним-двумя мониторами столешница должна быть не меньше 140×80 см, для двух больших мониторов и документов — 160×80 см. Столы с электрической регулировкой высоты позволяют чередовать работу сидя и стоя: это снижает нагрузку на спину и добавляет энергии в течение дня. Модели с памятью положений, как Bejot Tables:hr, возвращают любимую высоту одним нажатием.</p>\n<h3>Переговорные столы: сколько мест</h3>\n<p>Рассчитывайте 60–70 см длины столешницы на одного человека. Стол 180 см удобно вмещает 6 участников, 240 см — 8, а для больших совещаний столы соединяют в ряды или П-образную конфигурацию. Оставьте не менее 90–100 см между столом и стеной, чтобы свободно отодвигать кресла.</p>\n<h3>Электричество и медиа</h3>\n<p>Медиапорт в столешнице (розетки, USB, HDMI, RJ45) и кабель-каналы под ней сохраняют порядок на столе и в переговорной. Предусмотрите их еще на этапе планирования — вместе с расположением розеток в полу или стенах.</p>\n<h3>Материал столешницы</h3>\n<ul>\n<li><strong>Ламинат и HPL</strong> — практичные, износостойкие, легко чистятся.</li>\n<li><strong>Массив и шпон дуба</strong> — теплые на ощупь, подчеркивают статус переговорной.</li>\n</ul>\n<h3>Столы по индивидуальному проекту</h3>\n<p>Когда фабричные размеры или формы не подходят, мы изготавливаем столы на заказ на производстве Zest. Так, для офиса в БЦ Trilogy в Лимасоле Zest изготовила рабочие столы с подъемными механизмами и металлическими накладками, которые поднимаются вместе с конструкцией, и стол с двумя независимыми подъемными столешницами. Для IT-офиса площадью 2 100 м² — рабочие и конференц-столы по проекту ZIKZAK Architects из МДФ, шпона, HPL, металла и камня.</p>\n<p>MDT поможет спланировать рабочие места и переговорные, подобрать фабричные столы или изготовить их по вашему проекту — вместе с креслами, акустикой и напольным покрытием.</p>",
+                            "en": "<h2>How to choose desks and meeting tables</h2>\n<p>A desk is chosen for the person and the type of work; a meeting table for the number of people and the meeting format. In both cases size, height, top material and how power reaches the table all matter.</p>\n<h3>Desks: size and sit &amp; stand</h3>\n<p>For comfortable work with one or two monitors the top should be at least 140×80 cm; for two large monitors and paperwork, 160×80 cm. Electric height-adjustable desks let you alternate between sitting and standing, easing the load on your back and boosting energy through the day. Models with memory positions, like Bejot Tables:hr, return to your preferred height at the touch of a button.</p>\n<h3>Meeting tables: how many seats</h3>\n<p>Allow 60–70 cm of table length per person. A 180 cm table seats 6 comfortably and a 240 cm table seats 8; for larger meetings, tables are linked into rows or a U-shape. Leave at least 90–100 cm between the table and the wall so chairs can be pulled out freely.</p>\n<h3>Power and media</h3>\n<p>A media port in the top (power, USB, HDMI, RJ45) and cable trays underneath keep the desk and meeting room tidy. Plan them early, together with floor or wall sockets.</p>\n<h3>Top material</h3>\n<ul>\n<li><strong>Laminate and HPL</strong> — practical, hard-wearing and easy to clean.</li>\n<li><strong>Solid oak and oak veneer</strong> — warm to the touch and give a meeting room presence.</li>\n</ul>\n<h3>Made-to-order tables</h3>\n<p>When factory sizes or shapes don’t fit, we make tables to order at Zest. For an office in the Trilogy business centre in Limassol, Zest built height-adjustable desks with metal trims that rise with the frame, and a table with two independently lifting tops. For a 2,100 m² IT office, it made desks and conference tables to a ZIKZAK Architects design in MDF, veneer, HPL, metal and stone.</p>\n<p>MDT helps you plan workstations and meeting rooms and choose factory tables or have them made to your design — together with chairs, acoustics and flooring.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Який розмір робочого столу обрати?",
+                            "ru": "Какой размер рабочего стола выбрать?",
+                            "en": "What size desk should I choose?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для більшості офісних задач достатньо 140×80 см. Якщо працюєте з двома великими моніторами або паперовими документами — обирайте 160×80 см. Глибина 80 см дозволяє поставити монітор на комфортній відстані від очей.",
+                            "ru": "Для большинства офисных задач достаточно 140×80 см. Если работаете с двумя большими мониторами или бумажными документами — выбирайте 160×80 см. Глубина 80 см позволяет поставить монитор на комфортном расстоянии от глаз.",
+                            "en": "For most office work 140×80 cm is enough. If you use two large monitors or paperwork, choose 160×80 cm. An 80 cm depth keeps the monitor at a comfortable viewing distance."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи варто купувати столи з регулюванням висоти?",
+                            "ru": "Стоит ли покупать столы с регулировкой высоты?",
+                            "en": "Are height-adjustable desks worth it?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так, якщо співробітники проводять за столом більшу частину дня. Можливість працювати стоячи зменшує навантаження на спину й шию, а електричне регулювання з пам’яттю положень робить зміну пози справою кількох секунд.",
+                            "ru": "Да, если сотрудники проводят за столом большую часть дня. Возможность работать стоя снижает нагрузку на спину и шею, а электрическая регулировка с памятью положений делает смену позы делом нескольких секунд.",
+                            "en": "Yes, if people spend most of the day at their desk. Being able to stand reduces strain on the back and neck, and electric adjustment with memory positions makes changing posture a matter of seconds."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Скільки людей поміститься за переговорним столом?",
+                            "ru": "Сколько человек поместится за переговорным столом?",
+                            "en": "How many people fit at a meeting table?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Розраховуйте 60–70 см на людину: за столом 180 см комфортно 6 учасникам, 240 см — 8. Для більших нарад кілька столів з’єднують у ряди або П-подібну конфігурацію.",
+                            "ru": "Рассчитывайте 60–70 см на человека: за столом 180 см комфортно 6 участникам, 240 см — 8. Для больших совещаний несколько столов соединяют в ряды или П-образную конфигурацию.",
+                            "en": "Allow 60–70 cm per person: a 180 cm table seats 6 comfortably and a 240 cm table seats 8. For larger meetings, several tables are linked in rows or a U-shape."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна замовити стіл нестандартного розміру?",
+                            "ru": "Можно ли заказать стол нестандартного размера?",
+                            "en": "Can I order a table in a custom size?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Окрім фабричних моделей, ми виготовляємо столи за індивідуальним проєктом на виробництві Zest — з підйомними механізмами, вбудованими медіапортами, LED-підсвіткою та поєднанням МДФ, шпону, металу й каменю.",
+                            "ru": "Да. Помимо фабричных моделей, мы изготавливаем столы по индивидуальному проекту на производстве Zest — с подъемными механизмами, встроенными медиапортами, LED-подсветкой и сочетанием МДФ, шпона, металла и камня.",
+                            "en": "Yes. Besides factory models, we make tables to your design at Zest — with lifting mechanisms, built-in media ports, LED lighting and combinations of MDF, veneer, metal and stone."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Сплануємо робочі місця та переговорні",
+                    "ru": "Спланируем рабочие места и переговорные",
+                    "en": "Let’s plan your workstations and meeting rooms"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план офісу та кількість співробітників — запропонуємо столи, їх розстановку й варіанти виготовлення на замовлення.",
+                    "ru": "Пришлите план офиса и количество сотрудников — предложим столы, их расстановку и варианты изготовления на заказ.",
+                    "en": "Send us your floor plan and headcount and we’ll suggest tables, a layout and made-to-order options."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

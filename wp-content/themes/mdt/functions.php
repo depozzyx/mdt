@@ -291,6 +291,139 @@ if ( ! function_exists( 'mdt_category_children' ) ) {
   }
 }
 
+/**
+ * Contact Form 7 id for the current language.
+ *
+ * The three form slots (order modal, "ask a question", "join the team") used to be picked by a
+ * switch(ICL_LANGUAGE_CODE) duplicated in three templates, each with only uk/ru cases and no
+ * default — so any third language rendered an empty form. This resolves the uk form through WPML
+ * instead, which picks up new languages on its own as soon as a translation of that form exists,
+ * and falls back to the uk form rather than to nothing.
+ *
+ * ru stays an explicit id on purpose: the Russian forms are separate posts that were never
+ * trid-linked to their Ukrainian counterparts (6502 and 6510 are even registered as `uk`), so
+ * WPML cannot resolve them. Fixing that data is a separate job; passing $ru_id keeps /ru/
+ * byte-identical in the meantime.
+ */
+if ( ! function_exists( 'mdt_cf7_id' ) ) {
+  function mdt_cf7_id( $uk_id, $ru_id = 0 ) {
+    if ( ICL_LANGUAGE_CODE === 'ru' && $ru_id ) {
+      return (int) $ru_id;
+    }
+
+    if ( ! function_exists( 'icl_object_id' ) ) {
+      return (int) $uk_id;
+    }
+
+    $id = icl_object_id( (int) $uk_id, 'wpcf7_contact_form', true );
+
+    return $id ? (int) $id : (int) $uk_id;
+  }
+}
+
+/**
+ * Resolve relationship / post-object field values to the current language.
+ *
+ * Every translation stores the Ukrainian post ids (the fields are set to "copy" in WPML), and
+ * ACFML does not convert them here. Links still looked right because WPML filters the permalink,
+ * but get_the_title()/thumbnails/prices read the Ukrainian post — invisible while product names
+ * are Latin-only, wrong for the rest ("Armstrong метал" on /en/ and /ru/). Falls back to the
+ * stored post when a translation is missing, so no card ever disappears.
+ */
+function mdt_translate_related_posts( $value ) {
+  if ( empty( $value ) || ! function_exists( 'icl_object_id' ) ) {
+    return $value;
+  }
+
+  $translate = function ( $item ) {
+    $post = $item instanceof WP_Post ? $item : get_post( (int) $item );
+    if ( ! $post ) {
+      return $item;
+    }
+    $id = (int) icl_object_id( $post->ID, $post->post_type, true );
+    if ( ! $id || $id === (int) $post->ID ) {
+      return $item;
+    }
+    return $item instanceof WP_Post ? get_post( $id ) : $id;
+  };
+
+  return is_array( $value ) ? array_map( $translate, $value ) : $translate( $value );
+}
+add_filter( 'acf/format_value/type=relationship', 'mdt_translate_related_posts', 20 );
+add_filter( 'acf/format_value/type=post_object', 'mdt_translate_related_posts', 20 );
+
+/**
+ * Section landing blocks for catalogue categories (H1, intro, subsection tiles, usage table,
+ * brands, projects, call to action) — rendered by parts/category-landing-*.php and filled in per
+ * language by tools/content-pages.php. Every block is optional and renders only when filled, so
+ * categories that don't use them are unchanged.
+ *
+ * Registered in code rather than through the ACF admin so it ships with the theme. Text fields are
+ * "translate" in WPML (each language keeps its own value); ids and repeater counts are "copy", as
+ * they are the same in every language.
+ */
+function mdt_landing_field_group() {
+  $text = array( 'wpml_cf_preferences' => 2 );
+  $copy = array( 'wpml_cf_preferences' => 1 );
+
+  return array(
+    'key'      => 'group_mdt_landing',
+    'title'    => 'Посадкова сторінка розділу',
+    'location' => array( array( array( 'param' => 'post_type', 'operator' => '==', 'value' => 'category' ) ) ),
+    'menu_order' => 50,
+    'fields'   => array(
+      array( 'key' => 'field_mdt_lp_h1', 'name' => 'lp__h1', 'label' => 'H1 (якщо відрізняється від назви)', 'type' => 'text' ) + $text,
+      array( 'key' => 'field_mdt_lp_intro', 'name' => 'lp__intro', 'label' => 'Вступний текст', 'type' => 'textarea', 'new_lines' => 'wpautop',
+        'instructions' => 'Показується над плитками підрозділів. Можна використовувати <strong>…</strong> для виділення.' ) + $text,
+
+      array( 'key' => 'field_mdt_lp_products_title', 'name' => 'lp__products-title', 'label' => 'Товари: заголовок', 'type' => 'text',
+        'instructions' => 'Якщо порожньо — «Колекції».' ) + $text,
+      array( 'key' => 'field_mdt_lp_products', 'name' => 'lp__products', 'label' => 'Товари', 'type' => 'relationship', 'post_type' => array( 'product' ), 'return_format' => 'id', 'filters' => array( 'search' ),
+        'instructions' => 'Показуються одразу після вступного тексту. Хлібні крихти товару ведуть на цю категорію.' ) + $copy,
+
+      array( 'key' => 'field_mdt_lp_tiles', 'name' => 'lp__tiles', 'label' => 'Плитки підрозділів', 'type' => 'repeater', 'layout' => 'block', 'button_label' => 'Додати плитку',
+        'instructions' => 'Назва, фото й посилання беруться з обраної категорії. Якщо заповнено, замінює автоматичний список «Колекції».',
+        'sub_fields' => array(
+          array( 'key' => 'field_mdt_lp_tile_cat', 'name' => 'lp__tile-cat', 'label' => 'Категорія', 'type' => 'post_object', 'post_type' => array( 'category' ), 'return_format' => 'id', 'allow_null' => 1 ) + $copy,
+          array( 'key' => 'field_mdt_lp_tile_text', 'name' => 'lp__tile-text', 'label' => 'Опис', 'type' => 'textarea', 'new_lines' => '' ) + $text,
+          array( 'key' => 'field_mdt_lp_tile_key', 'name' => 'lp__tile-key', 'label' => 'Ключова характеристика', 'type' => 'text' ) + $text,
+        ) ) + $copy,
+
+      array( 'key' => 'field_mdt_lp_use_title', 'name' => 'lp__use-title', 'label' => 'Застосування: заголовок', 'type' => 'text' ) + $text,
+      array( 'key' => 'field_mdt_lp_use_col1', 'name' => 'lp__use-col1', 'label' => 'Застосування: назва 1-ї колонки', 'type' => 'text' ) + $text,
+      array( 'key' => 'field_mdt_lp_use_col2', 'name' => 'lp__use-col2', 'label' => 'Застосування: назва 2-ї колонки', 'type' => 'text' ) + $text,
+      array( 'key' => 'field_mdt_lp_use', 'name' => 'lp__use', 'label' => 'Застосування: рядки', 'type' => 'repeater', 'layout' => 'table', 'button_label' => 'Додати рядок',
+        'sub_fields' => array(
+          array( 'key' => 'field_mdt_lp_use_room', 'name' => 'lp__use-room', 'label' => 'Тип приміщення', 'type' => 'text' ) + $text,
+          array( 'key' => 'field_mdt_lp_use_solution', 'name' => 'lp__use-solution', 'label' => 'Рекомендовані рішення', 'type' => 'text' ) + $text,
+        ) ) + $copy,
+
+      array( 'key' => 'field_mdt_lp_brands_title', 'name' => 'lp__brands-title', 'label' => 'Бренди: заголовок', 'type' => 'text' ) + $text,
+      array( 'key' => 'field_mdt_lp_brands', 'name' => 'lp__brands', 'label' => 'Бренди', 'type' => 'relationship', 'post_type' => array( 'suppliers' ), 'return_format' => 'id', 'filters' => array( 'search' ) ) + $copy,
+
+      array( 'key' => 'field_mdt_lp_proj_title', 'name' => 'lp__proj-title', 'label' => 'Проєкти: заголовок', 'type' => 'text' ) + $text,
+      array( 'key' => 'field_mdt_lp_proj_text', 'name' => 'lp__proj-text', 'label' => 'Проєкти: вступ', 'type' => 'textarea', 'new_lines' => '' ) + $text,
+      array( 'key' => 'field_mdt_lp_proj', 'name' => 'lp__proj', 'label' => 'Проєкти', 'type' => 'repeater', 'layout' => 'block', 'button_label' => 'Додати проєкт',
+        'instructions' => 'Назва, фото й посилання беруться з обраного проєкту. Порожні поля не показуються.',
+        'sub_fields' => array(
+          array( 'key' => 'field_mdt_lp_proj_post', 'name' => 'lp__proj-post', 'label' => 'Проєкт', 'type' => 'post_object', 'post_type' => array( 'projects' ), 'return_format' => 'id', 'allow_null' => 1 ) + $copy,
+          array( 'key' => 'field_mdt_lp_proj_city', 'name' => 'lp__proj-city', 'label' => 'Місто', 'type' => 'text' ) + $text,
+          array( 'key' => 'field_mdt_lp_proj_type', 'name' => 'lp__proj-type', 'label' => 'Тип приміщення', 'type' => 'text' ) + $text,
+          array( 'key' => 'field_mdt_lp_proj_system', 'name' => 'lp__proj-system', 'label' => 'Система / колекція', 'type' => 'text' ) + $text,
+          array( 'key' => 'field_mdt_lp_proj_area', 'name' => 'lp__proj-area', 'label' => 'Площа', 'type' => 'text' ) + $text,
+        ) ) + $copy,
+
+      array( 'key' => 'field_mdt_lp_cta_title', 'name' => 'lp__cta-title', 'label' => 'Заклик до дії: заголовок', 'type' => 'text',
+        'instructions' => 'Якщо заповнено, блок заклику до дії показується після FAQ з цим текстом замість загального.' ) + $text,
+      array( 'key' => 'field_mdt_lp_cta_text', 'name' => 'lp__cta-text', 'label' => 'Заклик до дії: текст', 'type' => 'textarea', 'new_lines' => '' ) + $text,
+      array( 'key' => 'field_mdt_lp_cta_btn', 'name' => 'lp__cta-btn', 'label' => 'Заклик до дії: кнопка', 'type' => 'text' ) + $text,
+    ),
+  );
+}
+add_action( 'acf/init', function () {
+  acf_add_local_field_group( mdt_landing_field_group() );
+} );
+
 function admin_style() {
   wp_enqueue_style('admin-styles', get_template_directory_uri().'/assets/static/css/admin.css');
 }

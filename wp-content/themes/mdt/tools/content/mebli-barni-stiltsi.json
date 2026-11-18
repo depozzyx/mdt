@@ -1,0 +1,617 @@
+{
+    "_readme": [
+        "Page «Барні стільці» (/category/mebli/barni-stiltsi/) and its products. uk written from manufacturer data; ru and en are translations.",
+        "Products and photos: bejot.eu (source per image under \"media\"). Page photo: Zest/Omni Space project (see mebli-common.json)."
+    ],
+    "media": {
+        "p-bejot-orte-h-1": {
+            "file": "p-bejot-orte-h-1.jpg",
+            "title": "Bejot Orte OT H",
+            "source": "https://www.bejot.eu/en/product/orte-bar-stools/model/ot-h"
+        },
+        "p-bejot-orte-h-2": {
+            "file": "p-bejot-orte-h-2.jpg",
+            "title": "Bejot Orte OT H",
+            "source": "https://www.bejot.eu/en/product/orte-bar-stools/model/ot-h"
+        },
+        "p-bejot-epocc-h-1": {
+            "file": "p-bejot-epocc-h-1.jpg",
+            "title": "Bejot Epocc EP H",
+            "source": "https://www.bejot.eu/en/product/epocc-bar-stools/model/ep-h"
+        },
+        "p-bejot-epocc-h-2": {
+            "file": "p-bejot-epocc-h-2.jpg",
+            "title": "Bejot Epocc EP H",
+            "source": "https://www.bejot.eu/en/product/epocc-bar-stools/model/ep-h"
+        },
+        "p-bejot-spin-h-1": {
+            "file": "p-bejot-spin-h-1.jpg",
+            "title": "Bejot Spin SN W H",
+            "source": "https://www.bejot.eu/en/product/spin-bar-stools/model/sn-w-h"
+        },
+        "p-bejot-spin-h-2": {
+            "file": "p-bejot-spin-h-2.jpg",
+            "title": "Bejot Spin SN W H",
+            "source": "https://www.bejot.eu/en/product/spin-bar-stools/model/sn-w-h"
+        },
+        "p-bejot-lift-1": {
+            "file": "p-bejot-lift-1.jpg",
+            "title": "Bejot Lift LF 10R",
+            "source": "https://www.bejot.eu/en/product/lift-bar-stools/model/lf-10r"
+        },
+        "p-bejot-lift-2": {
+            "file": "p-bejot-lift-2.jpg",
+            "title": "Bejot Lift LF 10R",
+            "source": "https://www.bejot.eu/en/product/lift-bar-stools/model/lf-10r"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-orte-ot-h",
+                "title": "Bejot Orte OT H"
+            },
+            "thumbnail": "@media:p-bejot-orte-h-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Барні стільці Orte підходять для спільних зон в офісах, а також для ресторанів, їдалень і барів. Сидіння та спинка — цільна чаша з гнутої фанери, тож стілець легкий, але міцний. Orte — один із бестселерів Bejot уже багато років; автор колекції — дизайнер Włodzimierz Orsztynowicz.",
+                    "ru": "Барные стулья Orte подходят для общих зон в офисах, а также для ресторанов, столовых и баров. Сиденье и спинка — цельная чаша из гнутой фанеры, поэтому стул легкий, но прочный. Orte — один из бестселлеров Bejot уже много лет; автор коллекции — дизайнер Włodzimierz Orsztynowicz.",
+                    "en": "Orte bar stools suit shared areas in offices as well as restaurants, canteens and bars. The seat and backrest are a single piece of bent plywood, so the stool is light yet strong. Orte has been one of Bejot’s bestsellers for years; the collection was designed by Włodzimierz Orsztynowicz."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Цільна чаша з фанери</strong> — у HPL-оздобленні (білий, антрацит, чорний) або повністю оббита.</li>\n<li><strong>Оббивка з горизонтальною строчкою</strong> (3D) — опція для виразнішого вигляду.</li>\n<li><strong>Хромований каркас на полозах</strong> — легко пересувати.</li>\n<li><strong>Штабелювання</strong> до 4 шт.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Цельная чаша из фанеры</strong> — в HPL-отделке (белый, антрацит, черный) или полностью обитая.</li>\n<li><strong>Обивка с горизонтальной строчкой</strong> (3D) — опция для более выразительного вида.</li>\n<li><strong>Хромированный каркас на полозьях</strong> — легко передвигать.</li>\n<li><strong>Штабелирование</strong> до 4 шт.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>One-piece plywood shell</strong> with an HPL finish (white, anthracite, black) or fully upholstered.</li>\n<li><strong>Upholstery with horizontal stitching</strong> (3D) as an option for a bolder look.</li>\n<li><strong>Chrome sled frame</strong> that is easy to move.</li>\n<li><strong>Stacks</strong> up to 4 high.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Włodzimierz Orsztynowicz"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "хромований метал, полози",
+                            "ru": "хромированный металл, полозья",
+                            "en": "chrome-plated metal sled"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Чаша",
+                            "ru": "Чаша",
+                            "en": "Shell"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "фанера з HPL (білий, антрацит, чорний) або оббивка",
+                            "ru": "фанера с HPL (белый, антрацит, черный) или обивка",
+                            "en": "plywood with HPL (white, anthracite, black) or upholstered"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Штабелювання",
+                            "ru": "Штабелирование",
+                            "en": "Stacking"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "до 4 шт.",
+                            "ru": "до 4 шт.",
+                            "en": "up to 4"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-orte-h-1",
+                    "@media:p-bejot-orte-h-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-epocc-ep-h",
+                "title": "Bejot Epocc EP H"
+            },
+            "thumbnail": "@media:p-bejot-epocc-h-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Зручні оббиті барні стільці Epocc доступні у двох висотах і все частіше з’являються не лише в ресторанах і барах, а й в офісах. Мінімалістичний дизайн і можливість оббити сидіння та спинку тканинами двох різних кольорів дозволяють створити сучасні меблі з характером. Ручка на спинці полегшує перенесення стільця.",
+                    "ru": "Удобные обитые барные стулья Epocc доступны в двух высотах и все чаще появляются не только в ресторанах и барах, но и в офисах. Минималистичный дизайн и возможность обить сиденье и спинку тканями двух разных цветов позволяют создать современную мебель с характером. Ручка на спинке облегчает перенос стула.",
+                    "en": "Comfortable upholstered Epocc bar stools come in two heights and are now used not only in restaurants and bars but increasingly in offices. A minimalist design and the option of upholstering the seat and back in two different colours create modern furniture with character. A handle on the backrest makes the stool easy to move."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Дві висоти</strong>: EP H — для стійок 1100 мм, EP HN — для столів 900 мм.</li>\n<li><strong>Двоколірна оббивка</strong> сидіння та спинки.</li>\n<li><strong>Ручка на спинці</strong> — стілець легко перенести.</li>\n<li><strong>Штабелювання</strong> до 3 шт.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Две высоты</strong>: EP H — для стоек 1100 мм, EP HN — для столов 900 мм.</li>\n<li><strong>Двухцветная обивка</strong> сиденья и спинки.</li>\n<li><strong>Ручка на спинке</strong> — стул легко перенести.</li>\n<li><strong>Штабелирование</strong> до 3 шт.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Two heights</strong>: EP H for 1100 mm counters, EP HN for 900 mm tables.</li>\n<li><strong>Two-tone upholstery</strong> for seat and back.</li>\n<li><strong>Handle on the backrest</strong> for easy carrying.</li>\n<li><strong>Stacks</strong> up to 3 high.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "сталь, порошкове фарбування (кольори Bejot)",
+                            "ru": "сталь, порошковая покраска (цвета Bejot)",
+                            "en": "powder-coated steel (Bejot colours)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Висота стійки / столу",
+                            "ru": "Высота стойки / стола",
+                            "en": "Counter / table height"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "1100 мм (EP H) або 900 мм (EP HN)",
+                            "ru": "1100 мм (EP H) или 900 мм (EP HN)",
+                            "en": "1100 mm (EP H) or 900 mm (EP HN)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Опори",
+                            "ru": "Опоры",
+                            "en": "Feet"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "фетрові — для дерева й ламінату; універсальні — для плитки, бетону й ковроліну",
+                            "ru": "фетровые — для дерева и ламината; универсальные — для плитки, бетона и ковролина",
+                            "en": "felt for wood and laminate; universal for tile, concrete and carpet"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Штабелювання",
+                            "ru": "Штабелирование",
+                            "en": "Stacking"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "до 3 шт.",
+                            "ru": "до 3 шт.",
+                            "en": "up to 3"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-epocc-h-1",
+                    "@media:p-bejot-epocc-h-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-spin-sn-w-h",
+                "title": "Bejot Spin SN W H"
+            },
+            "thumbnail": "@media:p-bejot-spin-h-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Spin — колекція барних табуретів у стилі лофт, що поєднує масив дуба, сталь і функціональні тканини. Ніжки з масиву дуба на металевому каркасі, кільце-підніжка зі шліфованої сталі та регулювання висоти гвинтом. М’яке оббите сидіння робить табурет не лише ефектним, а й зручним. Автор колекції — Beata Wilk-Naskręt, керівниця відділу розробки Bejot.",
+                    "ru": "Spin — коллекция барных табуретов в стиле лофт, сочетающая массив дуба, сталь и функциональные ткани. Ножки из массива дуба на металлическом каркасе, кольцо-подножка из шлифованной стали и регулировка высоты винтом. Мягкое обитое сиденье делает табурет не только эффектным, но и удобным. Автор коллекции — Beata Wilk-Naskręt, руководитель отдела разработки Bejot.",
+                    "en": "Spin is a collection of loft-style bar stools combining solid oak, steel and functional fabrics: solid oak legs on a metal frame, a brushed-steel footrest ring and screw height adjustment. A soft upholstered seat makes the stool comfortable as well as striking. The collection was designed by Beata Wilk-Naskręt, head of Bejot’s development team."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Лофт-стиль</strong>: масив дуба + сталь.</li>\n<li><strong>Регулювання висоти</strong> гвинтом.</li>\n<li><strong>Кільце-підніжка</strong> зі шліфованої хромонікелевої сталі.</li>\n<li><strong>Кольорова строчка</strong> оббивки — опція (біла, сіра, помаранчева, червона, зелена, чорна).</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Лофт-стиль</strong>: массив дуба + сталь.</li>\n<li><strong>Регулировка высоты</strong> винтом.</li>\n<li><strong>Кольцо-подножка</strong> из шлифованной хромоникелевой стали.</li>\n<li><strong>Цветная строчка</strong> обивки — опция (белая, серая, оранжевая, красная, зеленая, черная).</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Loft style</strong>: solid oak + steel.</li>\n<li><strong>Screw height adjustment</strong>.</li>\n<li><strong>Footrest ring</strong> in brushed chrome-nickel steel.</li>\n<li><strong>Contrast stitching</strong> as an option (white, grey, orange, red, green, black).</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Beata Wilk-Naskręt"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Ніжки",
+                            "ru": "Ножки",
+                            "en": "Legs"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "масив дуба (натуральний або чорний) + металевий каркас",
+                            "ru": "массив дуба (натуральный или черный) + металлический каркас",
+                            "en": "solid oak (natural or black) + metal frame"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Сидіння",
+                            "ru": "Сиденье",
+                            "en": "Seat"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "оббите, з регулюванням висоти гвинтом",
+                            "ru": "обитое, с регулировкой высоты винтом",
+                            "en": "upholstered, screw height adjustment"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Опори",
+                            "ru": "Опоры",
+                            "en": "Feet"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "фетрові — для дерева й ламінату; універсальні — для плитки, бетону й ковроліну",
+                            "ru": "фетровые — для дерева и ламината; универсальные — для плитки, бетона и ковролина",
+                            "en": "felt for wood and laminate; universal for tile, concrete and carpet"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-spin-h-1",
+                    "@media:p-bejot-spin-h-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-lift-lf-10r",
+                "title": "Bejot Lift LF 10R"
+            },
+            "thumbnail": "@media:p-bejot-lift-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Lift — поворотний високий стілець, створений за філософією «sit & stand». Разом зі столом з регулюванням висоти він дозволяє в будь-який момент перейти від роботи сидячи до роботи стоячи. Сидіння з піни двох різних щільностей зручніше, а опуклість у передній частині не дає з’їжджати в робочій позиції. Підходить для високих робочих місць, лабораторій, ресепшн і стійок.",
+                    "ru": "Lift — поворотный высокий стул, созданный по философии «sit & stand». Вместе со столом с регулировкой высоты он позволяет в любой момент перейти от работы сидя к работе стоя. Сиденье из пены двух разных плотностей удобнее, а выпуклость в передней части не дает соскальзывать в рабочей позиции. Подходит для высоких рабочих мест, лабораторий, ресепшн и стоек.",
+                    "en": "Lift is a swivel high stool designed around the “sit & stand” philosophy. Paired with a height-adjustable desk, it lets you switch from sitting to standing work at any moment. A seat made of foam in two densities adds comfort, and a raised front edge stops you sliding forward in the working position. Suited to high workstations, labs, reception desks and counters."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Sit &amp; stand</strong> — для високих і регульованих столів.</li>\n<li><strong>Механізм Fast-synchro</strong> з блокуванням спинки в 4 положеннях.</li>\n<li><strong>Регулювання висоти</strong> в діапазоні 200 мм; кільце-підніжка.</li>\n<li><strong>Колеса з функцією SIT &amp; BREAK</strong> — блокуються, коли ви сидите.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Sit &amp; stand</strong> — для высоких и регулируемых столов.</li>\n<li><strong>Механизм Fast-synchro</strong> с блокировкой спинки в 4 положениях.</li>\n<li><strong>Регулировка высоты</strong> в диапазоне 200 мм; кольцо-подножка.</li>\n<li><strong>Колеса с функцией SIT &amp; BREAK</strong> — блокируются, когда вы сидите.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Sit &amp; stand</strong> — for high and height-adjustable desks.</li>\n<li><strong>Fast-synchro mechanism</strong> with a 4-position backrest lock.</li>\n<li><strong>Height adjustment</strong> over 200 mm; footrest ring.</li>\n<li><strong>SIT &amp; BREAK castors</strong> that lock while you are seated.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Механізм",
+                            "ru": "Механизм",
+                            "en": "Mechanism"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Fast-synchro, блокування спинки в 4 положеннях (спинка 20°, сидіння 8°)",
+                            "ru": "Fast-synchro, блокировка спинки в 4 положениях (спинка 20°, сиденье 8°)",
+                            "en": "Fast-synchro, 4-position backrest lock (backrest 20°, seat 8°)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Газліфт",
+                            "ru": "Газлифт",
+                            "en": "Gas lift"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "для столів до 1100 мм (діапазон 200 мм); опція — до 900 мм",
+                            "ru": "для столов до 1100 мм (диапазон 200 мм); опция — до 900 мм",
+                            "en": "for desks up to 1100 mm (200 mm range); 900 mm option"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Основа",
+                            "ru": "Основание",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "нейлон Ø700 мм; опція — полірований або фарбований алюміній Ø720 мм",
+                            "ru": "нейлон Ø700 мм; опция — полированный или окрашенный алюминий Ø720 мм",
+                            "en": "nylon Ø700 mm; polished or powder-coated aluminium Ø720 mm optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Колеса",
+                            "ru": "Колеса",
+                            "en": "Castors"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Ø50 мм, SIT & BREAK",
+                            "ru": "Ø50 мм, SIT & BREAK",
+                            "en": "Ø50 mm, SIT & BREAK"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Підлокітники",
+                            "ru": "Подлокотники",
+                            "en": "Armrests"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "опція — регульовані по висоті",
+                            "ru": "опция — регулируемые по высоте",
+                            "en": "optional, height-adjustable"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-lift-1",
+                    "@media:p-bejot-lift-2"
+                ]
+            }
+        },
+        {
+            "target": "category:mebli/barni-stiltsi",
+            "thumbnail": "@media:proj-zit-25",
+            "thumbnail_alt": {
+                "uk": "Кухня-бар з барними стільцями в ІТ-офісі, Лімасол",
+                "ru": "Кухня-бар с барными стульями в ИТ-офисе, Лимасол",
+                "en": "Kitchen bar with bar stools in an IT office, Limassol"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Барні стільці для офісу, кафе та ресторанів — Bejot | MDT",
+                    "ru": "Барные стулья для офиса, кафе и ресторанов — Bejot | MDT",
+                    "en": "Bar stools for offices, cafés and restaurants — Bejot | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Барні стільці й високі табурети для офісних кухонь, кафе та ресторанів: дерево, метал, оббивка, дві висоти сидіння. Bejot від MDT.",
+                    "ru": "Барные стулья и высокие табуреты для офисных кухонь, кафе и ресторанов: дерево, металл, обивка, две высоты сиденья. Bejot от MDT.",
+                    "en": "Bar stools and high stools for office kitchens, cafés and restaurants: wood, metal, upholstery, two seat heights. Bejot from MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Барні стільці для офісу та HoReCa",
+                    "ru": "Барные стулья для офиса и HoReCa",
+                    "en": "Bar stools for offices and hospitality"
+                },
+                "lp__intro": {
+                    "uk": "<strong>Барні стільці</strong> давно вийшли за межі барів: сьогодні вони стоять на офісних кухнях, у кав’ярнях, на рецепціях і біля високих столів для коротких зустрічей. Високе сидіння змінює ритм простору — розмова стає неформальнішою, а зона відпочинку — живішою. MDT пропонує <strong>барні стільці та високі табурети Bejot</strong> — від легких моделей на полозах до лофтових табуретів із масиву дуба й <strong>високих робочих стільців для режиму sit &amp; stand</strong>.",
+                    "ru": "<strong>Барные стулья</strong> давно вышли за пределы баров: сегодня они стоят на офисных кухнях, в кофейнях, на ресепшн и у высоких столов для коротких встреч. Высокое сиденье меняет ритм пространства — разговор становится неформальнее, а зона отдыха — живее. MDT предлагает <strong>барные стулья и высокие табуреты Bejot</strong> — от легких моделей на полозьях до лофтовых табуретов из массива дуба и <strong>высоких рабочих стульев для режима sit &amp; stand</strong>.",
+                    "en": "<strong>Bar stools</strong> have long since left the bar: today they stand in office kitchens, cafés, receptions and at high tables for quick meetings. A high seat changes the rhythm of a space — conversations become more informal and break areas livelier. MDT offers <strong>Bejot bar stools and high stools</strong>, from light sled-base models to loft-style solid-oak stools and <strong>high work stools for sit &amp; stand</strong>."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі барних стільців",
+                    "ru": "Модели барных стульев",
+                    "en": "Bar stool models"
+                },
+                "lp__products": [
+                    "@product:bejot-orte-ot-h",
+                    "@product:bejot-epocc-ep-h",
+                    "@product:bejot-spin-sn-w-h",
+                    "@product:bejot-lift-lf-10r"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@suppliers:bejot"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:it-ofis-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Кухня-бар, кафе",
+                            "ru": "Кухня-бар, кафе",
+                            "en": "Kitchen bar, café"
+                        },
+                        "lp__proj-area": {
+                            "uk": "2 100 м²",
+                            "ru": "2 100 м²",
+                            "en": "2,100 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-danone",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Кафе-зона",
+                            "ru": "Кафе-зона",
+                            "en": "Café area"
+                        },
+                        "lp__proj-area": {
+                            "uk": "1 870 м²",
+                            "ru": "1 870 м²",
+                            "en": "1,870 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-mizhnarodnoyi-mediakompaniyi",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Кухня, лаунж",
+                            "ru": "Кухня, лаунж",
+                            "en": "Kitchen, lounge"
+                        },
+                        "lp__proj-area": {
+                            "uk": "920 м²",
+                            "ru": "920 м²",
+                            "en": "920 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати барні стільці</h2>\n<p>Головне правило — висота сидіння має відповідати висоті стійки чи столу. Далі обирають матеріал, конструкцію та комфорт залежно від того, скільки часу люди проводитимуть за стійкою.</p>\n<h3>Висота: стійка чи високий стіл</h3>\n<p>Між сидінням і стільницею має бути близько 25–30 см. Для барної стійки висотою 1100 мм підходять стільці з сидінням приблизно на 75–80 см, для столів висотою 900 мм — напівбарні моделі із сидінням близько 65 см. Багато колекцій, як-от Bejot Epocc, мають обидві версії.</p>\n<h3>Підніжка</h3>\n<p>На високому стільці ноги не дістають до підлоги, тому підніжка чи кільце — обов’язкова деталь для комфорту, особливо якщо за стійкою працюють або проводять зустрічі.</p>\n<h3>Спинка чи табурет</h3>\n<p>Табурети без спинки займають менше місця й візуально легші — добре для невеликих кухонь. Стільці зі спинкою зручніші для довгого сидіння: обідів, роботи з ноутбуком, зустрічей.</p>\n<h3>Матеріали</h3>\n<ul>\n<li><strong>Фанера, HPL, пластик</strong> — легко чистити, витримують інтенсивне використання (кафе, їдальні).</li>\n<li><strong>Оббивка</strong> — тепліша й зручніша, додає кольору та акустичного комфорту.</li>\n<li><strong>Дерево й метал</strong> — характерний лофт-стиль для креативних офісів і ресторанів.</li>\n</ul>\n<h3>Високі робочі стільці</h3>\n<p>Для високих робочих місць, рецепцій і лабораторій обирайте не барний, а робочий високий стілець — з газліфтом, регулюванням і механізмом спинки, як Bejot Lift. Він доповнює стіл із регулюванням висоти й підтримує режим sit &amp; stand.</p>\n<p>MDT допоможе підібрати барні стільці під висоту ваших стійок і стиль інтер’єру, а також підлогове покриття для кухонь і кафе-зон.</p>",
+                            "ru": "<h2>Как выбрать барные стулья</h2>\n<p>Главное правило — высота сиденья должна соответствовать высоте стойки или стола. Дальше выбирают материал, конструкцию и комфорт в зависимости от того, сколько времени люди будут проводить за стойкой.</p>\n<h3>Высота: стойка или высокий стол</h3>\n<p>Между сиденьем и столешницей должно быть около 25–30 см. Для барной стойки высотой 1100 мм подходят стулья с сиденьем примерно на 75–80 см, для столов высотой 900 мм — полубарные модели с сиденьем около 65 см. Многие коллекции, например Bejot Epocc, имеют обе версии.</p>\n<h3>Подножка</h3>\n<p>На высоком стуле ноги не достают до пола, поэтому подножка или кольцо — обязательная деталь для комфорта, особенно если за стойкой работают или проводят встречи.</p>\n<h3>Спинка или табурет</h3>\n<p>Табуреты без спинки занимают меньше места и визуально легче — хорошо для небольших кухонь. Стулья со спинкой удобнее для долгого сидения: обедов, работы с ноутбуком, встреч.</p>\n<h3>Материалы</h3>\n<ul>\n<li><strong>Фанера, HPL, пластик</strong> — легко чистить, выдерживают интенсивное использование (кафе, столовые).</li>\n<li><strong>Обивка</strong> — теплее и удобнее, добавляет цвета и акустического комфорта.</li>\n<li><strong>Дерево и металл</strong> — характерный лофт-стиль для креативных офисов и ресторанов.</li>\n</ul>\n<h3>Высокие рабочие стулья</h3>\n<p>Для высоких рабочих мест, ресепшн и лабораторий выбирайте не барный, а рабочий высокий стул — с газлифтом, регулировкой и механизмом спинки, как Bejot Lift. Он дополняет стол с регулировкой высоты и поддерживает режим sit &amp; stand.</p>\n<p>MDT поможет подобрать барные стулья под высоту ваших стоек и стиль интерьера, а также напольное покрытие для кухонь и кафе-зон.</p>",
+                            "en": "<h2>How to choose bar stools</h2>\n<p>The key rule is that seat height must match the height of the counter or table. After that, choose material, construction and comfort based on how long people will sit at the counter.</p>\n<h3>Height: counter or high table</h3>\n<p>Leave about 25–30 cm between the seat and the top. A 1100 mm bar counter needs a seat height of roughly 75–80 cm, while 900 mm tables call for counter-height stools with a seat of about 65 cm. Many collections, such as Bejot Epocc, come in both versions.</p>\n<h3>Footrest</h3>\n<p>On a high stool your feet do not reach the floor, so a footrest or ring is essential for comfort — especially if people work or hold meetings at the counter.</p>\n<h3>Backrest or stool</h3>\n<p>Backless stools take up less space and look lighter, which suits small kitchens. Chairs with a backrest are more comfortable for longer sitting: lunches, laptop work, meetings.</p>\n<h3>Materials</h3>\n<ul>\n<li><strong>Plywood, HPL, plastic</strong> — easy to clean and built for heavy use (cafés, canteens).</li>\n<li><strong>Upholstery</strong> — warmer and more comfortable, adding colour and some acoustic comfort.</li>\n<li><strong>Wood and metal</strong> — a distinctive loft look for creative offices and restaurants.</li>\n</ul>\n<h3>High work stools</h3>\n<p>For high workstations, receptions and labs, choose a high work chair rather than a bar stool — with a gas lift, adjustment and a backrest mechanism, like Bejot Lift. It pairs with a height-adjustable desk and supports sit &amp; stand working.</p>\n<p>MDT helps you choose bar stools for your counter heights and interior style, as well as flooring for kitchens and café areas.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Яка висота барного стільця потрібна для моєї стійки?",
+                            "ru": "Какая высота барного стула нужна для моей стойки?",
+                            "en": "What bar stool height do I need for my counter?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Орієнтуйтеся на різницю 25–30 см між сидінням і стільницею. Для стійки 1100 мм — сидіння близько 75–80 см, для столу 900 мм — близько 65 см. Надішліть нам висоту стійки, і ми підберемо модель потрібної висоти.",
+                            "ru": "Ориентируйтесь на разницу 25–30 см между сиденьем и столешницей. Для стойки 1100 мм — сиденье около 75–80 см, для стола 900 мм — около 65 см. Пришлите нам высоту стойки, и мы подберем модель нужной высоты.",
+                            "en": "Aim for 25–30 cm between the seat and the top. For an 1100 mm counter that means a seat of about 75–80 cm; for a 900 mm table, about 65 cm. Send us your counter height and we’ll pick the right model."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи підходять барні стільці для роботи?",
+                            "ru": "Подходят ли барные стулья для работы?",
+                            "en": "Are bar stools suitable for working?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для короткої роботи з ноутбуком на кухні чи біля високого столу — так, краще зі спинкою та підніжкою. Для постійного високого робочого місця обирайте робочий високий стілець з газліфтом і механізмом, наприклад Bejot Lift.",
+                            "ru": "Для короткой работы с ноутбуком на кухне или у высокого стола — да, лучше со спинкой и подножкой. Для постоянного высокого рабочего места выбирайте рабочий высокий стул с газлифтом и механизмом, например Bejot Lift.",
+                            "en": "For short laptop sessions in the kitchen or at a high table, yes — ideally with a backrest and footrest. For a permanent high workstation, choose a high work chair with a gas lift and mechanism, such as Bejot Lift."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Як барні стільці впливають на підлогу?",
+                            "ru": "Как барные стулья влияют на пол?",
+                            "en": "Will bar stools damage the floor?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Обирайте опори під тип покриття: фетрові — для паркету, дерев’яної підлоги й ламінату, універсальні — для плитки, бетону та килимових покриттів. Для кафе-зон з інтенсивним рухом ми також порадимо зносостійке підлогове покриття.",
+                            "ru": "Выбирайте опоры под тип покрытия: фетровые — для паркета, деревянного пола и ламината, универсальные — для плитки, бетона и ковровых покрытий. Для кафе-зон с интенсивным движением мы также посоветуем износостойкое напольное покрытие.",
+                            "en": "Choose feet to suit the floor: felt for parquet, wood and laminate; universal for tile, concrete and carpet. For busy café areas we can also recommend a hard-wearing floor covering."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна поєднати барні стільці різних моделей?",
+                            "ru": "Можно ли сочетать барные стулья разных моделей?",
+                            "en": "Can I mix different bar stool models?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так, це популярний прийом: наприклад, табурети без спинки біля острова й стільці зі спинкою біля високого столу. Щоб простір виглядав цілісно, варто повторити колір каркаса чи оббивки.",
+                            "ru": "Да, это популярный прием: например, табуреты без спинки у острова и стулья со спинкой у высокого стола. Чтобы пространство выглядело цельно, стоит повторить цвет каркаса или обивки.",
+                            "en": "Yes, it’s a popular approach — for example, backless stools at an island and chairs with backs at a high table. Repeat the frame or upholstery colour to keep the space coherent."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Підберемо барні стільці під ваш простір",
+                    "ru": "Подберем барные стулья под ваше пространство",
+                    "en": "Let’s find bar stools for your space"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть висоту стійки чи столу та фото приміщення — запропонуємо моделі, кольори й оббивку.",
+                    "ru": "Пришлите высоту стойки или стола и фото помещения — предложим модели, цвета и обивку.",
+                    "en": "Send us your counter or table height and a photo of the space and we’ll suggest models, colours and upholstery."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

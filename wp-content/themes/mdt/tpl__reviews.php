@@ -5,7 +5,7 @@
     <div class="breadcrumbs wow fadeInUpDes" data-wow-delay="0.1s">
         <ul>
             <li>
-                <a href="/">Главная</a>  /
+                <a href="<?php echo get_permalink(lang_page_original_id(9)) ?>"><?php echo get_the_title(lang_page_original_id(9)) ?></a>  /
             </li>
             <li>
                 <?php the_title(); ?>

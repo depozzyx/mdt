@@ -1,0 +1,741 @@
+{
+    "_readme": [
+        "Page «Робочі крісла» (/category/mebli/robochi-krisla/) and its products. uk written from manufacturer data; ru and en are translations.",
+        "Products and photos: bejot.eu and ldseating.com (source per image under \"media\"). Page photo and projects: see mebli-common.json."
+    ],
+    "media": {
+        "p-bejot-eight-1": {
+            "file": "p-bejot-eight-1.jpg",
+            "title": "Bejot Eight ET 103B",
+            "source": "https://www.bejot.eu/en/product/eight-ergonomic-swivel-chairs/model/et-103b"
+        },
+        "p-bejot-eight-3": {
+            "file": "p-bejot-eight-3.jpg",
+            "title": "Bejot Eight ET 103B",
+            "source": "https://www.bejot.eu/en/product/eight-ergonomic-swivel-chairs/model/et-103b"
+        },
+        "p-bejot-eight-5": {
+            "file": "p-bejot-eight-5.jpg",
+            "title": "Bejot Eight ET 103B",
+            "source": "https://www.bejot.eu/en/product/eight-ergonomic-swivel-chairs/model/et-103b"
+        },
+        "p-bejot-mate-1": {
+            "file": "p-bejot-mate-1.jpg",
+            "title": "Bejot Mate MT 103",
+            "source": "https://www.bejot.eu/en/product/mate-swivel-armchair/model/mt-103"
+        },
+        "p-bejot-mate-2": {
+            "file": "p-bejot-mate-2.jpg",
+            "title": "Bejot Mate MT 103",
+            "source": "https://www.bejot.eu/en/product/mate-swivel-armchair/model/mt-103"
+        },
+        "p-bejot-mate-5": {
+            "file": "p-bejot-mate-5.jpg",
+            "title": "Bejot Mate MT 103",
+            "source": "https://www.bejot.eu/en/product/mate-swivel-armchair/model/mt-103"
+        },
+        "p-ld-lyra-4": {
+            "file": "p-ld-lyra-4.jpg",
+            "title": "LD Seating Lyra Air",
+            "source": "https://www.ldseating.com/en/lyra-air"
+        },
+        "p-ld-lyra-3": {
+            "file": "p-ld-lyra-3.jpg",
+            "title": "LD Seating Lyra Air",
+            "source": "https://www.ldseating.com/en/lyra-air"
+        },
+        "p-ld-lyra-1": {
+            "file": "p-ld-lyra-1.jpg",
+            "title": "LD Seating Lyra Air",
+            "source": "https://www.ldseating.com/en/lyra-air"
+        },
+        "p-ld-lyra-2": {
+            "file": "p-ld-lyra-2.jpg",
+            "title": "LD Seating Lyra Air",
+            "source": "https://www.ldseating.com/en/lyra-air"
+        },
+        "p-ld-arcus-6": {
+            "file": "p-ld-arcus-6.jpg",
+            "title": "LD Seating Arcus",
+            "source": "https://www.ldseating.com/en/arcus"
+        },
+        "p-ld-arcus-5": {
+            "file": "p-ld-arcus-5.jpg",
+            "title": "LD Seating Arcus",
+            "source": "https://www.ldseating.com/en/arcus"
+        },
+        "p-ld-arcus-1": {
+            "file": "p-ld-arcus-1.jpg",
+            "title": "LD Seating Arcus",
+            "source": "https://www.ldseating.com/en/arcus"
+        },
+        "p-ld-arcus-4": {
+            "file": "p-ld-arcus-4.jpg",
+            "title": "LD Seating Arcus",
+            "source": "https://www.ldseating.com/en/arcus"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-eight-et-103b",
+                "title": "Bejot Eight ET 103B"
+            },
+            "thumbnail": "@media:p-bejot-eight-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Eight — нова колекція ергономічних крісел Bejot, створена для активного сидіння: гнучка конструкція та адаптивні елементи підтримки рухаються разом з користувачем і зберігають стабільність і комфорт протягом довгого робочого дня. Модель ET 103B має сітчасту спинку, адаптивну поперекову підтримку, 4D-підлокітники та регульований підголовник.",
+                    "ru": "Eight — новая коллекция эргономичных кресел Bejot, созданная для активного сидения: гибкая конструкция и адаптивные элементы поддержки двигаются вместе с пользователем и сохраняют стабильность и комфорт в течение долгого рабочего дня. Модель ET 103B имеет сетчатую спинку, адаптивную поясничную поддержку, 4D-подлокотники и регулируемый подголовник.",
+                    "en": "Eight is Bejot’s new collection of ergonomic chairs designed for active sitting: a flexible structure and adaptive support elements move with the user, keeping you stable and comfortable through a long working day. The ET 103B model has a mesh backrest, adaptive lumbar support, 4D armrests and an adjustable headrest."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Спинка, що рухається разом з вами.</strong> Гнучка рама спинки повторює рухи тіла, а рухомий шарнір дає бічний поворот і додаткові +7° нахилу.</li>\n<li><strong>Адаптивна поперекова підтримка</strong> з регулюванням по висоті в діапазоні 60 мм знімає навантаження з попереку.</li>\n<li><strong>Дихаюча сітчаста спинка</strong> зменшує накопичення тепла й вологи під час тривалої роботи.</li>\n<li><strong>4D-підлокітники</strong> регулюються по висоті, глибині, ширині та куту.</li>\n<li><strong>Підголовник</strong> регулюється по висоті та куту нахилу й підтримує голову і шию.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Спинка, которая двигается вместе с вами.</strong> Гибкая рама спинки повторяет движения тела, а подвижный шарнир дает боковой поворот и дополнительные +7° наклона.</li>\n<li><strong>Адаптивная поясничная поддержка</strong> с регулировкой по высоте в диапазоне 60 мм снимает нагрузку с поясницы.</li>\n<li><strong>Дышащая сетчатая спинка</strong> уменьшает накопление тепла и влаги при длительной работе.</li>\n<li><strong>4D-подлокотники</strong> регулируются по высоте, глубине, ширине и углу.</li>\n<li><strong>Подголовник</strong> регулируется по высоте и углу наклона и поддерживает голову и шею.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>A backrest that moves with you.</strong> The flexible backrest frame follows your body, and a movable hinge adds sideways rotation and an extra +7° of tilt.</li>\n<li><strong>Adaptive lumbar support</strong> with 60 mm of height adjustment relieves the lower back.</li>\n<li><strong>A breathable mesh backrest</strong> reduces heat and moisture build-up during long hours of work.</li>\n<li><strong>4D armrests</strong> adjust in height, depth, width and angle.</li>\n<li><strong>The headrest</strong> adjusts in height and angle to support the head and neck.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Механізм",
+                            "ru": "Механизм",
+                            "en": "Mechanism"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "самобалансуючий Synchro: натяг пружини підлаштовується під вагу; нахил спинки 20°, сидіння 5°",
+                            "ru": "самобалансирующийся Synchro: натяжение пружины подстраивается под вес; наклон спинки 20°, сиденья 5°",
+                            "en": "self-balancing Synchro: spring tension adjusts to body weight; backrest tilt 20°, seat 5°"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Глибина сидіння",
+                            "ru": "Глубина сиденья",
+                            "en": "Seat depth"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "регулювання 58 мм",
+                            "ru": "регулировка 58 мм",
+                            "en": "58 mm adjustment"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Поперекова підтримка",
+                            "ru": "Поясничная поддержка",
+                            "en": "Lumbar support"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "адаптивна, регулювання по висоті 60 мм",
+                            "ru": "адаптивная, регулировка по высоте 60 мм",
+                            "en": "adaptive, 60 mm height adjustment"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Спинка",
+                            "ru": "Спинка",
+                            "en": "Backrest"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "чорна сітка (55% поліестер, 45% поліеластомер)",
+                            "ru": "черная сетка (55% полиэстер, 45% полиэластомер)",
+                            "en": "black mesh (55% polyester, 45% polyelastomer)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Підлокітники",
+                            "ru": "Подлокотники",
+                            "en": "Armrests"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "4D, регулювання висоти 80 мм",
+                            "ru": "4D, регулировка высоты 80 мм",
+                            "en": "4D, 80 mm height adjustment"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Хрестовина",
+                            "ru": "Крестовина",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "нейлон зі скловолокном Ø700 мм; опція — алюміній",
+                            "ru": "нейлон со стекловолокном Ø700 мм; опция — алюминий",
+                            "en": "glass-fibre reinforced nylon Ø700 mm; aluminium optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Підголовник",
+                            "ru": "Подголовник",
+                            "en": "Headrest"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "регулювання по висоті (55 мм) і куту, шкіряна оббивка",
+                            "ru": "регулировка по высоте (55 мм) и углу, кожаная обивка",
+                            "en": "height (55 mm) and angle adjustment, leather upholstery"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-eight-1",
+                    "@media:p-bejot-eight-3"
+                ]
+            },
+            "meta": {
+                "rank_math_description": {
+                    "uk": "Ергономічне крісло Bejot Eight ET 103B з сітчастою спинкою, адаптивною поперековою підтримкою та 4D-підлокітниками. Постачання та монтаж від MDT.",
+                    "ru": "Эргономичное кресло Bejot Eight ET 103B с сетчатой спинкой, адаптивной поясничной поддержкой и 4D-подлокотниками. Поставка и монтаж от MDT.",
+                    "en": "Bejot Eight ET 103B ergonomic chair with a mesh backrest, adaptive lumbar support and 4D armrests. Supplied and installed by MDT."
+                }
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-mate-mt-103",
+                "title": "Bejot Mate MT 103"
+            },
+            "thumbnail": "@media:p-bejot-mate-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Mate — функціональне робоче крісло Bejot із широкою геометричною спинкою та м’яким наповненням, які забезпечують ергономіку, зручність і комфорт. Відповідність моделі вимогам до організації робочого місця підтверджена сертифікатом. Колекція доповнюється конференц-кріслами Mate в тому самому стилі.",
+                    "ru": "Mate — функциональное рабочее кресло Bejot с широкой геометрической спинкой и мягким наполнением, которые обеспечивают эргономику, удобство и комфорт. Соответствие модели требованиям к организации рабочего места подтверждено сертификатом. Коллекция дополняется конференц-креслами Mate в том же стиле.",
+                    "en": "Mate is a functional Bejot task chair with a wide, geometric backrest and soft foam padding for ergonomics, convenience and comfort. Its compliance with workplace requirements is confirmed by a certificate, and the collection includes matching Mate conference chairs."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Геометричний дизайн</strong> — широка спинка з чіткими лініями добре виглядає як в open space, так і в кабінеті.</li>\n<li><strong>Перевірена ергономіка</strong>, підтверджена сертифікатом.</li>\n<li><strong>Кілька механізмів на вибір</strong> — від самобалансуючого Synchro до Fast-synchro з фіксацією спинки у 4 положеннях.</li>\n<li><strong>Регулювання спинки по висоті</strong> в діапазоні 65 мм.</li>\n<li><strong>Колекція</strong> включає конференц-крісла Mate для переговорних у тому самому стилі.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Геометрический дизайн</strong> — широкая спинка с четкими линиями хорошо смотрится и в open space, и в кабинете.</li>\n<li><strong>Проверенная эргономика</strong>, подтвержденная сертификатом.</li>\n<li><strong>Несколько механизмов на выбор</strong> — от самобалансирующегося Synchro до Fast-synchro с фиксацией спинки в 4 положениях.</li>\n<li><strong>Регулировка спинки по высоте</strong> в диапазоне 65 мм.</li>\n<li><strong>Коллекция</strong> включает конференц-кресла Mate для переговорных в том же стиле.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Geometric design</strong> — the wide backrest with clean lines suits both open-plan offices and private rooms.</li>\n<li><strong>Proven ergonomics</strong>, confirmed by a certificate.</li>\n<li><strong>A choice of mechanisms</strong>, from self-balancing Synchro to Fast-synchro with a 4-position backrest lock.</li>\n<li><strong>Backrest height adjustment</strong> over 65 mm.</li>\n<li><strong>The collection</strong> includes matching Mate conference chairs for meeting rooms.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Механізм",
+                            "ru": "Механизм",
+                            "en": "Mechanism"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "самобалансуючий Synchro (нахил спинки 20°, сидіння 5°) з регулюванням глибини сидіння 58 мм; опція — Fast-synchro з фіксацією у 4 положеннях",
+                            "ru": "самобалансирующийся Synchro (наклон спинки 20°, сиденья 5°) с регулировкой глубины сиденья 58 мм; опция — Fast-synchro с фиксацией в 4 положениях",
+                            "en": "self-balancing Synchro (backrest 20°, seat 5°) with 58 mm seat depth adjustment; Fast-synchro with a 4-position lock optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Спинка",
+                            "ru": "Спинка",
+                            "en": "Backrest"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "регулювання по висоті 65 мм",
+                            "ru": "регулировка по высоте 65 мм",
+                            "en": "65 mm height adjustment"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Поперекова підтримка",
+                            "ru": "Поясничная поддержка",
+                            "en": "Lumbar support"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "опція, регулювання глибини 15 мм",
+                            "ru": "опция, регулировка глубины 15 мм",
+                            "en": "optional, 15 mm depth adjustment"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Підлокітники",
+                            "ru": "Подлокотники",
+                            "en": "Armrests"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "регулювання по висоті 80 мм, м’які накладки; опція — регулювання ширини й глибини",
+                            "ru": "регулировка по высоте 80 мм, мягкие накладки; опция — регулировка ширины и глубины",
+                            "en": "80 mm height adjustment, soft pads; width and depth adjustment optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Хрестовина",
+                            "ru": "Крестовина",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "нейлон Ø700 мм; опція — полірований або фарбований алюміній",
+                            "ru": "нейлон Ø700 мм; опция — полированный или окрашенный алюминий",
+                            "en": "nylon Ø700 mm; polished or powder-coated aluminium optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Підголовник",
+                            "ru": "Подголовник",
+                            "en": "Headrest"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "регулювання по висоті (60 мм) і куту нахилу",
+                            "ru": "регулировка по высоте (60 мм) и углу наклона",
+                            "en": "height (60 mm) and angle adjustment"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-mate-1",
+                    "@media:p-bejot-mate-5"
+                ]
+            },
+            "meta": {
+                "rank_math_description": {
+                    "uk": "Робоче крісло Bejot Mate MT 103 з широкою геометричною спинкою та підтвердженою ергономікою. Підбір комплектації, доставка й монтаж від MDT.",
+                    "ru": "Рабочее кресло Bejot Mate MT 103 с широкой геометрической спинкой и подтвержденной эргономикой. Подбор комплектации, доставка и монтаж от MDT.",
+                    "en": "Bejot Mate MT 103 task chair with a wide geometric backrest and certified ergonomics. Specification, delivery and installation by MDT."
+                }
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "ld-seating-lyra-air",
+                "title": "LD Seating Lyra Air"
+            },
+            "thumbnail": "@media:p-ld-lyra-4",
+            "acf": {
+                "p__descr": {
+                    "uk": "Lyra Air — робочі крісла LD Seating для офісу та домашнього кабінету, що поєднують комфорт, стиль і ергономічну підтримку. Кожне крісло має м’яке оббите сидіння, дихаючу сітчасту спинку та регульовану поперекову підтримку. Окрім класичних білого й чорного, доступні виразні кольори — шавлієвий зелений і цегляний.",
+                    "ru": "Lyra Air — рабочие кресла LD Seating для офиса и домашнего кабинета, сочетающие комфорт, стиль и эргономичную поддержку. Каждое кресло имеет мягкое обитое сиденье, дышащую сетчатую спинку и регулируемую поясничную поддержку. Помимо классических белого и черного, доступны выразительные цвета — шалфейный зеленый и кирпичный.",
+                    "en": "Lyra Air task chairs by LD Seating bring comfort, style and ergonomic support to the office or home workspace. Each chair has a soft upholstered seat, a breathable mesh backrest and adjustable lumbar support. Alongside classic white and black, it comes in striking sage green and brick."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Дихаюча сітка</strong> на спинці і <strong>м’яке оббите сидіння</strong> для комфорту протягом дня.</li>\n<li><strong>Регульована поперекова підтримка</strong>.</li>\n<li><strong>Чотири кольори каркаса й сітки</strong> — чорний, білий, шавлієвий зелений і цегляний.</li>\n<li><strong>Аксесуари</strong>, з якими крісло можна доукомплектувати під себе.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Дышащая сетка</strong> на спинке и <strong>мягкое обитое сиденье</strong> для комфорта в течение дня.</li>\n<li><strong>Регулируемая поясничная поддержка</strong>.</li>\n<li><strong>Четыре цвета каркаса и сетки</strong> — черный, белый, шалфейный зеленый и кирпичный.</li>\n<li><strong>Аксессуары</strong>, которыми кресло можно доукомплектовать под себя.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>A breathable mesh backrest</strong> and <strong>a soft upholstered seat</strong> for all-day comfort.</li>\n<li><strong>Adjustable lumbar support</strong>.</li>\n<li><strong>Four colourways</strong> — black, white, sage green and brick.</li>\n<li><strong>Accessories</strong> to make the chair truly yours.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "LD Seating (Чехія)",
+                            "ru": "LD Seating (Чехия)",
+                            "en": "LD Seating (Czech Republic)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Спинка",
+                            "ru": "Спинка",
+                            "en": "Backrest"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "сітка, регульована поперекова підтримка",
+                            "ru": "сетка, регулируемая поясничная поддержка",
+                            "en": "mesh, adjustable lumbar support"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Сидіння",
+                            "ru": "Сиденье",
+                            "en": "Seat"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "м’яке, з тканинною оббивкою",
+                            "ru": "мягкое, с тканевой обивкой",
+                            "en": "soft, fabric upholstered"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Механізм",
+                            "ru": "Механизм",
+                            "en": "Mechanism"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "синхронний (SY) або асинхронний (AT) — залежно від комплектації",
+                            "ru": "синхронный (SY) или асинхронный (AT) — в зависимости от комплектации",
+                            "en": "synchro (SY) or asynchro (AT), depending on the version"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Кольори",
+                            "ru": "Цвета",
+                            "en": "Colours"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "чорний, білий, шавлієвий зелений, цегляний",
+                            "ru": "черный, белый, шалфейный зеленый, кирпичный",
+                            "en": "black, white, sage green, brick"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-ld-lyra-4",
+                    "@media:p-ld-lyra-3"
+                ]
+            },
+            "meta": {
+                "rank_math_description": {
+                    "uk": "Робоче крісло LD Seating Lyra Air із сітчастою спинкою, м’яким сидінням і регульованою поперековою підтримкою. Чотири кольори. Постачання від MDT.",
+                    "ru": "Рабочее кресло LD Seating Lyra Air с сетчатой спинкой, мягким сиденьем и регулируемой поясничной поддержкой. Четыре цвета. Поставка от MDT.",
+                    "en": "LD Seating Lyra Air task chair with a mesh backrest, soft seat and adjustable lumbar support, in four colours. Supplied by MDT."
+                }
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "ld-seating-arcus",
+                "title": "LD Seating Arcus"
+            },
+            "thumbnail": "@media:p-ld-arcus-6",
+            "acf": {
+                "p__descr": {
+                    "uk": "Arcus — робоче крісло LD Seating за дизайном Мартіна Баллендата (Martin Ballendat), що поєднує інноваційний дизайн і щоденний комфорт. Спинка повторює природний вигин хребта, а регульована поперекова підтримка дає змогу точно налаштувати крісло під себе. Разом із конференц-моделями колекція Arcus підходить для оформлення всього офісу в одному стилі.",
+                    "ru": "Arcus — рабочее кресло LD Seating по дизайну Мартина Баллендата (Martin Ballendat), сочетающее инновационный дизайн и ежедневный комфорт. Спинка повторяет естественный изгиб позвоночника, а регулируемая поясничная поддержка позволяет точно настроить кресло под себя. Вместе с конференц-моделями коллекция Arcus подходит для оформления всего офиса в одном стиле.",
+                    "en": "Arcus is an LD Seating task chair designed by Martin Ballendat that combines innovative design with everyday comfort. The backrest follows the natural curve of the spine, and adjustable lumbar support gives a personalised fit. Together with its conference models, the Arcus collection lets you furnish a whole office in one style."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Анатомічна спинка</strong>, що повторює природний вигин хребта.</li>\n<li><strong>Регульована поперекова підтримка</strong> для індивідуального налаштування.</li>\n<li><strong>Дизайн Мартіна Баллендата</strong> — одного з найвідоміших німецьких дизайнерів офісних меблів.</li>\n<li><strong>Єдина колекція</strong>: робочі крісла та конференц-моделі Arcus для переговорних.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Анатомическая спинка</strong>, повторяющая естественный изгиб позвоночника.</li>\n<li><strong>Регулируемая поясничная поддержка</strong> для индивидуальной настройки.</li>\n<li><strong>Дизайн Мартина Баллендата</strong> — одного из самых известных немецких дизайнеров офисной мебели.</li>\n<li><strong>Единая коллекция</strong>: рабочие кресла и конференц-модели Arcus для переговорных.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>An anatomical backrest</strong> that follows the natural curve of the spine.</li>\n<li><strong>Adjustable lumbar support</strong> for a personalised fit.</li>\n<li><strong>Designed by Martin Ballendat</strong>, one of Germany’s best-known office furniture designers.</li>\n<li><strong>One collection</strong>: Arcus task chairs and conference models for meeting rooms.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "LD Seating (Чехія)",
+                            "ru": "LD Seating (Чехия)",
+                            "en": "LD Seating (Czech Republic)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Martin Ballendat"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Спинка",
+                            "ru": "Спинка",
+                            "en": "Backrest"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "анатомічна, з регульованою поперековою підтримкою",
+                            "ru": "анатомическая, с регулируемой поясничной поддержкой",
+                            "en": "anatomical, with adjustable lumbar support"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Колекція",
+                            "ru": "Коллекция",
+                            "en": "Collection"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "робочі крісла 240, 241 та конференц-крісла 250, 251",
+                            "ru": "рабочие кресла 240, 241 и конференц-кресла 250, 251",
+                            "en": "task chairs 240, 241 and conference chairs 250, 251"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-ld-arcus-6",
+                    "@media:p-ld-arcus-5"
+                ]
+            },
+            "meta": {
+                "rank_math_description": {
+                    "uk": "Робоче крісло LD Seating Arcus за дизайном Martin Ballendat: анатомічна спинка та регульована поперекова підтримка. Постачання від MDT.",
+                    "ru": "Рабочее кресло LD Seating Arcus по дизайну Martin Ballendat: анатомическая спинка и регулируемая поясничная поддержка. Поставка от MDT.",
+                    "en": "LD Seating Arcus task chair designed by Martin Ballendat, with an anatomical backrest and adjustable lumbar support. Supplied by MDT."
+                }
+            }
+        },
+        {
+            "target": "category:mebli/robochi-krisla",
+            "thumbnail": "@media:proj-media-08",
+            "thumbnail_alt": {
+                "uk": "Робочі крісла в open space офісу міжнародної медіакомпанії, Київ",
+                "ru": "Рабочие кресла в open space офиса международной медиакомпании, Киев",
+                "en": "Task chairs in the open-plan office of an international media company, Kyiv"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Робочі крісла для офісу — Bejot, LD Seating | MDT",
+                    "ru": "Рабочие кресла для офиса — Bejot, LD Seating | MDT",
+                    "en": "Office task chairs — Bejot, LD Seating | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Ергономічні робочі крісла для офісу від європейських фабрик Bejot і LD Seating. Підбір механізму та оббивки, доставка і монтаж по Україні від MDT.",
+                    "ru": "Эргономичные рабочие кресла для офиса от европейских фабрик Bejot и LD Seating. Подбор механизма и обивки, доставка и монтаж по Украине от MDT.",
+                    "en": "Ergonomic office task chairs from European manufacturers Bejot and LD Seating. Mechanism and upholstery selection, delivery and installation by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Робочі крісла для офісу",
+                    "ru": "Рабочие кресла для офиса",
+                    "en": "Office task chairs"
+                },
+                "lp__intro": {
+                    "uk": "<strong>Робоче крісло</strong> — це те, на чому людина проводить більшу частину робочого дня. Правильно підібране крісло підтримує природну поставу, зменшує навантаження на спину й шию та допомагає довше зберігати концентрацію. MDT пропонує <strong>ергономічні робочі крісла європейських фабрик Bejot і LD Seating</strong> для офісів, коворкінгів і домашніх кабінетів та допомагає підібрати модель, механізм і оббивку під завдання проєкту.",
+                    "ru": "<strong>Рабочее кресло</strong> — это то, на чем человек проводит большую часть рабочего дня. Правильно подобранное кресло поддерживает естественную осанку, уменьшает нагрузку на спину и шею и помогает дольше сохранять концентрацию. MDT предлагает <strong>эргономичные рабочие кресла европейских фабрик Bejot и LD Seating</strong> для офисов, коворкингов и домашних кабинетов и помогает подобрать модель, механизм и обивку под задачи проекта.",
+                    "en": "People spend most of their working day in a <strong>task chair</strong>. The right one supports a natural posture, reduces strain on the back and neck and helps you stay focused for longer. MDT offers <strong>ergonomic task chairs from European manufacturers Bejot and LD Seating</strong> for offices, co-working spaces and home offices, and helps you choose the model, mechanism and upholstery to suit your project."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі робочих крісел",
+                    "ru": "Модели рабочих кресел",
+                    "en": "Task chair models"
+                },
+                "lp__products": [
+                    "@product:bejot-eight-et-103b",
+                    "@product:bejot-mate-mt-103",
+                    "@product:ld-seating-lyra-air",
+                    "@product:ld-seating-arcus",
+                    "@product:mdd-apex",
+                    "@product:profim-accispro",
+                    "@product:profim-violle",
+                    "@product:isku-myflow-chair",
+                    "@product:diemme-skin",
+                    "@product:diemme-velvet",
+                    "@product:midj-cover-1",
+                    "@product:okamura-contessa-ii",
+                    "@product:okamura-finora",
+                    "@product:bralco-feel",
+                    "@product:arper-catifa-53",
+                    "@product:sancal-collar"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@suppliers:bejot",
+                    "@suppliers:ld-seating",
+                    "@suppliers:mdd",
+                    "@suppliers:profim",
+                    "@suppliers:inclass",
+                    "@suppliers:isku",
+                    "@suppliers:diemme",
+                    "@suppliers:midj",
+                    "@suppliers:i4mariani",
+                    "@suppliers:bralco",
+                    "@suppliers:okamura",
+                    "@suppliers:arper",
+                    "@suppliers:sancal"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:studiya-cobalt-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс студії дизайну",
+                            "ru": "Офис студии дизайна",
+                            "en": "Design studio office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Робочі та переговорні крісла Bejot",
+                            "ru": "Рабочие и переговорные кресла Bejot",
+                            "en": "Bejot task and meeting chairs"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-mizhnarodnoyi-mediakompaniyi",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Bejot, LD Seating, MDD",
+                            "ru": "Bejot, LD Seating, MDD",
+                            "en": "Bejot, LD Seating, MDD"
+                        },
+                        "lp__proj-area": {
+                            "uk": "920 м²",
+                            "ru": "920 м²",
+                            "en": "920 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-danone",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-area": {
+                            "uk": "1 870 м²",
+                            "ru": "1 870 м²",
+                            "en": "1,870 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати робоче крісло</h2>\n<p>Робоче крісло має відповідати не лише дизайну офісу, а й тому, як саме людина працює: скільки годин поспіль сидить, чи часто змінює позу, чи користується кріслом одна людина, чи кілька (hot desk). Нижче — параметри, на які варто звернути увагу.</p>\n<h3>Механізм гойдання</h3>\n<p>Синхронний механізм змінює нахил спинки й сидіння узгоджено, тож тіло залишається в правильному положенні навіть під час відкидання назад. Самобалансуючий механізм автоматично підлаштовує жорсткість під вагу користувача — це зручно для робочих місць, якими користуються різні люди. Функція фіксації спинки у кількох положеннях дає змогу зафіксувати зручну позу.</p>\n<h3>Регулювання</h3>\n<p>Що більше параметрів можна налаштувати, то точніше крісло підлаштовується під конкретну людину: висота й глибина сидіння, висота спинки, поперекова підтримка, підлокітники (від регулювання по висоті до 4D) і підголовник.</p>\n<h3>Спинка: сітка чи оббивка</h3>\n<p>Сітчаста спинка краще пропускає повітря й не перегрівається, тому підходить для тривалої роботи. Оббита спинка м’якша на дотик і дає більше варіантів кольору та фактури тканини.</p>\n<h3>Хрестовина та колеса</h3>\n<p>Колеса підбирають під покриття підлоги: тверді — для килимових покриттів і килимової плитки, м’які — для твердих підлог (вініл, лінолеум, паркет). Так покриття довше зберігає вигляд, а крісло рухається легко.</p>\n<h3>Що врахувати перед вибором</h3>\n<ol>\n<li><strong>Тривалість роботи.</strong> Для повного робочого дня обирайте модель із синхромеханізмом і поперековою підтримкою.</li>\n<li><strong>Хто користуватиметься кріслом.</strong> Для спільних робочих місць зручні самобалансуючі механізми та прості регулювання.</li>\n<li><strong>Інтер’єр.</strong> Колір каркаса, сітки й оббивки можна підібрати під айдентику компанії.</li>\n<li><strong>Покриття підлоги.</strong> Тип коліс залежить від того, що лежить на підлозі.</li>\n<li><strong>Єдина колекція.</strong> Багато серій мають і робочі, і конференц-крісла — так офіс виглядає цілісно.</li>\n</ol>\n<p>MDT допомагає підібрати крісла відповідно до завдань проєкту та бюджету, організовує доставку й монтаж.</p>",
+                            "ru": "<h2>Как выбрать рабочее кресло</h2>\n<p>Рабочее кресло должно соответствовать не только дизайну офиса, но и тому, как именно человек работает: сколько часов подряд сидит, часто ли меняет позу, пользуется ли креслом один человек или несколько (hot desk). Ниже — параметры, на которые стоит обратить внимание.</p>\n<h3>Механизм качания</h3>\n<p>Синхронный механизм меняет наклон спинки и сиденья согласованно, поэтому тело остается в правильном положении даже при откидывании назад. Самобалансирующийся механизм автоматически подстраивает жесткость под вес пользователя — это удобно для рабочих мест, которыми пользуются разные люди. Функция фиксации спинки в нескольких положениях позволяет зафиксировать удобную позу.</p>\n<h3>Регулировки</h3>\n<p>Чем больше параметров можно настроить, тем точнее кресло подстраивается под конкретного человека: высота и глубина сиденья, высота спинки, поясничная поддержка, подлокотники (от регулировки по высоте до 4D) и подголовник.</p>\n<h3>Спинка: сетка или обивка</h3>\n<p>Сетчатая спинка лучше пропускает воздух и не перегревается, поэтому подходит для длительной работы. Обитая спинка мягче на ощупь и дает больше вариантов цвета и фактуры ткани.</p>\n<h3>Крестовина и колеса</h3>\n<p>Колеса подбирают под напольное покрытие: твердые — для ковролина и ковровой плитки, мягкие — для твердых полов (винил, линолеум, паркет). Так покрытие дольше сохраняет вид, а кресло двигается легко.</p>\n<h3>Что учесть перед выбором</h3>\n<ol>\n<li><strong>Продолжительность работы.</strong> Для полного рабочего дня выбирайте модель с синхромеханизмом и поясничной поддержкой.</li>\n<li><strong>Кто будет пользоваться креслом.</strong> Для общих рабочих мест удобны самобалансирующиеся механизмы и простые регулировки.</li>\n<li><strong>Интерьер.</strong> Цвет каркаса, сетки и обивки можно подобрать под айдентику компании.</li>\n<li><strong>Напольное покрытие.</strong> Тип колес зависит от того, что лежит на полу.</li>\n<li><strong>Единая коллекция.</strong> Многие серии включают и рабочие, и конференц-кресла — так офис выглядит целостно.</li>\n</ol>\n<p>MDT помогает подобрать кресла в соответствии с задачами проекта и бюджетом, организует доставку и монтаж.</p>",
+                            "en": "<h2>How to choose a task chair</h2>\n<p>A task chair should suit not only the office design but also the way people actually work: how many hours they sit at a stretch, how often they change position, and whether the chair is used by one person or shared (hot desking). These are the points to consider.</p>\n<h3>Tilt mechanism</h3>\n<p>A synchro mechanism tilts the backrest and seat in step, so the body stays well supported even when leaning back. A self-balancing mechanism adjusts the tension to the user’s weight automatically, which suits workstations shared by different people. A backrest lock lets you hold a comfortable position.</p>\n<h3>Adjustments</h3>\n<p>The more settings a chair has, the better it fits a particular person: seat height and depth, backrest height, lumbar support, armrests (from height-only to 4D) and a headrest.</p>\n<h3>Backrest: mesh or upholstery</h3>\n<p>A mesh backrest lets air through and doesn’t overheat, so it suits long hours of work. An upholstered backrest is softer to the touch and offers more choice of fabric colours and textures.</p>\n<h3>Base and castors</h3>\n<p>Castors are chosen to match the floor: hard castors for carpet and carpet tiles, soft castors for hard floors (vinyl, linoleum, parquet). That keeps the floor looking good and the chair moving easily.</p>\n<h3>What to consider before you choose</h3>\n<ol>\n<li><strong>Hours of use.</strong> For a full working day, choose a model with a synchro mechanism and lumbar support.</li>\n<li><strong>Who will use the chair.</strong> Shared workstations benefit from self-balancing mechanisms and simple adjustments.</li>\n<li><strong>The interior.</strong> Frame, mesh and upholstery colours can be matched to the company’s identity.</li>\n<li><strong>The floor.</strong> The type of castor depends on the floor covering.</li>\n<li><strong>One collection.</strong> Many ranges include both task and conference chairs, so the whole office looks consistent.</li>\n</ol>\n<p>MDT helps you choose chairs to fit your project and budget, and handles delivery and installation.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Чим робоче крісло відрізняється від крісла керівника?",
+                            "ru": "Чем рабочее кресло отличается от кресла руководителя?",
+                            "en": "How is a task chair different from an executive chair?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Робоче крісло розраховане насамперед на ергономіку під час тривалої роботи за столом: механізм, поперекова підтримка, регулювання. Крісло керівника зазвичай має вищу спинку, більш представницькі матеріали й оздоблення. Багато сучасних моделей, як-от Bejot Eight із підголовником, поєднують обидва підходи.",
+                            "ru": "Рабочее кресло рассчитано прежде всего на эргономику при длительной работе за столом: механизм, поясничная поддержка, регулировки. Кресло руководителя обычно имеет более высокую спинку, более представительные материалы и отделку. Многие современные модели, например Bejot Eight с подголовником, сочетают оба подхода.",
+                            "en": "A task chair is designed first of all for ergonomics during long hours at a desk: the mechanism, lumbar support and adjustments. An executive chair usually has a higher backrest and more prestigious materials and finishes. Many modern models, such as the Bejot Eight with a headrest, combine both."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Яке крісло підходить для спільних робочих місць (hot desk)?",
+                            "ru": "Какое кресло подходит для общих рабочих мест (hot desk)?",
+                            "en": "Which chair suits shared workstations (hot desking)?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для робочих місць, якими користуються різні люди, зручні крісла із самобалансуючим механізмом: він сам підлаштовує жорсткість під вагу, тож користувачу не потрібно нічого налаштовувати. Достатньо швидкого регулювання висоти сидіння та підлокітників.",
+                            "ru": "Для рабочих мест, которыми пользуются разные люди, удобны кресла с самобалансирующимся механизмом: он сам подстраивает жесткость под вес, поэтому пользователю ничего не нужно настраивать. Достаточно быстрой регулировки высоты сиденья и подлокотников.",
+                            "en": "For workstations used by different people, chairs with a self-balancing mechanism work best: it adjusts the tension to body weight automatically, so nobody has to fiddle with settings. Quick seat and armrest height adjustment is all that’s needed."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Які колеса обрати для килимової плитки або вінілу?",
+                            "ru": "Какие колеса выбрать для ковровой плитки или винила?",
+                            "en": "Which castors should I choose for carpet tiles or vinyl?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для килимових покриттів і килимової плитки підходять тверді колеса, для твердих підлог — вінілу, лінолеуму, паркету — м’які. Якщо ви плануєте і підлогу, і меблі разом з MDT, ми підберемо колеса під конкретне покриття.",
+                            "ru": "Для ковролина и ковровой плитки подходят твердые колеса, для твердых полов — винила, линолеума, паркета — мягкие. Если вы планируете и пол, и мебель вместе с MDT, мы подберем колеса под конкретное покрытие.",
+                            "en": "Hard castors suit carpet and carpet tiles; soft castors suit hard floors such as vinyl, linoleum and parquet. If you plan both the floor and the furniture with MDT, we’ll match the castors to the specific floor covering."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна підібрати колір і оббивку під інтер’єр?",
+                            "ru": "Можно ли подобрать цвет и обивку под интерьер?",
+                            "en": "Can the colour and upholstery be matched to the interior?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Фабрики пропонують кілька кольорів каркаса, сітки й хрестовини та широкий вибір тканин. Ми допоможемо підібрати комплектацію під дизайн-проєкт і надамо зразки матеріалів.",
+                            "ru": "Да. Фабрики предлагают несколько цветов каркаса, сетки и крестовины и широкий выбор тканей. Мы поможем подобрать комплектацию под дизайн-проект и предоставим образцы материалов.",
+                            "en": "Yes. The manufacturers offer several frame, mesh and base colours and a wide choice of fabrics. We’ll help you specify chairs to match the design project and provide material samples."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Які терміни постачання?",
+                            "ru": "Какие сроки поставки?",
+                            "en": "What are the lead times?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Терміни залежать від фабрики, моделі, кількості та обраної оббивки. Точні терміни ми повідомляємо після погодження специфікації, а доставку й монтаж плануємо разом із графіком вашого проєкту.",
+                            "ru": "Сроки зависят от фабрики, модели, количества и выбранной обивки. Точные сроки мы сообщаем после согласования спецификации, а доставку и монтаж планируем вместе с графиком вашего проекта.",
+                            "en": "Lead times depend on the manufacturer, model, quantity and upholstery chosen. We confirm exact dates once the specification is agreed, and plan delivery and installation around your project schedule."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Підберемо робочі крісла для вашого офісу",
+                    "ru": "Подберем рабочие кресла для вашего офиса",
+                    "en": "We’ll find the right task chairs for your office"
+                },
+                "lp__cta-text": {
+                    "uk": "Розкажіть, скільки робочих місць потрібно облаштувати й який у вас інтер’єр, — запропонуємо моделі, механізми та оббивку в межах бюджету.",
+                    "ru": "Расскажите, сколько рабочих мест нужно оборудовать и какой у вас интерьер, — предложим модели, механизмы и обивку в рамках бюджета.",
+                    "en": "Tell us how many workstations you need to furnish and what your interior is like, and we’ll suggest models, mechanisms and upholstery within your budget."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

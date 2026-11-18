@@ -1,0 +1,566 @@
+{
+    "_readme": [
+        "Page «Переговорні крісла» (/category/mebli/peregovorni-krisla/) and its products. uk written from manufacturer data; ru and en are translations.",
+        "Products and photos: bejot.eu and ldseating.com (source per image under \"media\"). Page photo: Omni Space / Zest project (see mebli-common.json)."
+    ],
+    "media": {
+        "p-bejot-orte-1": {
+            "file": "p-bejot-orte-1.jpg",
+            "title": "Bejot Orte AH 4R",
+            "source": "https://www.bejot.eu/en/product/orte-ah-upholstered-conference-chairs/model/ot-ah-4r"
+        },
+        "p-bejot-orte-3": {
+            "file": "p-bejot-orte-3.jpg",
+            "title": "Bejot Orte AH 4R",
+            "source": "https://www.bejot.eu/en/product/orte-ah-upholstered-conference-chairs/model/ot-ah-4r"
+        },
+        "p-bejot-lumi-2": {
+            "file": "p-bejot-lumi-2.jpg",
+            "title": "Bejot Lumi LM 4R1",
+            "source": "https://www.bejot.eu/en/product/lumi-conference-chairs/model/lm-4r1"
+        },
+        "p-bejot-lumi-5": {
+            "file": "p-bejot-lumi-5.jpg",
+            "title": "Bejot Lumi LM 4R1",
+            "source": "https://www.bejot.eu/en/product/lumi-conference-chairs/model/lm-4r1"
+        },
+        "p-bejot-oxco-1": {
+            "file": "p-bejot-oxco-1.jpg",
+            "title": "Bejot Ox:co OX 215",
+            "source": "https://www.bejot.eu/en/product/ox-co-oxco-occo-conference-chairs/model/ox-215"
+        },
+        "p-bejot-oxco-3": {
+            "file": "p-bejot-oxco-3.jpg",
+            "title": "Bejot Ox:co OX 215",
+            "source": "https://www.bejot.eu/en/product/ox-co-oxco-occo-conference-chairs/model/ox-215"
+        },
+        "p-ld-melody-1": {
+            "file": "p-ld-melody-1.jpg",
+            "title": "LD Seating Melody Meeting",
+            "source": "https://www.ldseating.com/en/melody-meeting"
+        },
+        "p-ld-melody-2": {
+            "file": "p-ld-melody-2.jpg",
+            "title": "LD Seating Melody Meeting",
+            "source": "https://www.ldseating.com/en/melody-meeting"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-orte-ah-4r",
+                "title": "Bejot Orte AH 4R"
+            },
+            "thumbnail": "@media:p-bejot-orte-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Orte AH — конференц-крісло з простою монолітною оббитою чашею сидіння. Модель 4R стоїть на поворотній чотирипроменевій хрестовині з колесами та регулюванням висоти — зручно в переговорній, де за столом часто розвертаються до екрана чи співрозмовника. Легкість дизайну поєднується з сертифікованою міцністю.",
+                    "ru": "Orte AH — конференц-кресло с простой монолитной обитой чашей сиденья. Модель 4R стоит на поворотной четырехлучевой крестовине с колесами и регулировкой высоты — удобно в переговорной, где за столом часто поворачиваются к экрану или собеседнику. Легкость дизайна сочетается с сертифицированной прочностью.",
+                    "en": "Orte AH is a conference chair with a simple, monolithic upholstered shell. The 4R model sits on a swivel four-star base with castors and height adjustment — handy in a meeting room where people turn towards the screen or each other. The light design goes hand in hand with certified durability."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Монолітна оббита чаша</strong> — лаконічна форма, що пасує до будь-якої переговорної.</li>\n<li><strong>Поворотний механізм із регулюванням висоти</strong>; опція — механізм 3D з рухом уперед, назад і вбік.</li>\n<li><strong>Три варіанти основи</strong> в колекції: поворотна з колесами, без повороту, на чотирьох ніжках.</li>\n<li><strong>Сертифікована міцність</strong> при легкому вигляді.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Монолитная обитая чаша</strong> — лаконичная форма, которая подходит к любой переговорной.</li>\n<li><strong>Поворотный механизм с регулировкой высоты</strong>; опция — механизм 3D с движением вперед, назад и в стороны.</li>\n<li><strong>Три варианта основания</strong> в коллекции: поворотное с колесами, без поворота, на четырех ножках.</li>\n<li><strong>Сертифицированная прочность</strong> при легком внешнем виде.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>A monolithic upholstered shell</strong> — a clean shape that suits any meeting room.</li>\n<li><strong>Swivel mechanism with height adjustment</strong>; optional 3D mechanism that moves forwards, backwards and sideways.</li>\n<li><strong>Three base options</strong> in the collection: swivel on castors, non-swivel, and four legs.</li>\n<li><strong>Certified durability</strong> despite its light look.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Механізм",
+                            "ru": "Механизм",
+                            "en": "Mechanism"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "поворотний, з регулюванням висоти; опція — 3D",
+                            "ru": "поворотный, с регулировкой высоты; опция — 3D",
+                            "en": "swivel, height-adjustable; 3D optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Основа",
+                            "ru": "Основание",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "хрестовина з полірованого або фарбованого алюмінію Ø700 мм, колеса Ø65 мм",
+                            "ru": "крестовина из полированного или окрашенного алюминия Ø700 мм, колеса Ø65 мм",
+                            "en": "polished or powder-coated aluminium base Ø700 mm, Ø65 mm castors"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Підлокітники",
+                            "ru": "Подлокотники",
+                            "en": "Armrests"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "без підлокітників; опція — металеві, з накладками зі шкіри",
+                            "ru": "без подлокотников; опция — металлические, с накладками из кожи",
+                            "en": "none as standard; metal armrests with leather pads optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Колеса",
+                            "ru": "Колеса",
+                            "en": "Castors"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тверді — для килимових покриттів, м’які — для твердих підлог; є версії з гальмами",
+                            "ru": "твердые — для ковровых покрытий, мягкие — для твердых полов; есть версии с тормозами",
+                            "en": "hard for carpet, soft for hard floors; braked versions available"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-orte-1",
+                    "@media:p-bejot-orte-3"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-lumi-lm-4r1",
+                "title": "Bejot Lumi LM 4R1"
+            },
+            "thumbnail": "@media:p-bejot-lumi-2",
+            "acf": {
+                "p__descr": {
+                    "uk": "Lumi — колекція крісел із впізнаваною чашею сидіння та мінімалістичним дизайном. Тонкий силует і м’яке сидіння забезпечують і елегантний вигляд, і високий комфорт. LM 4R1 — версія на поворотній хрестовині з колесами для переговорних і робочих зон; у колекції є також моделі на металевих і дерев’яних ніжках для кафе та зон відпочинку.",
+                    "ru": "Lumi — коллекция кресел с узнаваемой чашей сиденья и минималистичным дизайном. Тонкий силуэт и мягкое сиденье обеспечивают и элегантный вид, и высокий комфорт. LM 4R1 — версия на поворотной крестовине с колесами для переговорных и рабочих зон; в коллекции есть также модели на металлических и деревянных ножках для кафе и зон отдыха.",
+                    "en": "Lumi is a collection of chairs with a distinctive bucket seat and minimalist design. A slim silhouette and soft seat deliver both elegance and comfort. LM 4R1 is the swivel version on castors for meeting rooms and work areas; the collection also includes models on metal and wooden legs for cafés and lounges."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Мінімалістичний дизайн</strong>, що відповідає сучасним інтер’єрним трендам.</li>\n<li><strong>Дві висоти спинки</strong> — для переговорних і для зон відпочинку.</li>\n<li><strong>Широкий вибір основ</strong>: металеві ніжки, поворотні, на колесах або дерев’яні.</li>\n<li><strong>Контрастна строчка</strong> — опція для шкіряної оббивки та окремих тканин.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Минималистичный дизайн</strong>, отвечающий современным интерьерным трендам.</li>\n<li><strong>Две высоты спинки</strong> — для переговорных и для зон отдыха.</li>\n<li><strong>Широкий выбор оснований</strong>: металлические ножки, поворотные, на колесах или деревянные.</li>\n<li><strong>Контрастная строчка</strong> — опция для кожаной обивки и отдельных тканей.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Minimalist design</strong> in line with current interior trends.</li>\n<li><strong>Two backrest heights</strong> — for meeting rooms and lounge areas.</li>\n<li><strong>A wide choice of bases</strong>: metal legs, swivel, castors or wood.</li>\n<li><strong>Contrast stitching</strong> — an option for leather and selected fabrics.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Механізм",
+                            "ru": "Механизм",
+                            "en": "Mechanism"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "поворотний, з регулюванням висоти; опція — 3D",
+                            "ru": "поворотный, с регулировкой высоты; опция — 3D",
+                            "en": "swivel, height-adjustable; 3D optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Основа",
+                            "ru": "Основание",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "фарбована або алюмінієва хрестовина з колесами",
+                            "ru": "окрашенная или алюминиевая крестовина с колесами",
+                            "en": "powder-coated or aluminium base on castors"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Підлокітники",
+                            "ru": "Подлокотники",
+                            "en": "Armrests"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "без підлокітників; опція — трубчасті або пласкі з накладками зі шкіри",
+                            "ru": "без подлокотников; опция — трубчатые или плоские с накладками из кожи",
+                            "en": "none as standard; tubular or flat with leather pads optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Колеса",
+                            "ru": "Колеса",
+                            "en": "Castors"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тверді — для килимових покриттів, м’які — для твердих підлог; є версії з гальмами",
+                            "ru": "твердые — для ковровых покрытий, мягкие — для твердых полов; есть версии с тормозами",
+                            "en": "hard for carpet, soft for hard floors; braked versions available"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-lumi-2",
+                    "@media:p-bejot-lumi-5"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-oxco-ox-215",
+                "title": "Bejot Ox:co OX 215"
+            },
+            "thumbnail": "@media:p-bejot-oxco-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Ox:co — крісло з просторою оббитою чашею, яке привертає увагу нестандартним поєднанням матеріалів і простою, але виразною формою. Модель OX 215 на чотирьох ніжках підходить для переговорних, кабінетів і лаунж-зон; у колекції є також поворотні версії, моделі на полозах і на дерев’яних ніжках.",
+                    "ru": "Ox:co — кресло с просторной обитой чашей, которое привлекает внимание нестандартным сочетанием материалов и простой, но выразительной формой. Модель OX 215 на четырех ножках подходит для переговорных, кабинетов и лаунж-зон; в коллекции есть также поворотные версии, модели на полозьях и на деревянных ножках.",
+                    "en": "Ox:co is a chair with a roomy upholstered shell that stands out for its unusual combination of materials and simple but expressive form. The OX 215 on four legs suits meeting rooms, private offices and lounges; the collection also includes swivel, sled-base and wooden-leg versions."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Простора оббита чаша</strong> — зручно сидіти навіть під час довгих зустрічей.</li>\n<li><strong>Виразний дизайн</strong>, що додає характеру інтер’єру.</li>\n<li><strong>Оббивка до трьох кольорів</strong> в межах однієї тканини.</li>\n<li><strong>Широка колекція</strong>: чотири ніжки, поворотні основи, полози, дерево.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Просторная обитая чаша</strong> — удобно сидеть даже во время долгих встреч.</li>\n<li><strong>Выразительный дизайн</strong>, который добавляет интерьеру характера.</li>\n<li><strong>Обивка до трех цветов</strong> в рамках одной ткани.</li>\n<li><strong>Широкая коллекция</strong>: четыре ножки, поворотные основания, полозья, дерево.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>A roomy upholstered shell</strong> — comfortable even in long meetings.</li>\n<li><strong>An expressive design</strong> that adds character to the interior.</li>\n<li><strong>Upholstery in up to three colours</strong> within one fabric.</li>\n<li><strong>A broad collection</strong>: four legs, swivel bases, sled, wood.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Основа",
+                            "ru": "Основание",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "чотири металеві ніжки",
+                            "ru": "четыре металлические ножки",
+                            "en": "four metal legs"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Оббивка",
+                            "ru": "Обивка",
+                            "en": "Upholstery"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тканина або шкіра; до трьох кольорів в одній тканині",
+                            "ru": "ткань или кожа; до трех цветов в одной ткани",
+                            "en": "fabric or leather; up to three colours in one fabric"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Опори",
+                            "ru": "Опоры",
+                            "en": "Feet"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "для плитки, бетону й килимових покриттів; опція — фетрові для дерева та ламінату",
+                            "ru": "для плитки, бетона и ковровых покрытий; опция — фетровые для дерева и ламината",
+                            "en": "for tile, concrete and carpet; felt feet for wood and laminate optional"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-oxco-1",
+                    "@media:p-bejot-oxco-3"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "ld-seating-melody-meeting",
+                "title": "LD Seating Melody Meeting"
+            },
+            "thumbnail": "@media:p-ld-melody-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Melody Meeting — крісло LD Seating за дизайном Orlandini Design з елегантними контурами й ретельно виконаною оббивкою сидіння та спинки. Наповнювач — якісна лита піна, яка довго зберігає форму й комфорт. Завдяки різним варіантам основ Melody Meeting підходить для переговорних, лаунж-зон, кафе, офісів і домашніх їдалень.",
+                    "ru": "Melody Meeting — кресло LD Seating по дизайну Orlandini Design с элегантными контурами и тщательно выполненной обивкой сиденья и спинки. Наполнитель — качественная литая пена, которая долго сохраняет форму и комфорт. Благодаря разным вариантам оснований Melody Meeting подходит для переговорных, лаунж-зон, кафе, офисов и домашних столовых.",
+                    "en": "Melody Meeting is an LD Seating chair by Orlandini Design with elegant contours and expertly finished seat and backrest upholstery. High-quality injected foam keeps its shape and comfort for years. With a range of bases, Melody Meeting suits meeting rooms, lounges, cafés, offices and home dining rooms."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Дизайн Orlandini Design</strong> з м’якими елегантними лініями.</li>\n<li><strong>Лита піна</strong> — стабільний комфорт і довговічність.</li>\n<li><strong>Різні основи</strong>: поворотна хрестовина, ніжки, полози — під будь-який простір.</li>\n<li><strong>Єдиний стиль</strong> з робочими кріслами Melody Office.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Дизайн Orlandini Design</strong> с мягкими элегантными линиями.</li>\n<li><strong>Литая пена</strong> — стабильный комфорт и долговечность.</li>\n<li><strong>Разные основания</strong>: поворотная крестовина, ножки, полозья — под любое пространство.</li>\n<li><strong>Единый стиль</strong> с рабочими креслами Melody Office.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Designed by Orlandini Design</strong> with soft, elegant lines.</li>\n<li><strong>Injected foam</strong> for lasting comfort and durability.</li>\n<li><strong>A choice of bases</strong>: swivel star base, legs or sled, to suit any space.</li>\n<li><strong>One style</strong> with the Melody Office task chairs.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "LD Seating (Чехія)",
+                            "ru": "LD Seating (Чехия)",
+                            "en": "LD Seating (Czech Republic)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Orlandini Design"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Наповнювач",
+                            "ru": "Наполнитель",
+                            "en": "Padding"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "лита піна",
+                            "ru": "литая пена",
+                            "en": "injected foam"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Основа",
+                            "ru": "Основание",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "на вибір: поворотна хрестовина, ніжки, полози",
+                            "ru": "на выбор: поворотная крестовина, ножки, полозья",
+                            "en": "swivel star base, legs or sled"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-ld-melody-1",
+                    "@media:p-ld-melody-2"
+                ]
+            }
+        },
+        {
+            "target": "category:mebli/peregovorni-krisla",
+            "thumbnail": "@media:proj-law-21",
+            "thumbnail_alt": {
+                "uk": "Переговорна з кріслами в офісі юридичної компанії, БЦ Trilogy, Лімасол",
+                "ru": "Переговорная с креслами в офисе юридической компании, БЦ Trilogy, Лимасол",
+                "en": "Meeting room with chairs at a law firm office, Trilogy Business Centre, Limassol"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Переговорні крісла для офісу — Bejot, LD Seating | MDT",
+                    "ru": "Переговорные кресла для офиса — Bejot, LD Seating | MDT",
+                    "en": "Meeting room chairs — Bejot, LD Seating | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Переговорні крісла для офісів і кабінетів керівників від Bejot і LD Seating: поворотні, на ніжках, з оббивкою під інтер’єр. Підбір і постачання від MDT.",
+                    "ru": "Переговорные кресла для офисов и кабинетов руководителей от Bejot и LD Seating: поворотные, на ножках, с обивкой под интерьер. Подбор и поставка от MDT.",
+                    "en": "Meeting room chairs for offices and executive rooms from Bejot and LD Seating: swivel or on legs, upholstered to match your interior. Selection and supply by MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Переговорні крісла",
+                    "ru": "Переговорные кресла",
+                    "en": "Meeting room chairs"
+                },
+                "lp__intro": {
+                    "uk": "<strong>Переговорна</strong> — місце, де приймають рішення й зустрічають клієнтів, тому крісла тут мають бути і зручними для зустрічей на годину-дві, і представницькими. MDT пропонує <strong>переговорні крісла Bejot і LD Seating</strong>: <strong>поворотні моделі на колесах, крісла на ніжках і з м’якою оббитою чашею</strong> — в одному стилі з робочими кріслами офісу.",
+                    "ru": "<strong>Переговорная</strong> — место, где принимают решения и встречают клиентов, поэтому кресла здесь должны быть и удобными для встреч на час-два, и представительными. MDT предлагает <strong>переговорные кресла Bejot и LD Seating</strong>: <strong>поворотные модели на колесах, кресла на ножках и с мягкой обитой чашей</strong> — в одном стиле с рабочими креслами офиса.",
+                    "en": "The <strong>meeting room</strong> is where decisions are made and clients are welcomed, so the chairs need to be comfortable for an hour or two and look the part. MDT offers <strong>Bejot and LD Seating meeting chairs</strong>: <strong>swivel models on castors, chairs on legs and soft upholstered shells</strong>, in the same style as the office task chairs."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі переговорних крісел",
+                    "ru": "Модели переговорных кресел",
+                    "en": "Meeting chair models"
+                },
+                "lp__products": [
+                    "@product:bejot-orte-ah-4r",
+                    "@product:bejot-lumi-lm-4r1",
+                    "@product:bejot-oxco-ox-215",
+                    "@product:ld-seating-melody-meeting"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@suppliers:bejot",
+                    "@suppliers:ld-seating"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:ofis-yurydychnoyi-kompaniyi-trilogy",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс юридичної компанії",
+                            "ru": "Офис юридической компании",
+                            "en": "Law firm office"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:studiya-cobalt-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс студії дизайну",
+                            "ru": "Офис студии дизайна",
+                            "en": "Design studio office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Робочі та переговорні крісла Bejot",
+                            "ru": "Рабочие и переговорные кресла Bejot",
+                            "en": "Bejot task and meeting chairs"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:it-ofis-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-area": {
+                            "uk": "2 100 м²",
+                            "ru": "2 100 м²",
+                            "en": "2,100 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати переговорні крісла</h2>\n<p>Переговорне крісло проводить з людиною менше часу, ніж робоче, але має витримувати інтенсивне використання й добре виглядати. Від вибору залежить, наскільки зручно буде проводити зустрічі та як переговорна сприйматиметься гостями.</p>\n<h3>Основа: поворотна чи на ніжках</h3>\n<p>Поворотне крісло на колесах дає змогу легко розвернутися до екрана чи співрозмовника й відсунутися від столу — зручно для робочих нарад і презентацій. Крісла на ніжках або полозах стабільніші, візуально легші й краще підходять для невеликих переговорних і зон для неформальних зустрічей.</p>\n<h3>Чаша й оббивка</h3>\n<p>Оббита монолітна чаша виглядає охайно з усіх боків — це важливо, якщо стіл стоїть посеред кімнати. Тканину обирають з урахуванням зносостійкості та догляду, а колір — під айдентику компанії чи інтер’єр.</p>\n<h3>Підлокітники</h3>\n<p>Крісла з підлокітниками комфортніші під час довгих зустрічей, без них — компактніші й легше засуваються під стіл. Перевірте висоту стільниці, щоб підлокітники не впиралися в неї.</p>\n<h3>Що врахувати перед вибором</h3>\n<ol>\n<li><strong>Розмір переговорної.</strong> На кожне місце за столом закладайте приблизно 60–70 см ширини.</li>\n<li><strong>Тривалість зустрічей.</strong> Для довгих нарад — м’якша посадка й підлокітники.</li>\n<li><strong>Покриття підлоги.</strong> Колеса чи опори підбирають під килимову плитку, вініл або паркет.</li>\n<li><strong>Єдиний стиль.</strong> Колекції Bejot і LD Seating мають і робочі, і переговорні моделі.</li>\n</ol>\n<p>MDT допоможе підібрати крісла під розмір переговорної, стиль інтер’єру та бюджет.</p>",
+                            "ru": "<h2>Как выбрать переговорные кресла</h2>\n<p>Переговорное кресло проводит с человеком меньше времени, чем рабочее, но должно выдерживать интенсивное использование и хорошо выглядеть. От выбора зависит, насколько удобно будет проводить встречи и как переговорную будут воспринимать гости.</p>\n<h3>Основание: поворотное или на ножках</h3>\n<p>Поворотное кресло на колесах позволяет легко развернуться к экрану или собеседнику и отодвинуться от стола — удобно для рабочих совещаний и презентаций. Кресла на ножках или полозьях стабильнее, визуально легче и лучше подходят для небольших переговорных и зон для неформальных встреч.</p>\n<h3>Чаша и обивка</h3>\n<p>Обитая монолитная чаша выглядит аккуратно со всех сторон — это важно, если стол стоит посреди комнаты. Ткань выбирают с учетом износостойкости и ухода, а цвет — под айдентику компании или интерьер.</p>\n<h3>Подлокотники</h3>\n<p>Кресла с подлокотниками комфортнее во время долгих встреч, без них — компактнее и легче задвигаются под стол. Проверьте высоту столешницы, чтобы подлокотники в нее не упирались.</p>\n<h3>Что учесть перед выбором</h3>\n<ol>\n<li><strong>Размер переговорной.</strong> На каждое место за столом закладывайте примерно 60–70 см ширины.</li>\n<li><strong>Продолжительность встреч.</strong> Для долгих совещаний — более мягкая посадка и подлокотники.</li>\n<li><strong>Напольное покрытие.</strong> Колеса или опоры подбирают под ковровую плитку, винил или паркет.</li>\n<li><strong>Единый стиль.</strong> Коллекции Bejot и LD Seating включают и рабочие, и переговорные модели.</li>\n</ol>\n<p>MDT поможет подобрать кресла под размер переговорной, стиль интерьера и бюджет.</p>",
+                            "en": "<h2>How to choose meeting room chairs</h2>\n<p>A meeting chair spends less time with each person than a task chair, but it has to withstand heavy use and look good. The right choice makes meetings more comfortable and shapes how guests perceive the room.</p>\n<h3>Base: swivel or legs</h3>\n<p>A swivel chair on castors makes it easy to turn to the screen or the speaker and push back from the table — ideal for working meetings and presentations. Chairs on legs or a sled base are more stable, look lighter and suit smaller meeting rooms and informal areas.</p>\n<h3>Shell and upholstery</h3>\n<p>A monolithic upholstered shell looks neat from every angle, which matters when the table stands in the middle of the room. Choose the fabric for durability and easy care, and the colour to match the company identity or interior.</p>\n<h3>Armrests</h3>\n<p>Chairs with armrests are more comfortable in long meetings; without them they are more compact and slide under the table more easily. Check the table height so the armrests don’t hit the top.</p>\n<h3>What to consider before you choose</h3>\n<ol>\n<li><strong>Room size.</strong> Allow roughly 60–70 cm of table width per seat.</li>\n<li><strong>Meeting length.</strong> For long meetings, choose softer seating and armrests.</li>\n<li><strong>The floor.</strong> Castors or feet are matched to carpet tiles, vinyl or parquet.</li>\n<li><strong>One style.</strong> Bejot and LD Seating collections include both task and meeting models.</li>\n</ol>\n<p>MDT helps you choose chairs to suit the room size, interior style and budget.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Яке крісло обрати для переговорної: на колесах чи на ніжках?",
+                            "ru": "Какое кресло выбрать для переговорной: на колесах или на ножках?",
+                            "en": "Should meeting room chairs be on castors or legs?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для робочих нарад і презентацій, де учасники часто розвертаються й відсуваються від столу, зручніші поворотні крісла на колесах. Для невеликих переговорних і неформальних зустрічей — крісла на ніжках або полозах: вони стабільніші й візуально легші.",
+                            "ru": "Для рабочих совещаний и презентаций, где участники часто поворачиваются и отодвигаются от стола, удобнее поворотные кресла на колесах. Для небольших переговорных и неформальных встреч — кресла на ножках или полозьях: они стабильнее и визуально легче.",
+                            "en": "For working meetings and presentations, where people often turn and push back from the table, swivel chairs on castors work best. For small meeting rooms and informal meetings, choose chairs on legs or a sled base: they are more stable and look lighter."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна підібрати переговорні крісла в одному стилі з робочими?",
+                            "ru": "Можно ли подобрать переговорные кресла в одном стиле с рабочими?",
+                            "en": "Can meeting chairs match the task chairs?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Більшість колекцій Bejot і LD Seating — наприклад, Mate, Lumi чи Melody — мають робочі й переговорні моделі з однаковими формами та оббивкою, тож офіс виглядає цілісно.",
+                            "ru": "Да. Большинство коллекций Bejot и LD Seating — например, Mate, Lumi или Melody — включают рабочие и переговорные модели с одинаковыми формами и обивкой, поэтому офис выглядит целостно.",
+                            "en": "Yes. Most Bejot and LD Seating collections — Mate, Lumi or Melody, for example — include task and meeting models with the same shapes and upholstery, so the office looks consistent."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Яку оббивку обрати для переговорної?",
+                            "ru": "Какую обивку выбрать для переговорной?",
+                            "en": "Which upholstery is best for a meeting room?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для інтенсивного використання обирайте зносостійкі тканини, які легко чистити; шкіра чи екошкіра додають представницькості. Ми надамо зразки тканин і допоможемо підібрати колір під інтер’єр.",
+                            "ru": "Для интенсивного использования выбирайте износостойкие ткани, которые легко чистить; кожа или экокожа добавляют представительности. Мы предоставим образцы тканей и поможем подобрать цвет под интерьер.",
+                            "en": "For heavy use, choose hard-wearing fabrics that are easy to clean; leather or faux leather adds a more prestigious feel. We’ll provide fabric samples and help match the colour to your interior."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Скільки крісел поміститься в переговорній?",
+                            "ru": "Сколько кресел поместится в переговорной?",
+                            "en": "How many chairs will fit in a meeting room?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Орієнтуйтеся на 60–70 см ширини столу на одне місце та залиште щонайменше 90–100 см від краю столу до стіни, щоб крісло можна було вільно відсунути. Ми допоможемо розрахувати кількість під ваше планування.",
+                            "ru": "Ориентируйтесь на 60–70 см ширины стола на одно место и оставьте не менее 90–100 см от края стола до стены, чтобы кресло можно было свободно отодвинуть. Мы поможем рассчитать количество под вашу планировку.",
+                            "en": "Allow 60–70 cm of table width per seat and leave at least 90–100 cm between the table edge and the wall so chairs can be pushed back freely. We can help work out the number for your layout."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Підберемо крісла для вашої переговорної",
+                    "ru": "Подберем кресла для вашей переговорной",
+                    "en": "We’ll find the right chairs for your meeting room"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план приміщення або фото інтер’єру — запропонуємо моделі, оббивку та кількість місць.",
+                    "ru": "Пришлите план помещения или фото интерьера — предложим модели, обивку и количество мест.",
+                    "en": "Send us the floor plan or photos of the interior and we’ll suggest models, upholstery and seating capacity."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

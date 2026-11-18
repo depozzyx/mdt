@@ -1,0 +1,713 @@
+{
+    "_readme": [
+        "Page «Меблі для тераси» (/category/mebli/mebli-dlya-terasy/), its products and the Inclass supplier page. uk written from manufacturer data; ru and en are translations.",
+        "Products, photos and supplier text: inclass.es (collection pages, About us, Sustainability). Bejot Split is defined in mebli-konferents-krisla.json."
+    ],
+    "media": {
+        "logo-inclass": {
+            "file": "logo-inclass.svg",
+            "title": "Inclass",
+            "source": "https://inclass.es/"
+        },
+        "logo-inclass-dark": {
+            "file": "logo-inclass-dark.svg",
+            "title": "Inclass",
+            "source": "https://inclass.es/ (recoloured #343434)"
+        },
+        "inclass-outdoor-21": {
+            "file": "inclass-outdoor-21.jpg",
+            "title": "Inclass Outdoor",
+            "source": "https://inclass.es/wp-content/uploads/2026/02/INCLASS_OUTDOOR_21.jpg"
+        },
+        "inclass-outdoor-10": {
+            "file": "inclass-outdoor-10.jpg",
+            "title": "Inclass Outdoor",
+            "source": "https://inclass.es/wp-content/uploads/2025/09/HQ_INCLASS_OUTDOOR_10.jpg"
+        },
+        "p-inclass-varya-1": {
+            "file": "p-inclass-varya-1.jpg",
+            "title": "Inclass Varya Outdoor",
+            "source": "https://inclass.es/collection/varya-outdoor/"
+        },
+        "p-inclass-varya-2": {
+            "file": "p-inclass-varya-2.jpg",
+            "title": "Inclass Varya Outdoor",
+            "source": "https://inclass.es/collection/varya-outdoor/"
+        },
+        "p-inclass-taia-1": {
+            "file": "p-inclass-taia-1.jpg",
+            "title": "Inclass Taia Outdoor",
+            "source": "https://inclass.es/collection/taia-outdoor/"
+        },
+        "p-inclass-taia-2": {
+            "file": "p-inclass-taia-2.jpg",
+            "title": "Inclass Taia Outdoor",
+            "source": "https://inclass.es/collection/taia-outdoor/"
+        },
+        "p-inclass-lea-1": {
+            "file": "p-inclass-lea-1.jpg",
+            "title": "Inclass Lea Outdoor",
+            "source": "https://inclass.es/collection/lea-outdoor/"
+        },
+        "p-inclass-lea-2": {
+            "file": "p-inclass-lea-2.jpg",
+            "title": "Inclass Lea Outdoor",
+            "source": "https://inclass.es/collection/lea-outdoor/"
+        },
+        "p-inclass-oswell-1": {
+            "file": "p-inclass-oswell-1.jpg",
+            "title": "Inclass Oswell Outdoor",
+            "source": "https://inclass.es/collection/oswell-outdoor/"
+        },
+        "p-inclass-oswell-2": {
+            "file": "p-inclass-oswell-2.jpg",
+            "title": "Inclass Oswell Outdoor",
+            "source": "https://inclass.es/collection/oswell-outdoor/"
+        },
+        "p-inclass-barlis-1": {
+            "file": "p-inclass-barlis-1.jpg",
+            "title": "Inclass Barlis Outdoor",
+            "source": "https://inclass.es/collection/barlis-outdoor/"
+        },
+        "p-inclass-barlis-2": {
+            "file": "p-inclass-barlis-2.jpg",
+            "title": "Inclass Barlis Outdoor",
+            "source": "https://inclass.es/collection/barlis-outdoor/"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "inclass-varya-outdoor",
+                "title": "Inclass Varya Outdoor"
+            },
+            "thumbnail": "@media:p-inclass-varya-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Varya Outdoor — вулична версія стільців Varya британського дизайнера Simon Pengelly. Легка чаша з поліпропілену на каркасі з нержавіючої сталі або пластику; є стільці, що штабелюються, а також напівбарні й барні моделі для високих столів і стійок. Колекція входить до лінійки Inclass Outdoor — добірки знакових моделей, адаптованих для відкритих просторів: сучасний дизайн, натхненний середземноморським світлом, і ретельно підібрані матеріали, що витримують умови використання на вулиці.",
+                    "ru": "Varya Outdoor — уличная версия стульев Varya британского дизайнера Simon Pengelly. Легкая чаша из полипропилена на каркасе из нержавеющей стали или пластика; есть штабелируемые стулья, а также полубарные и барные модели для высоких столов и стоек. Коллекция входит в линейку Inclass Outdoor — подборку знаковых моделей, адаптированных для открытых пространств: современный дизайн, вдохновленный средиземноморским светом, и тщательно подобранные материалы, выдерживающие условия использования на улице.",
+                    "en": "Varya Outdoor is the outdoor version of the Varya chairs by British designer Simon Pengelly: a light polypropylene shell on a stainless steel or plastic frame, with stackable chairs plus counter and bar-height models for high tables and counters. The collection is part of Inclass Outdoor — a selection of iconic models adapted for open-air spaces: contemporary design inspired by Mediterranean light and carefully chosen materials built to withstand outdoor use."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Чаша з поліпропілену</strong> на каркасі з нержавіючої сталі.</li>\n<li><strong>Версії, що штабелюються</strong>, — зручно прибирати на зиму.</li>\n<li><strong>Три висоти</strong>: стілець, напівбарний і барний.</li>\n<li><strong>Каркас з пластику</strong> — альтернатива для легших композицій.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Чаша из полипропилена</strong> на каркасе из нержавеющей стали.</li>\n<li><strong>Штабелируемые версии</strong> — удобно убирать на зиму.</li>\n<li><strong>Три высоты</strong>: стул, полубарный и барный.</li>\n<li><strong>Каркас из пластика</strong> — альтернатива для более легких композиций.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Polypropylene shell</strong> on a stainless steel frame.</li>\n<li><strong>Stackable versions</strong> — easy to store for winter.</li>\n<li><strong>Three heights</strong>: chair, counter and bar.</li>\n<li><strong>Plastic frame</strong> as an alternative for lighter settings.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Inclass (Іспанія)",
+                            "ru": "Inclass (Испания)",
+                            "en": "Inclass (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Simon Pengelly"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "нержавіюча сталь (штабелюється / не штабелюється) або пластик",
+                            "ru": "нержавеющая сталь (штабелируется / не штабелируется) или пластик",
+                            "en": "stainless steel (stackable / non-stackable) or plastic"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Моделі",
+                            "ru": "Модели",
+                            "en": "Models"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "стілець, напівбарний і барний стілець, табурети",
+                            "ru": "стул, полубарный и барный стул, табуреты",
+                            "en": "chair, counter and bar chair, stools"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Призначення",
+                            "ru": "Назначение",
+                            "en": "Use"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тераси, кафе, готелі, приватні та громадські простори просто неба",
+                            "ru": "террасы, кафе, отели, частные и общественные пространства под открытым небом",
+                            "en": "terraces, cafés, hotels, private and public outdoor spaces"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-inclass-varya-1",
+                    "@media:p-inclass-varya-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "inclass-taia-outdoor",
+                "title": "Inclass Taia Outdoor"
+            },
+            "thumbnail": "@media:p-inclass-taia-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Taia Outdoor — крісла Simon Pengelly з обволікаючою чашею з поліпропілену, що м’яко підтримує спину й руки. Крісло доступне на чотирьох ніжках з пластику або нержавіючої сталі, а також у напівбарній і барній висоті — для терас ресторанів, кафе й готелів. Колекція входить до лінійки Inclass Outdoor — добірки знакових моделей, адаптованих для відкритих просторів: сучасний дизайн, натхненний середземноморським світлом, і ретельно підібрані матеріали, що витримують умови використання на вулиці.",
+                    "ru": "Taia Outdoor — кресла Simon Pengelly с обволакивающей чашей из полипропилена, которая мягко поддерживает спину и руки. Кресло доступно на четырех ножках из пластика или нержавеющей стали, а также в полубарной и барной высоте — для террас ресторанов, кафе и отелей. Коллекция входит в линейку Inclass Outdoor — подборку знаковых моделей, адаптированных для открытых пространств: современный дизайн, вдохновленный средиземноморским светом, и тщательно подобранные материалы, выдерживающие условия использования на улице.",
+                    "en": "Taia Outdoor are armchairs by Simon Pengelly with an enveloping polypropylene shell that gently supports the back and arms. They come on four plastic or stainless steel legs and in counter and bar heights — for restaurant, café and hotel terraces. The collection is part of Inclass Outdoor — a selection of iconic models adapted for open-air spaces: contemporary design inspired by Mediterranean light and carefully chosen materials built to withstand outdoor use."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Чаша-крісло з поліпропілену</strong> з підтримкою для рук.</li>\n<li><strong>Каркас</strong>: пластик або нержавіюча сталь.</li>\n<li><strong>Напівбарна та барна</strong> версії для високих столів.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Чаша-кресло из полипропилена</strong> с поддержкой для рук.</li>\n<li><strong>Каркас</strong>: пластик или нержавеющая сталь.</li>\n<li><strong>Полубарная и барная</strong> версии для высоких столов.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Polypropylene armchair shell</strong> with arm support.</li>\n<li><strong>Frame</strong>: plastic or stainless steel.</li>\n<li><strong>Counter and bar</strong> versions for high tables.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Inclass (Іспанія)",
+                            "ru": "Inclass (Испания)",
+                            "en": "Inclass (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Simon Pengelly"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Чаша",
+                            "ru": "Чаша",
+                            "en": "Shell"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "поліпропілен",
+                            "ru": "полипропилен",
+                            "en": "polypropylene"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "пластик або нержавіюча сталь",
+                            "ru": "пластик или нержавеющая сталь",
+                            "en": "plastic or stainless steel"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Моделі",
+                            "ru": "Модели",
+                            "en": "Models"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "крісло, напівбарне й барне крісло",
+                            "ru": "кресло, полубарное и барное кресло",
+                            "en": "armchair, counter and bar armchair"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-inclass-taia-1",
+                    "@media:p-inclass-taia-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "inclass-lea-outdoor",
+                "title": "Inclass Lea Outdoor"
+            },
+            "thumbnail": "@media:p-inclass-lea-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Lea Outdoor — стільці та табурети за дизайном іспанської студії Perezochando: легке сидіння й спинка з поліпропілену на каркасі з нержавіючої сталі. Лаконічна форма пасує і до ресторанних терас, і до приватних патіо; напівбарний і барний табурети доповнюють колекцію для високих столів. Колекція входить до лінійки Inclass Outdoor — добірки знакових моделей, адаптованих для відкритих просторів: сучасний дизайн, натхненний середземноморським світлом, і ретельно підібрані матеріали, що витримують умови використання на вулиці.",
+                    "ru": "Lea Outdoor — стулья и табуреты по дизайну испанской студии Perezochando: легкое сиденье и спинка из полипропилена на каркасе из нержавеющей стали. Лаконичная форма подходит и к ресторанным террасам, и к частным патио; полубарный и барный табуреты дополняют коллекцию для высоких столов. Коллекция входит в линейку Inclass Outdoor — подборку знаковых моделей, адаптированных для открытых пространств: современный дизайн, вдохновленный средиземноморским светом, и тщательно подобранные материалы, выдерживающие условия использования на улице.",
+                    "en": "Lea Outdoor are chairs and stools designed by Spanish studio Perezochando: a light polypropylene seat and back on a stainless steel frame. The clean shape suits both restaurant terraces and private patios, with counter and bar stools for high tables. The collection is part of Inclass Outdoor — a selection of iconic models adapted for open-air spaces: contemporary design inspired by Mediterranean light and carefully chosen materials built to withstand outdoor use."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Сидіння та спинка</strong> з поліпропілену.</li>\n<li><strong>Каркас з нержавіючої сталі</strong> на чотирьох ніжках.</li>\n<li><strong>Стілець, напівбарний і барний табурет</strong> в одному стилі.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Сиденье и спинка</strong> из полипропилена.</li>\n<li><strong>Каркас из нержавеющей стали</strong> на четырех ножках.</li>\n<li><strong>Стул, полубарный и барный табурет</strong> в одном стиле.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Polypropylene</strong> seat and back.</li>\n<li><strong>Four-leg stainless steel</strong> frame.</li>\n<li><strong>Chair, counter and bar stool</strong> in one style.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Inclass (Іспанія)",
+                            "ru": "Inclass (Испания)",
+                            "en": "Inclass (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Perezochando"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Сидіння та спинка",
+                            "ru": "Сиденье и спинка",
+                            "en": "Seat and back"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "поліпропілен",
+                            "ru": "полипропилен",
+                            "en": "polypropylene"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "чотири ніжки з нержавіючої сталі",
+                            "ru": "четыре ножки из нержавеющей стали",
+                            "en": "four-leg stainless steel"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Моделі",
+                            "ru": "Модели",
+                            "en": "Models"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "стілець, напівбарний і барний табурет",
+                            "ru": "стул, полубарный и барный табурет",
+                            "en": "chair, counter and bar stool"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-inclass-lea-1",
+                    "@media:p-inclass-lea-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "inclass-oswell-outdoor",
+                "title": "Inclass Oswell Outdoor"
+            },
+            "thumbnail": "@media:p-inclass-oswell-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Oswell Outdoor — колекція іспанської студії Nacar Design: стільці на каркасі з нержавіючої сталі, що штабелюються, напівбарні та барні стільці, а також табурети середньої й барної висоти. Практичний вибір для кафе й терас, де меблі щодня переставляють і прибирають. Колекція входить до лінійки Inclass Outdoor — добірки знакових моделей, адаптованих для відкритих просторів: сучасний дизайн, натхненний середземноморським світлом, і ретельно підібрані матеріали, що витримують умови використання на вулиці.",
+                    "ru": "Oswell Outdoor — коллекция испанской студии Nacar Design: штабелируемые стулья на каркасе из нержавеющей стали, полубарные и барные стулья, а также табуреты средней и барной высоты. Практичный выбор для кафе и террас, где мебель ежедневно переставляют и убирают. Коллекция входит в линейку Inclass Outdoor — подборку знаковых моделей, адаптированных для открытых пространств: современный дизайн, вдохновленный средиземноморским светом, и тщательно подобранные материалы, выдерживающие условия использования на улице.",
+                    "en": "Oswell Outdoor is a collection by Spanish studio Nacar Design: stackable chairs on a stainless steel frame, counter and bar chairs, and stackable stools in medium and bar heights. A practical choice for cafés and terraces where furniture is moved and stored every day. The collection is part of Inclass Outdoor — a selection of iconic models adapted for open-air spaces: contemporary design inspired by Mediterranean light and carefully chosen materials built to withstand outdoor use."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Штабелювання</strong> стільців і табуретів.</li>\n<li><strong>Каркас з нержавіючої сталі</strong>.</li>\n<li><strong>Стілець, напівбарний і барний</strong> — для звичайних і високих столів.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Штабелирование</strong> стульев и табуретов.</li>\n<li><strong>Каркас из нержавеющей стали</strong>.</li>\n<li><strong>Стул, полубарный и барный</strong> — для обычных и высоких столов.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Stackable</strong> chairs and stools.</li>\n<li><strong>Stainless steel</strong> frame.</li>\n<li><strong>Chair, counter and bar</strong> heights for standard and high tables.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Inclass (Іспанія)",
+                            "ru": "Inclass (Испания)",
+                            "en": "Inclass (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Nacar Design"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "чотири ніжки з нержавіючої сталі",
+                            "ru": "четыре ножки из нержавеющей стали",
+                            "en": "four-leg stainless steel"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Штабелювання",
+                            "ru": "Штабелирование",
+                            "en": "Stacking"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "так (стілець, табурети)",
+                            "ru": "да (стул, табуреты)",
+                            "en": "yes (chair, stools)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Призначення",
+                            "ru": "Назначение",
+                            "en": "Use"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тераси, кафе, готелі, приватні та громадські простори просто неба",
+                            "ru": "террасы, кафе, отели, частные и общественные пространства под открытым небом",
+                            "en": "terraces, cafés, hotels, private and public outdoor spaces"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-inclass-oswell-1",
+                    "@media:p-inclass-oswell-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "inclass-barlis-outdoor",
+                "title": "Inclass Barlis Outdoor"
+            },
+            "thumbnail": "@media:p-inclass-barlis-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Barlis Outdoor — столи Studio Inclass на тонкій триногій основі для терас, кафе й лаунж-зон. Колекція охоплює три висоти — журнальний столик 38 см, обідній стіл 73 см і барний 103 см, а стільниця може бути фіксованою або відкидною, щоб столи займали мінімум місця під час зберігання. Колекція входить до лінійки Inclass Outdoor — добірки знакових моделей, адаптованих для відкритих просторів: сучасний дизайн, натхненний середземноморським світлом, і ретельно підібрані матеріали, що витримують умови використання на вулиці.",
+                    "ru": "Barlis Outdoor — столы Studio Inclass на тонком трехногом основании для террас, кафе и лаунж-зон. Коллекция охватывает три высоты — журнальный столик 38 см, обеденный стол 73 см и барный 103 см, а столешница может быть фиксированной или откидной, чтобы столы занимали минимум места при хранении. Коллекция входит в линейку Inclass Outdoor — подборку знаковых моделей, адаптированных для открытых пространств: современный дизайн, вдохновленный средиземноморским светом, и тщательно подобранные материалы, выдерживающие условия использования на улице.",
+                    "en": "Barlis Outdoor are Studio Inclass tables on a slim three-leg base for terraces, cafés and lounges. The collection covers three heights — a 38 cm coffee table, a 73 cm dining table and a 103 cm bar table — with a fixed or flip top so the tables take up minimal space in storage. The collection is part of Inclass Outdoor — a selection of iconic models adapted for open-air spaces: contemporary design inspired by Mediterranean light and carefully chosen materials built to withstand outdoor use."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Три висоти</strong>: 38, 73 і 103 см.</li>\n<li><strong>Відкидна стільниця</strong> — столи легко зберігати.</li>\n<li><strong>Тонка тринога основа</strong> — легкий вигляд і стійкість.</li>\n<li><strong>Поєднується</strong> зі стільцями Varya, Taia, Oswell.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Три высоты</strong>: 38, 73 и 103 см.</li>\n<li><strong>Откидная столешница</strong> — столы легко хранить.</li>\n<li><strong>Тонкое трехногое основание</strong> — легкий вид и устойчивость.</li>\n<li><strong>Сочетается</strong> со стульями Varya, Taia, Oswell.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Three heights</strong>: 38, 73 and 103 cm.</li>\n<li><strong>Flip top</strong> for easy storage.</li>\n<li><strong>Slim three-leg base</strong> — light look, stable stance.</li>\n<li><strong>Pairs</strong> with Varya, Taia and Oswell chairs.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Inclass (Іспанія)",
+                            "ru": "Inclass (Испания)",
+                            "en": "Inclass (Spain)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Studio Inclass"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Висота",
+                            "ru": "Высота",
+                            "en": "Height"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "38 см (журнальний), 73 см (обідній), 103 см (барний)",
+                            "ru": "38 см (журнальный), 73 см (обеденный), 103 см (барный)",
+                            "en": "38 cm (coffee), 73 cm (dining), 103 cm (bar)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Стільниця",
+                            "ru": "Столешница",
+                            "en": "Top"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "фіксована або відкидна",
+                            "ru": "фиксированная или откидная",
+                            "en": "fixed or flip-top"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Призначення",
+                            "ru": "Назначение",
+                            "en": "Use"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "тераси, кафе, готелі, приватні та громадські простори просто неба",
+                            "ru": "террасы, кафе, отели, частные и общественные пространства под открытым небом",
+                            "en": "terraces, cafés, hotels, private and public outdoor spaces"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-inclass-barlis-1",
+                    "@media:p-inclass-barlis-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "suppliers",
+                "slug": "inclass",
+                "title": "Inclass"
+            },
+            "thumbnail": "@media:inclass-outdoor-10",
+            "acf": {
+                "sp__logo": "@media:logo-inclass",
+                "sp__logo-dark": "@media:logo-inclass-dark",
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<p>Inclass — іспанська сімейна компанія з узбережжя Середземного моря (Кревільєнте, Аліканте), яка з кінця 1990-х виробляє дизайнерські меблі для робочих просторів, громадських інтер’єрів і приватних будинків. Компанія працює з провідними міжнародними дизайнерами — серед них Simon Pengelly, Pearson Lloyd, Jonathan Prestwich, Perezochando, Nacar Design — і створює меблі з вишуканим, позачасовим дизайном.</p>\n<ul>\n<li><strong>Власне виробництво</strong> в Іспанії, сертифіковане Bureau Veritas за ISO 9001 та ISO 14001.</li>\n<li><strong>Гарантія 5 років</strong> на всі вироби; тестування в незалежних лабораторіях.</li>\n<li><strong>Сталий розвиток</strong>: деревина з відповідально керованих лісів (FSC®), сертифікація UL GREENGUARD Gold для багатьох моделей, сонячні панелі на виробництві.</li>\n<li><strong>Понад 60 країн</strong>, де представлені меблі Inclass.</li>\n</ul>\n<p>Лінійка <strong>Inclass Outdoor</strong> — знакові колекції стільців, табуретів і столів, адаптовані для терас, кафе, готелів і приватних патіо.</p>",
+                            "ru": "<p>Inclass — испанская семейная компания с побережья Средиземного моря (Кревильенте, Аликанте), которая с конца 1990-х производит дизайнерскую мебель для рабочих пространств, общественных интерьеров и частных домов. Компания работает с ведущими международными дизайнерами — среди них Simon Pengelly, Pearson Lloyd, Jonathan Prestwich, Perezochando, Nacar Design — и создает мебель с изысканным, вневременным дизайном.</p>\n<ul>\n<li><strong>Собственное производство</strong> в Испании, сертифицированное Bureau Veritas по ISO 9001 и ISO 14001.</li>\n<li><strong>Гарантия 5 лет</strong> на все изделия; тестирование в независимых лабораториях.</li>\n<li><strong>Устойчивое развитие</strong>: древесина из ответственно управляемых лесов (FSC®), сертификация UL GREENGUARD Gold для многих моделей, солнечные панели на производстве.</li>\n<li><strong>Более 60 стран</strong>, где представлена мебель Inclass.</li>\n</ul>\n<p>Линейка <strong>Inclass Outdoor</strong> — знаковые коллекции стульев, табуретов и столов, адаптированные для террас, кафе, отелей и частных патио.</p>",
+                            "en": "<p>Inclass is a Spanish family company on the Mediterranean coast (Crevillente, Alicante) that has been making contemporary design furniture for workspaces, public interiors and homes since the late 1990s. It works with leading international designers — including Simon Pengelly, Pearson Lloyd, Jonathan Prestwich, Perezochando and Nacar Design — to create refined, timeless furniture.</p>\n<ul>\n<li><strong>Own production</strong> in Spain, certified by Bureau Veritas to ISO 9001 and ISO 14001.</li>\n<li><strong>5-year warranty</strong> on all products; tested in independent laboratories.</li>\n<li><strong>Sustainability</strong>: wood from responsibly managed forests (FSC®), UL GREENGUARD Gold certification for many models, solar panels at the plant.</li>\n<li><strong>More than 60 countries</strong> where Inclass furniture is available.</li>\n</ul>\n<p>The <strong>Inclass Outdoor</strong> line brings iconic chair, stool and table collections to terraces, cafés, hotels and private patios.</p>"
+                        }
+                    },
+                    {
+                        "bl__item-type": "cl",
+                        "bl__item-cl-list": [
+                            "@product:inclass-varya-outdoor",
+                            "@product:inclass-taia-outdoor",
+                            "@product:inclass-lea-outdoor",
+                            "@product:inclass-oswell-outdoor",
+                            "@product:inclass-barlis-outdoor"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "target": "category:mebli/mebli-dlya-terasy",
+            "thumbnail": "@media:inclass-outdoor-21",
+            "thumbnail_alt": {
+                "uk": "Тераса з меблями Inclass Outdoor",
+                "ru": "Терраса с мебелью Inclass Outdoor",
+                "en": "Terrace furnished with Inclass Outdoor"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Меблі для тераси, кафе та готелів — Inclass Outdoor, Bejot | MDT",
+                    "ru": "Мебель для террасы, кафе и отелей — Inclass Outdoor, Bejot | MDT",
+                    "en": "Outdoor furniture for terraces, cafés and hotels — Inclass, Bejot | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Вуличні стільці, крісла, барні табурети й столи для терас, кафе, готелів і офісних патіо: нержавіюча сталь, поліпропілен, штабелювання. Inclass і Bejot від MDT.",
+                    "ru": "Уличные стулья, кресла, барные табуреты и столы для террас, кафе, отелей и офисных патио: нержавеющая сталь, полипропилен, штабелирование. Inclass и Bejot от MDT.",
+                    "en": "Outdoor chairs, armchairs, bar stools and tables for terraces, cafés, hotels and office patios: stainless steel, polypropylene, stacking. Inclass and Bejot from MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Меблі для тераси та відкритих просторів",
+                    "ru": "Мебель для террасы и открытых пространств",
+                    "en": "Furniture for terraces and outdoor spaces"
+                },
+                "lp__intro": {
+                    "uk": "Тераса, балкон чи патіо — це продовження інтер’єру, і меблі тут мають бути такими ж продуманими, як усередині. Водночас вони щодня працюють під сонцем, дощем і перепадами температур. MDT пропонує <strong>вуличні меблі Inclass Outdoor</strong> та <strong>Bejot</strong> — стільці, крісла, <strong>барні табурети й столи</strong> з поліпропілену та нержавіючої сталі для <strong>терас ресторанів і кафе, готелів, офісних патіо</strong> та приватних будинків.",
+                    "ru": "Терраса, балкон или патио — это продолжение интерьера, и мебель здесь должна быть такой же продуманной, как внутри. При этом она каждый день работает под солнцем, дождем и перепадами температур. MDT предлагает <strong>уличную мебель Inclass Outdoor</strong> и <strong>Bejot</strong> — стулья, кресла, <strong>барные табуреты и столы</strong> из полипропилена и нержавеющей стали для <strong>террас ресторанов и кафе, отелей, офисных патио</strong> и частных домов.",
+                    "en": "A terrace, balcony or patio is an extension of the interior, and its furniture deserves the same care as indoors — while facing sun, rain and temperature swings every day. MDT offers <strong>Inclass Outdoor</strong> and <strong>Bejot</strong> outdoor furniture: chairs, armchairs, <strong>bar stools and tables</strong> in polypropylene and stainless steel for <strong>restaurant and café terraces, hotels, office patios</strong> and private homes."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі для тераси",
+                    "ru": "Модели для террасы",
+                    "en": "Outdoor models"
+                },
+                "lp__products": [
+                    "@product:inclass-varya-outdoor",
+                    "@product:inclass-taia-outdoor",
+                    "@product:inclass-lea-outdoor",
+                    "@product:inclass-oswell-outdoor",
+                    "@product:inclass-barlis-outdoor",
+                    "@product:bejot-split-sp-215",
+                    "@product:mdd-flaner",
+                    "@product:vondom-milos",
+                    "@product:joyf-breeze",
+                    "@product:scab-koala-outdoor",
+                    "@product:true-design-laguna",
+                    "@product:ditre-italia-pacific",
+                    "@product:cantori-cloud",
+                    "@product:flexform-oasis",
+                    "@product:poliform-curve-outdoor"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@suppliers:inclass",
+                    "@suppliers:bejot",
+                    "@suppliers:mdd",
+                    "@suppliers:vondom",
+                    "@suppliers:ditre-italia",
+                    "@suppliers:true-design",
+                    "@suppliers:midj",
+                    "@suppliers:scab",
+                    "@suppliers:cantori",
+                    "@suppliers:joyf",
+                    "@suppliers:flexform",
+                    "@suppliers:poliform",
+                    "@suppliers:bla-station"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:ofis-yurydychnoyi-kompaniyi-trilogy",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Офіс і outdoor-зони",
+                            "ru": "Офис и outdoor-зоны",
+                            "en": "Office and outdoor areas"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати меблі для тераси</h2>\n<p>Вуличні меблі мають бути не лише красивими, а й витривалими: витримувати сонце, вологу й перепади температур, легко чиститися та зберігатися в міжсезоння. Ось на що звернути увагу.</p>\n<h3>Матеріали</h3>\n<ul>\n<li><strong>Нержавіюча сталь</strong> — міцний каркас, що не боїться вологи.</li>\n<li><strong>Поліпропілен</strong> — легкі чаші та сидіння, які легко мити й не потребують особливого догляду.</li>\n<li><strong>Тканини</strong> — для терас обирайте спеціальні вуличні тканини та подушки, які можна прибрати після використання.</li>\n</ul>\n<h3>Штабелювання та зберігання</h3>\n<p>На терасах кафе меблі часто прибирають на ніч або на зиму. Моделі, що штабелюються, як Inclass Oswell чи Bejot Split, і столи з відкидною стільницею, як Inclass Barlis, займають мінімум місця під час зберігання.</p>\n<h3>Висота: обідня зона чи барна стійка</h3>\n<p>Плануйте терасу зонами: обідні столи заввишки 73 см зі стільцями чи кріслами, барні столи 103 см із барними табуретами вздовж огорожі чи стійки та низькі столики для лаунжу. Більшість вуличних колекцій Inclass мають стільці всіх трьох висот в одному стилі.</p>\n<h3>Єдиний стиль усередині та зовні</h3>\n<p>Вуличні версії колекцій, які стоять у приміщенні, допомагають зробити терасу природним продовженням ресторану, офісу чи лобі. Саме так Omni Space укомплектувала офіс юридичної компанії в БЦ Trilogy у Лімасолі: outdoor-меблі продовжують стилістику інтер’єру на відкритих зонах.</p>\n<h3>Покриття для тераси</h3>\n<p>Меблі й підлога працюють разом: опори мають підходити до покриття — терасної дошки, плитки чи бетону. MDT допоможе підібрати і меблі, і покриття для відкритих зон.</p>",
+                            "ru": "<h2>Как выбрать мебель для террасы</h2>\n<p>Уличная мебель должна быть не только красивой, но и выносливой: выдерживать солнце, влагу и перепады температур, легко чиститься и храниться в межсезонье. Вот на что обратить внимание.</p>\n<h3>Материалы</h3>\n<ul>\n<li><strong>Нержавеющая сталь</strong> — прочный каркас, который не боится влаги.</li>\n<li><strong>Полипропилен</strong> — легкие чаши и сиденья, которые легко мыть и которые не требуют особого ухода.</li>\n<li><strong>Ткани</strong> — для террас выбирайте специальные уличные ткани и подушки, которые можно убрать после использования.</li>\n</ul>\n<h3>Штабелирование и хранение</h3>\n<p>На террасах кафе мебель часто убирают на ночь или на зиму. Штабелируемые модели, как Inclass Oswell или Bejot Split, и столы с откидной столешницей, как Inclass Barlis, занимают минимум места при хранении.</p>\n<h3>Высота: обеденная зона или барная стойка</h3>\n<p>Планируйте террасу зонами: обеденные столы высотой 73 см со стульями или креслами, барные столы 103 см с барными табуретами вдоль ограждения или стойки и низкие столики для лаунжа. Большинство уличных коллекций Inclass имеют стулья всех трех высот в одном стиле.</p>\n<h3>Единый стиль внутри и снаружи</h3>\n<p>Уличные версии коллекций, которые стоят в помещении, помогают сделать террасу естественным продолжением ресторана, офиса или лобби. Именно так Omni Space укомплектовала офис юридической компании в БЦ Trilogy в Лимасоле: outdoor-мебель продолжает стилистику интерьера на открытых зонах.</p>\n<h3>Покрытие для террасы</h3>\n<p>Мебель и пол работают вместе: опоры должны подходить к покрытию — террасной доске, плитке или бетону. MDT поможет подобрать и мебель, и покрытие для открытых зон.</p>",
+                            "en": "<h2>How to choose terrace furniture</h2>\n<p>Outdoor furniture has to be durable as well as attractive: it must cope with sun, moisture and temperature swings, be easy to clean and store well off-season. Here is what to look for.</p>\n<h3>Materials</h3>\n<ul>\n<li><strong>Stainless steel</strong> — a strong frame that is not afraid of moisture.</li>\n<li><strong>Polypropylene</strong> — light shells and seats that are easy to wash and need no special care.</li>\n<li><strong>Fabrics</strong> — for terraces, choose dedicated outdoor fabrics and cushions that can be brought in after use.</li>\n</ul>\n<h3>Stacking and storage</h3>\n<p>Café terraces are often cleared at night or for the winter. Stackable models such as Inclass Oswell or Bejot Split, and flip-top tables such as Inclass Barlis, take up minimal storage space.</p>\n<h3>Height: dining area or bar counter</h3>\n<p>Plan the terrace in zones: 73 cm dining tables with chairs or armchairs, 103 cm bar tables with stools along the railing or a counter, and low tables for a lounge. Most Inclass outdoor collections offer chairs in all three heights in one style.</p>\n<h3>One style inside and out</h3>\n<p>Outdoor versions of the collections used indoors make a terrace a natural extension of a restaurant, office or lobby. That is how Omni Space furnished a law firm’s office in the Trilogy business centre in Limassol: the outdoor furniture continues the interior style on the open-air areas.</p>\n<h3>Terrace flooring</h3>\n<p>Furniture and floor work together: the feet should suit the surface — decking, tiles or concrete. MDT helps you choose both furniture and flooring for outdoor areas.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна залишати вуличні меблі на терасі взимку?",
+                            "ru": "Можно ли оставлять уличную мебель на террасе зимой?",
+                            "en": "Can outdoor furniture stay out in winter?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Каркаси з нержавіючої сталі та чаші з поліпропілену розраховані на використання просто неба, але щоб меблі довше зберігали вигляд, на зиму їх краще штабелювати й прибрати під навіс або в приміщення. Подушки й текстиль зберігайте в сухому місці.",
+                            "ru": "Каркасы из нержавеющей стали и чаши из полипропилена рассчитаны на использование под открытым небом, но чтобы мебель дольше сохраняла вид, на зиму ее лучше штабелировать и убрать под навес или в помещение. Подушки и текстиль храните в сухом месте.",
+                            "en": "Stainless steel frames and polypropylene shells are made for open-air use, but to keep them looking good for longer, stack them and store them under cover or indoors for the winter. Keep cushions and textiles somewhere dry."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Як доглядати за вуличними меблями?",
+                            "ru": "Как ухаживать за уличной мебелью?",
+                            "en": "How should outdoor furniture be cared for?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Поліпропілен і нержавіючу сталь достатньо регулярно мити м’яким мийним засобом і водою, уникаючи абразивів. Після дощу варто протерти сидіння, а на узбережжі — частіше змивати сіль із металевих деталей.",
+                            "ru": "Полипропилен и нержавеющую сталь достаточно регулярно мыть мягким моющим средством и водой, избегая абразивов. После дождя стоит протереть сиденья, а на побережье — чаще смывать соль с металлических деталей.",
+                            "en": "Polypropylene and stainless steel just need regular washing with mild detergent and water, avoiding abrasives. Wipe seats after rain, and on the coast rinse salt off metal parts more often."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Які меблі обрати для тераси кафе?",
+                            "ru": "Какую мебель выбрать для террасы кафе?",
+                            "en": "What furniture suits a café terrace?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Для кафе важливі легкість, штабелювання й зносостійкість: стільці на кшталт Inclass Oswell чи Varya, столи з відкидною стільницею Barlis і барні табурети для високих столів уздовж огорожі. Так терасу легко облаштувати вранці й прибрати ввечері.",
+                            "ru": "Для кафе важны легкость, штабелирование и износостойкость: стулья вроде Inclass Oswell или Varya, столы с откидной столешницей Barlis и барные табуреты для высоких столов вдоль ограждения. Так террасу легко обустроить утром и убрать вечером.",
+                            "en": "Cafés need light, stackable, hard-wearing pieces: chairs such as Inclass Oswell or Varya, Barlis flip-top tables and bar stools for high tables along the railing. That makes the terrace quick to set up in the morning and clear in the evening."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи підходять вуличні меблі для приміщень?",
+                            "ru": "Подходит ли уличная мебель для помещений?",
+                            "en": "Can outdoor furniture be used indoors?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так. Вуличні колекції Inclass — це версії моделей, які використовують і в інтер’єрі, тому вони однаково доречні в зимових садах, атріумах, кафе-зонах і їдальнях, де важливі легкий догляд і витривалість.",
+                            "ru": "Да. Уличные коллекции Inclass — это версии моделей, которые используют и в интерьере, поэтому они одинаково уместны в зимних садах, атриумах, кафе-зонах и столовых, где важны легкий уход и выносливость.",
+                            "en": "Yes. Inclass outdoor collections are versions of models also used indoors, so they work equally well in conservatories, atriums, café areas and canteens where easy care and durability matter."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Облаштуємо вашу терасу",
+                    "ru": "Обустроим вашу террасу",
+                    "en": "Let’s furnish your terrace"
+                },
+                "lp__cta-text": {
+                    "uk": "Надішліть план або фото тераси — запропонуємо меблі, розстановку за зонами та покриття для відкритого простору.",
+                    "ru": "Пришлите план или фото террасы — предложим мебель, расстановку по зонам и покрытие для открытого пространства.",
+                    "en": "Send us a plan or photo of the terrace and we’ll suggest furniture, a zoned layout and outdoor flooring."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}

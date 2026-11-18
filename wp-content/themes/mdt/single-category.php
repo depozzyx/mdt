@@ -46,7 +46,7 @@
                             <div class="content__box">
                                 <div class="post__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
                                     <h1>
-                                      <?php the_title(); ?>
+                                      <?php echo get_field('lp__h1') ? esc_html(get_field('lp__h1')) : get_the_title(); ?>
                                     </h1>
                                 </div>
                                 <?php if(get_field('cat__subtitle')): ?>
@@ -123,6 +123,7 @@
         </div>
     </div>
     <div class="section sc__post-content">
+      <?php get_template_part('parts/category-landing'); ?>
       <?php $i= 1; while ( have_rows('bl__list') ) : the_row();?>
         <?php if(get_sub_field('bl__item-type') === 'text'): ?>
               <div class="post__box">
@@ -274,7 +275,7 @@
                                   $posts->the_post();
                                   $id=$posts->ID;
                                   setup_postdata($post); ?>
-                                    <div class="partners__item col__custom wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * $i; ?>s">
+                                    <div class="partners__item col__custom wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * (($i - 1) % 4 + 1); ?>s">
                                         <a href="<?php the_permalink(); ?>" class="partners__item-bl d-flex align-items-center justify-content-center">
                                             <div class="partners__item-img">
                                                 <img src="<?php the_field('sp__logo-dark') ?>" width="100">
@@ -324,7 +325,7 @@
                                             </div>
                                             <?php if(get_field('p__price')): ?>
                                                 <div class="card__info">
-                                                  <?php _e('Ціна від', 'mdt'); ?> <?php the_field( $col_item, 'p__price'); ?> <span>грн. / м²</span>
+                                                  <?php _e('Ціна від', 'mdt'); ?> <?php the_field( $col_item, 'p__price'); ?> <span><?php _e('грн. / м²', 'mdt'); ?></span>
                                                 </div>
                                             <?php endif; ?>
                                         </div>
@@ -425,16 +426,16 @@
                           <div class="info__list">
                               <div class="row row__custom">
                                   <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 col__custom info__item wow fadeInUpDes" data-wow-delay="0.1s">
-                                      <a href="<?php the_permalink(5922); ?>" class="info__item-bl d-flex align-items-center">
+                                      <a href="<?php the_permalink(lang_page_original_id(5922)); ?>" class="info__item-bl d-flex align-items-center">
                                           <div class="info__item-img">
-                                              <img src="<?php echo get_field('src__preview', 5922)['sizes']['t-1'] ?>">
+                                              <img src="<?php echo get_field('src__preview', lang_page_original_id(5922))['sizes']['t-1'] ?>">
                                           </div>
                                           <div class="info__item-content">
                                               <div class="info__item-title">
-                                                <?php echo  get_the_title(5922) ?>
+                                                <?php echo  get_the_title(lang_page_original_id(5922)) ?>
                                               </div>
                                               <div class="info__item-descr">
-                                                <?php the_field('src__preview-descr', 5922) ?>
+                                                <?php the_field('src__preview-descr', lang_page_original_id(5922)) ?>
                                               </div>
                                           </div>
                                           <div class="redirect__decor d-flex align-items-center justify-content-center">
@@ -451,16 +452,16 @@
                                       </a>
                                   </div>
                                   <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 col__custom info__item wow fadeInUpDes" data-wow-delay="0.3s">
-                                      <a href="<?php the_permalink(5935); ?>" class="info__item-bl d-flex align-items-center">
+                                      <a href="<?php the_permalink(lang_page_original_id(5935)); ?>" class="info__item-bl d-flex align-items-center">
                                           <div class="info__item-img">
-                                              <img src="<?php echo get_field('src__preview', 5935)['sizes']['t-1'] ?>">
+                                              <img src="<?php echo get_field('src__preview', lang_page_original_id(5935))['sizes']['t-1'] ?>">
                                           </div>
                                           <div class="info__item-content">
                                               <div class="info__item-title">
-                                                <?php echo  get_the_title(5935) ?>
+                                                <?php echo  get_the_title(lang_page_original_id(5935)) ?>
                                               </div>
                                               <div class="info__item-descr">
-                                                <?php the_field('src__preview-descr', 5935) ?>
+                                                <?php the_field('src__preview-descr', lang_page_original_id(5935)) ?>
                                               </div>
                                           </div>
                                           <div class="redirect__decor d-flex align-items-center justify-content-center">
@@ -487,7 +488,7 @@
         <?php $i++; endwhile; ?>
     </div>
 
-    <?php if ( ! empty( $cat_chs ) ): ?>
+    <?php if ( ! empty( $cat_chs ) && ! get_field('lp__tiles') ): ?>
         <div class="post__box section sc__gray">
             <div class="container">
                 <div class="sc__header">
@@ -538,40 +539,58 @@
         </div>
     <?php endif; ?>
 
-    <div class="section sc__action sc__common sc__gray">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="sc__content">
-                        <div class="action__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
-                          <?php the_field('op__f-title', 'option') ?>
-                        </div>
-                        <div class="actions__wrap d-flex wow fadeInUpDes" data-wow-delay="0.2s">
-                            <a href="#order-modal"
-                               data-fancybox=""
-                               data-touch="false"
-                               data-modal-title="<?php the_field('modal__title-3', 'option'); ?>"
-                               data-modal-src="<?php the_field('modal__src-3', 'option'); ?>" class="link__custom link__custom-dark">
-                              <?php the_field('op__f-link', 'option') ?>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="static__img wow fadeInUpDes" data-wow-delay="0.3s">
-                        <div class="img__wrap">
-                            <div class="img__bl hidden-sm-down">
-                              <?php echo wp_get_attachment_image( get_field('op__f-img', 'option'), 'f-prev', false, array('data-sizes' => 'auto' ) ); ?>
+    <?php if(!get_field('lp__cta-title')) get_template_part('parts/category-cta'); ?>
+
+      <?php if(get_field('faq__list')): ?>
+        <div class="section sc__faq sc__common sc__gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                            <div class="sc__header">
+                                <div class="sc__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
+                                  <?php _e('Часто задавані питання', 'mdt'); ?>
+                                </div>
                             </div>
-                            <div class="img__bl hidden-sm-up">
-                              <?php echo wp_get_attachment_image( get_field('op__f-img-mb', 'option'), 'f-prev-h', false, array('data-sizes' => 'auto' ) ); ?>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                            <div class="sc__content">
+                                <div class="cat__toggle-box">
+                                    <div class="cat__toggle-list">
+                                      <?php $i= 1; while ( have_rows('faq__list') ) : the_row();?>
+                                          <div class="cat__toggle-item wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * $i; ?>s">
+                                              <div class="cat__toggle-item-header d-flex align-items-center justify-content-between toggle__content-js">
+                                                  <div class="cat__toggle-item-left d-flex align-items-center">
+                                                      <div class="cat__toggle-item-numb">
+                                                        <?php echo sprintf("%02d", $i); ?>.
+                                                      </div>
+                                                      <div class="cat__toggle-item-title">
+                                                        <?php the_sub_field('faq__item-q'); ?>
+                                                      </div>
+                                                  </div>
+                                                  <div class="arrow__toggle d-flex align-items-center justify-content-center">
+                                                      <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                          <rect x="6.25" width="11" height="1.5" transform="rotate(90 6.25 0)" fill="#343434"/>
+                                                          <rect x="11" y="6.25" width="11" height="1.5" transform="rotate(-180 11 6.25)" fill="#343434"/>
+                                                      </svg>
+                                                  </div>
+                                              </div>
+                                              <div class="cat__toggle-content">
+                                                  <div class="post__text">
+                                                    <?php the_sub_field('faq__item-a'); ?>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        <?php $i++; endwhile; ?>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+      <?php endif; ?>
+
+      <?php if(get_field('lp__cta-title')) get_template_part('parts/category-cta'); ?>
 
     <?php if(count($p_cats) < 2): ?>
         <div class="section sc__common sc__news">
@@ -627,55 +646,5 @@
             </div>
         </div>
     <?php endif; ?>
-
-      <?php if(get_field('faq__list')): ?>
-        <div class="section sc__faq sc__common sc__gray">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                            <div class="sc__header">
-                                <div class="sc__title seo__item wow fadeInUpDes" data-wow-delay="0.1s">
-                                  <?php _e('Часто задавані питання', 'mdt'); ?>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
-                            <div class="sc__content">
-                                <div class="cat__toggle-box">
-                                    <div class="cat__toggle-list">
-                                      <?php $i= 1; while ( have_rows('faq__list') ) : the_row();?>
-                                          <div class="cat__toggle-item wow fadeInUpDes" data-wow-delay="<?php echo 0.1 * $i; ?>s">
-                                              <div class="cat__toggle-item-header d-flex align-items-center justify-content-between toggle__content-js">
-                                                  <div class="cat__toggle-item-left d-flex align-items-center">
-                                                      <div class="cat__toggle-item-numb">
-                                                        <?php echo sprintf("%02d", $i); ?>.
-                                                      </div>
-                                                      <div class="cat__toggle-item-title">
-                                                        <?php the_sub_field('faq__item-q'); ?>
-                                                      </div>
-                                                  </div>
-                                                  <div class="arrow__toggle d-flex align-items-center justify-content-center">
-                                                      <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <rect x="6.25" width="11" height="1.5" transform="rotate(90 6.25 0)" fill="#343434"/>
-                                                          <rect x="11" y="6.25" width="11" height="1.5" transform="rotate(-180 11 6.25)" fill="#343434"/>
-                                                      </svg>
-                                                  </div>
-                                              </div>
-                                              <div class="cat__toggle-content">
-                                                  <div class="post__text">
-                                                    <?php the_sub_field('faq__item-a'); ?>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                        <?php $i++; endwhile; ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-      <?php endif; ?>
-
 
 <?php get_footer(); ?>

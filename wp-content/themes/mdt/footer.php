@@ -65,7 +65,7 @@
                     <?php _e('Час роботи', 'mdt'); ?>
                 </div>
                 <div class="footer__col-content">
-                  <?php the_field('ct__worktime', 79) ?>
+                  <?php the_field('ct__worktime', lang_page_original_id(79)) ?>
                 </div>
             </div>
             <div class="footer__col footer__col-2">
@@ -190,16 +190,7 @@
             <div class="modal__custom-title"></div>
         </div>
         <div class="modal__form">
-            <?php
-                switch(ICL_LANGUAGE_CODE){
-                  case 'uk':
-                      echo do_shortcode('[contact-form-7 id="6498" title="Модальна форма UA"]');
-                      break;
-                  case 'ru':
-                      echo do_shortcode('[contact-form-7 id="6502" title="Модальна форма RU"]');
-                      break;
-                }
-            ?>
+            <?php echo do_shortcode('[contact-form-7 id="' . mdt_cf7_id(6498, 6502) . '"]'); ?>
         </div>
     </div>
 </div>

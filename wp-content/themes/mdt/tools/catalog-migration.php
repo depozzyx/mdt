@@ -92,9 +92,9 @@ $NEW = array(
 		'Вологостійкі меблі для терас, літніх майданчиків і зон відпочинку.',
 		'Влагостойкая мебель для террас, летних площадок и зон отдыха.' ),
 
-	'ak-kabiny' => array( 2527, 'akustychni-kabiny', 'Акустичні кабіни', 'Акустические кабины', 10,
-		'Ізольовані кабіни для дзвінків, зустрічей і зосередженої роботи.',
-		'Изолированные кабины для звонков, встреч и сосредоточенной работы.' ),
+	'ak-kabiny' => array( 2527, 'akustychni-kabiny', 'Акустичні кабінки', 'Акустические кабинки', 10,
+		'Ізольовані кабінки для дзвінків, зустрічей і зосередженої роботи.',
+		'Изолированные кабинки для звонков, встреч и сосредоточенной работы.' ),
 	'ak-stinovi' => array( 2527, 'stinovi-paneli', 'Стінові панелі', 'Стеновые панели', 20,
 		'Звукопоглинальні панелі для стін офісів та громадських приміщень.',
 		'Звукопоглощающие панели для стен офисов и общественных помещений.' ),
@@ -102,12 +102,18 @@ $NEW = array(
 		'Акустичні стельові панелі для контролю шуму у відкритих просторах.',
 		'Акустические потолочные панели для контроля шума в открытых пространствах.' ),
 
-	'st-ostrovy' => array( 2671, 'akustychni-ostrovy-ta-bafly', 'Акустичні острови та бафли', 'Акустические острова и бафлы', 10,
-		'Підвісні акустичні острови та бафли для великих відкритих приміщень.',
-		'Подвесные акустические острова и бафлы для больших открытых помещений.' ),
-	'st-knauf' => array( 2671, 'pidvisna-stelya-knauf', 'Підвесна стеля Knauf', 'Подвесной потолок Knauf', 20,
-		'Системи підвісних стель Knauf для комерційних об’єктів.',
-		'Системы подвесных потолков Knauf для коммерческих объектов.' ),
+	// Стеля's three subsections, as set by the content spec for the Стелі page. The refs are
+	// historical: st-knauf was "Підвесна стеля Knauf" and st-ostrovy was "Акустичні острови та
+	// бафли" before the spec split them; keeping the refs renames those posts in place.
+	'st-knauf' => array( 2671, 'kasetna-stelya', 'Касетна стеля', 'Кассетный потолок', 10,
+		'Модульні підвісні системи з окремих касет для комерційних приміщень.',
+		'Модульные подвесные системы из отдельных кассет для коммерческих помещений.' ),
+	'st-ostrovy' => array( 2671, 'akustychni-ostrovy', 'Акустичні острови', 'Акустические острова', 20,
+		'Підвісні акустичні панелі для локального звукопоглинання.',
+		'Подвесные акустические панели для локального звукопоглощения.' ),
+	'st-bafly' => array( 2671, 'akustychni-bafly', 'Акустичні бафли', 'Акустические бафлы', 30,
+		'Вертикальні підвісні акустичні елементи для відкритих стель.',
+		'Вертикальные подвесные акустические элементы для открытых потолков.' ),
 );
 
 /**
@@ -191,12 +197,25 @@ function mdt_upsert( $ref, $lang, $parent, $slug, $title, $menu_order, $subtitle
 		if ( $post->post_title !== $title )            { $changes['post_title']  = $title; }
 		if ( (int) $post->post_parent !== (int) $parent ) { $changes['post_parent'] = (int) $parent; }
 		if ( (int) $post->menu_order !== (int) $menu_order ) { $changes['menu_order'] = (int) $menu_order; }
-		if ( $changes ) {
-			mdt_act( 'update', "$ref/$lang #$existing", implode( ', ', array_keys( $changes ) ) );
+		// Slug and subtitle follow the definition too, so a renamed seed category doesn't keep its
+		// old URL or blurb. Seeded categories only exist locally until cutover, so nothing an
+		// editor wrote on production can be overwritten by this.
+		$slug_changed     = $post->post_name !== $slug;
+		$subtitle_changed = $subtitle !== '' && (string) get_post_meta( $existing, 'cat__subtitle', true ) !== $subtitle;
+		if ( $changes || $slug_changed || $subtitle_changed ) {
+			$what = array_keys( $changes );
+			if ( $slug_changed )     { $what[] = 'post_name'; }
+			if ( $subtitle_changed ) { $what[] = 'cat__subtitle'; }
+			mdt_act( 'update', "$ref/$lang #$existing", implode( ', ', $what ) );
 			if ( $apply ) {
-				$changes['ID'] = $existing;
-				wp_update_post( $changes );
+				if ( $changes ) {
+					$changes['ID'] = $existing;
+					wp_update_post( $changes );
+				}
 				mdt_force_slug( $existing, $slug );
+				if ( $subtitle_changed ) {
+					update_field( MDT_SUBTITLE_KEY, $subtitle, $existing );
+				}
 			}
 		}
 		return $existing;

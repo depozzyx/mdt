@@ -1,0 +1,586 @@
+{
+    "_readme": [
+        "Page «Конференц крісла» (/category/mebli/konferents-krisla/) and its products. uk written from manufacturer data; ru and en are translations.",
+        "Products and photos: bejot.eu and ldseating.com (source per image under \"media\"). Page photo: Omni Space project (see mebli-common.json)."
+    ],
+    "media": {
+        "p-bejot-volo-1": {
+            "file": "p-bejot-volo-1.jpg",
+            "title": "Bejot Volo VO 215",
+            "source": "https://www.bejot.eu/en/product/volo-lightweight-conference-chairs/model/vo-215"
+        },
+        "p-bejot-volo-2": {
+            "file": "p-bejot-volo-2.jpg",
+            "title": "Bejot Volo VO 215",
+            "source": "https://www.bejot.eu/en/product/volo-lightweight-conference-chairs/model/vo-215"
+        },
+        "p-bejot-momo-1": {
+            "file": "p-bejot-momo-1.jpg",
+            "title": "Bejot Momo MO 260",
+            "source": "https://www.bejot.eu/en/product/momo-conference-chairs/model/mo-260"
+        },
+        "p-bejot-momo-2": {
+            "file": "p-bejot-momo-2.jpg",
+            "title": "Bejot Momo MO 260",
+            "source": "https://www.bejot.eu/en/product/momo-conference-chairs/model/mo-260"
+        },
+        "p-bejot-split-1": {
+            "file": "p-bejot-split-1.jpg",
+            "title": "Bejot Split SP 215",
+            "source": "https://www.bejot.eu/en/product/split-plastic-chairs/model/sp-215"
+        },
+        "p-bejot-split-5": {
+            "file": "p-bejot-split-5.jpg",
+            "title": "Bejot Split SP 215",
+            "source": "https://www.bejot.eu/en/product/split-plastic-chairs/model/sp-215"
+        },
+        "p-ld-seance-1": {
+            "file": "p-ld-seance-1.jpg",
+            "title": "LD Seating Seance",
+            "source": "https://www.ldseating.com/en/seance"
+        },
+        "p-ld-seance-3": {
+            "file": "p-ld-seance-3.jpg",
+            "title": "LD Seating Seance",
+            "source": "https://www.ldseating.com/en/seance"
+        }
+    },
+    "defaults": {
+        "product": {
+            "acf": {
+                "p__pay": {
+                    "uk": "Якщо ви вибрали матеріал, передоплата здійснюється авансом згідно з поточним курсом продажу в євро ПАТ «Піреус Банку» на день оплати. Сума, що залишилася виплачується при надходженні товару на склад.",
+                    "ru": "Если вы выбрали материал, предоплата осуществляется авансом согласно текущему курсу продажи в евро ПАО «Пиреус Банка» на день оплаты. Оставшаяся сумма выплачивается при поступлении товара на склад.",
+                    "en": "Once you have chosen a material, the deposit is paid in advance at Piraeus Bank's current euro selling rate on the day of payment. The balance is paid when the goods arrive at the warehouse."
+                },
+                "p__del": {
+                    "uk": "Наша компанія привозить матеріал безпосередньо з заводу-виробника прямо під двері вашого об’єкта. Ми транспортуємо всі матеріали з Європи. Зазвичай це займає приблизно 3- 4 тижні часу, в залежності від наявності матеріалу на складі виробника.",
+                    "ru": "Наша компания привозит материал непосредственно с завода-производителя прямо под двери вашего объекта. Мы транспортируем все материалы из Европы. Обычно это занимает примерно 3 4 недели времени, в зависимости от наличия материала на складе производителя.",
+                    "en": "We bring the material straight from the factory to the door of your site. All our materials are transported from Europe. This usually takes around 3-4 weeks, depending on whether the manufacturer has the material in stock."
+                }
+            }
+        }
+    },
+    "posts": [
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-volo-vo-215",
+                "title": "Bejot Volo VO 215"
+            },
+            "thumbnail": "@media:p-bejot-volo-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Volo (з італійської — «лечу») — легкі конференц-крісла Bejot, що поєднують міцність і сучасний мінімалізм. Тонкий каркас і виважені пропорції вписуються в конференц-зали, аудиторії й громадські простори. Крісла можна штабелювати, перевозити на візку, з’єднувати в ряди з нумерацією та швидко переставляти під новий формат заходу.",
+                    "ru": "Volo (с итальянского — «лечу») — легкие конференц-кресла Bejot, сочетающие прочность и современный минимализм. Тонкий каркас и выверенные пропорции вписываются в конференц-залы, аудитории и общественные пространства. Кресла можно штабелировать, перевозить на тележке, соединять в ряды с нумерацией и быстро переставлять под новый формат мероприятия.",
+                    "en": "Volo (Italian for “I fly”) is Bejot’s lightweight conference chair, combining durability with modern minimalism. A slim frame and balanced proportions suit conference rooms, auditoriums and public spaces. The chairs stack, travel on a trolley, link into numbered rows and can be rearranged quickly for each new event format."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Легкість і мобільність</strong>: штабелювання, візок, з’єднання в ряди.</li>\n<li><strong>Нумерація рядів</strong> — з’єднувачі під сидінням з місцем для номера.</li>\n<li><strong>П’ять кольорових рішень</strong> каркаса та пластикова або оббита версія сидіння й спинки, опція — сітчаста спинка.</li>\n<li><strong>Шість варіантів основи</strong>: чотири ніжки, полози, колеса.</li>\n<li><strong>Пюпітр</strong> для письма — опція для окремих моделей колекції.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Легкость и мобильность</strong>: штабелирование, тележка, соединение в ряды.</li>\n<li><strong>Нумерация рядов</strong> — соединители под сиденьем с местом для номера.</li>\n<li><strong>Пять цветовых решений</strong> каркаса и пластиковая или обитая версия сиденья и спинки, опция — сетчатая спинка.</li>\n<li><strong>Шесть вариантов основания</strong>: четыре ножки, полозья, колеса.</li>\n<li><strong>Пюпитр</strong> для письма — опция для отдельных моделей коллекции.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Light and mobile</strong>: stacking, trolley, linking in rows.</li>\n<li><strong>Row numbering</strong> — under-seat connectors with space for a number.</li>\n<li><strong>Five frame colourways</strong> and a plastic or upholstered seat and back; mesh backrest optional.</li>\n<li><strong>Six base options</strong>: four legs, sled, castors.</li>\n<li><strong>A writing tablet</strong> is available for selected models in the collection.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Каркас",
+                            "ru": "Каркас",
+                            "en": "Frame"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "сталь, фарбування в 5 кольорах; опція — хром",
+                            "ru": "сталь, покраска в 5 цветах; опция — хром",
+                            "en": "steel, powder-coated in 5 colours; chrome optional"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Сидіння та спинка",
+                            "ru": "Сиденье и спинка",
+                            "en": "Seat and back"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "пластик, оббивка або сітчаста спинка",
+                            "ru": "пластик, обивка или сетчатая спинка",
+                            "en": "plastic, upholstered or mesh back"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Штабелювання",
+                            "ru": "Штабелирование",
+                            "en": "Stacking"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "до 10 шт. (пластикова версія), до 4 шт. (з оббивкою); на візку — до 12 шт.",
+                            "ru": "до 10 шт. (пластиковая версия), до 4 шт. (с обивкой); на тележке — до 12 шт.",
+                            "en": "up to 10 (plastic), up to 4 (upholstered); up to 12 on the trolley"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Ряди",
+                            "ru": "Ряды",
+                            "en": "Rows"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "з’єднувач із нумерацією місць — опція",
+                            "ru": "соединитель с нумерацией мест — опция",
+                            "en": "linking connector with seat numbering optional"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-volo-1",
+                    "@media:p-bejot-volo-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-momo-mo-260",
+                "title": "Bejot Momo MO 260"
+            },
+            "thumbnail": "@media:p-bejot-momo-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Momo — універсальне конференц-крісло з характерною спинкою для лекційних залів, конференц-кімнат і зон командної роботи в офісі. Динамічні лінії та спортивний стиль роблять колекцію впізнаваною, а модель MO 260 на колесах легко переставляти й штабелювати.",
+                    "ru": "Momo — универсальное конференц-кресло с характерной спинкой для лекционных залов, конференц-комнат и зон командной работы в офисе. Динамичные линии и спортивный стиль делают коллекцию узнаваемой, а модель MO 260 на колесах легко переставлять и штабелировать.",
+                    "en": "Momo is a versatile conference chair with a distinctive backrest for lecture halls, conference rooms and team-work areas. Dynamic lines and a sporty style make the collection recognisable, and the MO 260 on castors is easy to move and stack."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Для великих і малих залів</strong> — від аудиторій до зон командної роботи.</li>\n<li><strong>Колеса</strong> — швидко переставити під новий формат зустрічі.</li>\n<li><strong>Штабелювання</strong> з захисною панеллю від подряпин.</li>\n<li><strong>Оббите сидіння</strong>, спинка — пластикова або з оббитою вставкою.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Для больших и малых залов</strong> — от аудиторий до зон командной работы.</li>\n<li><strong>Колеса</strong> — быстро переставить под новый формат встречи.</li>\n<li><strong>Штабелирование</strong> с защитной панелью от царапин.</li>\n<li><strong>Обитое сиденье</strong>, спинка — пластиковая или с обитой вставкой.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>For large and small rooms</strong> — from auditoriums to team-work zones.</li>\n<li><strong>Castors</strong> — quick to rearrange for a new meeting format.</li>\n<li><strong>Stackable</strong>, with a protective panel against scratches.</li>\n<li><strong>Upholstered seat</strong>; plastic or upholstered-insert backrest.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Основа",
+                            "ru": "Основание",
+                            "en": "Base"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "фарбований каркас на колесах Ø65 мм",
+                            "ru": "окрашенный каркас на колесах Ø65 мм",
+                            "en": "powder-coated frame on Ø65 mm castors"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Сидіння та спинка",
+                            "ru": "Сиденье и спинка",
+                            "en": "Seat and back"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "оббите сидіння + пластикова спинка або спинка з оббитою вставкою",
+                            "ru": "обитое сиденье + пластиковая спинка или спинка с обитой вставкой",
+                            "en": "upholstered seat + plastic or upholstered-insert back"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Штабелювання",
+                            "ru": "Штабелирование",
+                            "en": "Stacking"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "так, із захисною панеллю",
+                            "ru": "да, с защитной панелью",
+                            "en": "yes, with a protective panel"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-momo-1",
+                    "@media:p-bejot-momo-2"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "bejot-split-sp-215",
+                "title": "Bejot Split SP 215"
+            },
+            "thumbnail": "@media:p-bejot-split-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Split — легкі й міцні пластикові конференц-стільці за дизайном італійця Франческо Меди (Francesco Meda). М’яка гнучка чаша забезпечує комфорт, а стійкі ніжки — міцність. Стільці добре штабелюються й підходять і для приміщень, і для відкритих просторів. Доступні в шести кольорах.",
+                    "ru": "Split — легкие и прочные пластиковые конференц-стулья по дизайну итальянца Франческо Меды (Francesco Meda). Мягкая гибкая чаша обеспечивает комфорт, а устойчивые ножки — прочность. Стулья хорошо штабелируются и подходят и для помещений, и для открытых пространств. Доступны в шести цветах.",
+                    "en": "Split are light, durable plastic conference chairs designed by Italian designer Francesco Meda. A soft, flexible shell gives comfort and sturdy legs give strength. They stack well and work both indoors and outdoors, in six colours."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Для приміщень і вулиці</strong> — конференц-зали, їдальні, тераси.</li>\n<li><strong>Штабелювання</strong> до 6 стільців.</li>\n<li><strong>Шість кольорів</strong>: білий, червоний, бордовий, темно-зелений, теплий сірий, чорний.</li>\n<li><strong>Дизайн Francesco Meda</strong> — простота в чистому вигляді.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Для помещений и улицы</strong> — конференц-залы, столовые, террасы.</li>\n<li><strong>Штабелирование</strong> до 6 стульев.</li>\n<li><strong>Шесть цветов</strong>: белый, красный, бордовый, темно-зеленый, теплый серый, черный.</li>\n<li><strong>Дизайн Francesco Meda</strong> — простота в чистом виде.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Indoors and outdoors</strong> — conference rooms, canteens, terraces.</li>\n<li><strong>Stacks</strong> up to 6 high.</li>\n<li><strong>Six colours</strong>: white, red, burgundy, dark green, warm grey, black.</li>\n<li><strong>Designed by Francesco Meda</strong> — simplicity in its purest form.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "Bejot (Польща)",
+                            "ru": "Bejot (Польша)",
+                            "en": "Bejot (Poland)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Дизайн",
+                            "ru": "Дизайн",
+                            "en": "Design"
+                        },
+                        "p__teh-info-value": "Francesco Meda"
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Матеріал",
+                            "ru": "Материал",
+                            "en": "Material"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "пластик (цільна конструкція)",
+                            "ru": "пластик (цельная конструкция)",
+                            "en": "plastic (one-piece)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Штабелювання",
+                            "ru": "Штабелирование",
+                            "en": "Stacking"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "до 6 шт.",
+                            "ru": "до 6 шт.",
+                            "en": "up to 6"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Використання",
+                            "ru": "Использование",
+                            "en": "Use"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "у приміщенні та на вулиці",
+                            "ru": "в помещении и на улице",
+                            "en": "indoor and outdoor"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-bejot-split-1",
+                    "@media:p-bejot-split-5"
+                ]
+            }
+        },
+        {
+            "create": {
+                "type": "product",
+                "slug": "ld-seating-seance",
+                "title": "LD Seating Seance"
+            },
+            "thumbnail": "@media:p-ld-seance-1",
+            "acf": {
+                "p__descr": {
+                    "uk": "Seance — колекція LD Seating для конференц-залів і зон очікування, що поєднує міцність і універсальність. До неї входять окремі стільці, які штабелюються, а також лави на 2–4 місця з опційними приставними столиками. Функціональне й зручне рішення, розраховане на довгу службу.",
+                    "ru": "Seance — коллекция LD Seating для конференц-залов и зон ожидания, сочетающая прочность и универсальность. В нее входят отдельные стулья, которые штабелируются, а также скамьи на 2–4 места с опциональными приставными столиками. Функциональное и удобное решение, рассчитанное на долгую службу.",
+                    "en": "Seance is an LD Seating collection for conference halls and waiting areas that combines durability and versatility. It includes single stackable chairs and 2- to 4-seat benches with optional side tables — a functional, comfortable solution built to last."
+                },
+                "p__adv": {
+                    "uk": "<ul>\n<li><strong>Стільці, що штабелюються</strong> — для залів, які часто трансформують.</li>\n<li><strong>Лави на 2–4 місця</strong> — для холів і зон очікування.</li>\n<li><strong>Приставні столики</strong> — опція для лав.</li>\n<li><strong>Міцна конструкція</strong> для інтенсивного використання.</li>\n</ul>",
+                    "ru": "<ul>\n<li><strong>Штабелируемые стулья</strong> — для залов, которые часто трансформируют.</li>\n<li><strong>Скамьи на 2–4 места</strong> — для холлов и зон ожидания.</li>\n<li><strong>Приставные столики</strong> — опция для скамей.</li>\n<li><strong>Прочная конструкция</strong> для интенсивного использования.</li>\n</ul>",
+                    "en": "<ul>\n<li><strong>Stackable chairs</strong> for halls that are often reconfigured.</li>\n<li><strong>2- to 4-seat benches</strong> for lobbies and waiting areas.</li>\n<li><strong>Side tables</strong> — an option for the benches.</li>\n<li><strong>A robust construction</strong> for heavy use.</li>\n</ul>"
+                },
+                "p__teh-list": [
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Виробник",
+                            "ru": "Производитель",
+                            "en": "Manufacturer"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "LD Seating (Чехія)",
+                            "ru": "LD Seating (Чехия)",
+                            "en": "LD Seating (Czech Republic)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Склад колекції",
+                            "ru": "Состав коллекции",
+                            "en": "Collection"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "стільці (з підлокітниками та без), лави на 2, 3 і 4 місця",
+                            "ru": "стулья (с подлокотниками и без), скамьи на 2, 3 и 4 места",
+                            "en": "chairs (with or without armrests), 2-, 3- and 4-seat benches"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Штабелювання",
+                            "ru": "Штабелирование",
+                            "en": "Stacking"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "так (стільці)",
+                            "ru": "да (стулья)",
+                            "en": "yes (chairs)"
+                        }
+                    },
+                    {
+                        "p__teh-info-label": {
+                            "uk": "Опції",
+                            "ru": "Опции",
+                            "en": "Options"
+                        },
+                        "p__teh-info-value": {
+                            "uk": "приставні столики для лав",
+                            "ru": "приставные столики для скамей",
+                            "en": "side tables for benches"
+                        }
+                    }
+                ],
+                "p__g": [
+                    "@media:p-ld-seance-1",
+                    "@media:p-ld-seance-3"
+                ]
+            }
+        },
+        {
+            "target": "category:mebli/konferents-krisla",
+            "thumbnail": "@media:proj-media-10",
+            "thumbnail_alt": {
+                "uk": "Конференц-зал з кріслами в офісі міжнародної медіакомпанії, Київ",
+                "ru": "Конференц-зал с креслами в офисе международной медиакомпании, Киев",
+                "en": "Conference room with chairs at an international media company office, Kyiv"
+            },
+            "meta": {
+                "rank_math_title": {
+                    "uk": "Конференц-крісла та стільці для залів — Bejot, LD Seating | MDT",
+                    "ru": "Конференц-кресла и стулья для залов — Bejot, LD Seating | MDT",
+                    "en": "Conference chairs for halls and auditoriums — Bejot, LD Seating | MDT"
+                },
+                "rank_math_description": {
+                    "uk": "Конференц-крісла для конференц-залів, аудиторій і навчальних просторів: штабелювання, з’єднання в ряди, пюпітри. Bejot і LD Seating від MDT.",
+                    "ru": "Конференц-кресла для конференц-залов, аудиторий и учебных пространств: штабелирование, соединение в ряды, пюпитры. Bejot и LD Seating от MDT.",
+                    "en": "Conference chairs for conference halls, auditoriums and training rooms: stacking, row linking, writing tablets. Bejot and LD Seating from MDT."
+                }
+            },
+            "acf": {
+                "lp__h1": {
+                    "uk": "Конференц-крісла для залів і аудиторій",
+                    "ru": "Конференц-кресла для залов и аудиторий",
+                    "en": "Conference chairs for halls and auditoriums"
+                },
+                "lp__intro": {
+                    "uk": "<strong>Конференц-крісла</strong> потрібні там, де простір часто змінює формат: сьогодні — презентація на 80 гостей, завтра — воркшоп у командах. Тому для конференц-залів, аудиторій і навчальних класів важливі <strong>легкість, штабелювання та з’єднання в ряди</strong>. MDT пропонує <strong>конференц-крісла Bejot і LD Seating</strong> — від легких пластикових стільців до оббитих моделей і лав для холів.",
+                    "ru": "<strong>Конференц-кресла</strong> нужны там, где пространство часто меняет формат: сегодня — презентация на 80 гостей, завтра — воркшоп в командах. Поэтому для конференц-залов, аудиторий и учебных классов важны <strong>легкость, штабелирование и соединение в ряды</strong>. MDT предлагает <strong>конференц-кресла Bejot и LD Seating</strong> — от легких пластиковых стульев до обитых моделей и скамей для холлов.",
+                    "en": "<strong>Conference chairs</strong> are needed wherever a space keeps changing format: a presentation for 80 guests today, a team workshop tomorrow. That is why conference halls, auditoriums and training rooms need chairs that are <strong>light, stackable and can be linked in rows</strong>. MDT offers <strong>Bejot and LD Seating conference chairs</strong>, from lightweight plastic chairs to upholstered models and benches for lobbies."
+                },
+                "lp__products-title": {
+                    "uk": "Моделі конференц-крісел",
+                    "ru": "Модели конференц-кресел",
+                    "en": "Conference chair models"
+                },
+                "lp__products": [
+                    "@product:bejot-volo-vo-215",
+                    "@product:bejot-momo-mo-260",
+                    "@product:bejot-split-sp-215",
+                    "@product:ld-seating-seance"
+                ],
+                "lp__brands-title": {
+                    "uk": "Бренди",
+                    "ru": "Бренды",
+                    "en": "Brands"
+                },
+                "lp__brands": [
+                    "@suppliers:bejot",
+                    "@suppliers:ld-seating"
+                ],
+                "lp__proj-title": {
+                    "uk": "Реалізовані об’єкти",
+                    "ru": "Реализованные объекты",
+                    "en": "Completed projects"
+                },
+                "lp__proj": [
+                    {
+                        "lp__proj-post": "@projects:ofis-mizhnarodnoyi-mediakompaniyi",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Конференц-зал, переговорні",
+                            "ru": "Конференц-зал, переговорные",
+                            "en": "Conference room, meeting rooms"
+                        },
+                        "lp__proj-area": {
+                            "uk": "920 м²",
+                            "ru": "920 м²",
+                            "en": "920 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:ofis-danone",
+                        "lp__proj-city": {
+                            "uk": "Київ",
+                            "ru": "Киев",
+                            "en": "Kyiv"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Переговорні кімнати",
+                            "ru": "Переговорные комнаты",
+                            "en": "Meeting rooms"
+                        },
+                        "lp__proj-area": {
+                            "uk": "1 870 м²",
+                            "ru": "1 870 м²",
+                            "en": "1,870 m²"
+                        }
+                    },
+                    {
+                        "lp__proj-post": "@projects:it-ofis-limasol",
+                        "lp__proj-city": {
+                            "uk": "Лімасол",
+                            "ru": "Лимасол",
+                            "en": "Limassol"
+                        },
+                        "lp__proj-type": {
+                            "uk": "Офіс",
+                            "ru": "Офис",
+                            "en": "Office"
+                        },
+                        "lp__proj-system": {
+                            "uk": "Конференц-зали",
+                            "ru": "Конференц-залы",
+                            "en": "Conference rooms"
+                        },
+                        "lp__proj-area": {
+                            "uk": "2 100 м²",
+                            "ru": "2 100 м²",
+                            "en": "2,100 m²"
+                        }
+                    }
+                ],
+                "bl__list": [
+                    {
+                        "bl__item-type": "text",
+                        "bl__item-text": {
+                            "uk": "<h2>Як вибрати конференц-крісла</h2>\n<p>Конференц-крісла обирають не поштучно, а для всього залу, тому важливо одразу врахувати, як простір використовуватиметься: як часто його перебудовують, де зберігаються крісла між заходами і чи потрібні фіксовані ряди.</p>\n<h3>Штабелювання та зберігання</h3>\n<p>Якщо зал трансформують під різні формати, обирайте моделі, що штабелюються, і візки для перевезення. Пластикові версії зазвичай штабелюються вищими стосами, ніж оббиті.</p>\n<h3>З’єднання в ряди</h3>\n<p>Для презентацій і лекцій крісла з’єднують у рівні ряди спеціальними з’єднувачами. У деяких колекціях на з’єднувачі є місце для нумерації — зручно для заходів з розсадкою.</p>\n<h3>Пюпітри та підлокітники</h3>\n<p>Для навчальних аудиторій і тренінгів корисні моделі з пюпітром для письма. Підлокітники додають комфорту під час довгих заходів, але збільшують ширину місця.</p>\n<h3>Пластик чи оббивка</h3>\n<p>Пластик легко чистити й він витривалий до інтенсивного використання — добре для громадських просторів і їдалень. Оббивка тепліша на дотик і краще підходить для довгих конференцій.</p>\n<h3>Що врахувати перед вибором</h3>\n<ol>\n<li><strong>Місткість залу</strong> та формати заходів.</li>\n<li><strong>Місце для зберігання</strong> крісел, що штабелюються.</li>\n<li><strong>Покриття підлоги</strong> — від нього залежить вибір опор: фетрові для дерева й ламінату, універсальні — для плитки, бетону й килимових покриттів.</li>\n<li><strong>Акустика залу</strong> — крісла з оббивкою трохи поглинають звук, але для великих залів варто передбачити акустичні панелі.</li>\n</ol>\n<p>MDT допоможе підібрати конференц-крісла під формат вашого залу, а також акустичні рішення й покриття для підлоги.</p>",
+                            "ru": "<h2>Как выбрать конференц-кресла</h2>\n<p>Конференц-кресла выбирают не поштучно, а для всего зала, поэтому важно сразу учесть, как пространство будет использоваться: как часто его перестраивают, где хранятся кресла между мероприятиями и нужны ли фиксированные ряды.</p>\n<h3>Штабелирование и хранение</h3>\n<p>Если зал трансформируют под разные форматы, выбирайте штабелируемые модели и тележки для перевозки. Пластиковые версии обычно штабелируются более высокими стопками, чем обитые.</p>\n<h3>Соединение в ряды</h3>\n<p>Для презентаций и лекций кресла соединяют в ровные ряды специальными соединителями. В некоторых коллекциях на соединителе есть место для нумерации — удобно для мероприятий с рассадкой.</p>\n<h3>Пюпитры и подлокотники</h3>\n<p>Для учебных аудиторий и тренингов полезны модели с пюпитром для письма. Подлокотники добавляют комфорта во время долгих мероприятий, но увеличивают ширину места.</p>\n<h3>Пластик или обивка</h3>\n<p>Пластик легко чистить, и он выдерживает интенсивное использование — хорошо для общественных пространств и столовых. Обивка теплее на ощупь и лучше подходит для долгих конференций.</p>\n<h3>Что учесть перед выбором</h3>\n<ol>\n<li><strong>Вместимость зала</strong> и форматы мероприятий.</li>\n<li><strong>Место для хранения</strong> штабелируемых кресел.</li>\n<li><strong>Напольное покрытие</strong> — от него зависит выбор опор: фетровые для дерева и ламината, универсальные — для плитки, бетона и ковровых покрытий.</li>\n<li><strong>Акустика зала</strong> — кресла с обивкой немного поглощают звук, но для больших залов стоит предусмотреть акустические панели.</li>\n</ol>\n<p>MDT поможет подобрать конференц-кресла под формат вашего зала, а также акустические решения и напольные покрытия.</p>",
+                            "en": "<h2>How to choose conference chairs</h2>\n<p>Conference chairs are chosen for the whole room rather than one at a time, so think first about how the space will be used: how often it is reconfigured, where chairs are stored between events and whether you need fixed rows.</p>\n<h3>Stacking and storage</h3>\n<p>If the room changes format often, choose stackable models and trolleys to move them. Plastic versions usually stack higher than upholstered ones.</p>\n<h3>Linking in rows</h3>\n<p>For presentations and lectures, chairs are linked in straight rows with dedicated connectors. Some collections have space on the connector for seat numbers — handy for events with assigned seating.</p>\n<h3>Writing tablets and armrests</h3>\n<p>For training rooms and lecture halls, models with a writing tablet are useful. Armrests add comfort during long events but widen each seat.</p>\n<h3>Plastic or upholstery</h3>\n<p>Plastic is easy to clean and stands up to heavy use — good for public spaces and canteens. Upholstery is warmer to the touch and better for long conferences.</p>\n<h3>What to consider before you choose</h3>\n<ol>\n<li><strong>Room capacity</strong> and event formats.</li>\n<li><strong>Storage space</strong> for stackable chairs.</li>\n<li><strong>The floor</strong> — it determines the feet: felt for wood and laminate, universal for tile, concrete and carpet.</li>\n<li><strong>Room acoustics</strong> — upholstered chairs absorb a little sound, but large rooms need acoustic panels.</li>\n</ol>\n<p>MDT helps you choose conference chairs for your room’s format, along with acoustic solutions and floor coverings.</p>"
+                        }
+                    }
+                ],
+                "faq__list": [
+                    {
+                        "faq__item-q": {
+                            "uk": "Чим конференц-крісла відрізняються від переговорних?",
+                            "ru": "Чем конференц-кресла отличаются от переговорных?",
+                            "en": "How are conference chairs different from meeting chairs?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Переговорні крісла розраховані на невелику кількість людей за столом і зазвичай мають поворотну основу чи м’якшу посадку. Конференц-крісла закуповують для залів і аудиторій: вони легші, штабелюються, з’єднуються в ряди й можуть мати пюпітр для письма.",
+                            "ru": "Переговорные кресла рассчитаны на небольшое количество людей за столом и обычно имеют поворотное основание или более мягкую посадку. Конференц-кресла закупают для залов и аудиторий: они легче, штабелируются, соединяются в ряды и могут иметь пюпитр для письма.",
+                            "en": "Meeting chairs are designed for a few people around a table and usually have a swivel base or softer seat. Conference chairs are bought for halls and auditoriums: they are lighter, stackable, link into rows and can have a writing tablet."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Скільки крісел можна поставити в стос?",
+                            "ru": "Сколько кресел можно поставить в стопку?",
+                            "en": "How many chairs can be stacked?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Залежить від моделі та оббивки. Наприклад, пластикова версія Bejot Volo штабелюється до 10 шт., оббита — до 4 шт., а на спеціальному візку можна перевозити до 12 крісел. Точні дані для кожної моделі ми надамо в специфікації.",
+                            "ru": "Зависит от модели и обивки. Например, пластиковая версия Bejot Volo штабелируется до 10 шт., обитая — до 4 шт., а на специальной тележке можно перевозить до 12 кресел. Точные данные для каждой модели мы предоставим в спецификации.",
+                            "en": "It depends on the model and upholstery. For example, the plastic Bejot Volo stacks up to 10 high and the upholstered version up to 4, while the dedicated trolley carries up to 12. We provide exact figures for each model in the specification."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи можна з’єднати крісла в ряди з нумерацією?",
+                            "ru": "Можно ли соединить кресла в ряды с нумерацией?",
+                            "en": "Can chairs be linked in numbered rows?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Так, для багатьох колекцій є з’єднувачі, які кріпляться під сидінням і дозволяють нумерувати місця. Це зручно для конференцій і заходів з розсадкою за квитками.",
+                            "ru": "Да, для многих коллекций есть соединители, которые крепятся под сиденьем и позволяют нумеровать места. Это удобно для конференций и мероприятий с рассадкой по билетам.",
+                            "en": "Yes, many collections have connectors that fix under the seat and allow seat numbering — handy for conferences and ticketed events."
+                        }
+                    },
+                    {
+                        "faq__item-q": {
+                            "uk": "Чи підходять конференц-стільці для вулиці?",
+                            "ru": "Подходят ли конференц-стулья для улицы?",
+                            "en": "Can conference chairs be used outdoors?"
+                        },
+                        "faq__item-a": {
+                            "uk": "Деякі моделі — так. Наприклад, пластикові стільці Bejot Split виробник рекомендує і для приміщень, і для відкритих просторів, тож їх можна використовувати на терасах і в літніх зонах.",
+                            "ru": "Некоторые модели — да. Например, пластиковые стулья Bejot Split производитель рекомендует и для помещений, и для открытых пространств, поэтому их можно использовать на террасах и в летних зонах.",
+                            "en": "Some models can. For example, the manufacturer rates Bejot Split plastic chairs for both indoor and outdoor use, so they work on terraces and in summer areas."
+                        }
+                    }
+                ],
+                "lp__cta-title": {
+                    "uk": "Облаштуємо ваш конференц-зал",
+                    "ru": "Обустроим ваш конференц-зал",
+                    "en": "Let’s furnish your conference hall"
+                },
+                "lp__cta-text": {
+                    "uk": "Розкажіть про місткість і формати заходів — підберемо крісла, а також акустику та покриття для підлоги залу.",
+                    "ru": "Расскажите о вместимости и форматах мероприятий — подберем кресла, а также акустику и напольные покрытия для зала.",
+                    "en": "Tell us about capacity and event formats and we’ll suggest chairs, plus acoustics and flooring for the room."
+                },
+                "lp__cta-btn": {
+                    "uk": "Отримати консультацію",
+                    "ru": "Получить консультацию",
+                    "en": "Get advice"
+                }
+            }
+        }
+    ]
+}
